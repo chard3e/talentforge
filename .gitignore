@@ -86,3 +86,6 @@ dist/
 langchain/
 langsmith/
 wandb/
+
+neo4j/plugins/graph-data-science.jar
+neo4j/plugins/apoc-*.jar
