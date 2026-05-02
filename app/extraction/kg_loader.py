@@ -95,5 +95,21 @@ class KGLoader:
                  institution=edu.institution, degree=edu.degree, 
                  field=edu.field, start_year=edu.start_year, 
                  end_year=edu.end_year, gpa=edu.gpa)
+            
+        # Diller
+        for lang in (extraction.languages or []):
+            tx.run("""
+                MATCH (c:Candidate {id: $cv_id})
+                MERGE (l:Language {name: $lang})
+                MERGE (c)-[:SPEAKS]->(l)
+            """, cv_id=cv_id, lang=lang)
+
+        # Sertifikalar
+        for cert in (extraction.certifications or []):
+            tx.run("""
+                MATCH (c:Candidate {id: $cv_id})
+                MERGE (ct:Certification {name: $cert})
+                MERGE (c)-[:HAS_CERTIFICATION]->(ct)
+            """, cv_id=cv_id, cert=cert)
 
         logger.info(f"✅ Candidate {cv_id} and relationships saved to KG")
