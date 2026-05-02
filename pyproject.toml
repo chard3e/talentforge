@@ -1,0 +1,45 @@
+[project]
+name = "talentforge"
+version = "0.1.0"
+description = "LLM-Driven Knowledge Graph for AI-Powered HR Candidate Matching System"
+authors = [
+    { name = "Gizem ÖZDEMİR" },
+    { name = "Muhammed Emin SOLAKOĞLU" },
+    { name = "Emre KILIÇ" }
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "pydantic>=2.9.0",
+    "python-dotenv>=1.0.1",
+    "neo4j>=5.25.0",
+    "psycopg2-binary>=2.9.10",
+    "redis>=5.2.0",
+    "celery>=5.4.0",
+    "instructor>=1.5.0",
+    "pydantic-settings>=2.5.0",
+    "unstructured[pdf,docx]>=0.15.0",
+    "pdfplumber>=0.11.0",
+    "python-docx>=1.1.0",
+    "sentence-transformers>=3.1.0",
+    "rapidfuzz>=3.13.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6.0",
+    "black>=24.0",
+    "mypy>=1.11",
+    "pytest-asyncio>=0.23",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.black]
+line-length = 100
