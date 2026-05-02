@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+.env
+.env.*
+!.env.example
+
+# Poetry & uv
+poetry.lock
+uv.lock
+.pdm.toml
+.pdm-python
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.pytest_cache/
+
+# Logs & temp
+*.log
+logs/
+*.log.*
+temp/
+tmp/
+
+# Database & vector stores (yerel geliştirme)
+neo4j/data/
+neo4j/logs/
+neo4j/import/
+*.db
+chroma/
+qdrant/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# OS
+Thumbs.db
+
+# Frontend (ileride ekleyeceğiz)
+node_modules/
+.next/
+out/
+dist/
+
+# LLM & cache
+.cache/
+langchain/
+langsmith/
+wandb/
