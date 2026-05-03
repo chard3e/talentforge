@@ -88,7 +88,8 @@ class CandidateMatcher:
         scored = []
         for candidate in candidates:
             result = self._score_candidate(candidate, query)
-            if result["total_score"] > 0:
+            # Kriter belirtilmişse skor > 0 olanları al; hiç kriter yoksa herkesi döndür
+            if result["active_criteria"] == 0 or result["total_score"] > 0:
                 scored.append(result)
 
         scored.sort(key=lambda x: x["total_score"], reverse=True)
@@ -155,10 +156,14 @@ class CandidateMatcher:
     # ── Ana skorlama ──────────────────────────────────────────────────
 
     def _score_candidate(self, candidate: Dict, query: QuerySpec) -> Dict[str, Any]:
-        """Her kriter için ayrı skor hesaplar ve birleştirir"""
-        scores = {}
-        reasons = []
+        """
+        Her kriter için ayrı skor hesaplar ve birleştirir.
 
+        Belirtilmeyen kriterler (None / boş liste) hesaba katılmaz.
+        Toplam skor, belirtilen kriterlerin ağırlıklarına göre normalize edilir:
+          total = Σ(skor_i × ağırlık_i) / Σ(ağırlık_i)
+        Hiçbir kriter belirtilmemişse skor 0 döner.
+        """
         criteria = [
             ("must_skills",    0.30, self._score_must_skills(candidate, query.must_have_skills)),
             ("nice_skills",    0.10, self._score_nice_skills(candidate, query.nice_to_have_skills)),
@@ -171,12 +176,23 @@ class CandidateMatcher:
             ("certifications", 0.05, self._score_certifications(candidate, query.must_have_certifications)),
         ]
 
+        weighted_sum = 0.0
+        specified_weight = 0.0
+        breakdown = {}
+        reasons = []
+
         for name, weight, (score, detail) in criteria:
-            scores[name] = score * weight
+            if score is None:
+                # Kriter belirtilmemiş — hesaba katma
+                breakdown[name] = None
+                continue
+            weighted_sum += score * weight
+            specified_weight += weight
+            breakdown[name] = round(score * 100, 1)
             if detail:
                 reasons.append(detail)
 
-        total = sum(scores.values())
+        total = weighted_sum / specified_weight if specified_weight > 0 else 0.0
         skill_names = [s["name"] for s in candidate["skills"] if s.get("name")]
 
         return {
@@ -187,7 +203,8 @@ class CandidateMatcher:
             "skills": skill_names,
             "experience_count": len(candidate["experiences"]),
             "total_score": round(total * 100, 1),
-            "score_breakdown": {k: round(v * 100, 1) for k, v in scores.items()},
+            "active_criteria": round(specified_weight * 100),
+            "score_breakdown": breakdown,
             "reasons": reasons,
         }
 
@@ -196,7 +213,7 @@ class CandidateMatcher:
     def _score_must_skills(self, candidate: Dict, must_skills: List[str]) -> Tuple[float, str]:
         """Zorunlu yetenek eşleştirmesi (case-insensitive, Türkçe uyumlu)"""
         if not must_skills:
-            return 1.0, None
+            return None, None
 
         cand_skills = {_normalize_turkish(s["name"]) for s in candidate["skills"] if s.get("name")}
         matched = [s for s in must_skills if _normalize_turkish(s) in cand_skills]
@@ -213,7 +230,7 @@ class CandidateMatcher:
     def _score_nice_skills(self, candidate: Dict, nice_skills: List[str]) -> Tuple[float, str]:
         """Tercih edilen yetenekler (bonus)"""
         if not nice_skills:
-            return 1.0, None
+            return None, None
 
         cand_skills = {_normalize_turkish(s["name"]) for s in candidate["skills"] if s.get("name")}
         matched = [s for s in nice_skills if _normalize_turkish(s) in cand_skills]
@@ -230,7 +247,7 @@ class CandidateMatcher:
         Lead adayı Junior pozisyona uygun DEĞİL, Junior adayı Lead'e de uygun DEĞİL.
         """
         if not required:
-            return 1.0, None
+            return None, None
 
         required_level = SENIORITY_MAP.get(required.value, 2)
         candidate_level = self._detect_seniority(candidate)
@@ -270,7 +287,7 @@ class CandidateMatcher:
     def _score_title(self, candidate: Dict, title: Optional[str]) -> Tuple[float, str]:
         """Pozisyon unvanı eşleştirmesi — adayın deneyimlerindeki role_title ile karşılaştırır"""
         if not title:
-            return 1.0, None
+            return None, None
 
         title_norm = _normalize_turkish(title)
         title_words = set(title_norm.split())
@@ -303,7 +320,7 @@ class CandidateMatcher:
     def _score_experience_years(self, candidate: Dict, min_years: Optional[int]) -> Tuple[float, str]:
         """Toplam deneyim yılı kontrolü"""
         if min_years is None:
-            return 1.0, None
+            return None, None
 
         total_years = self._calculate_total_experience(candidate)
 
@@ -362,7 +379,7 @@ class CandidateMatcher:
     def _score_education(self, candidate: Dict, required: Optional[Degree]) -> Tuple[float, str]:
         """Eğitim seviyesi kontrolü"""
         if not required:
-            return 1.0, None
+            return None, None
 
         required_level = DEGREE_MAP.get(required.value, 1)
         candidate_level = self._detect_education_level(candidate)
@@ -392,7 +409,7 @@ class CandidateMatcher:
     def _score_location(self, candidate: Dict, locations: List[str]) -> Tuple[float, str]:
         """Lokasyon eşleştirmesi (Türkçe karakter uyumlu)"""
         if not locations:
-            return 1.0, None
+            return None, None
 
         cand_loc = _normalize_turkish(candidate.get("location") or "")
         for loc in locations:
@@ -404,7 +421,7 @@ class CandidateMatcher:
     def _score_languages(self, candidate: Dict, languages) -> Tuple[float, str]:
         """Dil gereksinimi kontrolü — KG'deki Language düğümlerinden arar"""
         if not languages:
-            return 1.0, None
+            return None, None
 
         cand_langs = " ".join(
             _normalize_turkish(l) for l in candidate.get("languages", [])
@@ -454,7 +471,7 @@ class CandidateMatcher:
     def _score_certifications(self, candidate: Dict, required_certs: List[str]) -> Tuple[float, str]:
         """Sertifika eşleştirmesi — KG'deki Certification düğümlerinden arar"""
         if not required_certs:
-            return 1.0, None
+            return None, None
 
         # Hem skill'lerden hem certification'lardan ara
         cand_certs = {_normalize_turkish(c) for c in candidate.get("certifications", [])}
