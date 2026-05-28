@@ -11,28 +11,30 @@ class KGLoader:
     def __init__(self, driver: Driver):
         self.driver = driver
 
-    def save_candidate(self, extraction: CVExtraction, cv_id: str = None) -> str:
-        """Adayı ve ilişkilerini Neo4j'e yazar"""
+    def save_candidate(self, extraction: CVExtraction, 
+                       cv_id: str = None, 
+                       file_hash: str = None) -> str:
         if cv_id is None:
             cv_id = str(uuid.uuid4())
-
         with self.driver.session() as session:
-            session.execute_write(self._create_candidate_tx, extraction, cv_id)
-        
-        logger.info(f"✅ Candidate saved to KG with ID: {cv_id}")
+            session.execute_write(
+                self._create_candidate_tx, extraction, cv_id, file_hash
+            )
         return cv_id
 
-    def _create_candidate_tx(self, tx, extraction: CVExtraction, cv_id: str):
+    def _create_candidate_tx(self, tx, extraction: CVExtraction, cv_id: str, file_hash: str = None):
         """Transaction içinde Cypher sorguları"""
         # Aday düğümü oluştur
         tx.run("""
             MERGE (c:Candidate {id: $cv_id})
-            ON CREATE SET c.name = $name, c.email = $email, c.phone = $phone, 
-                         c.location = $location, c.summary = $summary, 
+            ON CREATE SET c.name = $name, c.email = $email, c.phone = $phone,
+                         c.location = $location, c.summary = $summary,
+                         c.file_hash = $file_hash,
                          c.created_at = datetime()
             ON MATCH SET c.updated_at = datetime()
-        """, cv_id=cv_id, name=extraction.candidate_name, email=extraction.email, 
-             phone=extraction.phone, location=extraction.location, summary=extraction.summary)
+        """, cv_id=cv_id, name=extraction.candidate_name, email=extraction.email,
+             phone=extraction.phone, location=extraction.location,
+             summary=extraction.summary, file_hash=file_hash)
 
         # Deneyimler
         for exp in extraction.experiences:

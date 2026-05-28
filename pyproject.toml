@@ -31,6 +31,7 @@ dependencies = [
     "pyvis>=0.3.2",
     "pymupdf>=1.27.2.3",
     "pytesseract>=0.3.13",
+    "boto3>=1.43.16",
 ]
 
 [dependency-groups]
