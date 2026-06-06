@@ -88,3 +88,7 @@ wandb/
 
 neo4j/plugins/graph-data-science.jar
 neo4j/plugins/apoc-*.jar
+
+evaluation/*.tmp
+evaluation/cache/
+evaluation/raw_outputs/
