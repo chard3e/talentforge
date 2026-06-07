@@ -275,6 +275,12 @@ def resolve_candidate_neo4j_ids(candidate: CandidateProfile | None, db: Session)
 
 def serialize_application(application: JobApplication) -> dict:
     candidate = application.candidate
+    candidate_neo4j_id = None
+    if candidate:
+        candidate_neo4j_id = candidate.neo4j_candidate_id or next(
+            (profile.neo4j_candidate_id for profile in candidate.cv_profiles if profile.neo4j_candidate_id),
+            None,
+        )
     return {
         "id": application.id,
         "status": application.status,
@@ -283,7 +289,7 @@ def serialize_application(application: JobApplication) -> dict:
         "cover_letter": application.cover_letter,
         "candidate": {
             "id": candidate.id,
-            "neo4j_candidate_id": candidate.neo4j_candidate_id,
+            "neo4j_candidate_id": candidate_neo4j_id,
             "name": candidate.user.full_name if candidate and candidate.user else None,
             "email": candidate.user.email if candidate and candidate.user else None,
             "school": candidate.school if candidate else None,
@@ -300,8 +306,54 @@ def serialize_application(application: JobApplication) -> dict:
             if application.job_post.organization
             else None,
             "location": application.job_post.location,
+            "description": application.job_post.description,
+            "seniority": application.job_post.seniority,
+            "min_experience_years": application.job_post.min_experience_years,
+            "must_have_skills": application.job_post.must_have_skills,
+            "nice_to_have_skills": application.job_post.nice_to_have_skills,
         },
     }
+
+
+def match_application_to_job(
+    application: JobApplication,
+    db: Session,
+    persist: bool = True,
+) -> JobApplication:
+    job = application.job_post
+    candidate = application.candidate
+    if not job or not candidate:
+        return application
+    if application.match_score is not None and application.match_breakdown:
+        return application
+    candidate_ids = set(resolve_candidate_neo4j_ids(candidate, db))
+    if not candidate_ids:
+        return application
+
+    try:
+        matches = get_matcher().search(query_spec_from_job(job), limit=100)
+    except Exception as e:
+        logger.warning(f"Basvuru matcher skoru hesaplanamadi ({application.id}): {e}")
+        return application
+
+    candidate_match = next(
+        (match for match in matches if match.get("candidate_id") in candidate_ids),
+        None,
+    )
+    if not candidate_match:
+        return application
+
+    application.match_score = candidate_match.get("total_score")
+    application.match_breakdown = {
+        "score_breakdown": candidate_match.get("score_breakdown") or {},
+        "reasons": candidate_match.get("reasons") or [],
+        "matched_candidate_id": candidate_match.get("candidate_id"),
+    }
+    if persist:
+        db.add(application)
+        db.commit()
+        db.refresh(application)
+    return application
 
 
 def serialize_saved_search(saved_search: SavedSearch) -> dict:
@@ -416,7 +468,10 @@ def serialize_conversation(conversation: Conversation, current_user: User, db: S
     other_user = db.get(User, other_user_id)
     last_message = (
         db.query(Message)
-        .filter(Message.conversation_id == conversation.id)
+        .filter(
+            Message.conversation_id == conversation.id,
+            ~Message.body.startswith("İlan bağlamı:"),
+        )
         .order_by(Message.created_at.desc())
         .first()
     )
@@ -782,6 +837,7 @@ async def job_applications(
         .order_by(JobApplication.created_at.desc())
         .all()
     )
+    applications = [match_application_to_job(application, db) for application in applications]
     return {"applications": [serialize_application(application) for application in applications]}
 
 
@@ -810,6 +866,7 @@ async def apply_to_job(
         .first()
     )
     if existing:
+        existing = match_application_to_job(existing, db)
         return {"application": serialize_application(existing)}
 
     application = JobApplication(
@@ -826,6 +883,7 @@ async def apply_to_job(
     db.add(application)
     db.commit()
     db.refresh(application)
+    application = match_application_to_job(application, db)
     return {"application": serialize_application(application)}
 
 
@@ -844,6 +902,7 @@ async def my_applications(
         .order_by(JobApplication.created_at.desc())
         .all()
     )
+    applications = [match_application_to_job(application, db) for application in applications]
     return {"applications": [serialize_application(application) for application in applications]}
 
 
@@ -1424,6 +1483,7 @@ async def create_or_get_conversation(
     if not candidate_user or candidate_user.role != "candidate":
         raise HTTPException(status_code=404, detail="Aday kullanici bulunamadi")
 
+    created_conversation = False
     conversation = (
         db.query(Conversation)
         .filter(
@@ -1440,17 +1500,29 @@ async def create_or_get_conversation(
         )
         db.add(conversation)
         db.flush()
+        created_conversation = True
 
     initial_message = (payload.get("initial_message") or "").strip()
     if initial_message:
-        message = Message(
-            conversation_id=conversation.id,
-            sender_user_id=current_user.id,
-            body=initial_message,
-        )
-        conversation.last_message_at = func.now()
-        db.add(message)
-        db.add(conversation)
+        existing_context = None
+        if not created_conversation:
+            existing_context = (
+                db.query(Message)
+                .filter(
+                    Message.conversation_id == conversation.id,
+                    Message.body == initial_message,
+                )
+                .first()
+            )
+        if not existing_context:
+            message = Message(
+                conversation_id=conversation.id,
+                sender_user_id=current_user.id,
+                body=initial_message,
+            )
+            conversation.last_message_at = func.now()
+            db.add(message)
+            db.add(conversation)
     db.commit()
     db.refresh(conversation)
     return {"conversation": serialize_conversation(conversation, current_user, db)}
@@ -1473,7 +1545,10 @@ async def get_messages(
     db.commit()
     messages = (
         db.query(Message)
-        .filter(Message.conversation_id == conversation.id)
+        .filter(
+            Message.conversation_id == conversation.id,
+            ~Message.body.startswith("İlan bağlamı:"),
+        )
         .order_by(Message.created_at.asc())
         .all()
     )

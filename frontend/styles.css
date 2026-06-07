@@ -1641,6 +1641,38 @@ body.modal-open { overflow: hidden; }
   gap: 10px;
   padding-right: 6px;
 }
+
+.context-card {
+  width: 100%;
+  display: grid;
+  gap: 4px;
+  text-align: left;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+}
+
+.context-card span,
+.context-card small {
+  color: var(--muted);
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
+}
+
+.application-timeline article {
+  display: grid;
+  gap: 8px;
+}
+
+.candidate-table small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+}
+
 .message-bubble {
   max-width: 72%;
   align-self: flex-start;

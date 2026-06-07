@@ -10,6 +10,7 @@ const state = {
   jobs: [],
   applications: [],
   recommendations: [],
+  recommendationsLoadedAt: 0,
   dashboardSummary: null,
   recentSearch: JSON.parse(localStorage.getItem("talentforge_recent_search") || "null"),
   savedSearches: JSON.parse(localStorage.getItem("talentforge_saved_searches") || "[]"),
@@ -18,9 +19,13 @@ const state = {
   candidateUploadedFiles: [],
   jobFilters: { title: "", seniority: "", location: "" },
   lastCandidates: new Map(),
+  candidateDetails: new Map(),
   conversations: [],
   activeConversationId: null,
   activeMessages: [],
+  activeConversationJob: null,
+  conversationJobs: JSON.parse(localStorage.getItem("talentforge_conversation_jobs") || "{}"),
+  suppressMessageLoad: false,
   messagesUnread: 0,
 };
 
@@ -255,6 +260,10 @@ async function uploadLandingCv(file) {
 
 function persistCandidateProfiles() {
   localStorage.setItem("talentforge_candidate_profiles", JSON.stringify(state.candidateProfiles));
+}
+
+function persistConversationJobs() {
+  localStorage.setItem("talentforge_conversation_jobs", JSON.stringify(state.conversationJobs));
 }
 
 function setCandidateUploadStatus(text, type = "") {
@@ -694,7 +703,8 @@ function setDashboardTab(tab) {
       .then(() => renderCandidateMatchesPanel())
       .catch((error) => console.warn(error));
   }
-  if (tab === "messages") loadMessages().catch((error) => console.warn(error));
+  if (state.role === "candidate" && tab === "applications") renderCandidateApplicationsPanel();
+  if (tab === "messages" && !state.suppressMessageLoad) loadMessages().catch((error) => console.warn(error));
   updateLocationHash("dashboard", tab);
 }
 
@@ -1006,17 +1016,22 @@ async function saveCandidate(candidateId) {
 
 async function deleteSavedCandidate(candidateId) {
   const existing = state.savedCandidates.find((item) => item.candidate_id === candidateId);
-  if (state.token && existing?.id) {
-    try {
-      await api(`/shortlists/${existing.id}`, { method: "DELETE" });
-    } catch (error) {
-      console.warn(error);
-    }
-  }
+  const previous = [...state.savedCandidates];
   state.savedCandidates = state.savedCandidates.filter((item) => item.candidate_id !== candidateId);
   persistSavedCandidates();
   renderSavedCandidatesPanel();
   refreshHrDashboardSummary();
+  if (state.token && existing?.id) {
+    try {
+      await api(`/shortlists/${existing.id}`, { method: "DELETE" });
+    } catch (error) {
+      state.savedCandidates = previous;
+      persistSavedCandidates();
+      renderSavedCandidatesPanel();
+      refreshHrDashboardSummary();
+      console.warn(error);
+    }
+  }
 }
 
 function renderSavedCandidatesPanel() {
@@ -1238,6 +1253,7 @@ async function loadDashboard() {
       await loadCandidateRecommendations();
       renderCandidateOverview(summary);
       renderCandidateMatchesPanel();
+      renderCandidateApplicationsPanel();
       renderCandidateProfilesPanel();
       loadMessages().catch((error) => console.warn(error));
     }
@@ -1682,10 +1698,55 @@ async function loadApplications() {
   }
 }
 
+function renderCandidateApplicationsPanel() {
+  const panel = $('#candidate-dashboard [data-panel="applications"]');
+  if (!panel) return;
+  const applications = state.applications || [];
+  panel.innerHTML = `
+    <div class="dash-panel">
+      <div class="panel-title-row">
+        <h2>Başvurularım</h2>
+        <span class="status-pill">${applications.length} başvuru</span>
+      </div>
+      <div class="timeline application-timeline">
+        ${
+          applications.length
+            ? applications.map((application) => {
+                const job = application.job || {};
+                const reasons = application.match_breakdown?.reasons || [];
+                return `
+                  <article>
+                    <span>${escapeHtml(application.status || "submitted")}</span>
+                    <h3>${escapeHtml(job.title || "İlan")}</h3>
+                    <p>${escapeHtml([job.organization, job.location].filter(Boolean).join(" / ") || "İlan bilgisi")}</p>
+                    <p>${escapeHtml(application.match_score ? `${application.match_score} uyum skoru` : "Skor hesaplanıyor")}</p>
+                    ${reasons.length ? `<p>${escapeHtml(reasons.slice(0, 2).join(" / "))}</p>` : ""}
+                    <button class="ghost-btn small" type="button" data-job-detail="${escapeHtml(job.id || "")}" ${job.id ? "" : "disabled"}>İlanı incele</button>
+                  </article>`;
+              }).join("")
+            : `<div class="empty-state compact"><h3>Henüz başvuru yok</h3><p>Uygun ilanlardan başvuru yaptığında burada görünecek.</p></div>`
+        }
+      </div>
+    </div>
+  `;
+}
+
+function applicationExperienceLabel(application) {
+  const reasons = application.match_breakdown?.reasons || [];
+  const experienceReason = reasons.find((reason) => /Deneyim:\s*\d+/i.test(reason));
+  const parsed = experienceReason?.match(/Deneyim:\s*(\d+)/i)?.[1];
+  if (parsed) return `${parsed} yıl`;
+  const years = application.candidate?.experience_years;
+  return years !== undefined && years !== null && Number(years) > 0 ? `${years} yıl` : "";
+}
+
 async function loadCandidateRecommendations() {
+  const isFresh = state.recommendationsLoadedAt && Date.now() - state.recommendationsLoadedAt < 45000;
+  if (isFresh) return;
   try {
     const data = await api("/candidate/recommendations");
     state.recommendations = data.recommendations || [];
+    state.recommendationsLoadedAt = Date.now();
   } catch (error) {
     console.warn(error);
     state.recommendations = [];
@@ -1734,6 +1795,7 @@ async function applyToJob(jobId) {
     body: JSON.stringify({ cover_letter: "" }),
   });
   await loadApplications();
+  state.recommendationsLoadedAt = 0;
   await loadCandidateRecommendations();
   renderCandidateOverview(state.dashboardSummary || {});
   renderCandidateMatchesPanel();
@@ -1810,14 +1872,21 @@ function renderProjects(items = []) {
 
 async function openCandidateModal(candidateId) {
   if (!candidateId) return;
+  const modal = ensureCandidateModal();
+  $(".candidate-modal-body", modal).innerHTML = `<p class="muted-line">Aday detayı yükleniyor...</p>`;
+  modal.classList.add("active");
+  document.body.classList.add("modal-open");
   const searchResult = state.lastCandidates.get(candidateId) || {};
   const savedResult = state.savedCandidates.find((candidate) => candidate.candidate_id === candidateId) || {};
   const savedCandidatePayload = savedResult.candidate || {};
-  let detail = {};
-  try {
-    detail = await api(`/candidates/${candidateId}`);
-  } catch (error) {
-    detail = {};
+  let detail = state.candidateDetails.get(candidateId) || {};
+  if (!state.candidateDetails.has(candidateId)) {
+    try {
+      detail = await api(`/candidates/${candidateId}`);
+      state.candidateDetails.set(candidateId, detail);
+    } catch (error) {
+      detail = {};
+    }
   }
   const savedReasons = getSavedCandidateReasons(savedResult);
   const candidate = {
@@ -1828,7 +1897,6 @@ async function openCandidateModal(candidateId) {
     score_breakdown: searchResult.score_breakdown || savedCandidatePayload.score_breakdown || savedResult.score_breakdown || detail.score_breakdown,
     reasons: searchResult.reasons || savedCandidatePayload.reasons || (savedReasons.length ? savedReasons : detail.reasons),
   };
-  const modal = ensureCandidateModal();
   const cvButton = candidate.cv_available
     ? `<a class="primary-btn small" href="${API_BASE}/download-cv/${candidateId}" target="_blank" rel="noreferrer">Hashli CV indir</a>`
     : `<button class="ghost-btn" type="button" disabled>CV yok</button>`;
@@ -1836,7 +1904,7 @@ async function openCandidateModal(candidateId) {
     ? `<span class="status-pill">TalentForge üyesi</span>`
     : `<span class="status-pill muted">TalentForge üyesi değil</span>`;
   const messageButton = candidate.talentforge_member && candidate.candidate_user_id && state.role === "hr"
-    ? `<button class="primary-btn small" type="button" data-message-candidate-user="${escapeHtml(candidate.candidate_user_id)}" data-message-candidate-id="${escapeHtml(candidateId)}">Mesaj at</button>`
+    ? `<button class="primary-btn small" type="button" data-message-candidate-user="${escapeHtml(candidate.candidate_user_id)}" data-message-candidate-id="${escapeHtml(candidateId)}" data-message-job-id="${escapeHtml(candidate.job_context?.id || "")}">Mesaj at</button>`
     : "";
 
   $(".candidate-modal-body", modal).innerHTML = `
@@ -1912,6 +1980,10 @@ async function openJobModal(jobId) {
   renderJobModalBody(modal, job, true);
   modal.classList.add("active");
   document.body.classList.add("modal-open");
+  if (localJob.description) {
+    renderJobModalBody(modal, localJob, false);
+    return;
+  }
   try {
     const data = await api(`/jobs/${jobId}`);
     job = data.job || localJob;
@@ -1958,15 +2030,18 @@ function renderJobModalBody(modal, job, isLoading = false) {
 
 async function deleteJob(jobId) {
   if (!jobId) return;
-  await api(`/jobs/${jobId}`, { method: "DELETE" });
+  const previousJobs = [...state.jobs];
   state.jobs = state.jobs.filter((job) => job.id !== jobId);
   closeJobModal();
   renderJobs();
   try {
+    await api(`/jobs/${jobId}`, { method: "DELETE" });
     const summary = await api("/dashboard");
     state.dashboardSummary = summary;
     refreshHrDashboardSummary();
   } catch (error) {
+    state.jobs = previousJobs;
+    renderJobs();
     console.warn(error);
   }
 }
@@ -1995,11 +2070,38 @@ async function openJobApplicationsModal(jobId) {
             ? applications.map((application) => {
                 const candidate = application.candidate || {};
                 const neo4jId = candidate.neo4j_candidate_id || "";
+                const breakdown = application.match_breakdown || {};
+                const scoreBreakdown = breakdown.score_breakdown || {};
+                const reasons = breakdown.reasons || [];
+                const profileLine = [
+                  candidate.profession,
+                  candidate.school,
+                  candidate.location,
+                  applicationExperienceLabel(application),
+                ].filter(Boolean).join(" / ");
+                if (neo4jId) {
+                  state.lastCandidates.set(neo4jId, {
+                    candidate_id: neo4jId,
+                    name: candidate.name,
+                    email: candidate.email,
+                    location: candidate.location,
+                    total_score: application.match_score,
+                    score_breakdown: scoreBreakdown,
+                    reasons,
+                    job_context: {
+                      id: jobId,
+                      title: job.title || application.job?.title,
+                    },
+                  });
+                }
                 return `
                   <div class="table-row">
                     <span>${escapeHtml(candidate.name || "Aday")}</span>
                     <span>${escapeHtml(application.match_score ?? "-")}</span>
-                    <span>${escapeHtml([candidate.profession, candidate.school, candidate.location].filter(Boolean).join(" / ") || "-")}</span>
+                    <span>
+                      ${escapeHtml(profileLine || "-")}
+                      ${reasons.length ? `<small>${escapeHtml(reasons.slice(0, 2).join(" / "))}</small>` : ""}
+                    </span>
                     <span class="row-actions">
                       <button type="button" data-candidate-detail="${escapeHtml(neo4jId)}" ${neo4jId ? "" : "disabled"}>İncele</button>
                       ${neo4jId ? `<a class="ghost-btn" href="${API_BASE}/download-cv/${escapeHtml(neo4jId)}" target="_blank" rel="noreferrer">CV indir</a>` : `<button type="button" disabled>CV yok</button>`}
@@ -2105,6 +2207,13 @@ function renderMessagesPanel() {
                 <h2>${escapeHtml(active.other_user?.name || "Kullanıcı")}</h2>
               </div>
             </div>
+            ${state.activeConversationJob ? `
+              <button class="context-card" type="button" data-job-detail="${escapeHtml(state.activeConversationJob.id)}" ${state.activeConversationJob.id ? "" : "disabled"}>
+                <span>İlan bağlamı</span>
+                <strong>${escapeHtml(state.activeConversationJob.title || "İlan")}</strong>
+                <small>${escapeHtml(state.activeConversationJob.location || "Detayı incele")}</small>
+              </button>
+            ` : ""}
             <div class="message-bubbles">
               ${
                 state.activeMessages.length
@@ -2147,10 +2256,20 @@ async function loadMessages() {
 
 async function openConversation(conversationId) {
   state.activeConversationId = conversationId;
+  state.activeConversationJob = state.conversationJobs[conversationId] || null;
   const data = await api(`/messages/${conversationId}`);
   state.activeMessages = data.messages || [];
+  const contextMessage = state.activeMessages.find((message) => (message.body || "").startsWith("İlan bağlamı:"));
+  if (contextMessage && !state.activeConversationJob) {
+    const title = contextMessage.body.replace("İlan bağlamı:", "").trim();
+    const job = state.jobs.find((item) => item.title === title);
+    state.activeConversationJob = job ? { id: job.id, title: job.title, location: job.location } : { id: "", title };
+  }
+  state.activeMessages = state.activeMessages.filter((message) => !(message.body || "").startsWith("İlan bağlamı:"));
   const conversation = data.conversation;
-  state.conversations = state.conversations.map((item) => item.id === conversation.id ? conversation : item);
+  state.conversations = state.conversations.some((item) => item.id === conversation.id)
+    ? state.conversations.map((item) => item.id === conversation.id ? conversation : item)
+    : [conversation, ...state.conversations];
   state.messagesUnread = state.conversations.reduce((sum, item) => sum + (item.unread_count || 0), 0);
   updateMessageBadges();
   renderMessagesPanel();
@@ -2158,23 +2277,47 @@ async function openConversation(conversationId) {
 
 async function sendConversationMessage(body) {
   if (!state.activeConversationId || !body.trim()) return;
+  const tempMessage = {
+    id: `tmp-${Date.now()}`,
+    conversation_id: state.activeConversationId,
+    sender_user_id: state.user?.id,
+    body: body.trim(),
+  };
+  state.activeMessages = [...state.activeMessages, tempMessage];
+  renderMessagesPanel();
   await api(`/messages/${state.activeConversationId}`, {
     method: "POST",
-    body: JSON.stringify({ body }),
+    body: JSON.stringify({ body: body.trim() }),
   });
   await openConversation(state.activeConversationId);
 }
 
 async function startMessageWithCandidate(candidateUserId, candidateNeo4jId) {
+  await startMessageWithCandidateForJob(candidateUserId, candidateNeo4jId, "");
+}
+
+async function startMessageWithCandidateForJob(candidateUserId, candidateNeo4jId, jobId = "") {
+  const job = state.jobs.find((item) => item.id === jobId) || null;
+  state.activeConversationJob = job ? { id: job.id, title: job.title, location: job.location } : null;
+  closeCandidateModal();
+  closeJobModal();
+  state.suppressMessageLoad = true;
+  setDashboardTab("messages");
+  state.suppressMessageLoad = false;
+  renderMessagesPanel();
   const data = await api("/messages/conversations", {
     method: "POST",
     body: JSON.stringify({
       candidate_user_id: candidateUserId,
       candidate_neo4j_id: candidateNeo4jId,
+      job_id: jobId || null,
     }),
   });
   state.activeConversationId = data.conversation?.id || null;
-  setDashboardTab("messages");
+  if (state.activeConversationId && state.activeConversationJob) {
+    state.conversationJobs[state.activeConversationId] = state.activeConversationJob;
+    persistConversationJobs();
+  }
   if (state.activeConversationId) await openConversation(state.activeConversationId);
 }
 
@@ -2192,9 +2335,10 @@ function setupRouting() {
 
     const messageCandidateButton = event.target.closest("[data-message-candidate-user]");
     if (messageCandidateButton) {
-      startMessageWithCandidate(
+      startMessageWithCandidateForJob(
         messageCandidateButton.dataset.messageCandidateUser,
-        messageCandidateButton.dataset.messageCandidateId || ""
+        messageCandidateButton.dataset.messageCandidateId || "",
+        messageCandidateButton.dataset.messageJobId || ""
       ).catch((error) => console.warn(error));
     }
 
