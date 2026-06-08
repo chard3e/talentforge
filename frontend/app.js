@@ -27,6 +27,18 @@ const state = {
   conversationJobs: JSON.parse(localStorage.getItem("talentforge_conversation_jobs") || "{}"),
   suppressMessageLoad: false,
   messagesUnread: 0,
+  cache: {
+    dashboard: { data: null, at: 0 },
+    jobs: { data: null, at: 0 },
+    applications: { data: null, at: 0 },
+    recommendations: { data: null, at: 0 },
+    messages: { data: null, at: 0 },
+    savedCollections: { data: null, at: 0 },
+    jobDetails: new Map(),
+    jobApplications: new Map(),
+    conversations: new Map(),
+  },
+  pending: new Map(),
 };
 
 const views = {
@@ -49,6 +61,45 @@ function setMessage(text, type = "ok") {
   if (!message) return;
   message.textContent = text || "";
   message.dataset.type = type;
+}
+
+const CACHE_TTL = {
+  dashboard: 15000,
+  jobs: 20000,
+  applications: 20000,
+  recommendations: 30000,
+  messages: 8000,
+  detail: 60000,
+};
+
+function nowMs() {
+  return Date.now();
+}
+
+function isFresh(entry, ttl) {
+  return entry?.data && nowMs() - entry.at < ttl;
+}
+
+function invalidateCache(...keys) {
+  keys.forEach((key) => {
+    if (!key) return;
+    const entry = state.cache[key];
+    if (!entry) return;
+    if (entry instanceof Map) entry.clear();
+    else {
+      entry.data = null;
+      entry.at = 0;
+    }
+  });
+}
+
+async function once(key, task) {
+  if (state.pending.has(key)) return state.pending.get(key);
+  const promise = Promise.resolve()
+    .then(task)
+    .finally(() => state.pending.delete(key));
+  state.pending.set(key, promise);
+  return promise;
 }
 
 async function api(path, options = {}) {
@@ -815,15 +866,26 @@ function getSavedCandidatePosition(candidate) {
   return match ? match[1].trim() : "Pozisyon belirtilmedi";
 }
 
-async function loadSavedCollections() {
+async function loadSavedCollections({ force = false, preferCache = false } = {}) {
   if (!state.token || state.role !== "hr") return;
+  if ((preferCache || !force) && isFresh(state.cache.savedCollections, CACHE_TTL.jobs)) {
+    state.savedSearches = state.cache.savedCollections.data.searches || [];
+    state.savedCandidates = state.cache.savedCollections.data.candidates || [];
+    renderSavedSearches();
+    renderSavedCandidatesPanel();
+    return;
+  }
   try {
-    const [searchData, shortlistData] = await Promise.all([
+    const [searchData, shortlistData] = await once("savedCollections", () => Promise.all([
       api("/saved-searches"),
       api("/shortlists"),
-    ]);
+    ]));
     state.savedSearches = searchData.saved_searches || [];
     state.savedCandidates = shortlistData.shortlists || [];
+    state.cache.savedCollections = {
+      data: { searches: state.savedSearches, candidates: state.savedCandidates },
+      at: nowMs(),
+    };
     persistSavedSearches();
     persistSavedCandidates();
     renderSavedSearches();
@@ -907,6 +969,10 @@ async function saveCurrentSearch() {
   };
   const previousSearches = [...state.savedSearches];
   state.savedSearches = [item, ...state.savedSearches.filter((search) => search.id !== item.id)].slice(0, 12);
+  state.cache.savedCollections = {
+    data: { searches: state.savedSearches, candidates: state.savedCandidates },
+    at: nowMs(),
+  };
   persistSavedSearches();
   renderSavedSearches();
   refreshHrDashboardSummary();
@@ -926,11 +992,19 @@ async function saveCurrentSearch() {
         }),
       });
       state.savedSearches = [data.saved_search, ...state.savedSearches.filter((search) => search.id !== item.id)].slice(0, 12);
+      state.cache.savedCollections = {
+        data: { searches: state.savedSearches, candidates: state.savedCandidates },
+        at: nowMs(),
+      };
       persistSavedSearches();
       renderSavedSearches();
       refreshHrDashboardSummary();
     } catch (error) {
       state.savedSearches = previousSearches;
+      state.cache.savedCollections = {
+        data: { searches: state.savedSearches, candidates: state.savedCandidates },
+        at: nowMs(),
+      };
       persistSavedSearches();
       renderSavedSearches();
       refreshHrDashboardSummary();
@@ -948,6 +1022,10 @@ async function deleteSavedSearch(id) {
     }
   }
   state.savedSearches = state.savedSearches.filter((search) => search.id !== id);
+  state.cache.savedCollections = {
+    data: { searches: state.savedSearches, candidates: state.savedCandidates },
+    at: nowMs(),
+  };
   persistSavedSearches();
   renderSavedSearches();
   refreshHrDashboardSummary();
@@ -970,6 +1048,10 @@ async function saveCandidate(candidateId) {
     };
   const previousCandidates = [...state.savedCandidates];
   state.savedCandidates = [item, ...state.savedCandidates.filter((saved) => saved.candidate_id !== candidateId)].slice(0, 20);
+  state.cache.savedCollections = {
+    data: { searches: state.savedSearches, candidates: state.savedCandidates },
+    at: nowMs(),
+  };
   persistSavedCandidates();
   renderSavedCandidatesPanel();
   refreshHrDashboardSummary();
@@ -999,12 +1081,20 @@ async function saveCandidate(candidateId) {
         candidate,
       };
       state.savedCandidates = [item, ...state.savedCandidates.filter((saved) => saved.candidate_id !== candidateId)].slice(0, 20);
+      state.cache.savedCollections = {
+        data: { searches: state.savedSearches, candidates: state.savedCandidates },
+        at: nowMs(),
+      };
       persistSavedCandidates();
       renderSavedCandidatesPanel();
       refreshHrDashboardSummary();
       if (results) renderCandidateResults(results, Array.from(state.lastCandidates.values()), state.recentSearch?.parsed || null);
     } catch (error) {
       state.savedCandidates = previousCandidates;
+      state.cache.savedCollections = {
+        data: { searches: state.savedSearches, candidates: state.savedCandidates },
+        at: nowMs(),
+      };
       persistSavedCandidates();
       renderSavedCandidatesPanel();
       refreshHrDashboardSummary();
@@ -1018,6 +1108,10 @@ async function deleteSavedCandidate(candidateId) {
   const existing = state.savedCandidates.find((item) => item.candidate_id === candidateId);
   const previous = [...state.savedCandidates];
   state.savedCandidates = state.savedCandidates.filter((item) => item.candidate_id !== candidateId);
+  state.cache.savedCollections = {
+    data: { searches: state.savedSearches, candidates: state.savedCandidates },
+    at: nowMs(),
+  };
   persistSavedCandidates();
   renderSavedCandidatesPanel();
   refreshHrDashboardSummary();
@@ -1026,6 +1120,10 @@ async function deleteSavedCandidate(candidateId) {
       await api(`/shortlists/${existing.id}`, { method: "DELETE" });
     } catch (error) {
       state.savedCandidates = previous;
+      state.cache.savedCollections = {
+        data: { searches: state.savedSearches, candidates: state.savedCandidates },
+        at: nowMs(),
+      };
       persistSavedCandidates();
       renderSavedCandidatesPanel();
       refreshHrDashboardSummary();
@@ -1232,11 +1330,11 @@ function renderCandidateProfilesPanel() {
 async function loadDashboard() {
   syncRoleUI();
   try {
-    const summary = await api("/dashboard");
+    const summary = await getDashboardSummary();
     state.dashboardSummary = summary;
     const metrics = summary.metrics || {};
     if (state.role === "hr") {
-      await loadSavedCollections();
+      await loadSavedCollections({ preferCache: true });
       renderCompanyCard(summary);
       renderMetricGrid($("#hr-dashboard .metric-grid"), [
         { label: "Aktif ilan", value: metrics.active_jobs ?? summary.total_jobs ?? 0 },
@@ -1245,32 +1343,53 @@ async function loadDashboard() {
         { label: "Kaydedilen aday", value: state.savedCandidates.length || metrics.shortlist || summary.shortlist || 0 },
       ]);
       renderHrOverview(summary);
-      await loadJobs();
-      loadMessages().catch((error) => console.warn(error));
+      await loadJobs({ preferCache: true });
+      loadMessages({ preferCache: true }).catch((error) => console.warn(error));
     } else {
-      await loadJobs();
-      await loadApplications();
-      await loadCandidateRecommendations();
+      await loadJobs({ preferCache: true });
+      await loadApplications({ preferCache: true });
+      await loadCandidateRecommendations({ preferCache: true });
       renderCandidateOverview(summary);
       renderCandidateMatchesPanel();
       renderCandidateApplicationsPanel();
       renderCandidateProfilesPanel();
-      loadMessages().catch((error) => console.warn(error));
+      loadMessages({ preferCache: true }).catch((error) => console.warn(error));
     }
   } catch (error) {
     console.warn(error);
   }
 }
 
-async function loadJobs() {
-  try {
-    const data = await api("/jobs");
-    state.jobs = data.jobs || [];
+async function getDashboardSummary({ force = false } = {}) {
+  if (!force && isFresh(state.cache.dashboard, CACHE_TTL.dashboard)) {
+    state.dashboardSummary = state.cache.dashboard.data;
+    return state.cache.dashboard.data;
+  }
+  return once("dashboard", async () => {
+    const summary = await api("/dashboard");
+    state.cache.dashboard = { data: summary, at: nowMs() };
+    state.dashboardSummary = summary;
+    return summary;
+  });
+}
+
+async function loadJobs({ force = false, preferCache = false } = {}) {
+  if ((preferCache || !force) && isFresh(state.cache.jobs, CACHE_TTL.jobs)) {
+    state.jobs = state.cache.jobs.data;
     renderJobs();
+    return state.jobs;
+  }
+  try {
+    const data = await once("jobs", () => api("/jobs?limit=100&offset=0"));
+    state.jobs = data.jobs || [];
+    state.cache.jobs = { data: state.jobs, at: nowMs() };
+    renderJobs();
+    return state.jobs;
   } catch (error) {
     console.warn(error);
     state.jobs = [];
     renderJobs();
+    return state.jobs;
   }
 }
 
@@ -1451,6 +1570,7 @@ function renderJobs() {
 async function createJob(event) {
   event.preventDefault();
   const form = event.currentTarget;
+  if (form.dataset.loading === "true") return;
   const message = $(".panel-message", form);
   const payload = Object.fromEntries(new FormData(form).entries());
   payload.must_have_skills = (payload.must_have_skills || "")
@@ -1466,16 +1586,23 @@ async function createJob(event) {
 
   try {
     setFormLoading(form, true, "Yayınlanıyor...");
-    await api("/jobs", { method: "POST", body: JSON.stringify(payload) });
+    const data = await api("/jobs", { method: "POST", body: JSON.stringify(payload) });
+    const createdJob = data.job;
+    if (createdJob) {
+      state.jobs = [createdJob, ...state.jobs.filter((job) => job.id !== createdJob.id)];
+      state.cache.jobs = { data: state.jobs, at: nowMs() };
+      if (state.dashboardSummary?.metrics) {
+        state.dashboardSummary.metrics.active_jobs = (state.dashboardSummary.metrics.active_jobs || 0) + 1;
+        state.cache.dashboard = { data: state.dashboardSummary, at: nowMs() };
+      }
+    }
     if (message) {
       message.textContent = "İlan oluşturuldu.";
       message.dataset.type = "ok";
     }
     form.reset();
-    await loadJobs();
-    const summary = await api("/dashboard");
-    state.dashboardSummary = summary;
     refreshHrDashboardSummary();
+    renderJobs();
     setDashboardTab("jobs");
   } catch (error) {
     if (message) {
@@ -1546,6 +1673,7 @@ function renderCandidateResults(results, candidates, parsed = null) {
 async function searchCandidates(event) {
   event.preventDefault();
   const form = event.currentTarget;
+  if (form.dataset.loading === "true") return;
   const message = $(".panel-message", form);
   const results = $("#candidate-search-results");
   const raw = Object.fromEntries(new FormData(form).entries());
@@ -1589,6 +1717,7 @@ async function searchCandidates(event) {
 async function searchCandidatesText(event) {
   event.preventDefault();
   const form = event.currentTarget;
+  if (form.dataset.loading === "true") return;
   const message = $(".panel-message", form);
   const results = $("#candidate-search-results");
   const query = new FormData(form).get("query")?.toString().trim();
@@ -1690,11 +1819,18 @@ function renderSearchPanel() {
 }
 
 async function loadApplications() {
+  if (isFresh(state.cache.applications, CACHE_TTL.applications)) {
+    state.applications = state.cache.applications.data;
+    return state.applications;
+  }
   try {
-    const data = await api("/applications/me");
+    const data = await once("applications", () => api("/applications/me?limit=50&offset=0"));
     state.applications = data.applications || [];
+    state.cache.applications = { data: state.applications, at: nowMs() };
+    return state.applications;
   } catch (error) {
     console.warn(error);
+    return state.applications;
   }
 }
 
@@ -1740,16 +1876,21 @@ function applicationExperienceLabel(application) {
   return years !== undefined && years !== null && Number(years) > 0 ? `${years} yıl` : "";
 }
 
-async function loadCandidateRecommendations() {
-  const isFresh = state.recommendationsLoadedAt && Date.now() - state.recommendationsLoadedAt < 45000;
-  if (isFresh) return;
+async function loadCandidateRecommendations({ force = false, preferCache = false } = {}) {
+  if ((preferCache || !force) && isFresh(state.cache.recommendations, CACHE_TTL.recommendations)) {
+    state.recommendations = state.cache.recommendations.data;
+    return state.recommendations;
+  }
   try {
-    const data = await api("/candidate/recommendations");
+    const data = await once("recommendations", () => api("/candidate/recommendations?limit=25"));
     state.recommendations = data.recommendations || [];
-    state.recommendationsLoadedAt = Date.now();
+    state.recommendationsLoadedAt = nowMs();
+    state.cache.recommendations = { data: state.recommendations, at: nowMs() };
+    return state.recommendations;
   } catch (error) {
     console.warn(error);
     state.recommendations = [];
+    return state.recommendations;
   }
 }
 
@@ -1790,15 +1931,26 @@ function renderCandidateMatchesPanel() {
 
 async function applyToJob(jobId) {
   if (!jobId) return;
-  await api(`/jobs/${jobId}/apply`, {
+  const job = state.jobs.find((item) => item.id === jobId) || {};
+  state.recommendations = state.recommendations.map((item) =>
+    item.job?.id === jobId ? { ...item, job: { ...item.job, application: { status: "submitted" } } } : item
+  );
+  renderCandidateMatchesPanel();
+  const data = await api(`/jobs/${jobId}/apply`, {
     method: "POST",
     body: JSON.stringify({ cover_letter: "" }),
   });
-  await loadApplications();
-  state.recommendationsLoadedAt = 0;
-  await loadCandidateRecommendations();
+  if (data.application) {
+    state.applications = [data.application, ...state.applications.filter((item) => item.id !== data.application.id)];
+    state.cache.applications = { data: state.applications, at: nowMs() };
+    state.recommendations = state.recommendations.map((item) =>
+      item.job?.id === jobId ? { ...item, job: { ...(item.job || job), application: data.application } } : item
+    );
+    state.cache.recommendations = { data: state.recommendations, at: nowMs() };
+  }
   renderCandidateOverview(state.dashboardSummary || {});
   renderCandidateMatchesPanel();
+  renderCandidateApplicationsPanel();
 }
 
 function splitList(value) {
@@ -1815,11 +1967,13 @@ function setFormLoading(form, isLoading, label = "Aranıyor...") {
     button.dataset.originalText = button.textContent;
     button.textContent = label;
     button.disabled = true;
+    form.dataset.loading = "true";
     form.classList.add("is-loading");
     return;
   }
   button.textContent = button.dataset.originalText || button.textContent;
   button.disabled = false;
+  form.dataset.loading = "false";
   form.classList.remove("is-loading");
 }
 
@@ -1975,18 +2129,25 @@ function closeCandidateModal() {
 
 async function openJobModal(jobId) {
   const modal = ensureJobModal();
-  const localJob = state.jobs.find((job) => job.id === jobId) || {};
+  const cached = state.cache.jobDetails.get(jobId);
+  const localJob = cached?.data || state.jobs.find((job) => job.id === jobId) || {};
   let job = localJob;
   renderJobModalBody(modal, job, true);
   modal.classList.add("active");
   document.body.classList.add("modal-open");
+  if (cached && nowMs() - cached.at < CACHE_TTL.detail) {
+    renderJobModalBody(modal, cached.data, false);
+    return;
+  }
   if (localJob.description) {
     renderJobModalBody(modal, localJob, false);
+    state.cache.jobDetails.set(jobId, { data: localJob, at: nowMs() });
     return;
   }
   try {
-    const data = await api(`/jobs/${jobId}`);
+    const data = await once(`job:${jobId}`, () => api(`/jobs/${jobId}`));
     job = data.job || localJob;
+    state.cache.jobDetails.set(jobId, { data: job, at: nowMs() });
   } catch (error) {
     console.warn(error);
   }
@@ -2032,16 +2193,24 @@ async function deleteJob(jobId) {
   if (!jobId) return;
   const previousJobs = [...state.jobs];
   state.jobs = state.jobs.filter((job) => job.id !== jobId);
+  state.cache.jobs = { data: state.jobs, at: nowMs() };
+  if (state.dashboardSummary?.metrics) {
+    state.dashboardSummary.metrics.active_jobs = Math.max(0, (state.dashboardSummary.metrics.active_jobs || 0) - 1);
+    state.cache.dashboard = { data: state.dashboardSummary, at: nowMs() };
+  }
   closeJobModal();
   renderJobs();
+  refreshHrDashboardSummary();
   try {
     await api(`/jobs/${jobId}`, { method: "DELETE" });
-    const summary = await api("/dashboard");
-    state.dashboardSummary = summary;
-    refreshHrDashboardSummary();
+    state.cache.jobDetails.delete(jobId);
+    state.cache.jobApplications.delete(jobId);
   } catch (error) {
     state.jobs = previousJobs;
+    state.cache.jobs = { data: state.jobs, at: nowMs() };
+    invalidateCache("dashboard");
     renderJobs();
+    refreshHrDashboardSummary();
     console.warn(error);
   }
 }
@@ -2053,7 +2222,11 @@ async function openJobApplicationsModal(jobId) {
   modal.classList.add("active");
   document.body.classList.add("modal-open");
   try {
-    const data = await api(`/jobs/${jobId}/applications`);
+    const cachedApplications = state.cache.jobApplications.get(jobId);
+    const data = cachedApplications && nowMs() - cachedApplications.at < CACHE_TTL.detail
+      ? cachedApplications.data
+      : await once(`jobApplications:${jobId}`, () => api(`/jobs/${jobId}/applications?limit=50&offset=0`));
+    state.cache.jobApplications.set(jobId, { data, at: nowMs() });
     const applications = data.applications || [];
     $(".job-modal-body", modal).innerHTML = `
       <div class="modal-head">
@@ -2241,10 +2414,19 @@ function updateMessageBadges() {
   });
 }
 
-async function loadMessages() {
-  const data = await api("/messages");
+async function loadMessages({ force = false, preferCache = false } = {}) {
+  if ((preferCache || !force) && isFresh(state.cache.messages, CACHE_TTL.messages)) {
+    const cached = state.cache.messages.data;
+    state.conversations = cached.conversations || [];
+    state.messagesUnread = cached.unread_count || 0;
+    updateMessageBadges();
+    renderMessagesPanel();
+    return;
+  }
+  const data = await once("messages", () => api("/messages"));
   state.conversations = data.conversations || [];
   state.messagesUnread = data.unread_count || 0;
+  state.cache.messages = { data, at: nowMs() };
   updateMessageBadges();
   if (state.activeConversationId) {
     const exists = state.conversations.some((conversation) => conversation.id === state.activeConversationId);
@@ -2257,7 +2439,11 @@ async function loadMessages() {
 async function openConversation(conversationId) {
   state.activeConversationId = conversationId;
   state.activeConversationJob = state.conversationJobs[conversationId] || null;
-  const data = await api(`/messages/${conversationId}`);
+  const cached = state.cache.conversations.get(conversationId);
+  const data = cached && nowMs() - cached.at < CACHE_TTL.messages
+    ? cached.data
+    : await once(`conversation:${conversationId}`, () => api(`/messages/${conversationId}`));
+  state.cache.conversations.set(conversationId, { data, at: nowMs() });
   state.activeMessages = data.messages || [];
   const contextMessage = state.activeMessages.find((message) => (message.body || "").startsWith("İlan bağlamı:"));
   if (contextMessage && !state.activeConversationJob) {
@@ -2285,11 +2471,25 @@ async function sendConversationMessage(body) {
   };
   state.activeMessages = [...state.activeMessages, tempMessage];
   renderMessagesPanel();
-  await api(`/messages/${state.activeConversationId}`, {
+  const data = await api(`/messages/${state.activeConversationId}`, {
     method: "POST",
     body: JSON.stringify({ body: body.trim() }),
   });
-  await openConversation(state.activeConversationId);
+  state.activeMessages = state.activeMessages.map((message) => message.id === tempMessage.id ? data.message : message);
+  const active = state.conversations.find((item) => item.id === state.activeConversationId);
+  if (active) {
+    active.last_message = data.message;
+    active.last_message_at = data.message?.created_at || active.last_message_at;
+  }
+  state.cache.conversations.set(state.activeConversationId, {
+    data: {
+      conversation: active || { id: state.activeConversationId },
+      messages: state.activeMessages,
+    },
+    at: nowMs(),
+  });
+  invalidateCache("messages");
+  renderMessagesPanel();
 }
 
 async function startMessageWithCandidate(candidateUserId, candidateNeo4jId) {
@@ -2318,7 +2518,13 @@ async function startMessageWithCandidateForJob(candidateUserId, candidateNeo4jId
     state.conversationJobs[state.activeConversationId] = state.activeConversationJob;
     persistConversationJobs();
   }
-  if (state.activeConversationId) await openConversation(state.activeConversationId);
+  if (state.activeConversationId) {
+    state.conversations = state.conversations.some((item) => item.id === data.conversation.id)
+      ? state.conversations.map((item) => item.id === data.conversation.id ? data.conversation : item)
+      : [data.conversation, ...state.conversations];
+    state.cache.messages = { data: { conversations: state.conversations, unread_count: state.messagesUnread }, at: nowMs() };
+    await openConversation(state.activeConversationId);
+  }
 }
 
 function setupRouting() {

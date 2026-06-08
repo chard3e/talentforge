@@ -1,0 +1,215 @@
+{
+  "cv_id": "cv_076",
+  "file_name": "cv_076_damla_kirac.pdf",
+  "candidate_name": "Damla Kıraç",
+  "email": "damla.kirac076@example.com",
+  "phone": "+90 556 335 24 68",
+  "location": "Kocaeli / Gebze",
+  "title": "Junior Laboratuvar Teknikeri",
+  "role_family": "healthcare_lab_clinical_ops",
+  "seniority": "junior",
+  "total_experience_years": 2,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "two_column_modern",
+  "difficulty": "medium",
+  "summary": "2 yıllık deneyime sahip Junior Laboratuvar Teknikeri. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Patient Data, Quality Control, LIMS, Laboratory Testing.",
+  "skills": [
+    {
+      "name": "Patient Data",
+      "canonical_name": "Patient Data",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "Patient Data CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Quality Control",
+      "canonical_name": "Quality Control",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "Quality Control CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "LIMS",
+      "canonical_name": "LIMS",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "LIMS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Laboratory Testing",
+      "canonical_name": "Laboratory Testing",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Laboratory Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Regulatory Documentation",
+      "canonical_name": "Regulatory Documentation",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Regulatory Documentation CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Clinical Operations",
+      "canonical_name": "Clinical Operations",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Clinical Operations CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SOP",
+      "canonical_name": "SOP",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "SOP CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Medical Terminology",
+      "canonical_name": "Medical Terminology",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Medical Terminology CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Sample Tracking",
+      "canonical_name": "Sample Tracking",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Sample Tracking CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Acıbadem Labmed",
+      "canonical_company_name": "Acıbadem Labmed",
+      "role_title": "Junior Laboratuvar Teknikeri",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Sağlık / Klinik Operasyon | İstanbul",
+      "description": "Sağlık / Klinik Operasyon alanında Patient Data, Medical Terminology, Quality Control, Sample Tracking kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Patient Data ve Medical Terminology ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Patient Data",
+        "Medical Terminology",
+        "Quality Control",
+        "Sample Tracking",
+        "Excel",
+        "Regulatory Documentation"
+      ],
+      "evidence_text": "Sağlık / Klinik Operasyon alanında Patient Data, Medical Terminology, Quality Control, Sample Tracking kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Patient Data ve Medical Terminology ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Medicana",
+      "canonical_company_name": "Medicana",
+      "role_title": "Klinik Operasyon Uzmanı",
+      "start_date": "Şub 2024",
+      "end_date": "Şub 2025",
+      "is_current": false,
+      "location": "Sağlık / Klinik Operasyon | İzmir",
+      "description": "Sağlık / Klinik Operasyon alanında SOP, Medical Terminology, Clinical Operations, Quality Control kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "SOP ve Medical Terminology ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "SOP",
+        "Medical Terminology",
+        "Clinical Operations",
+        "Quality Control"
+      ],
+      "evidence_text": "Sağlık / Klinik Operasyon alanında SOP, Medical Terminology, Clinical Operations, Quality Control kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı SOP ve Medical Terminology ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "Warehouse SLA Improvement",
+      "description": "Warehouse SLA Improvement projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "Excel",
+        "SOP",
+        "Medical Terminology",
+        "Patient Data",
+        "LIMS"
+      ],
+      "skills_used": [
+        "Excel",
+        "SOP",
+        "Medical Terminology",
+        "Patient Data",
+        "LIMS"
+      ],
+      "start_date": "2022-06",
+      "end_date": "2022-12",
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Warehouse SLA Improvement projesinde Excel, SOP, Medical Terminology kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "İngilizce — İleri",
+    "Fransızca — B1"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 2,
+    "projects": 1,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "healthcare_lab_clinical_ops",
+    "medium",
+    "skill_synonym",
+    "two_column_modern"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "educations"
+  ],
+  "trap_notes": []
+}

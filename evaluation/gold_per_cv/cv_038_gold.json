@@ -1,0 +1,168 @@
+{
+  "cv_id": "cv_038",
+  "file_name": "cv_038_cemre_oral.pdf",
+  "candidate_name": "Cemre Oral",
+  "email": "cemre.oral038@example.com",
+  "phone": "+90 533 348 15 69",
+  "location": "İstanbul / Şişli",
+  "title": "Junior Muhasebe Uzmanı",
+  "role_family": "finance_accounting_audit",
+  "seniority": "junior",
+  "total_experience_years": 1,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "easy",
+  "summary": "1 yıllık deneyime sahip Junior Muhasebe Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Audit, SAP FI, Forecasting, Financial Modeling.",
+  "skills": [
+    {
+      "name": "Audit",
+      "canonical_name": "Audit",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Audit CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP FI",
+      "canonical_name": "SAP FI",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "SAP FI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Forecasting",
+      "canonical_name": "Forecasting",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Forecasting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Financial Modeling",
+      "canonical_name": "Financial Modeling",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Financial Modeling CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Budgeting",
+      "canonical_name": "Budgeting",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Budgeting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "IFRS",
+      "canonical_name": "IFRS",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "IFRS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Reconciliation",
+      "canonical_name": "Reconciliation",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Reconciliation CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "EY",
+      "canonical_company_name": "EY",
+      "role_title": "Junior Muhasebe Uzmanı",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Finans / Denetim | Bursa",
+      "description": "Finans / Denetim alanında Financial Modeling, Forecasting, IFRS, Excel kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Financial Modeling ve Forecasting ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Financial Modeling",
+        "Forecasting",
+        "IFRS",
+        "Excel",
+        "SQL",
+        "Audit"
+      ],
+      "evidence_text": "Finans / Denetim alanında Financial Modeling, Forecasting, IFRS, Excel kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Financial Modeling ve Forecasting ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "İşletme",
+      "institution": "Anadolu Üniversitesi",
+      "canonical_institution": "Anadolu Üniversitesi",
+      "start_year": 2013,
+      "end_year": 2017,
+      "gpa": 3.52,
+      "evidence_text": "Lisans - İşletme, Anadolu Üniversitesi (2013-2017)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "CMA Part 1"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 1,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 1,
+    "languages": 0,
+    "companies": 1,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "clear_sections",
+    "easy",
+    "finance_accounting_audit"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "projects"
+  ],
+  "trap_notes": []
+}

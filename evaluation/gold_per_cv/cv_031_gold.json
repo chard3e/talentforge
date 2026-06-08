@@ -1,0 +1,311 @@
+{
+  "cv_id": "cv_031",
+  "file_name": "cv_031_lucas_reed.docx",
+  "candidate_name": "Lucas Reed",
+  "email": "lucas.reed031@example.com",
+  "phone": "+44 7591 221874",
+  "location": "London / Remote",
+  "title": "Senior Backend Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "senior",
+  "total_experience_years": 9,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 3,
+  "template_type": "project_heavy",
+  "difficulty": "hard",
+  "summary": "Senior Backend Developer with 9 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include React.js, Git, Docker, Node.",
+  "skills": [
+    {
+      "name": "React.js",
+      "canonical_name": "React",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "React.js is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Tool",
+      "years_experience": 9,
+      "level": 5,
+      "evidence_text": "Git is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Docker is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Node",
+      "canonical_name": "Node.js",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Node is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "TS",
+      "canonical_name": "TypeScript",
+      "category": "Programming",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "TS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kafka",
+      "canonical_name": "Kafka",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Kafka is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NextJS",
+      "canonical_name": "Next.js",
+      "category": "Tool",
+      "years_experience": 9,
+      "level": 5,
+      "evidence_text": "NextJS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Javascript",
+      "canonical_name": "JavaScript",
+      "category": "Programming",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "Javascript is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microservice",
+      "canonical_name": "Microservices",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Microservice is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Java",
+      "canonical_name": "Java",
+      "category": "Programming",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Java is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "REST API",
+      "canonical_name": "REST API",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "REST API is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "FastAPI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Redis",
+      "canonical_name": "Redis",
+      "category": "Tool",
+      "years_experience": 9,
+      "level": 5,
+      "evidence_text": "Redis is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Spring Boot",
+      "canonical_name": "Spring Boot",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "Spring Boot is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Softtech",
+      "canonical_company_name": "Softtech",
+      "role_title": "Senior Backend Developer",
+      "start_date": "May 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Software / Fintech | Berlin",
+      "description": "Delivered measurable work in software / fintech using FastAPI, Docker, TS, Kafka. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with FastAPI and Docker",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "FastAPI",
+        "Docker",
+        "TS",
+        "Kafka"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using FastAPI, Docker, TS, Kafka. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with FastAPI and Docker Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Senior Backend Developer",
+      "start_date": "2020/02",
+      "end_date": "2023/02",
+      "is_current": false,
+      "location": "Software / Fintech | Ankara",
+      "description": "Delivered measurable work in software / fintech using Docker, NextJS, React.js, Java. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 27% through process and tooling improvements",
+        "Improved reporting or service reliability with Docker and NextJS",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Docker",
+        "NextJS",
+        "React.js",
+        "Java",
+        "TS",
+        "Spring Boot"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using Docker, NextJS, React.js, Java. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 27% through process and tooling improvements Improved reporting or service reliability with Docker and NextJS Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Senior Backend Developer",
+      "start_date": "Dec 2016",
+      "end_date": "Dec 2019",
+      "is_current": false,
+      "location": "Software / Fintech | Dublin",
+      "description": "Delivered measurable work in software / fintech using Kafka, Git, Node, React.js. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with Kafka and Git",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Kafka",
+        "Git",
+        "Node",
+        "React.js",
+        "Spring Boot"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using Kafka, Git, Node, React.js. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with Kafka and Git Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "MSc",
+      "field": "Software Engineering",
+      "institution": "Ege Üniversitesi",
+      "canonical_institution": "Ege Üniversitesi",
+      "start_year": 2022,
+      "end_year": 2024,
+      "gpa": 3.17,
+      "evidence_text": "MSc - Software Engineering, Ege Üniversitesi (2022-2024)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "DPIA Data Mapping Initiative",
+      "description": "Led or contributed to DPIA Data Mapping Initiative, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Developer",
+      "technologies": [
+        "Spring Boot",
+        "Docker",
+        "Redis"
+      ],
+      "skills_used": [
+        "Spring Boot",
+        "Docker",
+        "Redis"
+      ],
+      "start_date": "2022-06",
+      "end_date": "2022-09",
+      "url": "https://github.com/example/dpia_data_mapping_initiative",
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "DPIA Data Mapping Initiative project used Spring Boot, Docker, Redis and delivered documented outputs.",
+      "confidence": 0.78
+    },
+    {
+      "name": "Privacy Request Workflow",
+      "description": "Led or contributed to Privacy Request Workflow, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Coordinator",
+      "technologies": [
+        "Docker",
+        "NextJS",
+        "Java"
+      ],
+      "skills_used": [
+        "Docker",
+        "NextJS",
+        "Java"
+      ],
+      "start_date": "2023-09",
+      "end_date": "2023-12",
+      "url": null,
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "Privacy Request Workflow project used Docker, NextJS, Java and delivered documented outputs.",
+      "confidence": 0.78
+    }
+  ],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 15,
+    "experiences": 3,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "company_skill_synonym",
+    "hard",
+    "mixed_date_format",
+    "project_heavy"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications"
+  ],
+  "trap_notes": []
+}

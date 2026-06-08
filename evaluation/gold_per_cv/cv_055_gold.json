@@ -1,0 +1,256 @@
+{
+  "cv_id": "cv_055",
+  "file_name": "cv_055_emma_richardson.pdf",
+  "candidate_name": "Emma Richardson",
+  "email": "emma.richardson055@example.com",
+  "phone": "+44 7385 826800",
+  "location": "London / Remote",
+  "title": "Data Analyst",
+  "role_family": "data_bi_analytics",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "hard",
+  "summary": "Data Analyst with 3 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Tableau, SQL, A/B Testing, Excel.",
+  "skills": [
+    {
+      "name": "Tableau",
+      "canonical_name": "Tableau",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Tableau is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "A/B Testing is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Excel is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Pandas",
+      "canonical_name": "Pandas",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Pandas is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Modeling",
+      "canonical_name": "Data Modeling",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Data Modeling is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Power BI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Looker Studio is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "BigQuery",
+      "canonical_name": "BigQuery",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "BigQuery is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ETL",
+      "canonical_name": "ETL",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "ETL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Migros One",
+      "canonical_company_name": "Migros One",
+      "role_title": "Data Analyst",
+      "start_date": "2025/05",
+      "end_date": null,
+      "is_current": true,
+      "location": "Data / Retail | Izmir",
+      "description": "Delivered measurable work in data / retail using BigQuery, ETL, Looker Studio, Power BI. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with BigQuery and ETL",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "BigQuery",
+        "ETL",
+        "Looker Studio",
+        "Power BI",
+        "A/B Testing"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using BigQuery, ETL, Looker Studio, Power BI. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with BigQuery and ETL Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "LC Waikiki",
+      "canonical_company_name": "LC Waikiki",
+      "role_title": "Junior BI Analyst",
+      "start_date": "Apr 2024",
+      "end_date": "Apr 2025",
+      "is_current": false,
+      "location": "Data / Retail | London",
+      "description": "Delivered measurable work in data / retail using BigQuery, Excel, Data Modeling, SQL. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with BigQuery and Excel",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "BigQuery",
+        "Excel",
+        "Data Modeling",
+        "SQL",
+        "Tableau"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using BigQuery, Excel, Data Modeling, SQL. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with BigQuery and Excel Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Junior BI Analyst",
+      "start_date": "2023/03",
+      "end_date": "2024/03",
+      "is_current": false,
+      "location": "Data / Retail | Dublin",
+      "description": "Delivered measurable work in data / retail using Looker Studio, A/B Testing, Power BI, Tableau. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Looker Studio and A/B Testing",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Looker Studio",
+        "A/B Testing",
+        "Power BI",
+        "Tableau",
+        "Excel",
+        "ETL"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Looker Studio, A/B Testing, Power BI, Tableau. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Looker Studio and A/B Testing Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "İstatistik",
+      "institution": "Boğaziçi Üniversitesi",
+      "canonical_institution": "Boğaziçi Üniversitesi",
+      "start_year": 2011,
+      "end_year": 2015,
+      "gpa": 3.49,
+      "evidence_text": "BSc - İstatistik, Boğaziçi Üniversitesi (2011-2015)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Privacy Request Workflow",
+      "description": "Led or contributed to Privacy Request Workflow, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Coordinator",
+      "technologies": [
+        "ETL",
+        "SQL",
+        "A/B Testing"
+      ],
+      "skills_used": [
+        "ETL",
+        "SQL",
+        "A/B Testing"
+      ],
+      "start_date": "2025-02",
+      "end_date": "2025-06",
+      "url": null,
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "Privacy Request Workflow project used ETL, SQL, A/B Testing and delivered documented outputs.",
+      "confidence": 0.78
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "English — Native or fluent",
+    "Turkish — B1"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 3,
+    "projects": 1,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "company_skill_synonym",
+    "data_bi_analytics",
+    "embedded_skills",
+    "hallucination_trap",
+    "hard",
+    "iso_not_certificate",
+    "missing_education_year"
+  ],
+  "hallucination_traps": [
+    "iso_not_certificate",
+    "missing_education_year"
+  ],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": [
+    "İç doküman kodu ISO-17 revizyonu takip edildi; bu ifade bir ISO 27001 sertifikası değildir."
+  ]
+}

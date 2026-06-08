@@ -1,0 +1,306 @@
+{
+  "cv_id": "cv_093",
+  "file_name": "cv_093_peri_duman.pdf",
+  "candidate_name": "Peri Duman",
+  "email": "peri.duman093@example.com",
+  "phone": "+90 543 928 23 53",
+  "location": "Eskişehir / Tepebaşı",
+  "title": "Kıdemli Performance Marketing Uzmanı",
+  "role_family": "marketing_growth_content",
+  "seniority": "senior",
+  "total_experience_years": 8,
+  "language": "mixed",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "8 yıllık deneyime sahip Kıdemli Performance Marketing Uzmanı. Product, data ve operations ekipleriyle çalışır; core strengths: Content Strategy, HubSpot, Copywriting, Looker Studio.",
+  "skills": [
+    {
+      "name": "Content Strategy",
+      "canonical_name": "Content Strategy",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Content Strategy CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HubSpot",
+      "canonical_name": "HubSpot",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 3,
+      "evidence_text": "HubSpot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Copywriting",
+      "canonical_name": "Copywriting",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 4,
+      "evidence_text": "Copywriting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Looker Studio CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Google Ads",
+      "canonical_name": "Google Ads",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "Google Ads CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Meta Ads",
+      "canonical_name": "Meta Ads",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 3,
+      "evidence_text": "Meta Ads CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CRM",
+      "canonical_name": "CRM",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "CRM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Email Marketing",
+      "canonical_name": "Email Marketing",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "Email Marketing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GA4",
+      "canonical_name": "GA4",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "GA4 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Kıdemli Performance Marketing Uzmanı",
+      "start_date": "Eyl 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Pazarlama / Growth | Kocaeli",
+      "description": "Pazarlama / Growth alanında Google Ads, Copywriting, HubSpot, Content Strategy ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %18 azalttı",
+        "Google Ads ve Copywriting kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Google Ads",
+        "Copywriting",
+        "HubSpot",
+        "Content Strategy"
+      ],
+      "evidence_text": "Pazarlama / Growth alanında Google Ads, Copywriting, HubSpot, Content Strategy ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %18 azalttı Google Ads ve Copywriting kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Insider",
+      "canonical_company_name": "Insider",
+      "role_title": "Kıdemli Performance Marketing Uzmanı",
+      "start_date": "Eki 2020",
+      "end_date": "Haz 2023",
+      "is_current": false,
+      "location": "Pazarlama / Growth | Remote",
+      "description": "Pazarlama / Growth alanında A/B Testing, Copywriting, Looker Studio, CRM ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %38 azalttı",
+        "A/B Testing ve Copywriting kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "A/B Testing",
+        "Copywriting",
+        "Looker Studio",
+        "CRM"
+      ],
+      "evidence_text": "Pazarlama / Growth alanında A/B Testing, Copywriting, Looker Studio, CRM ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %38 azalttı A/B Testing ve Copywriting kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "4129Grey",
+      "canonical_company_name": "4129Grey",
+      "role_title": "Growth Marketing Specialist",
+      "start_date": "Oca 2018",
+      "end_date": "Eyl 2020",
+      "is_current": false,
+      "location": "Pazarlama / Growth | İstanbul",
+      "description": "Pazarlama / Growth alanında CRM, Looker Studio, HubSpot, Content Strategy ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %24 azalttı",
+        "CRM ve Looker Studio kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "CRM",
+        "Looker Studio",
+        "HubSpot",
+        "Content Strategy",
+        "GA4"
+      ],
+      "evidence_text": "Pazarlama / Growth alanında CRM, Looker Studio, HubSpot, Content Strategy ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %24 azalttı CRM ve Looker Studio kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "New Media",
+      "institution": "Boğaziçi Üniversitesi",
+      "canonical_institution": "Boğaziçi Üniversitesi",
+      "start_year": 2017,
+      "end_year": 2021,
+      "gpa": 3.85,
+      "evidence_text": "Lisans - New Media, Boğaziçi Üniversitesi (2017-2021)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Lisans",
+      "field": "İletişim",
+      "institution": "İTÜ",
+      "canonical_institution": "İTÜ",
+      "start_year": 2006,
+      "end_year": 2010,
+      "gpa": 3.73,
+      "evidence_text": "Lisans - İletişim, İTÜ (2006-2010)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "MLOps Model Serving API",
+      "description": "MLOps Model Serving API için project owner/contributor rolünde çalıştı; business outcome ve operasyonel takip hedeflendi.",
+      "role": "Koordinatör",
+      "technologies": [
+        "Content Strategy",
+        "Looker Studio",
+        "CRM",
+        "Copywriting",
+        "Meta Ads",
+        "Google Ads"
+      ],
+      "skills_used": [
+        "Content Strategy",
+        "Looker Studio",
+        "CRM",
+        "Copywriting",
+        "Meta Ads",
+        "Google Ads"
+      ],
+      "start_date": "2024-02",
+      "end_date": "2024-06",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "MLOps Model Serving API projesinde Content Strategy, Looker Studio, CRM kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Customer 360 Data Mart",
+      "description": "Customer 360 Data Mart için project owner/contributor rolünde çalıştı; business outcome ve operasyonel takip hedeflendi.",
+      "role": "Developer",
+      "technologies": [
+        "Google Ads",
+        "A/B Testing",
+        "Email Marketing"
+      ],
+      "skills_used": [
+        "Google Ads",
+        "A/B Testing",
+        "Email Marketing"
+      ],
+      "start_date": "2023-08",
+      "end_date": "2023-12",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Customer 360 Data Mart projesinde Google Ads, A/B Testing, Email Marketing kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Real-time Order Service",
+      "description": "Real-time Order Service için project owner/contributor rolünde çalıştı; business outcome ve operasyonel takip hedeflendi.",
+      "role": "Project Owner",
+      "technologies": [
+        "Google Ads",
+        "Email Marketing",
+        "A/B Testing",
+        "CRM",
+        "Copywriting"
+      ],
+      "skills_used": [
+        "Google Ads",
+        "Email Marketing",
+        "A/B Testing",
+        "CRM",
+        "Copywriting"
+      ],
+      "start_date": "2022-03",
+      "end_date": "2022-11",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Real-time Order Service projesinde Google Ads, Email Marketing, A/B Testing kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "GA4 Certification"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 3,
+    "projects": 3,
+    "educations": 2,
+    "certifications": 1,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "chronological",
+    "marketing_growth_content",
+    "medium",
+    "project_section"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,204 @@
+{
+  "cv_id": "cv_035",
+  "file_name": "cv_035_zehra_oz.docx",
+  "candidate_name": "Zehra Öz",
+  "email": "zehra.oz035@example.com",
+  "phone": "+90 559 140 18 24",
+  "location": "İstanbul / Kadıköy",
+  "title": "Kıdemli Cloud Engineer",
+  "role_family": "devops_cloud_platform",
+  "seniority": "senior",
+  "total_experience_years": 9,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "skills_first",
+  "difficulty": "easy",
+  "summary": "9 yıllık deneyime sahip Kıdemli Cloud Engineer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Ansible, Azure, Grafana, Docker.",
+  "skills": [
+    {
+      "name": "Ansible",
+      "canonical_name": "Ansible",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Ansible CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Azure",
+      "canonical_name": "Azure",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "Azure CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Grafana",
+      "canonical_name": "Grafana",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "Grafana CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jenkins",
+      "canonical_name": "Jenkins",
+      "category": "DevOps/Cloud",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "Jenkins CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Terraform",
+      "canonical_name": "Terraform",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Terraform CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical_name": "GitHub Actions",
+      "category": "DevOps/Cloud",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "GitHub Actions CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Helm",
+      "canonical_name": "Helm",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "Helm CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Akbank Teknoloji",
+      "canonical_company_name": "Akbank",
+      "role_title": "Kıdemli Cloud Engineer",
+      "start_date": "May 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Bulut / Platform | İstanbul",
+      "description": "Bulut / Platform alanında Ansible, Terraform, Grafana, Jenkins kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Ansible ve Terraform ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Ansible",
+        "Terraform",
+        "Grafana",
+        "Jenkins",
+        "Helm"
+      ],
+      "evidence_text": "Bulut / Platform alanında Ansible, Terraform, Grafana, Jenkins kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Ansible ve Terraform ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Vodafone Teknoloji",
+      "canonical_company_name": "Vodafone Teknoloji",
+      "role_title": "Kıdemli Cloud Engineer",
+      "start_date": "Nis 2020",
+      "end_date": "Nis 2023",
+      "is_current": false,
+      "location": "Bulut / Platform | Ankara",
+      "description": "Bulut / Platform alanında Jenkins, Helm, Kubernetes, Grafana kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Jenkins ve Helm ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Jenkins",
+        "Helm",
+        "Kubernetes",
+        "Grafana",
+        "Terraform",
+        "Docker"
+      ],
+      "evidence_text": "Bulut / Platform alanında Jenkins, Helm, Kubernetes, Grafana kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Jenkins ve Helm ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Papara",
+      "canonical_company_name": "Papara",
+      "role_title": "DevOps Engineer",
+      "start_date": "Şub 2017",
+      "end_date": "Şub 2020",
+      "is_current": false,
+      "location": "Bulut / Platform | Ankara",
+      "description": "Bulut / Platform alanında Azure, Docker, Terraform, GitHub Actions kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Azure ve Docker ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Azure",
+        "Docker",
+        "Terraform",
+        "GitHub Actions",
+        "Jenkins"
+      ],
+      "evidence_text": "Bulut / Platform alanında Azure, Docker, Terraform, GitHub Actions kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Azure ve Docker ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "devops_cloud_platform",
+    "easy",
+    "skills_first"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications",
+    "projects",
+    "educations"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,272 @@
+{
+  "cv_id": "cv_043",
+  "file_name": "cv_043_grace_mitchell.pdf",
+  "candidate_name": "Grace Mitchell",
+  "email": "grace.mitchell043@example.com",
+  "phone": "+44 7132 936742",
+  "location": "Izmir / On-site",
+  "title": "Tech Lead Backend Engineer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "lead_manager",
+  "total_experience_years": 13,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "hard",
+  "summary": "Tech Lead Backend Engineer with 13 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Spring Boot, Docker, Kubernetes, PostgreSQL.",
+  "skills": [
+    {
+      "name": "Spring Boot",
+      "canonical_name": "Spring Boot",
+      "category": "Tool",
+      "years_experience": 9,
+      "level": 5,
+      "evidence_text": "Spring Boot is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "Docker is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Kubernetes is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical_name": "PostgreSQL",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "PostgreSQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kafka",
+      "canonical_name": "Kafka",
+      "category": "Tool",
+      "years_experience": 11,
+      "level": 5,
+      "evidence_text": "Kafka is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microservices",
+      "canonical_name": "Microservices",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "Microservices is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Java",
+      "canonical_name": "Java",
+      "category": "Programming",
+      "years_experience": 11,
+      "level": 5,
+      "evidence_text": "Java is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "TypeScript",
+      "canonical_name": "TypeScript",
+      "category": "Programming",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "TypeScript is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Next.js",
+      "canonical_name": "Next.js",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Next.js is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "Git is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Redis",
+      "canonical_name": "Redis",
+      "category": "Tool",
+      "years_experience": 10,
+      "level": 5,
+      "evidence_text": "Redis is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Tech Lead Backend Engineer",
+      "start_date": "Feb 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Software / Fintech | Istanbul",
+      "description": "Delivered measurable work in software / fintech using Spring Boot, Java, TypeScript, Git. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with Spring Boot and Java",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Spring Boot",
+        "Java",
+        "TypeScript",
+        "Git"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using Spring Boot, Java, TypeScript, Git. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with Spring Boot and Java Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Softtech",
+      "canonical_company_name": "Softtech",
+      "role_title": "Full Stack Developer",
+      "start_date": "2019/09",
+      "end_date": "2022/12",
+      "is_current": false,
+      "location": "Software / Fintech | Amsterdam",
+      "description": "Delivered measurable work in software / fintech using Kafka, PostgreSQL, Kubernetes, Git. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with Kafka and PostgreSQL",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Kafka",
+        "PostgreSQL",
+        "Kubernetes",
+        "Git",
+        "Docker"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using Kafka, PostgreSQL, Kubernetes, Git. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with Kafka and PostgreSQL Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Senior Backend Developer",
+      "start_date": "2016/04",
+      "end_date": "2019/07",
+      "is_current": false,
+      "location": "Software / Fintech | Dublin",
+      "description": "Delivered measurable work in software / fintech using Git, Kubernetes, Spring Boot, Microservices. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with Git and Kubernetes",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Git",
+        "Kubernetes",
+        "Spring Boot",
+        "Microservices",
+        "TypeScript",
+        "Redis"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using Git, Kubernetes, Spring Boot, Microservices. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with Git and Kubernetes Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Senior Backend Developer",
+      "start_date": "Nov 2012",
+      "end_date": "Feb 2016",
+      "is_current": false,
+      "location": "Software / Fintech | Remote",
+      "description": "Delivered measurable work in software / fintech using Kubernetes, Git, Redis, Docker. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with Kubernetes and Git",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Kubernetes",
+        "Git",
+        "Redis",
+        "Docker",
+        "Kafka",
+        "Spring Boot",
+        "Java"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using Kubernetes, Git, Redis, Docker. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with Kubernetes and Git Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "Bilgisayar Mühendisliği",
+      "institution": "Sabancı Üniversitesi",
+      "canonical_institution": "Sabancı Üniversitesi",
+      "start_year": 2017,
+      "end_year": 2021,
+      "gpa": null,
+      "evidence_text": "BSc - Bilgisayar Mühendisliği, Sabancı Üniversitesi (2017-2021)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "Oracle Certified Professional Java SE 11",
+    "Professional Scrum Developer I"
+  ],
+  "languages": [
+    "English — Native or fluent",
+    "Turkish — B1"
+  ],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 4,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 2,
+    "languages": 2,
+    "companies": 4,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "chronological",
+    "company_skill_synonym",
+    "hard",
+    "mixed_date_format"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "projects"
+  ],
+  "trap_notes": []
+}

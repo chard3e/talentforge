@@ -1,0 +1,240 @@
+{
+  "cv_id": "cv_030",
+  "file_name": "cv_030_vera_soylu.pdf",
+  "candidate_name": "Vera Soylu",
+  "email": "vera.soylu030@example.com",
+  "phone": "+90 542 798 95 26",
+  "location": "Remote / Türkiye",
+  "title": "Product Owner",
+  "role_family": "product_project_ba",
+  "seniority": "mid",
+  "total_experience_years": 5,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "project_heavy",
+  "difficulty": "easy",
+  "summary": "5 yıllık deneyime sahip Product Owner. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Process Mapping, Confluence, A/B Testing, Roadmap.",
+  "skills": [
+    {
+      "name": "Process Mapping",
+      "canonical_name": "Process Mapping",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Process Mapping CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Confluence",
+      "canonical_name": "Confluence",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Confluence CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Roadmap",
+      "canonical_name": "Roadmap",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Roadmap CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Scrum",
+      "canonical_name": "Scrum",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 2,
+      "evidence_text": "Scrum CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Stakeholder Management",
+      "canonical_name": "Stakeholder Management",
+      "category": "Soft Skill",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Stakeholder Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "User Story",
+      "canonical_name": "User Story",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "User Story CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Figma",
+      "canonical_name": "Figma",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Figma CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Agile",
+      "canonical_name": "Agile",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 2,
+      "evidence_text": "Agile CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jira",
+      "canonical_name": "Jira",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Jira CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Product Owner",
+      "start_date": "Eyl 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Ürün / İş Analizi | İstanbul",
+      "description": "Ürün / İş Analizi alanında Process Mapping, Stakeholder Management, A/B Testing, Roadmap kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Process Mapping ve Stakeholder Management ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Process Mapping",
+        "Stakeholder Management",
+        "A/B Testing",
+        "Roadmap",
+        "Jira",
+        "Agile",
+        "Scrum"
+      ],
+      "evidence_text": "Ürün / İş Analizi alanında Process Mapping, Stakeholder Management, A/B Testing, Roadmap kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Process Mapping ve Stakeholder Management ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "n11",
+      "canonical_company_name": "n11",
+      "role_title": "Product Owner",
+      "start_date": "Ara 2022",
+      "end_date": "Ağu 2024",
+      "is_current": false,
+      "location": "Ürün / İş Analizi | Eskişehir",
+      "description": "Ürün / İş Analizi alanında Process Mapping, A/B Testing, Jira, Confluence kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Process Mapping ve A/B Testing ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Process Mapping",
+        "A/B Testing",
+        "Jira",
+        "Confluence",
+        "Agile",
+        "Scrum",
+        "Roadmap"
+      ],
+      "evidence_text": "Ürün / İş Analizi alanında Process Mapping, A/B Testing, Jira, Confluence kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Process Mapping ve A/B Testing ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Ürün Stajyeri",
+      "start_date": "Oca 2021",
+      "end_date": "Eyl 2022",
+      "is_current": false,
+      "location": "Ürün / İş Analizi | İstanbul",
+      "description": "Ürün / İş Analizi alanında Stakeholder Management, Confluence, Figma, Agile kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Stakeholder Management ve Confluence ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Stakeholder Management",
+        "Confluence",
+        "Figma",
+        "Agile",
+        "User Story",
+        "A/B Testing",
+        "Jira"
+      ],
+      "evidence_text": "Ürün / İş Analizi alanında Stakeholder Management, Confluence, Figma, Agile kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Stakeholder Management ve Confluence ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "İşletme",
+      "institution": "Sabancı Üniversitesi",
+      "canonical_institution": "Sabancı Üniversitesi",
+      "start_year": 2017,
+      "end_year": 2021,
+      "gpa": 3.38,
+      "evidence_text": "Lisans - İşletme, Sabancı Üniversitesi (2017-2021)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Yüksek Lisans",
+      "field": "İşletme",
+      "institution": "Boğaziçi Üniversitesi",
+      "canonical_institution": "Boğaziçi Üniversitesi",
+      "start_year": 2011,
+      "end_year": 2013,
+      "gpa": 3.64,
+      "evidence_text": "Yüksek Lisans - İşletme, Boğaziçi Üniversitesi (2011-2013)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 2,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "product_project_ba",
+    "project_heavy"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": []
+}

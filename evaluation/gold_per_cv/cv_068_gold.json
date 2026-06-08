@@ -1,0 +1,272 @@
+{
+  "cv_id": "cv_068",
+  "file_name": "cv_068_balamir_erdem.pdf",
+  "candidate_name": "Balamir Erdem",
+  "email": "balamir.erdem068@example.com",
+  "phone": "+90 558 253 52 36",
+  "location": "Bursa / Nilüfer",
+  "title": "Junior Backend Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "junior",
+  "total_experience_years": 3,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "easy",
+  "summary": "3 yıllık deneyime sahip Junior Backend Developer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: REST API, Node js, java script, Mikroservis.",
+  "skills": [
+    {
+      "name": "REST API",
+      "canonical_name": "REST API",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "REST API CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Node js",
+      "canonical_name": "Node.js",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Node js CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "java script",
+      "canonical_name": "JavaScript",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "java script CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Mikroservis",
+      "canonical_name": "Microservices",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Mikroservis CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "postgresql",
+      "canonical_name": "PostgreSQL",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "postgresql CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Java",
+      "canonical_name": "Java",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Java CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Typescript",
+      "canonical_name": "TypeScript",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Typescript CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Garanti BBVA Teknoloji",
+      "canonical_company_name": "Garanti BBVA",
+      "role_title": "Junior Backend Developer",
+      "start_date": "Kas 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yazılım / Finans Teknolojileri | İzmir",
+      "description": "Yazılım / Finans Teknolojileri alanında postgresql, Java, Mikroservis, REST API kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "postgresql ve Java ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "postgresql",
+        "Java",
+        "Mikroservis",
+        "REST API",
+        "Node js",
+        "Docker",
+        "Typescript"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında postgresql, Java, Mikroservis, REST API kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı postgresql ve Java ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Junior Backend Developer",
+      "start_date": "Şub 2023",
+      "end_date": "Ağu 2024",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | Ankara",
+      "description": "Yazılım / Finans Teknolojileri alanında Typescript, java script, postgresql, Node js kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Typescript ve java script ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Typescript",
+        "java script",
+        "postgresql",
+        "Node js",
+        "REST API",
+        "Mikroservis"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Typescript, java script, postgresql, Node js kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Typescript ve java script ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Doktora",
+      "field": "Computer Engineering",
+      "institution": "Anadolu Üniversitesi",
+      "canonical_institution": "Anadolu Üniversitesi",
+      "start_year": 2013,
+      "end_year": 2018,
+      "gpa": 3.07,
+      "evidence_text": "Doktora - Computer Engineering, Anadolu Üniversitesi (2013-2018)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Ön Lisans",
+      "field": "Software Engineering",
+      "institution": "Yıldız Teknik Üniversitesi",
+      "canonical_institution": "Yıldız Teknik Üniversitesi",
+      "start_year": 2018,
+      "end_year": 2020,
+      "gpa": 2.71,
+      "evidence_text": "Ön Lisans - Software Engineering, Yıldız Teknik Üniversitesi (2018-2020)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fraud Detection Pipeline",
+      "description": "Fraud Detection Pipeline projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "java script",
+        "Typescript",
+        "Mikroservis",
+        "Node js",
+        "postgresql"
+      ],
+      "skills_used": [
+        "java script",
+        "Typescript",
+        "Mikroservis",
+        "Node js",
+        "postgresql"
+      ],
+      "start_date": "2023-02",
+      "end_date": "2023-07",
+      "url": "https://github.com/example/fraud_detection_pipeline",
+      "project_type": "software_ai_data",
+      "evidence_text": "Fraud Detection Pipeline projesinde java script, Typescript, Mikroservis kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Fraud Detection Pipeline",
+      "description": "Fraud Detection Pipeline projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "REST API",
+        "java script",
+        "Docker",
+        "Typescript",
+        "Node js",
+        "Mikroservis"
+      ],
+      "skills_used": [
+        "REST API",
+        "java script",
+        "Docker",
+        "Typescript",
+        "Node js",
+        "Mikroservis"
+      ],
+      "start_date": "2021-02",
+      "end_date": "2021-05",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Fraud Detection Pipeline projesinde REST API, java script, Docker kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Customer 360 Data Mart",
+      "description": "Customer 360 Data Mart projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "postgresql",
+        "Java",
+        "Docker"
+      ],
+      "skills_used": [
+        "postgresql",
+        "Java",
+        "Docker"
+      ],
+      "start_date": "2025-09",
+      "end_date": "2025-12",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Customer 360 Data Mart projesinde postgresql, Java, Docker kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "AWS Developer Associate",
+    "Professional Scrum Developer I"
+  ],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — İleri (C1)"
+  ],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 2,
+    "projects": 3,
+    "educations": 2,
+    "certifications": 2,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "chronological",
+    "clear_sections",
+    "easy",
+    "junior_title_3_years"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [],
+  "trap_notes": []
+}

@@ -1,0 +1,206 @@
+{
+  "cv_id": "cv_062",
+  "file_name": "cv_062_ulku_aksoy.docx",
+  "candidate_name": "Ülkü Aksoy",
+  "email": "ulku.aksoy062@example.com",
+  "phone": "+90 543 685 69 19",
+  "location": "İstanbul / Ataşehir",
+  "title": "Veri Analizi Stajyeri",
+  "role_family": "data_bi_analytics",
+  "seniority": "intern",
+  "total_experience_years": 1.0,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "skills_first",
+  "difficulty": "medium",
+  "summary": "1.0 yıllık deneyime sahip Veri Analizi Stajyeri. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Looker Studio, Python, Tableau, BigQuery.",
+  "skills": [
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Looker Studio CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Tableau",
+      "canonical_name": "Tableau",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Tableau CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "BigQuery",
+      "canonical_name": "BigQuery",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "BigQuery CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ETL",
+      "canonical_name": "ETL",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "ETL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Power BI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NumPy",
+      "canonical_name": "NumPy",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "NumPy CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Pandas",
+      "canonical_name": "Pandas",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Pandas CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Modeling",
+      "canonical_name": "Data Modeling",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Data Modeling CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Vodafone",
+      "canonical_company_name": "Vodafone",
+      "role_title": "Veri Analizi Stajyeri",
+      "start_date": "May 2025",
+      "end_date": "May 2026",
+      "is_current": false,
+      "location": "Veri / Perakende | İstanbul",
+      "description": "Veri / Perakende alanında ETL, A/B Testing, Pandas, BigQuery kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "ETL ve A/B Testing ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "ETL",
+        "A/B Testing",
+        "Pandas",
+        "BigQuery",
+        "Tableau"
+      ],
+      "evidence_text": "Veri / Perakende alanında ETL, A/B Testing, Pandas, BigQuery kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı ETL ve A/B Testing ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "E-commerce Recommendation Engine",
+      "description": "E-commerce Recommendation Engine projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "Excel",
+        "Looker Studio",
+        "Pandas"
+      ],
+      "skills_used": [
+        "Excel",
+        "Looker Studio",
+        "Pandas"
+      ],
+      "start_date": "2022-02",
+      "end_date": "2022-04",
+      "url": "https://github.com/example/e_commerce_recommendation_engine",
+      "project_type": "software_ai_data",
+      "evidence_text": "E-commerce Recommendation Engine projesinde Excel, Looker Studio, Pandas kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — Orta-İleri (B2)",
+    "Almanca — Başlangıç (A2)"
+  ],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 1,
+    "projects": 1,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 3,
+    "companies": 1,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "data_bi_analytics",
+    "medium",
+    "skill_synonym",
+    "skills_first"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "educations"
+  ],
+  "trap_notes": []
+}

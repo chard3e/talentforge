@@ -1,0 +1,183 @@
+{
+  "cv_id": "cv_034",
+  "file_name": "cv_034_oliver_hayes.pdf",
+  "candidate_name": "Oliver Hayes",
+  "email": "oliver.hayes034@example.com",
+  "phone": "+44 7935 152956",
+  "location": "Dublin / Hybrid",
+  "title": "Audit Intern",
+  "role_family": "finance_accounting_audit",
+  "seniority": "intern",
+  "total_experience_years": 1.0,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "easy",
+  "summary": "Audit Intern with 1.0 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Audit, Financial Modeling, Microsoft Excel, IFRS.",
+  "skills": [
+    {
+      "name": "Audit",
+      "canonical_name": "Audit",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Audit is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Financial Modeling",
+      "canonical_name": "Financial Modeling",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Financial Modeling is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microsoft Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Microsoft Excel is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "IFRS",
+      "canonical_name": "IFRS",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "IFRS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Budgeting",
+      "canonical_name": "Budgeting",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Budgeting is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Reconciliation",
+      "canonical_name": "Reconciliation",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Reconciliation is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Risk Analysis",
+      "canonical_name": "Risk Analysis",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Risk Analysis is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP FI",
+      "canonical_name": "SAP FI",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "SAP FI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Deloitte",
+      "canonical_company_name": "Deloitte",
+      "role_title": "Audit Intern",
+      "start_date": "May 2025",
+      "end_date": "May 2026",
+      "is_current": false,
+      "location": "Finance / Audit | Izmir",
+      "description": "Delivered measurable work in finance / audit using IFRS, Budgeting, Reconciliation, SAP FI. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with IFRS and Budgeting",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "IFRS",
+        "Budgeting",
+        "Reconciliation",
+        "SAP FI",
+        "Microsoft Excel",
+        "Audit"
+      ],
+      "evidence_text": "Delivered measurable work in finance / audit using IFRS, Budgeting, Reconciliation, SAP FI. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with IFRS and Budgeting Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "MSc",
+      "field": "İşletme",
+      "institution": "İTÜ",
+      "canonical_institution": "İTÜ",
+      "start_year": 2016,
+      "end_year": 2018,
+      "gpa": 3.14,
+      "evidence_text": "MSc - İşletme, İTÜ (2016-2018)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "MSc",
+      "field": "Accounting and Finance",
+      "institution": "Koç Üniversitesi",
+      "canonical_institution": "Koç Üniversitesi",
+      "start_year": 2016,
+      "end_year": 2018,
+      "gpa": 2.84,
+      "evidence_text": "MSc - Accounting and Finance, Koç Üniversitesi (2016-2018)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "ACCA Fundamentals",
+    "SMMM Staj Başlatma",
+    "CMA Part 1"
+  ],
+  "languages": [
+    "English — C2",
+    "French — B1"
+  ],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 1,
+    "projects": 0,
+    "educations": 2,
+    "certifications": 3,
+    "languages": 2,
+    "companies": 1,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "chronological",
+    "clear_sections",
+    "easy",
+    "finance_accounting_audit"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "projects"
+  ],
+  "trap_notes": []
+}

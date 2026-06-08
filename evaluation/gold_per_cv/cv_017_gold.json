@@ -1,0 +1,245 @@
+{
+  "cv_id": "cv_017",
+  "file_name": "cv_017_chloe_bennett.pdf",
+  "candidate_name": "Chloe Bennett",
+  "email": "chloe.bennett017@example.com",
+  "phone": "+44 7504 641966",
+  "location": "Berlin / Hybrid",
+  "title": "Junior Backend Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "junior",
+  "total_experience_years": 2,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "hard",
+  "summary": "Junior Backend Developer with 2 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Git, REST API, Docker, Nextjs.",
+  "skills": [
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Git is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "REST API",
+      "canonical_name": "REST API",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "REST API is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Docker is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Nextjs",
+      "canonical_name": "Next.js",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Nextjs is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ReactJS",
+      "canonical_name": "React",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "ReactJS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "K8s",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "K8s is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "JS",
+      "canonical_name": "JavaScript",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "JS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Redis",
+      "canonical_name": "Redis",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "Redis is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Spring Boot",
+      "canonical_name": "Spring Boot",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Spring Boot is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kafka",
+      "canonical_name": "Kafka",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Kafka is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Typescript",
+      "canonical_name": "TypeScript",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Typescript is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Java",
+      "canonical_name": "Java",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "Java is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Yapı Kredi Teknoloji",
+      "canonical_company_name": "Yapı Kredi Teknoloji",
+      "role_title": "Junior Backend Developer",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Software / Fintech | Remote",
+      "description": "Delivered measurable work in software / fintech using Typescript, Git, ReactJS, Java. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with Typescript and Git",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Typescript",
+        "Git",
+        "ReactJS",
+        "Java",
+        "Nextjs",
+        "Redis",
+        "REST API"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using Typescript, Git, ReactJS, Java. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with Typescript and Git Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol Tech",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Software Engineering Intern",
+      "start_date": "Apr 2024",
+      "end_date": "Apr 2025",
+      "is_current": false,
+      "location": "Software / Fintech | Amsterdam",
+      "description": "Delivered measurable work in software / fintech using REST API, Java, Git, Docker. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 27% through process and tooling improvements",
+        "Improved reporting or service reliability with REST API and Java",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "REST API",
+        "Java",
+        "Git",
+        "Docker",
+        "K8s",
+        "Redis",
+        "Kafka"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using REST API, Java, Git, Docker. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 27% through process and tooling improvements Improved reporting or service reliability with REST API and Java Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "MSc",
+      "field": "Bilgisayar Mühendisliği",
+      "institution": "ODTÜ",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2019,
+      "end_year": null,
+      "gpa": null,
+      "evidence_text": "MSc - Bilgisayar Mühendisliği, ODTÜ",
+      "confidence": 0.88
+    },
+    {
+      "degree": "MSc",
+      "field": "Software Engineering",
+      "institution": "Koç Üniversitesi",
+      "canonical_institution": "Koç Üniversitesi",
+      "start_year": 2018,
+      "end_year": 2020,
+      "gpa": 3.18,
+      "evidence_text": "MSc - Software Engineering, Koç Üniversitesi (2018-2020)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "AWS Developer Associate"
+  ],
+  "languages": [
+    "English — Native or fluent",
+    "Turkish — B1"
+  ],
+  "expected_nodes": {
+    "skills": 13,
+    "experiences": 2,
+    "projects": 0,
+    "educations": 2,
+    "certifications": 1,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "chronological",
+    "company_skill_synonym",
+    "hard",
+    "mixed_date_format"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "projects"
+  ],
+  "trap_notes": []
+}

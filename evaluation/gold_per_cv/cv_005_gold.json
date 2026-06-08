@@ -1,0 +1,209 @@
+{
+  "cv_id": "cv_005",
+  "file_name": "cv_005_miray_tas.pdf",
+  "candidate_name": "Miray Taş",
+  "email": "miray.tas005@example.com",
+  "phone": "+90 545 524 79 30",
+  "location": "İstanbul / Şişli",
+  "title": "Kıdemli People Ops Uzmanı",
+  "role_family": "hr_talent_peopleops",
+  "seniority": "senior",
+  "total_experience_years": 9,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "skills_first",
+  "difficulty": "easy",
+  "summary": "9 yıllık deneyime sahip Kıdemli People Ops Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: SAP SuccessFactors, Onboarding, Performance Management, People Analytics.",
+  "skills": [
+    {
+      "name": "SAP SuccessFactors",
+      "canonical_name": "SAP SuccessFactors",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "SAP SuccessFactors CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Onboarding",
+      "canonical_name": "Onboarding",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "Onboarding CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Performance Management",
+      "canonical_name": "Performance Management",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Performance Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "People Analytics",
+      "canonical_name": "People Analytics",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "People Analytics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Employee Relations",
+      "canonical_name": "Employee Relations",
+      "category": "Soft Skill",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "Employee Relations CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HR Analytics",
+      "canonical_name": "HR Analytics",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "HR Analytics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Recruitment",
+      "canonical_name": "Recruitment",
+      "category": "Soft Skill",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "Recruitment CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Training",
+      "canonical_name": "Training",
+      "category": "Soft Skill",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Training CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "LC Waikiki",
+      "canonical_company_name": "LC Waikiki",
+      "role_title": "Kıdemli People Ops Uzmanı",
+      "start_date": "May 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "İnsan Kaynakları | Eskişehir",
+      "description": "İnsan Kaynakları alanında People Analytics, HR Analytics, Employee Relations, Recruitment kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "People Analytics ve HR Analytics ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "People Analytics",
+        "HR Analytics",
+        "Employee Relations",
+        "Recruitment",
+        "Training",
+        "Performance Management"
+      ],
+      "evidence_text": "İnsan Kaynakları alanında People Analytics, HR Analytics, Employee Relations, Recruitment kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı People Analytics ve HR Analytics ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Kariyer.net",
+      "canonical_company_name": "Kariyer.net",
+      "role_title": "Junior Recruiter",
+      "start_date": "Nis 2020",
+      "end_date": "Nis 2023",
+      "is_current": false,
+      "location": "İnsan Kaynakları | İzmir",
+      "description": "İnsan Kaynakları alanında Recruitment, Employee Relations, People Analytics, SAP SuccessFactors kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Recruitment ve Employee Relations ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Recruitment",
+        "Employee Relations",
+        "People Analytics",
+        "SAP SuccessFactors",
+        "Performance Management"
+      ],
+      "evidence_text": "İnsan Kaynakları alanında Recruitment, Employee Relations, People Analytics, SAP SuccessFactors kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Recruitment ve Employee Relations ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Talent Acquisition Specialist",
+      "start_date": "Oca 2017",
+      "end_date": "Oca 2020",
+      "is_current": false,
+      "location": "İnsan Kaynakları | İstanbul",
+      "description": "İnsan Kaynakları alanında Recruitment, Onboarding, Performance Management, People Analytics kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Recruitment ve Onboarding ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Recruitment",
+        "Onboarding",
+        "Performance Management",
+        "People Analytics",
+        "HR Analytics",
+        "SAP SuccessFactors",
+        "Employee Relations"
+      ],
+      "evidence_text": "İnsan Kaynakları alanında Recruitment, Onboarding, Performance Management, People Analytics kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Recruitment ve Onboarding ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "English B1"
+  ],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "ambiguous_aws_company",
+    "clear_sections",
+    "easy",
+    "hallucination_trap",
+    "hr_talent_peopleops",
+    "missing_education_year",
+    "no_project_info",
+    "skills_first"
+  ],
+  "hallucination_traps": [
+    "missing_education_year",
+    "ambiguous_aws_company",
+    "no_project_info"
+  ],
+  "absent_fields": [
+    "certifications",
+    "projects",
+    "educations"
+  ],
+  "trap_notes": [
+    "Not: AWS Lojistik tedarikçi kayıtları ile çalışıldı; burada AWS bir bulut yetkinliği olarak kullanılmadı."
+  ]
+}

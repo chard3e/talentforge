@@ -1,0 +1,237 @@
+{
+  "cv_id": "cv_022",
+  "file_name": "cv_022_nihan_soyer.pdf",
+  "candidate_name": "Nihan Soyer",
+  "email": "nihan.soyer022@example.com",
+  "phone": "+90 546 456 84 44",
+  "location": "Bursa / Nilüfer",
+  "title": "Kıdemli Ürün Yöneticisi",
+  "role_family": "product_project_ba",
+  "seniority": "senior",
+  "total_experience_years": 8,
+  "language": "mixed",
+  "file_format": "pdf",
+  "page_count": 3,
+  "template_type": "project_heavy",
+  "difficulty": "easy",
+  "summary": "8 yıllık deneyime sahip Kıdemli Ürün Yöneticisi. Product, data ve operations ekipleriyle çalışır; core strengths: A/B Testing, Jira, Roadmap, Scrum.",
+  "skills": [
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jira",
+      "canonical_name": "Jira",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "Jira CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Roadmap",
+      "canonical_name": "Roadmap",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Roadmap CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Scrum",
+      "canonical_name": "Scrum",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Scrum CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Stakeholder Management",
+      "canonical_name": "Stakeholder Management",
+      "category": "Soft Skill",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Stakeholder Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Kıdemli Ürün Yöneticisi",
+      "start_date": "Eyl 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Ürün / İş Analizi | İzmir",
+      "description": "Ürün / İş Analizi alanında A/B Testing, Jira, Roadmap, SQL ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %31 azalttı",
+        "A/B Testing ve Jira kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "A/B Testing",
+        "Jira",
+        "Roadmap",
+        "SQL",
+        "Scrum",
+        "Stakeholder Management"
+      ],
+      "evidence_text": "Ürün / İş Analizi alanında A/B Testing, Jira, Roadmap, SQL ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %31 azalttı A/B Testing ve Jira kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Product Owner",
+      "start_date": "Ara 2020",
+      "end_date": "Ağu 2023",
+      "is_current": false,
+      "location": "Ürün / İş Analizi | Remote",
+      "description": "Ürün / İş Analizi alanında Stakeholder Management, SQL, Jira, A/B Testing ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %31 azalttı",
+        "Stakeholder Management ve SQL kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Stakeholder Management",
+        "SQL",
+        "Jira",
+        "A/B Testing"
+      ],
+      "evidence_text": "Ürün / İş Analizi alanında Stakeholder Management, SQL, Jira, A/B Testing ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %31 azalttı Stakeholder Management ve SQL kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Kıdemli Ürün Yöneticisi",
+      "start_date": "Oca 2018",
+      "end_date": "Eyl 2020",
+      "is_current": false,
+      "location": "Ürün / İş Analizi | İzmir",
+      "description": "Ürün / İş Analizi alanında Jira, Stakeholder Management, Scrum, A/B Testing ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %18 azalttı",
+        "Jira ve Stakeholder Management kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Jira",
+        "Stakeholder Management",
+        "Scrum",
+        "A/B Testing",
+        "Roadmap",
+        "SQL"
+      ],
+      "evidence_text": "Ürün / İş Analizi alanında Jira, Stakeholder Management, Scrum, A/B Testing ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %18 azalttı Jira ve Stakeholder Management kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "Clinical Research Data Review",
+      "description": "Clinical Research Data Review için project owner/contributor rolünde çalıştı; business outcome ve operasyonel takip hedeflendi.",
+      "role": "Project Owner",
+      "technologies": [
+        "Scrum",
+        "Jira",
+        "Roadmap",
+        "A/B Testing",
+        "Stakeholder Management",
+        "SQL"
+      ],
+      "skills_used": [
+        "Scrum",
+        "Jira",
+        "Roadmap",
+        "A/B Testing",
+        "Stakeholder Management",
+        "SQL"
+      ],
+      "start_date": "2022-09",
+      "end_date": "2022-12",
+      "url": null,
+      "project_type": "academic_thesis_research",
+      "evidence_text": "Clinical Research Data Review projesinde Scrum, Jira, Roadmap kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Academic Survey Dataset",
+      "description": "Academic Survey Dataset için project owner/contributor rolünde çalıştı; business outcome ve operasyonel takip hedeflendi.",
+      "role": "Analyst",
+      "technologies": [
+        "A/B Testing",
+        "SQL",
+        "Jira",
+        "Scrum",
+        "Roadmap"
+      ],
+      "skills_used": [
+        "A/B Testing",
+        "SQL",
+        "Jira",
+        "Scrum",
+        "Roadmap"
+      ],
+      "start_date": "2022-09",
+      "end_date": "2022-12",
+      "url": null,
+      "project_type": "academic_thesis_research",
+      "evidence_text": "Academic Survey Dataset projesinde A/B Testing, SQL, Jira kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "Pragmatic Product Management",
+    "IIBA ECBA",
+    "Professional Scrum Product Owner I"
+  ],
+  "languages": [
+    "Türkçe native",
+    "İngilizce ileri",
+    "Almanca başlangıç"
+  ],
+  "expected_nodes": {
+    "skills": 6,
+    "experiences": 3,
+    "projects": 2,
+    "educations": 0,
+    "certifications": 3,
+    "languages": 3,
+    "companies": 3,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "low_skill_count",
+    "product_project_ba",
+    "project_heavy",
+    "senior_title_weak_skills"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "educations"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,235 @@
+{
+  "cv_id": "cv_069",
+  "file_name": "cv_069_daniel_price.docx",
+  "candidate_name": "Daniel Price",
+  "email": "daniel.price069@example.com",
+  "phone": "+44 7409 934646",
+  "location": "London / Remote",
+  "title": "Senior Account Executive",
+  "role_family": "sales_customer_success_crm",
+  "seniority": "senior",
+  "total_experience_years": 9,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 3,
+  "template_type": "chronological",
+  "difficulty": "easy",
+  "summary": "Senior Account Executive with 9 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Customer Success, Pipeline Management, HubSpot, Renewal Management.",
+  "skills": [
+    {
+      "name": "Customer Success",
+      "canonical_name": "Customer Success",
+      "category": "Soft Skill",
+      "years_experience": 9,
+      "level": 5,
+      "evidence_text": "Customer Success is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Pipeline Management",
+      "canonical_name": "Pipeline Management",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 4,
+      "evidence_text": "Pipeline Management is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HubSpot",
+      "canonical_name": "HubSpot",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "HubSpot is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Renewal Management",
+      "canonical_name": "Renewal Management",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "Renewal Management is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "B2B Sales",
+      "canonical_name": "B2B Sales",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "B2B Sales is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "Excel is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CRM",
+      "canonical_name": "CRM",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "CRM is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Presentation",
+      "canonical_name": "Presentation",
+      "category": "Soft Skill",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Presentation is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Salesforce",
+      "canonical_name": "Salesforce",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Salesforce is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Senior Account Executive",
+      "start_date": "May 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Sales / Customer Success | Amsterdam",
+      "description": "Delivered measurable work in sales / customer success using HubSpot, Excel, Salesforce, Customer Success. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with HubSpot and Excel",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "HubSpot",
+        "Excel",
+        "Salesforce",
+        "Customer Success",
+        "Presentation",
+        "Renewal Management"
+      ],
+      "evidence_text": "Delivered measurable work in sales / customer success using HubSpot, Excel, Salesforce, Customer Success. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with HubSpot and Excel Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Segmentify",
+      "canonical_company_name": "Segmentify",
+      "role_title": "Senior Account Executive",
+      "start_date": "Apr 2020",
+      "end_date": "Apr 2023",
+      "is_current": false,
+      "location": "Sales / Customer Success | London",
+      "description": "Delivered measurable work in sales / customer success using Excel, B2B Sales, Presentation, Renewal Management. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with Excel and B2B Sales",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Excel",
+        "B2B Sales",
+        "Presentation",
+        "Renewal Management"
+      ],
+      "evidence_text": "Delivered measurable work in sales / customer success using Excel, B2B Sales, Presentation, Renewal Management. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with Excel and B2B Sales Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Yemeksepeti",
+      "canonical_company_name": "Yemeksepeti",
+      "role_title": "Senior Account Executive",
+      "start_date": "Jan 2017",
+      "end_date": "Jan 2020",
+      "is_current": false,
+      "location": "Sales / Customer Success | Dublin",
+      "description": "Delivered measurable work in sales / customer success using Customer Success, HubSpot, Salesforce, Renewal Management. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with Customer Success and HubSpot",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Customer Success",
+        "HubSpot",
+        "Salesforce",
+        "Renewal Management",
+        "SQL",
+        "B2B Sales"
+      ],
+      "evidence_text": "Delivered measurable work in sales / customer success using Customer Success, HubSpot, Salesforce, Renewal Management. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with Customer Success and HubSpot Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "Fraud Detection Pipeline",
+      "description": "Led or contributed to Fraud Detection Pipeline, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Analyst",
+      "technologies": [
+        "B2B Sales",
+        "Pipeline Management",
+        "Customer Success"
+      ],
+      "skills_used": [
+        "B2B Sales",
+        "Pipeline Management",
+        "Customer Success"
+      ],
+      "start_date": "2023-07",
+      "end_date": null,
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Fraud Detection Pipeline project used B2B Sales, Pipeline Management, Customer Success and delivered documented outputs.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "English — Professional working proficiency"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 3,
+    "projects": 1,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 1,
+    "companies": 3,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "chronological",
+    "clear_sections",
+    "easy",
+    "sales_customer_success_crm"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "educations"
+  ],
+  "trap_notes": []
+}

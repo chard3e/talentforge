@@ -1,0 +1,263 @@
+{
+  "cv_id": "cv_088",
+  "file_name": "cv_088_james_powell.docx",
+  "candidate_name": "James Powell",
+  "email": "james.powell088@example.com",
+  "phone": "+44 7475 101471",
+  "location": "Amsterdam / Remote",
+  "title": "Full Stack Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "mid",
+  "total_experience_years": 5,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "two_column_modern",
+  "difficulty": "medium",
+  "summary": "Full Stack Developer with 5 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Kubernetes, Python, Git, Node.js.",
+  "skills": [
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Kubernetes is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 2,
+      "evidence_text": "Git is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Node.js",
+      "canonical_name": "Node.js",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Node.js is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "FastAPI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Spring Boot",
+      "canonical_name": "Spring Boot",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Spring Boot is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Next.js",
+      "canonical_name": "Next.js",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Next.js is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Redis",
+      "canonical_name": "Redis",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Redis is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical_name": "PostgreSQL",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "PostgreSQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "JavaScript",
+      "canonical_name": "JavaScript",
+      "category": "Programming",
+      "years_experience": 4,
+      "level": 2,
+      "evidence_text": "JavaScript is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "REST API",
+      "canonical_name": "REST API",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "REST API is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kafka",
+      "canonical_name": "Kafka",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Kafka is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "Docker is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Full Stack Developer",
+      "start_date": "Sep 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Software / Fintech | Remote",
+      "description": "Delivered measurable work in software / fintech using JavaScript, Next.js, Spring Boot, PostgreSQL. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with JavaScript and Next.js",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "JavaScript",
+        "Next.js",
+        "Spring Boot",
+        "PostgreSQL",
+        "Kafka",
+        "Kubernetes"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using JavaScript, Next.js, Spring Boot, PostgreSQL. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with JavaScript and Next.js Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Junior Backend Developer",
+      "start_date": "Nov 2022",
+      "end_date": "Jul 2024",
+      "is_current": false,
+      "location": "Software / Fintech | Istanbul",
+      "description": "Delivered measurable work in software / fintech using Next.js, Spring Boot, JavaScript, Docker. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with Next.js and Spring Boot",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Next.js",
+        "Spring Boot",
+        "JavaScript",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using Next.js, Spring Boot, JavaScript, Docker. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with Next.js and Spring Boot Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Papara Tech",
+      "canonical_company_name": "Papara",
+      "role_title": "Full Stack Developer",
+      "start_date": "Feb 2021",
+      "end_date": "Oct 2022",
+      "is_current": false,
+      "location": "Software / Fintech | Izmir",
+      "description": "Delivered measurable work in software / fintech using Next.js, JavaScript, Redis, Kubernetes. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Next.js and JavaScript",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Next.js",
+        "JavaScript",
+        "Redis",
+        "Kubernetes",
+        "REST API",
+        "Kafka",
+        "Docker"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using Next.js, JavaScript, Redis, Kubernetes. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Next.js and JavaScript Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "Bilgisayar Mühendisliği",
+      "institution": "Middle East Technical University",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2018,
+      "end_year": 2022,
+      "gpa": 3.67,
+      "evidence_text": "BSc - Bilgisayar Mühendisliği, Middle East Technical University (2018-2022)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 13,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "company_without_role",
+    "hallucination_trap",
+    "medium",
+    "missing_education_year",
+    "no_project_info",
+    "partial_missing_fields",
+    "two_column_modern"
+  ],
+  "hallucination_traps": [
+    "missing_education_year",
+    "company_without_role",
+    "no_project_info"
+  ],
+  "absent_fields": [
+    "languages",
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": [
+    "Referans notu: Papara ve Trendyol ekipleriyle toplantılara katılım sağlandı; bu kurumlarda çalışma deneyimi değildir."
+  ]
+}

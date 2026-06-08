@@ -1,0 +1,361 @@
+{
+  "cv_id": "cv_082",
+  "file_name": "cv_082_hira_gunduz.pdf",
+  "candidate_name": "Hira Gündüz",
+  "email": "hira.gunduz082@example.com",
+  "phone": "+90 541 974 98 78",
+  "location": "Eskişehir / Tepebaşı",
+  "title": "Finance Manager",
+  "role_family": "finance_accounting_audit",
+  "seniority": "lead_manager",
+  "total_experience_years": 13,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "skills_first",
+  "difficulty": "hard",
+  "summary": "13 yıllık deneyime sahip Finance Manager. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Reconciliation, Risk Analysis, SAP FI, Power BI.",
+  "skills": [
+    {
+      "name": "Reconciliation",
+      "canonical_name": "Reconciliation",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "Reconciliation CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Risk Analysis",
+      "canonical_name": "Risk Analysis",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Risk Analysis CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP FI",
+      "canonical_name": "SAP FI",
+      "category": "Tool",
+      "years_experience": 9,
+      "level": 5,
+      "evidence_text": "SAP FI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Power BI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "IFRS",
+      "canonical_name": "IFRS",
+      "category": "Tool",
+      "years_experience": 12,
+      "level": 5,
+      "evidence_text": "IFRS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Audit",
+      "canonical_name": "Audit",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "Audit CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Forecasting",
+      "canonical_name": "Forecasting",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Forecasting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Financial Modeling",
+      "canonical_name": "Financial Modeling",
+      "category": "Tool",
+      "years_experience": 13,
+      "level": 5,
+      "evidence_text": "Financial Modeling CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Budgeting",
+      "canonical_name": "Budgeting",
+      "category": "Tool",
+      "years_experience": 11,
+      "level": 5,
+      "evidence_text": "Budgeting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "PwC",
+      "canonical_company_name": "PwC",
+      "role_title": "Finance Manager",
+      "start_date": "Şub 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Finans / Denetim | Ankara",
+      "description": "Finans / Denetim alanında Budgeting, Reconciliation, Power BI, Risk Analysis kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Budgeting ve Reconciliation ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Budgeting",
+        "Reconciliation",
+        "Power BI",
+        "Risk Analysis",
+        "IFRS",
+        "Forecasting",
+        "SQL"
+      ],
+      "evidence_text": "Finans / Denetim alanında Budgeting, Reconciliation, Power BI, Risk Analysis kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Budgeting ve Reconciliation ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Mavi",
+      "canonical_company_name": "Mavi",
+      "role_title": "Kıdemli Denetim Uzmanı",
+      "start_date": "Eyl 2019",
+      "end_date": "Ara 2022",
+      "is_current": false,
+      "location": "Finans / Denetim | İstanbul",
+      "description": "Finans / Denetim alanında Reconciliation, Financial Modeling, Budgeting, Forecasting kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Reconciliation ve Financial Modeling ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Reconciliation",
+        "Financial Modeling",
+        "Budgeting",
+        "Forecasting",
+        "Power BI",
+        "Risk Analysis",
+        "IFRS"
+      ],
+      "evidence_text": "Finans / Denetim alanında Reconciliation, Financial Modeling, Budgeting, Forecasting kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Reconciliation ve Financial Modeling ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Garanti BBVA",
+      "canonical_company_name": "Garanti BBVA",
+      "role_title": "Kıdemli Denetim Uzmanı",
+      "start_date": "03.2016",
+      "end_date": "06.2019",
+      "is_current": false,
+      "location": "Finans / Denetim | İstanbul",
+      "description": "Finans / Denetim alanında Audit, IFRS, Reconciliation, Budgeting kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Audit ve IFRS ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Audit",
+        "IFRS",
+        "Reconciliation",
+        "Budgeting",
+        "Forecasting",
+        "Risk Analysis",
+        "Excel"
+      ],
+      "evidence_text": "Finans / Denetim alanında Audit, IFRS, Reconciliation, Budgeting kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Audit ve IFRS ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Akbank",
+      "canonical_company_name": "Akbank",
+      "role_title": "Junior Muhasebe Uzmanı",
+      "start_date": "11.2012",
+      "end_date": "02.2016",
+      "is_current": false,
+      "location": "Finans / Denetim | Antalya",
+      "description": "Finans / Denetim alanında SQL, SAP FI, Risk Analysis, Audit kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "SQL ve SAP FI ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "SQL",
+        "SAP FI",
+        "Risk Analysis",
+        "Audit",
+        "Forecasting",
+        "Reconciliation",
+        "Financial Modeling"
+      ],
+      "evidence_text": "Finans / Denetim alanında SQL, SAP FI, Risk Analysis, Audit kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı SQL ve SAP FI ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "İşletme",
+      "institution": "ODTÜ",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2019,
+      "end_year": 2023,
+      "gpa": 2.88,
+      "evidence_text": "Lisans - İşletme, ODTÜ (2019-2023)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Special Analysis Package",
+      "description": "Special Analysis Package projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "Excel",
+        "Forecasting",
+        "Reconciliation",
+        "Financial Modeling"
+      ],
+      "skills_used": [
+        "Excel",
+        "Forecasting",
+        "Reconciliation",
+        "Financial Modeling"
+      ],
+      "start_date": "2022-05",
+      "end_date": null,
+      "url": null,
+      "project_type": "ambiguous_project_text",
+      "evidence_text": "Special Analysis Package projesinde Excel, Forecasting, Reconciliation kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    },
+    {
+      "name": "Special Analysis Package",
+      "description": "Special Analysis Package projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Reconciliation",
+        "Risk Analysis",
+        "Financial Modeling",
+        "SQL"
+      ],
+      "skills_used": [
+        "Reconciliation",
+        "Risk Analysis",
+        "Financial Modeling",
+        "SQL"
+      ],
+      "start_date": "2023-03",
+      "end_date": "2023-06",
+      "url": "https://github.com/example/special_analysis_package",
+      "project_type": "ambiguous_project_text",
+      "evidence_text": "Special Analysis Package projesinde Reconciliation, Risk Analysis, Financial Modeling kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    },
+    {
+      "name": "Special Analysis Package",
+      "description": "Special Analysis Package projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "Risk Analysis",
+        "Financial Modeling",
+        "Audit",
+        "Budgeting",
+        "Excel",
+        "Forecasting"
+      ],
+      "skills_used": [
+        "Risk Analysis",
+        "Financial Modeling",
+        "Audit",
+        "Budgeting",
+        "Excel",
+        "Forecasting"
+      ],
+      "start_date": "2022-04",
+      "end_date": "2022-08",
+      "url": null,
+      "project_type": "ambiguous_project_text",
+      "evidence_text": "Special Analysis Package projesinde Risk Analysis, Financial Modeling, Audit kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    },
+    {
+      "name": "Legacy Cleanup Effort",
+      "description": "Legacy Cleanup Effort projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "Audit",
+        "Excel",
+        "Financial Modeling"
+      ],
+      "skills_used": [
+        "Audit",
+        "Excel",
+        "Financial Modeling"
+      ],
+      "start_date": "2021-07",
+      "end_date": "2021-11",
+      "url": "https://github.com/example/legacy_cleanup_effort",
+      "project_type": "ambiguous_project_text",
+      "evidence_text": "Legacy Cleanup Effort projesinde Audit, Excel, Financial Modeling kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — Orta-İleri (B2)",
+    "Almanca — Başlangıç (A2)"
+  ],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 4,
+    "projects": 4,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 3,
+    "companies": 4,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "embedded_skills",
+    "finance_accounting_audit",
+    "hard",
+    "skills_first"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": []
+}

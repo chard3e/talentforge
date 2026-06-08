@@ -1,0 +1,209 @@
+{
+  "cv_id": "cv_063",
+  "file_name": "cv_063_volkan_sayar.docx",
+  "candidate_name": "Volkan Sayar",
+  "email": "volkan.sayar063@example.com",
+  "phone": "+90 532 797 45 34",
+  "location": "Remote / Türkiye",
+  "title": "Tedarik Zinciri Uzmanı",
+  "role_family": "operations_supply_logistics",
+  "seniority": "mid",
+  "total_experience_years": 4,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "one_column_clean",
+  "difficulty": "easy",
+  "summary": "4 yıllık deneyime sahip Tedarik Zinciri Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: SAP MM, Process Improvement, Excel, Logistics.",
+  "skills": [
+    {
+      "name": "SAP MM",
+      "canonical_name": "SAP MM",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "SAP MM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Process Improvement",
+      "canonical_name": "Process Improvement",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Process Improvement CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Logistics",
+      "canonical_name": "Logistics",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Logistics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Supply Chain",
+      "canonical_name": "Supply Chain",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Supply Chain CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Demand Planning",
+      "canonical_name": "Demand Planning",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Demand Planning CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Route Optimization",
+      "canonical_name": "Route Optimization",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Route Optimization CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Power BI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Warehouse Management",
+      "canonical_name": "Warehouse Management",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Warehouse Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "DHL Supply Chain",
+      "canonical_company_name": "DHL Supply Chain",
+      "role_title": "Tedarik Zinciri Uzmanı",
+      "start_date": "May 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Operasyon / Lojistik | Ankara",
+      "description": "Operasyon / Lojistik alanında Demand Planning, SQL, Process Improvement, Power BI kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Demand Planning ve SQL ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Demand Planning",
+        "SQL",
+        "Process Improvement",
+        "Power BI",
+        "Logistics"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında Demand Planning, SQL, Process Improvement, Power BI kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Demand Planning ve SQL ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol Express",
+      "canonical_company_name": "Trendyol Express",
+      "role_title": "Operasyon Stajyeri",
+      "start_date": "Şub 2022",
+      "end_date": "Şub 2024",
+      "is_current": false,
+      "location": "Operasyon / Lojistik | Eskişehir",
+      "description": "Operasyon / Lojistik alanında Power BI, Excel, Process Improvement, Supply Chain kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Power BI ve Excel ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Power BI",
+        "Excel",
+        "Process Improvement",
+        "Supply Chain"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında Power BI, Excel, Process Improvement, Supply Chain kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Power BI ve Excel ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Doktora",
+      "field": "Supply Chain Management",
+      "institution": "Yıldız Teknik Üniversitesi",
+      "canonical_institution": "Yıldız Teknik Üniversitesi",
+      "start_year": 2020,
+      "end_year": 2025,
+      "gpa": 2.75,
+      "evidence_text": "Doktora - Supply Chain Management, Yıldız Teknik Üniversitesi (2020-2025)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 2,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "ambiguous_aws_company",
+    "clear_sections",
+    "easy",
+    "hallucination_trap",
+    "iso_not_certificate",
+    "no_language_info",
+    "one_column_clean",
+    "operations_supply_logistics"
+  ],
+  "hallucination_traps": [
+    "no_language_info",
+    "ambiguous_aws_company",
+    "iso_not_certificate"
+  ],
+  "absent_fields": [
+    "languages",
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": [
+    "Not: AWS Lojistik tedarikçi kayıtları ile çalışıldı; burada AWS bir bulut yetkinliği olarak kullanılmadı.",
+    "İç doküman kodu ISO-17 revizyonu takip edildi; bu ifade bir ISO 27001 sertifikası değildir."
+  ]
+}

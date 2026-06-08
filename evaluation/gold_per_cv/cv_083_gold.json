@@ -1,0 +1,290 @@
+{
+  "cv_id": "cv_083",
+  "file_name": "cv_083_ipek_tasci.docx",
+  "candidate_name": "İpek Taşçı",
+  "email": null,
+  "phone": null,
+  "location": "İstanbul / Kadıköy",
+  "title": "Kıdemli Backend Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "senior",
+  "total_experience_years": 7,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "project_heavy",
+  "difficulty": "hard",
+  "summary": "7 yıllık deneyime sahip Kıdemli Backend Developer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Docker, REST API, Kubernetes, Next.js.",
+  "skills": [
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "REST API",
+      "canonical_name": "REST API",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 4,
+      "evidence_text": "REST API CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Next.js",
+      "canonical_name": "Next.js",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "Next.js CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical_name": "PostgreSQL",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "PostgreSQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Git CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Java",
+      "canonical_name": "Java",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Java CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Spring Boot",
+      "canonical_name": "Spring Boot",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Spring Boot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microservices",
+      "canonical_name": "Microservices",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Microservices CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kafka",
+      "canonical_name": "Kafka",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 4,
+      "evidence_text": "Kafka CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Node.js",
+      "canonical_name": "Node.js",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Node.js CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "FastAPI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Softtech",
+      "canonical_company_name": "Softtech",
+      "role_title": "Kıdemli Backend Developer",
+      "start_date": "Ağu 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yazılım / Finans Teknolojileri | İstanbul",
+      "description": "Yazılım / Finans Teknolojileri alanında Node.js, REST API, PostgreSQL, Kubernetes kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Node.js ve REST API ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Node.js",
+        "REST API",
+        "PostgreSQL",
+        "Kubernetes",
+        "Microservices"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Node.js, REST API, PostgreSQL, Kubernetes kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Node.js ve REST API ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Kıdemli Backend Developer",
+      "start_date": "09.2022",
+      "end_date": "06.2024",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | İzmir",
+      "description": "Yazılım / Finans Teknolojileri alanında Spring Boot, Docker, FastAPI, Python kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Spring Boot ve Docker ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Spring Boot",
+        "Docker",
+        "FastAPI",
+        "Python",
+        "Java",
+        "Microservices",
+        "PostgreSQL"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Spring Boot, Docker, FastAPI, Python kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Spring Boot ve Docker ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Full Stack Developer",
+      "start_date": "Eyl 2020",
+      "end_date": "Haz 2022",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | Remote",
+      "description": "Yazılım / Finans Teknolojileri alanında Spring Boot, Docker, Kafka, FastAPI kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Spring Boot ve Docker ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Spring Boot",
+        "Docker",
+        "Kafka",
+        "FastAPI",
+        "PostgreSQL",
+        "REST API"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Spring Boot, Docker, Kafka, FastAPI kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Spring Boot ve Docker ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Junior Backend Developer",
+      "start_date": "Kas 2018",
+      "end_date": "Ağu 2020",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | İstanbul",
+      "description": "Yazılım / Finans Teknolojileri alanında Kubernetes, Microservices, Spring Boot, Next.js kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Kubernetes ve Microservices ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Kubernetes",
+        "Microservices",
+        "Spring Boot",
+        "Next.js",
+        "Java"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Kubernetes, Microservices, Spring Boot, Next.js kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Kubernetes ve Microservices ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Software Engineering",
+      "institution": "Istanbul Technical University",
+      "canonical_institution": "Istanbul Technical University",
+      "start_year": 2016,
+      "end_year": null,
+      "gpa": null,
+      "evidence_text": "Lisans - Software Engineering, Istanbul Technical University",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — Orta-İleri (B2)",
+    "Almanca — Başlangıç (A2)"
+  ],
+  "expected_nodes": {
+    "skills": 13,
+    "experiences": 4,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 3,
+    "companies": 4,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "hallucination_trap",
+    "hard",
+    "missing_education_year",
+    "missing_email",
+    "missing_phone",
+    "mixed_date_format",
+    "project_heavy"
+  ],
+  "hallucination_traps": [
+    "missing_phone",
+    "missing_education_year",
+    "missing_email"
+  ],
+  "absent_fields": [
+    "email",
+    "phone",
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": []
+}

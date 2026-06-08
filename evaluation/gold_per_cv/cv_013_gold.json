@@ -1,0 +1,204 @@
+{
+  "cv_id": "cv_013",
+  "file_name": "cv_013_gokce_tuna.docx",
+  "candidate_name": "Gökçe Tuna",
+  "email": "gokce.tuna013@example.com",
+  "phone": null,
+  "location": "İzmir / Bornova",
+  "title": "Junior Makine Öğrenmesi Mühendisi",
+  "role_family": "ml_ai_mlops",
+  "seniority": "junior",
+  "total_experience_years": 1,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "academic_research",
+  "difficulty": "hard",
+  "summary": "1 yıllık deneyime sahip Junior Makine Öğrenmesi Mühendisi. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: PyTorch, FastAPI, Computer Vision, Scikit-learn.",
+  "skills": [
+    {
+      "name": "PyTorch",
+      "canonical_name": "PyTorch",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "PyTorch CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "FastAPI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Computer Vision",
+      "canonical_name": "Computer Vision",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Computer Vision CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical_name": "Scikit-learn",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Scikit-learn CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Machine Learning",
+      "canonical_name": "Machine Learning",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Machine Learning CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Feature Engineering",
+      "canonical_name": "Feature Engineering",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Feature Engineering CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLOps",
+      "canonical_name": "MLOps",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "MLOps CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NLP",
+      "canonical_name": "NLP",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "NLP CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Junior Makine Öğrenmesi Mühendisi",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yapay Zeka / Modelleme | İstanbul",
+      "description": "Yapay Zeka / Modelleme alanında Machine Learning, MLOps, Feature Engineering, NLP kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Machine Learning ve MLOps ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Machine Learning",
+        "MLOps",
+        "Feature Engineering",
+        "NLP",
+        "Scikit-learn",
+        "PyTorch"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında Machine Learning, MLOps, Feature Engineering, NLP kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Machine Learning ve MLOps ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Artificial Intelligence Engineering",
+      "institution": "Anadolu Üniversitesi",
+      "canonical_institution": "Anadolu Üniversitesi",
+      "start_year": 2017,
+      "end_year": 2021,
+      "gpa": null,
+      "evidence_text": "Lisans - Artificial Intelligence Engineering, Anadolu Üniversitesi (2017-2021)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Real-time Order Service",
+      "description": "Real-time Order Service projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "Scikit-learn",
+        "Computer Vision",
+        "PyTorch",
+        "MLOps",
+        "Feature Engineering",
+        "FastAPI"
+      ],
+      "skills_used": [
+        "Scikit-learn",
+        "Computer Vision",
+        "PyTorch",
+        "MLOps",
+        "Feature Engineering",
+        "FastAPI"
+      ],
+      "start_date": "2025-01",
+      "end_date": "2025-09",
+      "url": "https://github.com/example/real_time_order_service",
+      "project_type": "software_ai_data",
+      "evidence_text": "Real-time Order Service projesinde Scikit-learn, Computer Vision, PyTorch kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — İleri (C1)"
+  ],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 1,
+    "projects": 1,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 1,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "academic_research",
+    "company_skill_synonym",
+    "embedded_skills",
+    "hallucination_trap",
+    "hard",
+    "missing_education_year",
+    "missing_phone",
+    "ml_ai_mlops"
+  ],
+  "hallucination_traps": [
+    "missing_phone",
+    "missing_education_year"
+  ],
+  "absent_fields": [
+    "phone",
+    "certifications"
+  ],
+  "trap_notes": []
+}

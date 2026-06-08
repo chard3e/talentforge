@@ -1,0 +1,191 @@
+{
+  "cv_id": "cv_019",
+  "file_name": "cv_019_kemal_ugur.pdf",
+  "candidate_name": "Kemal Uğur",
+  "email": "kemal.ugur019@example.com",
+  "phone": "+90 553 978 21 51",
+  "location": "İstanbul / Ataşehir",
+  "title": "Siber Güvenlik Stajyeri",
+  "role_family": "cybersecurity_grc_privacy",
+  "seniority": "intern",
+  "total_experience_years": 0.5,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "easy",
+  "summary": "0.5 yıllık deneyime sahip Siber Güvenlik Stajyeri. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: SIEM, Incident Response, SOC, KVKK.",
+  "skills": [
+    {
+      "name": "SIEM",
+      "canonical_name": "SIEM",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 2,
+      "evidence_text": "SIEM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Incident Response",
+      "canonical_name": "Incident Response",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 1,
+      "evidence_text": "Incident Response CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SOC",
+      "canonical_name": "SOC",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 1,
+      "evidence_text": "SOC CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "KVKK",
+      "canonical_name": "KVKK",
+      "category": "Compliance",
+      "years_experience": 0,
+      "level": 2,
+      "evidence_text": "KVKK CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Risk Assessment",
+      "canonical_name": "Risk Assessment",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 3,
+      "evidence_text": "Risk Assessment CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Nessus",
+      "canonical_name": "Nessus",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 3,
+      "evidence_text": "Nessus CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 0,
+      "level": 3,
+      "evidence_text": "Linux CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Firewall",
+      "canonical_name": "Firewall",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 1,
+      "evidence_text": "Firewall CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Splunk",
+      "canonical_name": "Splunk",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 3,
+      "evidence_text": "Splunk CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Cyberwise",
+      "canonical_company_name": "Cyberwise",
+      "role_title": "Siber Güvenlik Stajyeri",
+      "start_date": "Kas 2025",
+      "end_date": "May 2026",
+      "is_current": false,
+      "location": "Güvenlik / GRC | Bursa",
+      "description": "Güvenlik / GRC alanında SOC, KVKK, Linux, Nessus kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "SOC ve KVKK ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "SOC",
+        "KVKK",
+        "Linux",
+        "Nessus",
+        "Risk Assessment"
+      ],
+      "evidence_text": "Güvenlik / GRC alanında SOC, KVKK, Linux, Nessus kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı SOC ve KVKK ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Yüksek Lisans",
+      "field": "Management Information Systems",
+      "institution": "Anadolu Üniversitesi",
+      "canonical_institution": "Anadolu Üniversitesi",
+      "start_year": 2018,
+      "end_year": 2020,
+      "gpa": 2.94,
+      "evidence_text": "Yüksek Lisans - Management Information Systems, Anadolu Üniversitesi (2018-2020)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fraud Detection Pipeline",
+      "description": "Fraud Detection Pipeline projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "SOC",
+        "Linux",
+        "Firewall",
+        "Splunk"
+      ],
+      "skills_used": [
+        "SOC",
+        "Linux",
+        "Firewall",
+        "Splunk"
+      ],
+      "start_date": "2025-05",
+      "end_date": null,
+      "url": "https://github.com/example/fraud_detection_pipeline",
+      "project_type": "software_ai_data",
+      "evidence_text": "Fraud Detection Pipeline projesinde SOC, Linux, Firewall kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "Certified Ethical Hacker"
+  ],
+  "languages": [
+    "Türkçe — Ana dil",
+    "English B1"
+  ],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 1,
+    "projects": 1,
+    "educations": 1,
+    "certifications": 1,
+    "languages": 2,
+    "companies": 1,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "clear_sections",
+    "cybersecurity_grc_privacy",
+    "easy"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [],
+  "trap_notes": []
+}

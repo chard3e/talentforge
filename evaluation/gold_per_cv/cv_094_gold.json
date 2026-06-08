@@ -1,0 +1,223 @@
+{
+  "cv_id": "cv_094",
+  "file_name": "cv_094_ryan_griffin.pdf",
+  "candidate_name": "Ryan Griffin",
+  "email": "ryan.griffin094@example.com",
+  "phone": "+44 7790 830683",
+  "location": "Amsterdam / Remote",
+  "title": "CRM Specialist",
+  "role_family": "sales_customer_success_crm",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "academic_research",
+  "difficulty": "easy",
+  "summary": "CRM Specialist with 3 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Pipeline Management, B2B Sales, CRM, SQL.",
+  "skills": [
+    {
+      "name": "Pipeline Management",
+      "canonical_name": "Pipeline Management",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Pipeline Management is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "B2B Sales",
+      "canonical_name": "B2B Sales",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "B2B Sales is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CRM",
+      "canonical_name": "CRM",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "CRM is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SFDC",
+      "canonical_name": "Salesforce",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "SFDC is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HubSpot",
+      "canonical_name": "HubSpot",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "HubSpot is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Customer Success",
+      "canonical_name": "Customer Success",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Customer Success is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Presentation",
+      "canonical_name": "Presentation",
+      "category": "Soft Skill",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Presentation is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Renewal Management",
+      "canonical_name": "Renewal Management",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Renewal Management is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MS Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "MS Excel is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Segmentify",
+      "canonical_company_name": "Segmentify",
+      "role_title": "CRM Specialist",
+      "start_date": "Nov 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Sales / Customer Success | Istanbul",
+      "description": "Delivered measurable work in sales / customer success using Pipeline Management, HubSpot, MS Excel, SQL. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Pipeline Management and HubSpot",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Pipeline Management",
+        "HubSpot",
+        "MS Excel",
+        "SQL",
+        "Renewal Management",
+        "Presentation",
+        "Customer Success"
+      ],
+      "evidence_text": "Delivered measurable work in sales / customer success using Pipeline Management, HubSpot, MS Excel, SQL. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Pipeline Management and HubSpot Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Insider",
+      "canonical_company_name": "Insider",
+      "role_title": "CRM Specialist",
+      "start_date": "Apr 2023",
+      "end_date": "Oct 2024",
+      "is_current": false,
+      "location": "Sales / Customer Success | Istanbul",
+      "description": "Delivered measurable work in sales / customer success using MS Excel, B2B Sales, Customer Success, CRM. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with MS Excel and B2B Sales",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "MS Excel",
+        "B2B Sales",
+        "Customer Success",
+        "CRM"
+      ],
+      "evidence_text": "Delivered measurable work in sales / customer success using MS Excel, B2B Sales, Customer Success, CRM. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with MS Excel and B2B Sales Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "Marketing",
+      "institution": "Middle East Technical University",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2015,
+      "end_year": 2019,
+      "gpa": 2.94,
+      "evidence_text": "BSc - Marketing, Middle East Technical University (2015-2019)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Real-time Order Service",
+      "description": "Led or contributed to Real-time Order Service, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Project Owner",
+      "technologies": [
+        "Presentation",
+        "MS Excel",
+        "Renewal Management"
+      ],
+      "skills_used": [
+        "Presentation",
+        "MS Excel",
+        "Renewal Management"
+      ],
+      "start_date": "2023-08",
+      "end_date": "2023-12",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Real-time Order Service project used Presentation, MS Excel, Renewal Management and delivered documented outputs.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "English — C1",
+    "German — A2"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 2,
+    "projects": 1,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "academic_research",
+    "clear_sections",
+    "easy",
+    "sales_customer_success_crm"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": []
+}

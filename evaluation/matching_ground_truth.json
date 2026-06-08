@@ -1,368 +1,1082 @@
 [
   {
-    "query_id": "q_backend_java",
-    "query_text": "Java Spring Boot PostgreSQL Redis Kafka Docker ve Microservices zorunlu olan senior backend developer arıyoruz.",
-    "strong_expected": [
-      {
-        "cv_id": "cv_063",
-        "candidate_name": "Daniel Taylor",
-        "title": "Senior Backend Developer"
-      }
+    "query_id": "job_001",
+    "title": "Senior Backend Engineer",
+    "query_text": "Senior backend engineer arıyoruz; Java Spring Boot PostgreSQL Redis Kafka Docker Microservices zorunlu, Kubernetes ve AWS iyi olur.",
+    "must_have_skills": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Redis",
+      "Kafka",
+      "Docker",
+      "Microservices"
     ],
-    "partial_expected": [
-      {
-        "cv_id": "cv_007",
-        "candidate_name": "İrem Şahin",
-        "title": "Junior Backend Developer"
-      },
-      {
-        "cv_id": "cv_086",
-        "candidate_name": "Can Şahin",
-        "title": "Senior Full Stack Developer"
-      }
+    "nice_to_have_skills": [
+      "Kubernetes",
+      "AWS"
+    ],
+    "seniority": "senior",
+    "min_experience_years": 5,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_043",
+      "cv_083",
+      "cv_031",
+      "cv_046",
+      "cv_088",
+      "cv_078",
+      "cv_052",
+      "cv_017"
+    ],
+    "expected_relevant_matches": [
+      "cv_018",
+      "cv_099",
+      "cv_021",
+      "cv_096",
+      "cv_086",
+      "cv_070",
+      "cv_014",
+      "cv_084"
+    ],
+    "expected_non_matches": [
+      "cv_098",
+      "cv_097",
+      "cv_093",
+      "cv_090",
+      "cv_089"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
     ]
   },
   {
-    "query_id": "q_ml_ai",
-    "query_text": "Python PyTorch TensorFlow MLOps MLflow FastAPI ve Docker bilen ML AI engineer arıyoruz.",
-    "strong_expected": [
-      {
-        "cv_id": "cv_012",
-        "candidate_name": "Kerem Kaplan",
-        "title": "Senior Data Scientist"
-      },
-      {
-        "cv_id": "cv_022",
-        "candidate_name": "Yasemin Uçar",
-        "title": "AI Product Analytics Manager"
-      },
-      {
-        "cv_id": "cv_040",
-        "candidate_name": "Sophia Wilson",
-        "title": "ML Tech Lead"
-      },
-      {
-        "cv_id": "cv_066",
-        "candidate_name": "Tuğçe Avcı",
-        "title": "Veri Analisti"
-      },
-      {
-        "cv_id": "cv_070",
-        "candidate_name": "Lara Arslan",
-        "title": "Junior Data Analyst"
-      },
-      {
-        "cv_id": "cv_092",
-        "candidate_name": "Gökhan Arslan",
-        "title": "Senior ML Engineer"
-      }
+    "query_id": "job_002",
+    "title": "Full Stack Product Developer",
+    "query_text": "React Next.js TypeScript Node.js bilen full stack geliştirici arıyoruz. PostgreSQL ve CI/CD artı puan.",
+    "must_have_skills": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Node.js"
     ],
-    "partial_expected": []
-  },
-  {
-    "query_id": "q_devops",
-    "query_text": "AWS Kubernetes Docker Terraform Jenkins Prometheus Grafana bilen DevOps mühendisi arıyoruz.",
-    "strong_expected": [
-      {
-        "cv_id": "cv_028",
-        "candidate_name": "Buse Koç",
-        "title": "DevOps Team Lead"
-      },
-      {
-        "cv_id": "cv_042",
-        "candidate_name": "Defne Avcı",
-        "title": "Senior DevOps Engineer"
-      },
-      {
-        "cv_id": "cv_082",
-        "candidate_name": "Tuna Erdoğan",
-        "title": "DevOps Engineer"
-      },
-      {
-        "cv_id": "cv_094",
-        "candidate_name": "Bora Koç",
-        "title": "Senior Cyber Security Specialist"
-      }
+    "nice_to_have_skills": [
+      "PostgreSQL",
+      "CI/CD"
     ],
-    "partial_expected": []
-  },
-  {
-    "query_id": "q_frontend",
-    "query_text": "React Next.js TypeScript Redux Tailwind ve test yazabilen frontend developer arıyoruz.",
-    "strong_expected": [],
-    "partial_expected": [
-      {
-        "cv_id": "cv_004",
-        "candidate_name": "Fatma Turan",
-        "title": "Junior Full Stack Developer"
-      },
-      {
-        "cv_id": "cv_031",
-        "candidate_name": "Arda Eren",
-        "title": "Backend Developer"
-      },
-      {
-        "cv_id": "cv_049",
-        "candidate_name": "Aylin Uçar",
-        "title": "Full Stack Developer"
-      },
-      {
-        "cv_id": "cv_053",
-        "candidate_name": "Elif Bulut",
-        "title": "Senior Backend Developer"
-      },
-      {
-        "cv_id": "cv_071",
-        "candidate_name": "Tuna Aydın",
-        "title": "Junior Backend Developer"
-      },
-      {
-        "cv_id": "cv_098",
-        "candidate_name": "Lara Bulut",
-        "title": "Tech Lead Backend"
-      }
+    "seniority": "mid",
+    "min_experience_years": 3,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_031",
+      "cv_018",
+      "cv_100",
+      "cv_046",
+      "cv_045",
+      "cv_017",
+      "cv_088",
+      "cv_083"
+    ],
+    "expected_relevant_matches": [
+      "cv_078"
+    ],
+    "expected_non_matches": [
+      "cv_098",
+      "cv_097",
+      "cv_094",
+      "cv_093",
+      "cv_090"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
     ]
   },
   {
-    "query_id": "q_cyber",
-    "query_text": "SOC SIEM Splunk Linux Firewall Incident Response ISO 27001 bilen cybersecurity analyst arıyoruz.",
-    "strong_expected": [
-      {
-        "cv_id": "cv_059",
-        "candidate_name": "Yusuf Arslan",
-        "title": "Siber Güvenlik Uzmanı"
-      },
-      {
-        "cv_id": "cv_061",
-        "candidate_name": "Baran Sezer",
-        "title": "QA Automation Engineer"
-      },
-      {
-        "cv_id": "cv_077",
-        "candidate_name": "Can Turan",
-        "title": "DevOps Team Lead"
-      },
-      {
-        "cv_id": "cv_083",
-        "candidate_name": "Sena Kara",
-        "title": "Senior QA Automation Engineer"
-      }
+    "query_id": "job_003",
+    "title": "Data Analyst / BI Specialist",
+    "query_text": "Power BI SQL Excel ve dashboard deneyimi zorunlu, BigQuery Tableau A/B Testing iyi olur.",
+    "must_have_skills": [
+      "Power BI",
+      "SQL",
+      "Excel"
     ],
-    "partial_expected": []
-  },
-  {
-    "query_id": "q_product",
-    "query_text": "Roadmap Jira Agile SQL A/B Testing Amplitude ve stakeholder management bilen product owner arıyoruz.",
-    "strong_expected": [
-      {
-        "cv_id": "cv_020",
-        "candidate_name": "Laura Claire",
-        "title": "Product Intern"
-      },
-      {
-        "cv_id": "cv_030",
-        "candidate_name": "Ekin Kara",
-        "title": "Business Analyst"
-      },
-      {
-        "cv_id": "cv_050",
-        "candidate_name": "Ömer Taş",
-        "title": "Junior Product Specialist"
-      },
-      {
-        "cv_id": "cv_096",
-        "candidate_name": "Lara Demir",
-        "title": "Product Manager"
-      }
+    "nice_to_have_skills": [
+      "BigQuery",
+      "Tableau",
+      "A/B Testing"
     ],
-    "partial_expected": [
-      {
-        "cv_id": "cv_021",
-        "candidate_name": "Defne Çetin",
-        "title": "Business Analyst"
-      },
-      {
-        "cv_id": "cv_023",
-        "candidate_name": "Ekin Turan",
-        "title": "Stajyer İş Analisti"
-      },
-      {
-        "cv_id": "cv_041",
-        "candidate_name": "Emir Uçar",
-        "title": "Senior Product Manager"
-      },
-      {
-        "cv_id": "cv_095",
-        "candidate_name": "Ekin Kaplan",
-        "title": "Kıdemli İş Analisti"
-      }
+    "seniority": "mid",
+    "min_experience_years": 2,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_085",
+      "cv_080",
+      "cv_077",
+      "cv_055",
+      "cv_044",
+      "cv_004",
+      "cv_062",
+      "cv_072"
+    ],
+    "expected_relevant_matches": [
+      "cv_075",
+      "cv_064",
+      "cv_058",
+      "cv_054",
+      "cv_022",
+      "cv_048",
+      "cv_009",
+      "cv_098"
+    ],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_096",
+      "cv_095",
+      "cv_091"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
     ]
   },
   {
-    "query_id": "q_finance",
-    "query_text": "Financial Modeling Excel Power BI SQL Budgeting Forecasting ve IFRS bilen finansal analist arıyoruz.",
-    "strong_expected": [
-      {
-        "cv_id": "cv_016",
-        "candidate_name": "David Miller",
-        "title": "Muhasebe Stajyeri"
-      },
-      {
-        "cv_id": "cv_026",
-        "candidate_name": "Baran Turan",
-        "title": "Finance Manager"
-      }
+    "query_id": "job_004",
+    "title": "Analytics Manager",
+    "query_text": "BI ekibi yönetecek analytics manager arıyoruz; SQL Power BI stakeholder management ve data modeling deneyimi gerekli.",
+    "must_have_skills": [
+      "SQL",
+      "Power BI",
+      "Data Modeling"
     ],
-    "partial_expected": [
-      {
-        "cv_id": "cv_006",
-        "candidate_name": "Naz Avcı",
-        "title": "Junior Accountant"
-      },
-      {
-        "cv_id": "cv_017",
-        "candidate_name": "Gökhan Yılmaz",
-        "title": "Senior Auditor"
-      },
-      {
-        "cv_id": "cv_032",
-        "candidate_name": "Ozan Kurt",
-        "title": "Financial Analyst"
-      },
-      {
-        "cv_id": "cv_038",
-        "candidate_name": "Ekin Tekin",
-        "title": "Senior Financial Analyst"
-      },
-      {
-        "cv_id": "cv_052",
-        "candidate_name": "Yunus Kara",
-        "title": "Senior Auditor"
-      },
-      {
-        "cv_id": "cv_054",
-        "candidate_name": "Ela Kılıç",
-        "title": "Senior Auditor"
-      }
+    "nice_to_have_skills": [
+      "Stakeholder Management",
+      "Tableau"
+    ],
+    "seniority": "lead_manager",
+    "min_experience_years": 8,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_077",
+      "cv_085",
+      "cv_080",
+      "cv_072",
+      "cv_062",
+      "cv_055",
+      "cv_044",
+      "cv_004"
+    ],
+    "expected_relevant_matches": [
+      "cv_022",
+      "cv_075",
+      "cv_064",
+      "cv_058",
+      "cv_048",
+      "cv_009",
+      "cv_069",
+      "cv_094"
+    ],
+    "expected_non_matches": [
+      "cv_098",
+      "cv_093",
+      "cv_087",
+      "cv_084",
+      "cv_071"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
     ]
   },
   {
-    "query_id": "q_hr",
-    "query_text": "Recruitment Onboarding Performance Management HR Analytics ve SAP SuccessFactors bilen İK iş ortağı arıyoruz.",
-    "strong_expected": [
-      {
-        "cv_id": "cv_043",
-        "candidate_name": "Yusuf Kaya",
-        "title": "Junior Recruiter"
-      },
-      {
-        "cv_id": "cv_044",
-        "candidate_name": "Defne Öztürk",
-        "title": "Kıdemli İK İş Ortağı"
-      },
-      {
-        "cv_id": "cv_056",
-        "candidate_name": "Dilara Demir",
-        "title": "Talent Acquisition Lead"
-      },
-      {
-        "cv_id": "cv_068",
-        "candidate_name": "Emily Davis",
-        "title": "Talent Acquisition Intern"
-      }
+    "query_id": "job_005",
+    "title": "ML / MLOps Engineer",
+    "query_text": "Python PyTorch TensorFlow MLflow FastAPI Docker bilen MLOps profili arıyoruz.",
+    "must_have_skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "MLflow",
+      "Docker"
     ],
-    "partial_expected": [
-      {
-        "cv_id": "cv_001",
-        "candidate_name": "Berk Güler",
-        "title": "HR Generalist"
-      },
-      {
-        "cv_id": "cv_002",
-        "candidate_name": "Liam Taylor",
-        "title": "Junior Recruiter"
-      },
-      {
-        "cv_id": "cv_036",
-        "candidate_name": "Deniz Kurt",
-        "title": "Junior HR Specialist"
-      }
+    "nice_to_have_skills": [
+      "FastAPI",
+      "Kubernetes",
+      "NLP"
+    ],
+    "seniority": "mid",
+    "min_experience_years": 3,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_084",
+      "cv_026",
+      "cv_047",
+      "cv_010",
+      "cv_011",
+      "cv_006",
+      "cv_091",
+      "cv_100"
+    ],
+    "expected_relevant_matches": [
+      "cv_078",
+      "cv_045",
+      "cv_043",
+      "cv_031",
+      "cv_018",
+      "cv_017",
+      "cv_071",
+      "cv_099"
+    ],
+    "expected_non_matches": [
+      "cv_098",
+      "cv_097",
+      "cv_094",
+      "cv_093",
+      "cv_090"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
     ]
   },
   {
-    "query_id": "q_ux",
-    "query_text": "Figma User Research Wireframe Prototype Design System ve Usability Testing bilen UI UX designer arıyoruz.",
-    "strong_expected": [
-      {
-        "cv_id": "cv_003",
-        "candidate_name": "Berk Eren",
-        "title": "Content Intern"
-      },
-      {
-        "cv_id": "cv_069",
-        "candidate_name": "İdil Aydın",
-        "title": "Senior UI/UX Designer"
-      },
-      {
-        "cv_id": "cv_076",
-        "candidate_name": "Lara Eren",
-        "title": "Senior UI/UX Designer"
-      }
+    "query_id": "job_006",
+    "title": "AI Research Engineer",
+    "query_text": "Machine Learning NLP Computer Vision ve akademik research deneyimi olan aday arıyoruz.",
+    "must_have_skills": [
+      "Machine Learning",
+      "NLP",
+      "Computer Vision"
     ],
-    "partial_expected": [
-      {
-        "cv_id": "cv_018",
-        "candidate_name": "Arda Aslan",
-        "title": "Senior UI/UX Designer"
-      },
-      {
-        "cv_id": "cv_074",
-        "candidate_name": "Ahmet Yılmaz",
-        "title": "Junior UI/UX Designer"
-      },
-      {
-        "cv_id": "cv_084",
-        "candidate_name": "Liam Johnson",
-        "title": "Design Lead"
-      }
+    "nice_to_have_skills": [
+      "Python",
+      "PyTorch"
+    ],
+    "seniority": "junior",
+    "min_experience_years": 1,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_084",
+      "cv_047",
+      "cv_026",
+      "cv_013",
+      "cv_011",
+      "cv_010",
+      "cv_006"
+    ],
+    "expected_relevant_matches": [
+      "cv_091"
+    ],
+    "expected_non_matches": [
+      "cv_099",
+      "cv_098",
+      "cv_097",
+      "cv_096",
+      "cv_095"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
     ]
   },
   {
-    "query_id": "q_supply",
-    "query_text": "SAP MM WMS Inventory Management Demand Planning Excel Power BI bilen supply chain specialist arıyoruz.",
-    "strong_expected": [
-      {
-        "cv_id": "cv_039",
-        "candidate_name": "Yağmur Özdemir",
-        "title": "Operations Manager"
-      },
-      {
-        "cv_id": "cv_091",
-        "candidate_name": "Olivia Claire",
-        "title": "Lojistik Uzmanı"
-      }
+    "query_id": "job_007",
+    "title": "DevOps Cloud Engineer",
+    "query_text": "AWS Kubernetes Docker Terraform Jenkins Prometheus Grafana zorunlu; Helm ve Ansible iyi olur.",
+    "must_have_skills": [
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Terraform",
+      "Jenkins"
     ],
-    "partial_expected": [
-      {
-        "cv_id": "cv_027",
-        "candidate_name": "Defne Taş",
-        "title": "Lojistik Stajyeri"
-      },
-      {
-        "cv_id": "cv_029",
-        "candidate_name": "Melis Kılıç",
-        "title": "Junior Operations Specialist"
-      },
-      {
-        "cv_id": "cv_065",
-        "candidate_name": "Mehmet Bozkurt",
-        "title": "Operations Specialist"
-      },
-      {
-        "cv_id": "cv_079",
-        "candidate_name": "Bora Çetin",
-        "title": "Lojistik Uzmanı"
-      }
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Grafana",
+      "Helm"
+    ],
+    "seniority": "mid",
+    "min_experience_years": 3,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_099",
+      "cv_021",
+      "cv_014",
+      "cv_086",
+      "cv_070",
+      "cv_096",
+      "cv_035",
+      "cv_020"
+    ],
+    "expected_relevant_matches": [
+      "cv_100",
+      "cv_088",
+      "cv_084",
+      "cv_083",
+      "cv_078",
+      "cv_071",
+      "cv_052",
+      "cv_043"
+    ],
+    "expected_non_matches": [
+      "cv_098",
+      "cv_097",
+      "cv_094",
+      "cv_093",
+      "cv_090"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_008",
+    "title": "Platform Engineering Manager",
+    "query_text": "Platform ekibi yönetecek lead; Kubernetes Terraform CI/CD observability ve Linux deneyimi olmalı.",
+    "must_have_skills": [
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Linux"
+    ],
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Grafana",
+      "AWS"
+    ],
+    "seniority": "lead_manager",
+    "min_experience_years": 8,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_021",
+      "cv_099",
+      "cv_070",
+      "cv_014",
+      "cv_096",
+      "cv_086",
+      "cv_020",
+      "cv_035"
+    ],
+    "expected_relevant_matches": [
+      "cv_084",
+      "cv_071",
+      "cv_043",
+      "cv_037",
+      "cv_018",
+      "cv_016",
+      "cv_012",
+      "cv_100"
+    ],
+    "expected_non_matches": [
+      "cv_098",
+      "cv_097",
+      "cv_093",
+      "cv_087",
+      "cv_082"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_009",
+    "title": "SOC Analyst",
+    "query_text": "SOC SIEM Splunk Linux Firewall incident response bilen güvenlik analisti arıyoruz.",
+    "must_have_skills": [
+      "SOC",
+      "SIEM",
+      "Splunk",
+      "Linux",
+      "Incident Response"
+    ],
+    "nice_to_have_skills": [
+      "Firewall",
+      "Nessus"
+    ],
+    "seniority": "junior",
+    "min_experience_years": 1,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_065",
+      "cv_027",
+      "cv_019",
+      "cv_037",
+      "cv_003",
+      "cv_028",
+      "cv_016",
+      "cv_079"
+    ],
+    "expected_relevant_matches": [
+      "cv_099",
+      "cv_096",
+      "cv_070",
+      "cv_021",
+      "cv_020",
+      "cv_014"
+    ],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_098",
+      "cv_097",
+      "cv_095",
+      "cv_094"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_010",
+    "title": "Senior GRC Privacy Specialist",
+    "query_text": "KVKK GDPR ISO 27001 risk assessment ve vendor risk management bilen senior GRC profili arıyoruz.",
+    "must_have_skills": [
+      "KVKK",
+      "GDPR",
+      "ISO 27001",
+      "Risk Assessment"
+    ],
+    "nice_to_have_skills": [
+      "Vendor Risk Management",
+      "DPIA"
+    ],
+    "seniority": "senior",
+    "min_experience_years": 5,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_037",
+      "cv_079",
+      "cv_065",
+      "cv_027",
+      "cv_067",
+      "cv_028",
+      "cv_008",
+      "cv_053"
+    ],
+    "expected_relevant_matches": [],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_098",
+      "cv_097",
+      "cv_093"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_011",
+    "title": "Product Owner",
+    "query_text": "Jira Confluence user story SQL A/B testing ve stakeholder management deneyimi olan product owner arıyoruz.",
+    "must_have_skills": [
+      "Jira",
+      "Confluence",
+      "User Story",
+      "Stakeholder Management"
+    ],
+    "nice_to_have_skills": [
+      "SQL",
+      "A/B Testing"
+    ],
+    "seniority": "mid",
+    "min_experience_years": 3,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_075",
+      "cv_058",
+      "cv_009",
+      "cv_030",
+      "cv_064",
+      "cv_054",
+      "cv_048",
+      "cv_022"
+    ],
+    "expected_relevant_matches": [
+      "cv_095",
+      "cv_085",
+      "cv_080",
+      "cv_077",
+      "cv_055",
+      "cv_044",
+      "cv_032",
+      "cv_004"
+    ],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_098",
+      "cv_096",
+      "cv_089"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_012",
+    "title": "Business Analyst",
+    "query_text": "Process mapping SQL Agile ve dokümantasyon becerisi olan iş analisti arıyoruz.",
+    "must_have_skills": [
+      "Process Mapping",
+      "SQL",
+      "Agile"
+    ],
+    "nice_to_have_skills": [
+      "Jira",
+      "Confluence"
+    ],
+    "seniority": "junior",
+    "min_experience_years": 1,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_058",
+      "cv_009",
+      "cv_064",
+      "cv_048",
+      "cv_075",
+      "cv_054",
+      "cv_030",
+      "cv_022"
+    ],
+    "expected_relevant_matches": [
+      "cv_097",
+      "cv_094",
+      "cv_092",
+      "cv_090",
+      "cv_085",
+      "cv_082",
+      "cv_080",
+      "cv_077"
+    ],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_098",
+      "cv_096",
+      "cv_093"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_013",
+    "title": "Technical Recruiter",
+    "query_text": "LinkedIn Recruiter ATS onboarding recruitment ve HR analytics bilen recruiter arıyoruz.",
+    "must_have_skills": [
+      "Recruitment",
+      "LinkedIn Recruiter",
+      "ATS"
+    ],
+    "nice_to_have_skills": [
+      "Onboarding",
+      "HR Analytics"
+    ],
+    "seniority": "mid",
+    "min_experience_years": 2,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_060",
+      "cv_029",
+      "cv_049",
+      "cv_040",
+      "cv_007",
+      "cv_005",
+      "cv_059"
+    ],
+    "expected_relevant_matches": [],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_098",
+      "cv_097",
+      "cv_096"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_014",
+    "title": "Finance Analyst",
+    "query_text": "Financial modeling Excel Power BI IFRS budgeting ve forecasting bilen finans analisti arıyoruz.",
+    "must_have_skills": [
+      "Financial Modeling",
+      "Excel",
+      "IFRS",
+      "Budgeting"
+    ],
+    "nice_to_have_skills": [
+      "Power BI",
+      "Forecasting"
+    ],
+    "seniority": "mid",
+    "min_experience_years": 3,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_082",
+      "cv_033",
+      "cv_024",
+      "cv_001",
+      "cv_038",
+      "cv_090",
+      "cv_034"
+    ],
+    "expected_relevant_matches": [
+      "cv_097",
+      "cv_085",
+      "cv_080",
+      "cv_077",
+      "cv_063",
+      "cv_055",
+      "cv_044",
+      "cv_023"
+    ],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_096",
+      "cv_093",
+      "cv_088"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_015",
+    "title": "Customer Success Manager",
+    "query_text": "B2B SaaS müşteri başarısı için Salesforce HubSpot renewal management ve pipeline management bilen aday.",
+    "must_have_skills": [
+      "Salesforce",
+      "HubSpot",
+      "Customer Success",
+      "Renewal Management"
+    ],
+    "nice_to_have_skills": [
+      "Pipeline Management",
+      "B2B Sales"
+    ],
+    "seniority": "senior",
+    "min_experience_years": 5,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_069",
+      "cv_094",
+      "cv_092",
+      "cv_057",
+      "cv_056",
+      "cv_066"
+    ],
+    "expected_relevant_matches": [
+      "cv_093",
+      "cv_061",
+      "cv_081",
+      "cv_050",
+      "cv_042"
+    ],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_098",
+      "cv_097",
+      "cv_090"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_016",
+    "title": "Growth Marketing Specialist",
+    "query_text": "Google Ads Meta Ads GA4 SEO Looker Studio ve A/B testing bilen growth profili arıyoruz.",
+    "must_have_skills": [
+      "Google Ads",
+      "Meta Ads",
+      "GA4",
+      "SEO"
+    ],
+    "nice_to_have_skills": [
+      "Looker Studio",
+      "A/B Testing"
+    ],
+    "seniority": "mid",
+    "min_experience_years": 3,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_042",
+      "cv_081",
+      "cv_050",
+      "cv_093",
+      "cv_061",
+      "cv_025"
+    ],
+    "expected_relevant_matches": [
+      "cv_085",
+      "cv_080",
+      "cv_077",
+      "cv_055",
+      "cv_044",
+      "cv_032",
+      "cv_004"
+    ],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_098",
+      "cv_097",
+      "cv_096"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_017",
+    "title": "Data Privacy Counsel",
+    "query_text": "KVKK GDPR contract review data mapping DPIA ve legal research tecrübeli hukuk/uyum profili.",
+    "must_have_skills": [
+      "KVKK",
+      "GDPR",
+      "Contract Review",
+      "Data Mapping"
+    ],
+    "nice_to_have_skills": [
+      "DPIA",
+      "Legal Research"
+    ],
+    "seniority": "senior",
+    "min_experience_years": 5,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_067",
+      "cv_008",
+      "cv_095",
+      "cv_053",
+      "cv_015",
+      "cv_037"
+    ],
+    "expected_relevant_matches": [
+      "cv_079",
+      "cv_065",
+      "cv_027",
+      "cv_003",
+      "cv_028",
+      "cv_016",
+      "cv_019"
+    ],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_098",
+      "cv_097",
+      "cv_093"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_018",
+    "title": "Clinical Operations Specialist",
+    "query_text": "Clinical operations LIMS sample tracking quality control SOP ve patient data deneyimli klinik operasyon uzmanı.",
+    "must_have_skills": [
+      "Clinical Operations",
+      "LIMS",
+      "Sample Tracking",
+      "Quality Control"
+    ],
+    "nice_to_have_skills": [
+      "SOP",
+      "Patient Data"
+    ],
+    "seniority": "mid",
+    "min_experience_years": 3,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_089",
+      "cv_087",
+      "cv_076",
+      "cv_098",
+      "cv_074"
+    ],
+    "expected_relevant_matches": [],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_097",
+      "cv_096",
+      "cv_094"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_019",
+    "title": "Academic Research Assistant",
+    "query_text": "SPSS R Python research methodology literature review ve survey design bilen araştırma görevlisi.",
+    "must_have_skills": [
+      "Research Methodology",
+      "SPSS",
+      "Literature Review"
+    ],
+    "nice_to_have_skills": [
+      "R",
+      "Python",
+      "Survey Design"
+    ],
+    "seniority": "junior",
+    "min_experience_years": 1,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_073",
+      "cv_051",
+      "cv_039",
+      "cv_036"
+    ],
+    "expected_relevant_matches": [],
+    "expected_non_matches": [
+      "cv_099",
+      "cv_098",
+      "cv_097",
+      "cv_096",
+      "cv_095"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
+    ]
+  },
+  {
+    "query_id": "job_020",
+    "title": "Supply Chain Specialist",
+    "query_text": "Supply chain logistics SAP MM warehouse management route optimization ve demand planning bilen operasyon profili.",
+    "must_have_skills": [
+      "Supply Chain",
+      "Logistics",
+      "SAP MM",
+      "Warehouse Management"
+    ],
+    "nice_to_have_skills": [
+      "Route Optimization",
+      "Demand Planning",
+      "Power BI"
+    ],
+    "seniority": "mid",
+    "min_experience_years": 3,
+    "locations": [
+      "İstanbul",
+      "Remote",
+      "Hybrid"
+    ],
+    "expected_strong_matches": [
+      "cv_097",
+      "cv_063",
+      "cv_023",
+      "cv_041"
+    ],
+    "expected_relevant_matches": [],
+    "expected_non_matches": [
+      "cv_100",
+      "cv_099",
+      "cv_098",
+      "cv_096",
+      "cv_094"
+    ],
+    "metrics_to_report": [
+      "Hit@1",
+      "Hit@3",
+      "Hit@5",
+      "MRR",
+      "NDCG@10",
+      "Strong recall@10",
+      "Relevant recall@10"
     ]
   }
 ]

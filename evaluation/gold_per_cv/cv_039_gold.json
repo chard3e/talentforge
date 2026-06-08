@@ -1,0 +1,222 @@
+{
+  "cv_id": "cv_039",
+  "file_name": "cv_039_sophia_parker.docx",
+  "candidate_name": "Sophia Parker",
+  "email": "sophia.parker039@example.com",
+  "phone": null,
+  "location": "Berlin / Hybrid",
+  "title": "Research Assistant",
+  "role_family": "education_academic_research",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "project_heavy",
+  "difficulty": "medium",
+  "summary": "Research Assistant with 3 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Curriculum Design, Research Methodology, Survey Design, SPSS.",
+  "skills": [
+    {
+      "name": "Curriculum Design",
+      "canonical_name": "Curriculum Design",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Curriculum Design is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Research Methodology",
+      "canonical_name": "Research Methodology",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Research Methodology is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Survey Design",
+      "canonical_name": "Survey Design",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Survey Design is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SPSS",
+      "canonical_name": "SPSS",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "SPSS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "R",
+      "canonical_name": "R",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "R is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Moodle",
+      "canonical_name": "Moodle",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Moodle is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Literature Review",
+      "canonical_name": "Literature Review",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Literature Review is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Academic Writing",
+      "canonical_name": "Academic Writing",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Academic Writing is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Quantitative Analysis",
+      "canonical_name": "Quantitative Analysis",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Quantitative Analysis is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Marmara Üniversitesi",
+      "canonical_company_name": "Marmara Üniversitesi",
+      "role_title": "Research Assistant",
+      "start_date": "Nov 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Education / Research | Dublin",
+      "description": "Delivered measurable work in education / research using Research Methodology, Curriculum Design, R, Survey Design. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with Research Methodology and Curriculum Design",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Research Methodology",
+        "Curriculum Design",
+        "R",
+        "Survey Design",
+        "SPSS",
+        "Quantitative Analysis"
+      ],
+      "evidence_text": "Delivered measurable work in education / research using Research Methodology, Curriculum Design, R, Survey Design. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with Research Methodology and Curriculum Design Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Sabancı Üniversitesi",
+      "canonical_company_name": "Sabancı Üniversitesi",
+      "role_title": "Research Assistant Intern",
+      "start_date": "Mar 2023",
+      "end_date": "Sep 2024",
+      "is_current": false,
+      "location": "Education / Research | Ankara",
+      "description": "Delivered measurable work in education / research using SPSS, Academic Writing, Literature Review, Research Methodology. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with SPSS and Academic Writing",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "SPSS",
+        "Academic Writing",
+        "Literature Review",
+        "Research Methodology",
+        "Curriculum Design"
+      ],
+      "evidence_text": "Delivered measurable work in education / research using SPSS, Academic Writing, Literature Review, Research Methodology. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with SPSS and Academic Writing Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Associate Degree",
+      "field": "Sociology",
+      "institution": "Ege Üniversitesi",
+      "canonical_institution": "Ege Üniversitesi",
+      "start_year": 2013,
+      "end_year": 2015,
+      "gpa": 3.18,
+      "evidence_text": "Associate Degree - Sociology, Ege Üniversitesi (2013-2015)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "BSc",
+      "field": "Sociology",
+      "institution": "Middle East Technical University",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2009,
+      "end_year": 2013,
+      "gpa": 2.92,
+      "evidence_text": "BSc - Sociology, Middle East Technical University (2009-2013)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "Research Ethics Training",
+    "Pedagojik Formasyon"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 2,
+    "projects": 0,
+    "educations": 2,
+    "certifications": 2,
+    "languages": 0,
+    "companies": 2,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "ambiguous_aws_company",
+    "education_academic_research",
+    "hallucination_trap",
+    "medium",
+    "missing_phone",
+    "project_heavy",
+    "skill_synonym"
+  ],
+  "hallucination_traps": [
+    "missing_phone",
+    "ambiguous_aws_company"
+  ],
+  "absent_fields": [
+    "phone",
+    "languages",
+    "projects"
+  ],
+  "trap_notes": [
+    "Not: AWS Lojistik tedarikçi kayıtları ile çalışıldı; burada AWS bir bulut yetkinliği olarak kullanılmadı."
+  ]
+}

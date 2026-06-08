@@ -1,0 +1,224 @@
+{
+  "cv_id": "cv_092",
+  "file_name": "cv_092_oguz_koral.docx",
+  "candidate_name": "Oğuz Koral",
+  "email": "oguz.koral092@example.com",
+  "phone": "+90 533 940 30 86",
+  "location": "İstanbul / Kadıköy",
+  "title": "Junior Customer Success Specialist",
+  "role_family": "sales_customer_success_crm",
+  "seniority": "junior",
+  "total_experience_years": 1,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 3,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "1 yıllık deneyime sahip Junior Customer Success Specialist. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Pipeline Management, Renewal Management, Excel, Salesforce.",
+  "skills": [
+    {
+      "name": "Pipeline Management",
+      "canonical_name": "Pipeline Management",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Pipeline Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Renewal Management",
+      "canonical_name": "Renewal Management",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Renewal Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Salesforce",
+      "canonical_name": "Salesforce",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Salesforce CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CRM",
+      "canonical_name": "CRM",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "CRM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "B2B Sales",
+      "canonical_name": "B2B Sales",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "B2B Sales CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Customer Success",
+      "canonical_name": "Customer Success",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Customer Success CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Presentation",
+      "canonical_name": "Presentation",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Presentation CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HubSpot",
+      "canonical_name": "HubSpot",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "HubSpot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell Teknoloji",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Junior Customer Success Specialist",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Satış / Müşteri Başarısı | Eskişehir",
+      "description": "Satış / Müşteri Başarısı alanında Excel, SQL, Pipeline Management, Salesforce kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Excel ve SQL ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Excel",
+        "SQL",
+        "Pipeline Management",
+        "Salesforce",
+        "Customer Success"
+      ],
+      "evidence_text": "Satış / Müşteri Başarısı alanında Excel, SQL, Pipeline Management, Salesforce kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Excel ve SQL ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Marketing",
+      "institution": "Marmara Uni",
+      "canonical_institution": "Marmara Üniversitesi",
+      "start_year": 2009,
+      "end_year": 2013,
+      "gpa": 3.47,
+      "evidence_text": "Lisans - Marketing, Marmara Uni (2009-2013)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fraud Detection Pipeline",
+      "description": "Fraud Detection Pipeline projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "Excel",
+        "Salesforce",
+        "Customer Success",
+        "B2B Sales",
+        "Presentation"
+      ],
+      "skills_used": [
+        "Excel",
+        "Salesforce",
+        "Customer Success",
+        "B2B Sales",
+        "Presentation"
+      ],
+      "start_date": "2022-04",
+      "end_date": null,
+      "url": "https://github.com/example/fraud_detection_pipeline",
+      "project_type": "software_ai_data",
+      "evidence_text": "Fraud Detection Pipeline projesinde Excel, Salesforce, Customer Success kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Real-time Order Service",
+      "description": "Real-time Order Service projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "Pipeline Management",
+        "Presentation",
+        "Customer Success"
+      ],
+      "skills_used": [
+        "Pipeline Management",
+        "Presentation",
+        "Customer Success"
+      ],
+      "start_date": "2025-01",
+      "end_date": "2025-08",
+      "url": "https://github.com/example/real_time_order_service",
+      "project_type": "software_ai_data",
+      "evidence_text": "Real-time Order Service projesinde Pipeline Management, Presentation, Customer Success kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — Orta-İleri (B2)",
+    "Almanca — Başlangıç (A2)"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 1,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 3,
+    "companies": 1,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "medium",
+    "partial_missing_fields",
+    "sales_customer_success_crm"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": []
+}

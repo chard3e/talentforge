@@ -1,0 +1,339 @@
+{
+  "cv_id": "cv_026",
+  "file_name": "cv_026_ruya_kar.docx",
+  "candidate_name": "Rüya Kar",
+  "email": "ruya.kar026@example.com",
+  "phone": "+90 543 921 85 29",
+  "location": "Eskişehir / Tepebaşı",
+  "title": "ML Engineer",
+  "role_family": "ml_ai_mlops",
+  "seniority": "mid",
+  "total_experience_years": 4,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "one_column_clean",
+  "difficulty": "medium",
+  "summary": "4 yıllık deneyime sahip ML Engineer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Docker, TensorFlow, Kubernetes, MLflow.",
+  "skills": [
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "TensorFlow",
+      "canonical_name": "TensorFlow",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "TensorFlow CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLflow",
+      "canonical_name": "MLflow",
+      "category": "Data Science",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "MLflow CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLOps",
+      "canonical_name": "MLOps",
+      "category": "Data Science",
+      "years_experience": 4,
+      "level": 2,
+      "evidence_text": "MLOps CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Feature Engineering",
+      "canonical_name": "Feature Engineering",
+      "category": "Data Science",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Feature Engineering CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Machine Learning",
+      "canonical_name": "Machine Learning",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Machine Learning CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "FastAPI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PyTorch",
+      "canonical_name": "PyTorch",
+      "category": "Data Science",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "PyTorch CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NLP",
+      "canonical_name": "NLP",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "NLP CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Computer Vision",
+      "canonical_name": "Computer Vision",
+      "category": "Data Science",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Computer Vision CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Etiya",
+      "canonical_company_name": "Etiya",
+      "role_title": "ML Engineer",
+      "start_date": "Oca 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yapay Zeka / Modelleme | Antalya",
+      "description": "Yapay Zeka / Modelleme alanında MLOps, Machine Learning, Kubernetes, PyTorch kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "MLOps ve Machine Learning ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "MLOps",
+        "Machine Learning",
+        "Kubernetes",
+        "PyTorch",
+        "MLflow",
+        "TensorFlow"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında MLOps, Machine Learning, Kubernetes, PyTorch kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı MLOps ve Machine Learning ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Junior Makine Öğrenmesi Mühendisi",
+      "start_date": "Haz 2023",
+      "end_date": "Eki 2024",
+      "is_current": false,
+      "location": "Yapay Zeka / Modelleme | Kocaeli",
+      "description": "Yapay Zeka / Modelleme alanında FastAPI, TensorFlow, Feature Engineering, MLflow kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "FastAPI ve TensorFlow ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "FastAPI",
+        "TensorFlow",
+        "Feature Engineering",
+        "MLflow",
+        "PyTorch",
+        "Machine Learning"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında FastAPI, TensorFlow, Feature Engineering, MLflow kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı FastAPI ve TensorFlow ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Turkcell Teknoloji",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Junior Makine Öğrenmesi Mühendisi",
+      "start_date": "Ara 2021",
+      "end_date": "Nis 2023",
+      "is_current": false,
+      "location": "Yapay Zeka / Modelleme | Eskişehir",
+      "description": "Yapay Zeka / Modelleme alanında FastAPI, NLP, Machine Learning, MLOps kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "FastAPI ve NLP ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "FastAPI",
+        "NLP",
+        "Machine Learning",
+        "MLOps",
+        "TensorFlow"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında FastAPI, NLP, Machine Learning, MLOps kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı FastAPI ve NLP ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Yüksek Lisans",
+      "field": "Artificial Intelligence Engineering",
+      "institution": "Marmara Üniversitesi",
+      "canonical_institution": "Marmara Üniversitesi",
+      "start_year": 2012,
+      "end_year": 2014,
+      "gpa": 3.52,
+      "evidence_text": "Yüksek Lisans - Artificial Intelligence Engineering, Marmara Üniversitesi (2012-2014)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Vendor Risk Scoring Dashboard",
+      "description": "Vendor Risk Scoring Dashboard projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "MLOps",
+        "FastAPI",
+        "Feature Engineering",
+        "Machine Learning",
+        "Docker",
+        "PyTorch"
+      ],
+      "skills_used": [
+        "MLOps",
+        "FastAPI",
+        "Feature Engineering",
+        "Machine Learning",
+        "Docker",
+        "PyTorch"
+      ],
+      "start_date": "2024-09",
+      "end_date": "2024-12",
+      "url": null,
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "Vendor Risk Scoring Dashboard projesinde MLOps, FastAPI, Feature Engineering kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ISO Control Evidence Tracker",
+      "description": "ISO Control Evidence Tracker projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Feature Engineering",
+        "NLP",
+        "Machine Learning"
+      ],
+      "skills_used": [
+        "Feature Engineering",
+        "NLP",
+        "Machine Learning"
+      ],
+      "start_date": "2025-04",
+      "end_date": null,
+      "url": "https://github.com/example/iso_control_evidence_tracker",
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "ISO Control Evidence Tracker projesinde Feature Engineering, NLP, Machine Learning kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ISO Control Evidence Tracker",
+      "description": "ISO Control Evidence Tracker projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "MLOps",
+        "Machine Learning",
+        "NLP"
+      ],
+      "skills_used": [
+        "MLOps",
+        "Machine Learning",
+        "NLP"
+      ],
+      "start_date": "2024-09",
+      "end_date": "2024-12",
+      "url": "https://github.com/example/iso_control_evidence_tracker",
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "ISO Control Evidence Tracker projesinde MLOps, Machine Learning, NLP kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Vendor Risk Scoring Dashboard",
+      "description": "Vendor Risk Scoring Dashboard projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "Docker",
+        "MLOps",
+        "FastAPI",
+        "PyTorch"
+      ],
+      "skills_used": [
+        "Docker",
+        "MLOps",
+        "FastAPI",
+        "PyTorch"
+      ],
+      "start_date": "2022-09",
+      "end_date": "2022-12",
+      "url": null,
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "Vendor Risk Scoring Dashboard projesinde Docker, MLOps, FastAPI kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "Databricks Machine Learning Associate",
+    "DeepLearning.AI Machine Learning Specialization",
+    "TensorFlow Developer Certificate"
+  ],
+  "languages": [
+    "İngilizce — İleri",
+    "Fransızca — B1"
+  ],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 3,
+    "projects": 4,
+    "educations": 1,
+    "certifications": 3,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "medium",
+    "mixed_language_headers",
+    "ml_ai_mlops",
+    "one_column_clean"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [],
+  "trap_notes": []
+}

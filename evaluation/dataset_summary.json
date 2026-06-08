@@ -1,93 +1,80 @@
 {
-  "total_cvs": 100,
+  "dataset_name": "cv_gold_dataset_100_v2",
+  "total_cv": 100,
   "format_distribution": {
-    "docx": 65,
-    "pdf": 35
+    "pdf": 55,
+    "docx": 45
   },
   "language_distribution": {
     "tr": 60,
-    "en": 25,
-    "mixed": 15
+    "en": 30,
+    "mixed": 10
   },
   "page_count_distribution": {
-    "2": 32,
-    "1": 55,
-    "3": 13
-  },
-  "template_distribution": {
-    "linkedin_plain": 12,
-    "table_heavy_dense": 12,
-    "academic_long": 8,
-    "project_portfolio_focused": 12,
-    "modern_two_column": 18,
-    "chronological": 25,
-    "minimal_one_page": 8,
-    "freelance_case_study": 5
+    "3": 10,
+    "2": 35,
+    "1": 55
   },
   "difficulty_distribution": {
     "medium": 45,
-    "hard": 25,
-    "easy": 30
+    "hard": 20,
+    "easy": 35
   },
   "role_family_distribution": {
-    "İnsan kaynakları / Talent acquisition": 7,
-    "Tasarım / İçerik / Medya": 6,
-    "Yazılım / Backend / Full-stack": 10,
-    "Sağlık / Laboratuvar / Klinik operasyon": 8,
-    "Finans / Muhasebe / Denetim": 8,
-    "Eğitim / Akademi / Öğretmenlik": 7,
-    "Veri / ML / AI / Analitik": 12,
-    "Hukuk / Uyum / KVKK-GDPR": 5,
-    "Satış / Pazarlama / CRM": 8,
-    "Ürün / Proje / İş analizi": 8,
-    "Mühendislik / Üretim / Kalite": 6,
-    "Lojistik / Tedarik zinciri / Operasyon": 7,
-    "DevOps / Siber güvenlik / QA": 8
+    "finance_accounting_audit": 7,
+    "data_bi_analytics": 10,
+    "cybersecurity_grc_privacy": 8,
+    "hr_talent_peopleops": 7,
+    "ml_ai_mlops": 8,
+    "legal_compliance_kvkk_gdpr": 5,
+    "product_project_ba": 8,
+    "backend_fullstack_software": 14,
+    "devops_cloud_platform": 8,
+    "operations_supply_logistics": 4,
+    "marketing_growth_content": 6,
+    "education_academic_research": 4,
+    "sales_customer_success_crm": 6,
+    "healthcare_lab_clinical_ops": 5
   },
-  "title_group_distribution": {
-    "mid": 34,
-    "junior": 18,
-    "intern_new_grad": 10,
-    "senior": 24,
-    "manager": 6,
-    "lead": 8
+  "seniority_distribution": {
+    "junior": 21,
+    "mid": 32,
+    "senior": 27,
+    "intern": 8,
+    "lead_manager": 12
   },
-  "project_coverage": {
-    "with_projects": 55,
-    "without_projects": 45,
-    "total_project_nodes": 72
+  "template_distribution": {
+    "one_column_clean": 12,
+    "chronological": 35,
+    "project_heavy": 15,
+    "skills_first": 15,
+    "academic_research": 8,
+    "noisy_sparse_unusual": 5,
+    "two_column_modern": 10
   },
-  "certification_coverage": {
-    "with_certifications": 55,
-    "total_certification_records": 83
+  "project_cv_count": 55,
+  "project_type_distribution": {
+    "process_operations": 16,
+    "software_ai_data": 33,
+    "academic_thesis_research": 9,
+    "ambiguous_project_text": 10,
+    "compliance_audit_kvkk": 15,
+    "marketing_campaign": 12
   },
-  "language_node_coverage": {
-    "with_languages": 65,
-    "total_language_records": 135
-  },
-  "education_coverage": {
-    "with_education": 92,
-    "total_education_records": 113
-  },
-  "experience_coverage": {
-    "with_experience": 100,
-    "total_experience_records": 242
-  },
-  "skill_coverage": {
-    "total_skill_edges": 937,
-    "unique_skill_nodes_before_er": 199,
-    "unique_skill_nodes_after_er": 170
-  },
-  "estimated_relationships": {
-    "HAS_SKILL": 937,
-    "HAS_EXPERIENCE": 242,
-    "AT_COMPANY": 242,
-    "USED_SKILL": 827,
-    "HAS_EDUCATION": 113,
-    "AT_INSTITUTION": 113,
-    "HAS_CERTIFICATION": 83,
-    "SPEAKS": 135,
-    "HAS_PROJECT": 72,
-    "PROJECT_USED_SKILL": 288
-  }
+  "certification_cv_count": 45,
+  "language_node_cv_count": 65,
+  "education_cv_count": 80,
+  "hallucination_trap_cv_count": 15,
+  "total_experience_records": 255,
+  "total_project_records": 95,
+  "total_education_records": 100,
+  "total_certification_records": 96,
+  "total_language_records": 141,
+  "total_has_skill_edges": 1021,
+  "unique_skill_surface_before_er": 159,
+  "unique_skill_canonical_after_er": 133,
+  "matching_query_count": 20,
+  "entity_resolution_target_count": 41,
+  "required_pipeline_context": "CV text -> LLM extraction -> entity resolution -> Neo4j KG -> embedding -> matcher -> explainable recommendation score",
+  "generated_at": "2026-06-07"
 }

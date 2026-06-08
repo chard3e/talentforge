@@ -45,6 +45,8 @@ def evaluate(targets: list[dict[str, Any]]) -> dict[str, Any]:
     names_by_type = {
         "skill": fetch_names("Skill"),
         "company": fetch_names("Company"),
+        "institution": fetch_names("Institution"),
+        "certification": fetch_names("Certification"),
     }
     normalized_by_type = {
         entity_type: {normalize(name): name for name in names}
@@ -82,6 +84,8 @@ def evaluate(targets: list[dict[str, Any]]) -> dict[str, Any]:
             "merge_success_rate": round(merged_count / total, 4) if total else 0.0,
             "skill_node_count": len(names_by_type["skill"]),
             "company_node_count": len(names_by_type["company"]),
+            "institution_node_count": len(names_by_type["institution"]),
+            "certification_node_count": len(names_by_type["certification"]),
         },
         "targets": rows,
     }

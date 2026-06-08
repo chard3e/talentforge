@@ -1,0 +1,274 @@
+{
+  "cv_id": "cv_045",
+  "file_name": "cv_045_gunes_soydan.pdf",
+  "candidate_name": "Güneş Soydan",
+  "email": "gunes.soydan045@example.com",
+  "phone": "+90 538 965 17 47",
+  "location": "İstanbul / Şişli",
+  "title": "Kıdemli Backend Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "senior",
+  "total_experience_years": 7,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "two_column_modern",
+  "difficulty": "medium",
+  "summary": "7 yıllık deneyime sahip Kıdemli Backend Developer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Next.js, TypeScript, FastAPI, Redis.",
+  "skills": [
+    {
+      "name": "Next.js",
+      "canonical_name": "Next.js",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Next.js CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "TypeScript",
+      "canonical_name": "TypeScript",
+      "category": "Programming",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "TypeScript CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "FastAPI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Redis",
+      "canonical_name": "Redis",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Redis CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Node.js",
+      "canonical_name": "Node.js",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Node.js CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical_name": "PostgreSQL",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "PostgreSQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Java",
+      "canonical_name": "Java",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Java CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "Git CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kafka",
+      "canonical_name": "Kafka",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Kafka CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Yapı Kredi Teknoloji",
+      "canonical_company_name": "Yapı Kredi Teknoloji",
+      "role_title": "Kıdemli Backend Developer",
+      "start_date": "Ağu 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yazılım / Finans Teknolojileri | Bursa",
+      "description": "Yazılım / Finans Teknolojileri alanında PostgreSQL, Git, Python, Docker kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "PostgreSQL ve Git ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "PostgreSQL",
+        "Git",
+        "Python",
+        "Docker",
+        "Redis",
+        "Next.js",
+        "Node.js"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında PostgreSQL, Git, Python, Docker kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı PostgreSQL ve Git ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Junior Backend Developer",
+      "start_date": "Eki 2022",
+      "end_date": "Tem 2024",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | Ankara",
+      "description": "Yazılım / Finans Teknolojileri alanında Node.js, TypeScript, Redis, Python kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Node.js ve TypeScript ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Node.js",
+        "TypeScript",
+        "Redis",
+        "Python",
+        "Docker",
+        "Java"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Node.js, TypeScript, Redis, Python kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Node.js ve TypeScript ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Softtech",
+      "canonical_company_name": "Softtech",
+      "role_title": "Kıdemli Backend Developer",
+      "start_date": "Ara 2020",
+      "end_date": "Eyl 2022",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | İstanbul",
+      "description": "Yazılım / Finans Teknolojileri alanında TypeScript, Docker, Kafka, PostgreSQL kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "TypeScript ve Docker ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "TypeScript",
+        "Docker",
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında TypeScript, Docker, Kafka, PostgreSQL kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı TypeScript ve Docker ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Junior Backend Developer",
+      "start_date": "Oca 2019",
+      "end_date": "Eki 2020",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | Remote",
+      "description": "Yazılım / Finans Teknolojileri alanında Python, Java, Docker, Git kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Python ve Java ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Python",
+        "Java",
+        "Docker",
+        "Git",
+        "Kafka",
+        "Next.js"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Python, Java, Docker, Git kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Python ve Java ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "Lifecycle Email Campaign",
+      "description": "Lifecycle Email Campaign projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "TypeScript",
+        "Kafka",
+        "Python",
+        "FastAPI"
+      ],
+      "skills_used": [
+        "TypeScript",
+        "Kafka",
+        "Python",
+        "FastAPI"
+      ],
+      "start_date": "2023-02",
+      "end_date": "2023-08",
+      "url": null,
+      "project_type": "marketing_campaign",
+      "evidence_text": "Lifecycle Email Campaign projesinde TypeScript, Kafka, Python kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — Orta-İleri (B2)",
+    "Almanca — Başlangıç (A2)"
+  ],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 4,
+    "projects": 1,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 3,
+    "companies": 4,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "medium",
+    "partial_missing_fields",
+    "two_column_modern"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "educations"
+  ],
+  "trap_notes": []
+}

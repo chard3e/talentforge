@@ -1,0 +1,243 @@
+{
+  "cv_id": "cv_004",
+  "file_name": "cv_004_sarp_inan.pdf",
+  "candidate_name": "Sarp İnan",
+  "email": "sarp.inan004@example.com",
+  "phone": "+90 536 113 97 60",
+  "location": "İzmir / Bornova",
+  "title": "Veri Analisti",
+  "role_family": "data_bi_analytics",
+  "seniority": "mid",
+  "total_experience_years": 5,
+  "language": "mixed",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "5 yıllık deneyime sahip Veri Analisti. Product, data ve operations ekipleriyle çalışır; core strengths: Looker Studio, A/B Testing, SQL, BigQuery.",
+  "skills": [
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "Looker Studio CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "BigQuery",
+      "canonical_name": "BigQuery",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "BigQuery CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PowerBI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 2,
+      "evidence_text": "PowerBI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MS Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "MS Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NumPy",
+      "canonical_name": "NumPy",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "NumPy CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Pandas",
+      "canonical_name": "Pandas",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Pandas CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Modeling",
+      "canonical_name": "Data Modeling",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Data Modeling CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Tableau",
+      "canonical_name": "Tableau",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Tableau CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Hepsiburada Teknoloji",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Veri Analisti",
+      "start_date": "Kas 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Veri / Perakende | İstanbul",
+      "description": "Veri / Perakende alanında Python, Pandas, SQL, A/B Testing ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %18 azalttı",
+        "Python ve Pandas kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Python",
+        "Pandas",
+        "SQL",
+        "A/B Testing",
+        "BigQuery",
+        "PowerBI"
+      ],
+      "evidence_text": "Veri / Perakende alanında Python, Pandas, SQL, A/B Testing ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %18 azalttı Python ve Pandas kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Migros One",
+      "canonical_company_name": "Migros One",
+      "role_title": "Veri Analizi Stajyeri",
+      "start_date": "Nis 2021",
+      "end_date": "Eki 2023",
+      "is_current": false,
+      "location": "Veri / Perakende | İstanbul",
+      "description": "Veri / Perakende alanında A/B Testing, BigQuery, Python, PowerBI ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %24 azalttı",
+        "A/B Testing ve BigQuery kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "A/B Testing",
+        "BigQuery",
+        "Python",
+        "PowerBI",
+        "SQL",
+        "Tableau",
+        "NumPy"
+      ],
+      "evidence_text": "Veri / Perakende alanında A/B Testing, BigQuery, Python, PowerBI ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %24 azalttı A/B Testing ve BigQuery kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "İstatistik",
+      "institution": "Boğaziçi Üniversitesi",
+      "canonical_institution": "Boğaziçi Üniversitesi",
+      "start_year": 2010,
+      "end_year": 2014,
+      "gpa": 2.93,
+      "evidence_text": "Lisans - İstatistik, Boğaziçi Üniversitesi (2010-2014)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Thesis Research Study",
+      "description": "Thesis Research Study için project owner/contributor rolünde çalıştı; business outcome ve operasyonel takip hedeflendi.",
+      "role": "Analyst",
+      "technologies": [
+        "Python",
+        "BigQuery",
+        "Data Modeling"
+      ],
+      "skills_used": [
+        "Python",
+        "BigQuery",
+        "Data Modeling"
+      ],
+      "start_date": "2021-07",
+      "end_date": null,
+      "url": null,
+      "project_type": "academic_thesis_research",
+      "evidence_text": "Thesis Research Study projesinde Python, BigQuery, Data Modeling kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe native",
+    "İngilizce ileri",
+    "Almanca başlangıç"
+  ],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 2,
+    "projects": 1,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 3,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "company_without_role",
+    "data_bi_analytics",
+    "hallucination_trap",
+    "medium",
+    "missing_education_year",
+    "mixed_language_headers"
+  ],
+  "hallucination_traps": [
+    "company_without_role",
+    "missing_education_year"
+  ],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": [
+    "Referans notu: Papara ve Trendyol ekipleriyle toplantılara katılım sağlandı; bu kurumlarda çalışma deneyimi değildir."
+  ]
+}

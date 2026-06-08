@@ -1,0 +1,238 @@
+{
+  "cv_id": "cv_095",
+  "file_name": "cv_095_rona_bayar.docx",
+  "candidate_name": "Rona Bayar",
+  "email": "rona.bayar095@example.com",
+  "phone": "+90 549 440 90 84",
+  "location": "Remote / Türkiye",
+  "title": "Junior Compliance Analyst",
+  "role_family": "legal_compliance_kvkk_gdpr",
+  "seniority": "junior",
+  "total_experience_years": 2,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "hard",
+  "summary": "2 yıllık deneyime sahip Junior Compliance Analyst. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: KVKK, Regulatory Compliance, Jira, Data Mapping.",
+  "skills": [
+    {
+      "name": "KVKK",
+      "canonical_name": "KVKK",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "KVKK CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Regulatory Compliance",
+      "canonical_name": "Regulatory Compliance",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Regulatory Compliance CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jira",
+      "canonical_name": "Jira",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Jira CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Mapping",
+      "canonical_name": "Data Mapping",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Data Mapping CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Confluence",
+      "canonical_name": "Confluence",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "Confluence CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "DPIA",
+      "canonical_name": "DPIA",
+      "category": "Compliance",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "DPIA CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Legal Research",
+      "canonical_name": "Legal Research",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Legal Research CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Contract Review",
+      "canonical_name": "Contract Review",
+      "category": "Compliance",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Contract Review CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ISO 27001",
+      "canonical_name": "ISO 27001",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "ISO 27001 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GDPR",
+      "canonical_name": "GDPR",
+      "category": "Compliance",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "GDPR CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Junior Compliance Analyst",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Hukuk / Uyum | İstanbul",
+      "description": "Hukuk / Uyum alanında Confluence, Jira, KVKK, Legal Research kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Confluence ve Jira ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Confluence",
+        "Jira",
+        "KVKK",
+        "Legal Research",
+        "Data Mapping"
+      ],
+      "evidence_text": "Hukuk / Uyum alanında Confluence, Jira, KVKK, Legal Research kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Confluence ve Jira ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Uyum Uzmanı",
+      "start_date": "04.2024",
+      "end_date": "04.2025",
+      "is_current": false,
+      "location": "Hukuk / Uyum | Antalya",
+      "description": "Hukuk / Uyum alanında Contract Review, Regulatory Compliance, KVKK, Data Mapping kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Contract Review ve Regulatory Compliance ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Contract Review",
+        "Regulatory Compliance",
+        "KVKK",
+        "Data Mapping"
+      ],
+      "evidence_text": "Hukuk / Uyum alanında Contract Review, Regulatory Compliance, KVKK, Data Mapping kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Contract Review ve Regulatory Compliance ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "Legacy Cleanup Effort",
+      "description": "Legacy Cleanup Effort projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "KVKK",
+        "Contract Review",
+        "Regulatory Compliance",
+        "Legal Research"
+      ],
+      "skills_used": [
+        "KVKK",
+        "Contract Review",
+        "Regulatory Compliance",
+        "Legal Research"
+      ],
+      "start_date": "2025-07",
+      "end_date": "2025-12",
+      "url": null,
+      "project_type": "ambiguous_project_text",
+      "evidence_text": "Legacy Cleanup Effort projesinde KVKK, Contract Review, Regulatory Compliance kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    },
+    {
+      "name": "Q3 Process Initiative",
+      "description": "Q3 Process Initiative projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "Confluence",
+        "Data Mapping",
+        "KVKK",
+        "Contract Review",
+        "GDPR"
+      ],
+      "skills_used": [
+        "Confluence",
+        "Data Mapping",
+        "KVKK",
+        "Contract Review",
+        "GDPR"
+      ],
+      "start_date": "2024-02",
+      "end_date": "2024-10",
+      "url": null,
+      "project_type": "ambiguous_project_text",
+      "evidence_text": "Q3 Process Initiative projesinde Confluence, Data Mapping, KVKK kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "İngilizce — İleri",
+    "Fransızca — B1"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 2,
+    "projects": 2,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "chronological",
+    "company_skill_synonym",
+    "hard",
+    "legal_compliance_kvkk_gdpr",
+    "mixed_date_format"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "educations"
+  ],
+  "trap_notes": []
+}

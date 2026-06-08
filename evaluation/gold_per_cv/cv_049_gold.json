@@ -1,0 +1,225 @@
+{
+  "cv_id": "cv_049",
+  "file_name": "cv_049_koray_bilgin.pdf",
+  "candidate_name": "Koray Bilgin",
+  "email": "koray.bilgin049@example.com",
+  "phone": "+90 551 824 51 18",
+  "location": "İstanbul / Kadıköy",
+  "title": "İK Stajyeri",
+  "role_family": "hr_talent_peopleops",
+  "seniority": "intern",
+  "total_experience_years": 0.3,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "academic_research",
+  "difficulty": "hard",
+  "summary": "0.3 yıllık deneyime sahip İK Stajyeri. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Employee Relations, People Analytics, ATS, Training.",
+  "skills": [
+    {
+      "name": "Employee Relations",
+      "canonical_name": "Employee Relations",
+      "category": "Soft Skill",
+      "years_experience": 0,
+      "level": 2,
+      "evidence_text": "Employee Relations CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "People Analytics",
+      "canonical_name": "People Analytics",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 1,
+      "evidence_text": "People Analytics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ATS",
+      "canonical_name": "ATS",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 3,
+      "evidence_text": "ATS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Training",
+      "canonical_name": "Training",
+      "category": "Soft Skill",
+      "years_experience": 0,
+      "level": 1,
+      "evidence_text": "Training CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Performance Management",
+      "canonical_name": "Performance Management",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 2,
+      "evidence_text": "Performance Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Onboarding",
+      "canonical_name": "Onboarding",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 3,
+      "evidence_text": "Onboarding CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Recruitment",
+      "canonical_name": "Recruitment",
+      "category": "Soft Skill",
+      "years_experience": 0,
+      "level": 3,
+      "evidence_text": "Recruitment CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HR Analytics",
+      "canonical_name": "HR Analytics",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 3,
+      "evidence_text": "HR Analytics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "LinkedIn Recruiter",
+      "canonical_name": "LinkedIn Recruiter",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 2,
+      "evidence_text": "LinkedIn Recruiter CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP SuccessFactors",
+      "canonical_name": "SAP SuccessFactors",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 2,
+      "evidence_text": "SAP SuccessFactors CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "KoçSistem",
+      "canonical_company_name": "KoçSistem",
+      "role_title": "İK Stajyeri",
+      "start_date": "01.2026",
+      "end_date": "05.2026",
+      "is_current": false,
+      "location": "İnsan Kaynakları | Antalya",
+      "description": "İnsan Kaynakları alanında Employee Relations, Onboarding, Performance Management, People Analytics kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Employee Relations ve Onboarding ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Employee Relations",
+        "Onboarding",
+        "Performance Management",
+        "People Analytics",
+        "LinkedIn Recruiter"
+      ],
+      "evidence_text": "İnsan Kaynakları alanında Employee Relations, Onboarding, Performance Management, People Analytics kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Employee Relations ve Onboarding ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Doktora",
+      "field": "İnsan Kaynakları Yönetimi",
+      "institution": "İstanbul Bilgi Üniversitesi",
+      "canonical_institution": "İstanbul Bilgi Üniversitesi",
+      "start_year": 2019,
+      "end_year": 2024,
+      "gpa": null,
+      "evidence_text": "Doktora - İnsan Kaynakları Yönetimi, İstanbul Bilgi Üniversitesi (2019-2024)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fraud Detection Pipeline",
+      "description": "Fraud Detection Pipeline projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Onboarding",
+        "LinkedIn Recruiter",
+        "SAP SuccessFactors",
+        "People Analytics",
+        "Recruitment"
+      ],
+      "skills_used": [
+        "Onboarding",
+        "LinkedIn Recruiter",
+        "SAP SuccessFactors",
+        "People Analytics",
+        "Recruitment"
+      ],
+      "start_date": "2023-01",
+      "end_date": "2023-09",
+      "url": "https://github.com/example/fraud_detection_pipeline",
+      "project_type": "software_ai_data",
+      "evidence_text": "Fraud Detection Pipeline projesinde Onboarding, LinkedIn Recruiter, SAP SuccessFactors kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    },
+    {
+      "name": "Customer 360 Data Mart",
+      "description": "Customer 360 Data Mart projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "SAP SuccessFactors",
+        "Employee Relations",
+        "Recruitment",
+        "LinkedIn Recruiter"
+      ],
+      "skills_used": [
+        "SAP SuccessFactors",
+        "Employee Relations",
+        "Recruitment",
+        "LinkedIn Recruiter"
+      ],
+      "start_date": "2021-09",
+      "end_date": "2021-12",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Customer 360 Data Mart projesinde SAP SuccessFactors, Employee Relations, Recruitment kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — İleri (C1)"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 1,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 1,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "academic_research",
+    "hard",
+    "hr_talent_peopleops",
+    "mixed_date_format"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": []
+}

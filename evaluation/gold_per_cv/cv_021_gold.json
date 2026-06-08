@@ -1,0 +1,255 @@
+{
+  "cv_id": "cv_021",
+  "file_name": "cv_021_mehmet_ulas.pdf",
+  "candidate_name": "Mehmet Ulaş",
+  "email": "mehmet.ulas021@example.com",
+  "phone": "+90 557 813 37 75",
+  "location": "Antalya / Muratpaşa",
+  "title": "Kıdemli Cloud Engineer",
+  "role_family": "devops_cloud_platform",
+  "seniority": "senior",
+  "total_experience_years": 9,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "project_heavy",
+  "difficulty": "easy",
+  "summary": "9 yıllık deneyime sahip Kıdemli Cloud Engineer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Terraform, Azure, CICD, GitHub Actions.",
+  "skills": [
+    {
+      "name": "Terraform",
+      "canonical_name": "Terraform",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Terraform CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Azure",
+      "canonical_name": "Azure",
+      "category": "DevOps/Cloud",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Azure CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CICD",
+      "canonical_name": "CI/CD",
+      "category": "DevOps/Cloud",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "CICD CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical_name": "GitHub Actions",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "GitHub Actions CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Prometheus",
+      "canonical_name": "Prometheus",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Prometheus CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Ansible",
+      "canonical_name": "Ansible",
+      "category": "DevOps/Cloud",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Ansible CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jenkins",
+      "canonical_name": "Jenkins",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Jenkins CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes (K8s)",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "Kubernetes (K8s) CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "Linux CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "AWS",
+      "canonical_name": "AWS",
+      "category": "DevOps/Cloud",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "AWS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Helm",
+      "canonical_name": "Helm",
+      "category": "DevOps/Cloud",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Helm CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Grafana",
+      "canonical_name": "Grafana",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "Grafana CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Kıdemli Cloud Engineer",
+      "start_date": "May 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Bulut / Platform | İstanbul",
+      "description": "Bulut / Platform alanında CICD, Linux, Grafana, Terraform kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "CICD ve Linux ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "CICD",
+        "Linux",
+        "Grafana",
+        "Terraform",
+        "AWS",
+        "Kubernetes (K8s)"
+      ],
+      "evidence_text": "Bulut / Platform alanında CICD, Linux, Grafana, Terraform kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı CICD ve Linux ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "KoçSistem",
+      "canonical_company_name": "KoçSistem",
+      "role_title": "DevOps Engineer",
+      "start_date": "Mar 2020",
+      "end_date": "Mar 2023",
+      "is_current": false,
+      "location": "Bulut / Platform | İstanbul",
+      "description": "Bulut / Platform alanında AWS, Helm, Jenkins, Grafana kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "AWS ve Helm ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "AWS",
+        "Helm",
+        "Jenkins",
+        "Grafana",
+        "Linux",
+        "Terraform",
+        "Docker"
+      ],
+      "evidence_text": "Bulut / Platform alanında AWS, Helm, Jenkins, Grafana kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı AWS ve Helm ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Trendyol Tech",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Junior DevOps Engineer",
+      "start_date": "Ara 2016",
+      "end_date": "Ara 2019",
+      "is_current": false,
+      "location": "Bulut / Platform | Ankara",
+      "description": "Bulut / Platform alanında Jenkins, Terraform, Kubernetes (K8s), Docker kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Jenkins ve Terraform ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Jenkins",
+        "Terraform",
+        "Kubernetes (K8s)",
+        "Docker",
+        "Linux"
+      ],
+      "evidence_text": "Bulut / Platform alanında Jenkins, Terraform, Kubernetes (K8s), Docker kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Jenkins ve Terraform ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Information Systems",
+      "institution": "Koç Üniversitesi",
+      "canonical_institution": "Koç Üniversitesi",
+      "start_year": 2017,
+      "end_year": 2021,
+      "gpa": 2.71,
+      "evidence_text": "Lisans - Information Systems, Koç Üniversitesi (2017-2021)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — İleri (C1)"
+  ],
+  "expected_nodes": {
+    "skills": 13,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "devops_cloud_platform",
+    "easy",
+    "project_heavy"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": []
+}

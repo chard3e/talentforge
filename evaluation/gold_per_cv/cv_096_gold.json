@@ -1,0 +1,243 @@
+{
+  "cv_id": "cv_096",
+  "file_name": "cv_096_sevgi_demirtas.docx",
+  "candidate_name": "Sevgi Demirtaş",
+  "email": "sevgi.demirtas096@example.com",
+  "phone": "+90 530 647 47 30",
+  "location": "Remote / Türkiye",
+  "title": "DevOps Engineer",
+  "role_family": "devops_cloud_platform",
+  "seniority": "mid",
+  "total_experience_years": 4,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "4 yıllık deneyime sahip DevOps Engineer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Helm, GitHub Actions, Docker, Jenkins.",
+  "skills": [
+    {
+      "name": "Helm",
+      "canonical_name": "Helm",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Helm CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical_name": "GitHub Actions",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "GitHub Actions CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jenkins",
+      "canonical_name": "Jenkins",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Jenkins CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Linux CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "AWS",
+      "canonical_name": "AWS",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "AWS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Terraform",
+      "canonical_name": "Terraform",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Terraform CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CI/CD",
+      "canonical_name": "CI/CD",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "CI/CD CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Prometheus",
+      "canonical_name": "Prometheus",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Prometheus CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Azure",
+      "canonical_name": "Azure",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Azure CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Ansible",
+      "canonical_name": "Ansible",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Ansible CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Trendyol Tech",
+      "canonical_company_name": "Trendyol",
+      "role_title": "DevOps Engineer",
+      "start_date": "Oca 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Bulut / Platform | İstanbul",
+      "description": "Bulut / Platform alanında Helm, AWS, Linux, GitHub Actions kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Helm ve AWS ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Helm",
+        "AWS",
+        "Linux",
+        "GitHub Actions",
+        "CI/CD"
+      ],
+      "evidence_text": "Bulut / Platform alanında Helm, AWS, Linux, GitHub Actions kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Helm ve AWS ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "DevOps Engineer",
+      "start_date": "Ağu 2023",
+      "end_date": "Ara 2024",
+      "is_current": false,
+      "location": "Bulut / Platform | Remote",
+      "description": "Bulut / Platform alanında GitHub Actions, AWS, Linux, CI/CD kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "GitHub Actions ve AWS ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "GitHub Actions",
+        "AWS",
+        "Linux",
+        "CI/CD"
+      ],
+      "evidence_text": "Bulut / Platform alanında GitHub Actions, AWS, Linux, CI/CD kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı GitHub Actions ve AWS ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Peak Games",
+      "canonical_company_name": "Peak Games",
+      "role_title": "DevOps Engineer",
+      "start_date": "Mar 2022",
+      "end_date": "Tem 2023",
+      "is_current": false,
+      "location": "Bulut / Platform | Ankara",
+      "description": "Bulut / Platform alanında AWS, Docker, CI/CD, Ansible kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "AWS ve Docker ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "AWS",
+        "Docker",
+        "CI/CD",
+        "Ansible",
+        "Helm",
+        "Jenkins"
+      ],
+      "evidence_text": "Bulut / Platform alanında AWS, Docker, CI/CD, Ansible kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı AWS ve Docker ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Information Systems",
+      "institution": "Boğaziçi Üniversitesi",
+      "canonical_institution": "Boğaziçi Üniversitesi",
+      "start_year": 2016,
+      "end_year": 2020,
+      "gpa": 2.84,
+      "evidence_text": "Lisans - Information Systems, Boğaziçi Üniversitesi (2016-2020)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "Certified Kubernetes Administrator",
+    "HashiCorp Terraform Associate"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 2,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "devops_cloud_platform",
+    "medium",
+    "project_section"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "projects"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,226 @@
+{
+  "cv_id": "cv_029",
+  "file_name": "cv_029_maya_robinson.pdf",
+  "candidate_name": "Maya Robinson",
+  "email": "maya.robinson029@example.com",
+  "phone": "+44 7194 522382",
+  "location": "Remote / EMEA",
+  "title": "Talent Acquisition Specialist",
+  "role_family": "hr_talent_peopleops",
+  "seniority": "mid",
+  "total_experience_years": 4,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "skills_first",
+  "difficulty": "easy",
+  "summary": "Talent Acquisition Specialist with 4 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Training, ATS, Onboarding, SAP SuccessFactors.",
+  "skills": [
+    {
+      "name": "Training",
+      "canonical_name": "Training",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Training is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ATS",
+      "canonical_name": "ATS",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "ATS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Onboarding",
+      "canonical_name": "Onboarding",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Onboarding is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP SuccessFactors",
+      "canonical_name": "SAP SuccessFactors",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 2,
+      "evidence_text": "SAP SuccessFactors is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "People Analytics",
+      "canonical_name": "People Analytics",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "People Analytics is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HR Analytics",
+      "canonical_name": "HR Analytics",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "HR Analytics is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Employee Relations",
+      "canonical_name": "Employee Relations",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Employee Relations is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Performance Management",
+      "canonical_name": "Performance Management",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Performance Management is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "LinkedIn Recruiter",
+      "canonical_name": "LinkedIn Recruiter",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "LinkedIn Recruiter is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Recruitment",
+      "canonical_name": "Recruitment",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Recruitment is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Eczacıbaşı",
+      "canonical_company_name": "Eczacıbaşı",
+      "role_title": "Talent Acquisition Specialist",
+      "start_date": "Jan 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Human Resources | Istanbul",
+      "description": "Delivered measurable work in human resources using People Analytics, HR Analytics, ATS, Onboarding. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 27% through process and tooling improvements",
+        "Improved reporting or service reliability with People Analytics and HR Analytics",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "People Analytics",
+        "HR Analytics",
+        "ATS",
+        "Onboarding"
+      ],
+      "evidence_text": "Delivered measurable work in human resources using People Analytics, HR Analytics, ATS, Onboarding. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 27% through process and tooling improvements Improved reporting or service reliability with People Analytics and HR Analytics Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "LC Waikiki",
+      "canonical_company_name": "LC Waikiki",
+      "role_title": "Talent Acquisition Specialist",
+      "start_date": "Jun 2023",
+      "end_date": "Oct 2024",
+      "is_current": false,
+      "location": "Human Resources | Amsterdam",
+      "description": "Delivered measurable work in human resources using ATS, People Analytics, Employee Relations, SAP SuccessFactors. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with ATS and People Analytics",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "ATS",
+        "People Analytics",
+        "Employee Relations",
+        "SAP SuccessFactors",
+        "HR Analytics",
+        "Training",
+        "Recruitment"
+      ],
+      "evidence_text": "Delivered measurable work in human resources using ATS, People Analytics, Employee Relations, SAP SuccessFactors. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with ATS and People Analytics Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Junior Recruiter",
+      "start_date": "Jan 2022",
+      "end_date": "May 2023",
+      "is_current": false,
+      "location": "Human Resources | Berlin",
+      "description": "Delivered measurable work in human resources using LinkedIn Recruiter, Onboarding, ATS, HR Analytics. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with LinkedIn Recruiter and Onboarding",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "LinkedIn Recruiter",
+        "Onboarding",
+        "ATS",
+        "HR Analytics",
+        "Recruitment"
+      ],
+      "evidence_text": "Delivered measurable work in human resources using LinkedIn Recruiter, Onboarding, ATS, HR Analytics. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with LinkedIn Recruiter and Onboarding Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "Business Administration",
+      "institution": "Sabancı Üniversitesi",
+      "canonical_institution": "Sabancı Üniversitesi",
+      "start_year": 2021,
+      "end_year": 2025,
+      "gpa": 2.76,
+      "evidence_text": "BSc - Business Administration, Sabancı Üniversitesi (2021-2025)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "English — Native or fluent",
+    "Turkish — B1"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "hr_talent_peopleops",
+    "skills_first"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,225 @@
+{
+  "cv_id": "cv_042",
+  "file_name": "cv_042_ekin_suvar.pdf",
+  "candidate_name": "Ekin Suvar",
+  "email": "ekin.suvar042@example.com",
+  "phone": "+90 555 417 88 89",
+  "location": "Kocaeli / Gebze",
+  "title": "Growth Marketing Specialist",
+  "role_family": "marketing_growth_content",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "project_heavy",
+  "difficulty": "easy",
+  "summary": "3 yıllık deneyime sahip Growth Marketing Specialist. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: GA4, Content Strategy, CRM, Email Marketing.",
+  "skills": [
+    {
+      "name": "GA4",
+      "canonical_name": "GA4",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "GA4 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Content Strategy",
+      "canonical_name": "Content Strategy",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "Content Strategy CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CRM",
+      "canonical_name": "CRM",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "CRM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Email Marketing",
+      "canonical_name": "Email Marketing",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Email Marketing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Meta Ads",
+      "canonical_name": "Meta Ads",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Meta Ads CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HubSpot",
+      "canonical_name": "HubSpot",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "HubSpot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Google Ads",
+      "canonical_name": "Google Ads",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Google Ads CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SEO",
+      "canonical_name": "SEO",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "SEO CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Copywriting",
+      "canonical_name": "Copywriting",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Copywriting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Looker Studio CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "4129Grey",
+      "canonical_company_name": "4129Grey",
+      "role_title": "Growth Marketing Specialist",
+      "start_date": "Kas 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Pazarlama / Growth | Eskişehir",
+      "description": "Pazarlama / Growth alanında GA4, Content Strategy, SEO, Google Ads kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "GA4 ve Content Strategy ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "GA4",
+        "Content Strategy",
+        "SEO",
+        "Google Ads",
+        "HubSpot",
+        "CRM",
+        "Email Marketing"
+      ],
+      "evidence_text": "Pazarlama / Growth alanında GA4, Content Strategy, SEO, Google Ads kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı GA4 ve Content Strategy ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Pazarlama Stajyeri",
+      "start_date": "Nis 2023",
+      "end_date": "Eki 2024",
+      "is_current": false,
+      "location": "Pazarlama / Growth | İzmir",
+      "description": "Pazarlama / Growth alanında Content Strategy, SEO, Looker Studio, Email Marketing kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Content Strategy ve SEO ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Content Strategy",
+        "SEO",
+        "Looker Studio",
+        "Email Marketing",
+        "HubSpot"
+      ],
+      "evidence_text": "Pazarlama / Growth alanında Content Strategy, SEO, Looker Studio, Email Marketing kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Content Strategy ve SEO ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Doktora",
+      "field": "Marketing",
+      "institution": "ODTÜ",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2011,
+      "end_year": 2016,
+      "gpa": 3.7,
+      "evidence_text": "Doktora - Marketing, ODTÜ (2011-2016)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Lisans",
+      "field": "Marketing",
+      "institution": "Sabancı Üniversitesi",
+      "canonical_institution": "Sabancı Üniversitesi",
+      "start_year": 2006,
+      "end_year": 2010,
+      "gpa": 3.7,
+      "evidence_text": "Lisans - Marketing, Sabancı Üniversitesi (2006-2010)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "Google Ads Search Certification",
+    "GA4 Certification"
+  ],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — İleri (C1)"
+  ],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 2,
+    "projects": 0,
+    "educations": 2,
+    "certifications": 2,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "marketing_growth_content",
+    "project_heavy"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "projects"
+  ],
+  "trap_notes": []
+}

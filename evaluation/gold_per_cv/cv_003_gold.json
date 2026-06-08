@@ -1,0 +1,185 @@
+{
+  "cv_id": "cv_003",
+  "file_name": "cv_003_doruk_aksu.docx",
+  "candidate_name": "Doruk Aksu",
+  "email": "doruk.aksu003@example.com",
+  "phone": "+90 540 441 41 90",
+  "location": "Bursa / Nilüfer",
+  "title": "Siber Güvenlik Uzmanı",
+  "role_family": "cybersecurity_grc_privacy",
+  "seniority": "mid",
+  "total_experience_years": 4,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "project_heavy",
+  "difficulty": "easy",
+  "summary": "4 yıllık deneyime sahip Siber Güvenlik Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: GDPR, ISO 27001, KVKK, Linux.",
+  "skills": [
+    {
+      "name": "GDPR",
+      "canonical_name": "GDPR",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "GDPR CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ISO 27001",
+      "canonical_name": "ISO 27001",
+      "category": "Compliance",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "ISO 27001 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "KVKK",
+      "canonical_name": "KVKK",
+      "category": "Compliance",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "KVKK CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Linux CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Incident Response",
+      "canonical_name": "Incident Response",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Incident Response CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SOC",
+      "canonical_name": "SOC",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "SOC CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Splunk",
+      "canonical_name": "Splunk",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Splunk CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Burp Suite",
+      "canonical_name": "Burp Suite",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Burp Suite CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Akbank",
+      "canonical_company_name": "Akbank",
+      "role_title": "Siber Güvenlik Uzmanı",
+      "start_date": "May 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Güvenlik / GRC | Ankara",
+      "description": "Güvenlik / GRC alanında Linux, Incident Response, ISO 27001, Burp Suite kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Linux ve Incident Response ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Linux",
+        "Incident Response",
+        "ISO 27001",
+        "Burp Suite",
+        "KVKK",
+        "GDPR"
+      ],
+      "evidence_text": "Güvenlik / GRC alanında Linux, Incident Response, ISO 27001, Burp Suite kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Linux ve Incident Response ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Softtech",
+      "canonical_company_name": "Softtech",
+      "role_title": "Junior SOC Analisti",
+      "start_date": "Şub 2022",
+      "end_date": "Şub 2024",
+      "is_current": false,
+      "location": "Güvenlik / GRC | Kocaeli",
+      "description": "Güvenlik / GRC alanında Burp Suite, Incident Response, ISO 27001, GDPR kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Burp Suite ve Incident Response ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Burp Suite",
+        "Incident Response",
+        "ISO 27001",
+        "GDPR",
+        "KVKK",
+        "Linux",
+        "Splunk"
+      ],
+      "evidence_text": "Güvenlik / GRC alanında Burp Suite, Incident Response, ISO 27001, GDPR kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Burp Suite ve Incident Response ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Doktora",
+      "field": "Information Security",
+      "institution": "Sabancı Üniversitesi",
+      "canonical_institution": "Sabancı Üniversitesi",
+      "start_year": 2015,
+      "end_year": 2020,
+      "gpa": 3.59,
+      "evidence_text": "Doktora - Information Security, Sabancı Üniversitesi (2015-2020)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "Certified Ethical Hacker"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 2,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 1,
+    "languages": 0,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "cybersecurity_grc_privacy",
+    "easy",
+    "project_heavy"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "projects"
+  ],
+  "trap_notes": []
+}

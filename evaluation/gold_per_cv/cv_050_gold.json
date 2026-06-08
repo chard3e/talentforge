@@ -1,0 +1,201 @@
+{
+  "cv_id": "cv_050",
+  "file_name": "cv_050_leyla_unver.pdf",
+  "candidate_name": "Leyla Ünver",
+  "email": "leyla.unver050@example.com",
+  "phone": "+90 533 881 20 22",
+  "location": "İstanbul / Ataşehir",
+  "title": "Junior İçerik Uzmanı",
+  "role_family": "marketing_growth_content",
+  "seniority": "junior",
+  "total_experience_years": 1.5,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "noisy_sparse_unusual",
+  "difficulty": "easy",
+  "summary": "1.5 yıllık deneyime sahip Junior İçerik Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Meta Ads, Email Marketing, A/B Testing, CRM.",
+  "skills": [
+    {
+      "name": "Meta Ads",
+      "canonical_name": "Meta Ads",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Meta Ads CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Email Marketing",
+      "canonical_name": "Email Marketing",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Email Marketing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CRM",
+      "canonical_name": "CRM",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "CRM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GA4",
+      "canonical_name": "GA4",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "GA4 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Copywriting",
+      "canonical_name": "Copywriting",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Copywriting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Looker Studio CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Google Ads",
+      "canonical_name": "Google Ads",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Google Ads CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SEO",
+      "canonical_name": "SEO",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "SEO CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HubSpot",
+      "canonical_name": "HubSpot",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "HubSpot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Content Strategy",
+      "canonical_name": "Content Strategy",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Content Strategy CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "4129Grey",
+      "canonical_company_name": "4129Grey",
+      "role_title": "Junior İçerik Uzmanı",
+      "start_date": "Kas 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Pazarlama / Growth | Antalya",
+      "description": "Pazarlama / Growth alanında Google Ads, Meta Ads, HubSpot, SEO kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Google Ads ve Meta Ads ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Google Ads",
+        "Meta Ads",
+        "HubSpot",
+        "SEO"
+      ],
+      "evidence_text": "Pazarlama / Growth alanında Google Ads, Meta Ads, HubSpot, SEO kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Google Ads ve Meta Ads ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "Lifecycle Email Campaign",
+      "description": "Lifecycle Email Campaign projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Copywriting",
+        "CRM",
+        "Looker Studio",
+        "HubSpot",
+        "Meta Ads",
+        "GA4"
+      ],
+      "skills_used": [
+        "Copywriting",
+        "CRM",
+        "Looker Studio",
+        "HubSpot",
+        "Meta Ads",
+        "GA4"
+      ],
+      "start_date": "2023-04",
+      "end_date": null,
+      "url": "https://github.com/example/lifecycle_email_campaign",
+      "project_type": "marketing_campaign",
+      "evidence_text": "Lifecycle Email Campaign projesinde Copywriting, CRM, Looker Studio kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — İleri (C1)"
+  ],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 1,
+    "projects": 1,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 1,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "marketing_growth_content",
+    "noisy_sparse_unusual"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "educations"
+  ],
+  "trap_notes": []
+}

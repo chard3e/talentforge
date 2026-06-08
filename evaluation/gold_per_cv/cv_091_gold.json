@@ -1,0 +1,219 @@
+{
+  "cv_id": "cv_091",
+  "file_name": "cv_091_hannah_bell.docx",
+  "candidate_name": "Hannah Bell",
+  "email": "hannah.bell091@example.com",
+  "phone": "+44 7564 933748",
+  "location": "Istanbul / Hybrid",
+  "title": "Senior MLOps Engineer",
+  "role_family": "ml_ai_mlops",
+  "seniority": "senior",
+  "total_experience_years": 2,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 3,
+  "template_type": "skills_first",
+  "difficulty": "medium",
+  "summary": "Senior MLOps Engineer with 2 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include TensorFlow, FastAPI, Scikit-learn, PyTorch.",
+  "skills": [
+    {
+      "name": "TensorFlow",
+      "canonical_name": "TensorFlow",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "TensorFlow is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "FastAPI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical_name": "Scikit-learn",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Scikit-learn is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PyTorch",
+      "canonical_name": "PyTorch",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "PyTorch is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Feature Engineering",
+      "canonical_name": "Feature Engineering",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Feature Engineering is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Etiya",
+      "canonical_company_name": "Etiya",
+      "role_title": "Senior MLOps Engineer",
+      "start_date": "Nov 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "AI / Modeling | Berlin",
+      "description": "Delivered measurable work in ai / modeling using TensorFlow, Python, FastAPI, Scikit-learn. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with TensorFlow and Python",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "TensorFlow",
+        "Python",
+        "FastAPI",
+        "Scikit-learn"
+      ],
+      "evidence_text": "Delivered measurable work in ai / modeling using TensorFlow, Python, FastAPI, Scikit-learn. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with TensorFlow and Python Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Vispera",
+      "canonical_company_name": "Vispera",
+      "role_title": "Junior Machine Learning Engineer",
+      "start_date": "Feb 2025",
+      "end_date": "Aug 2025",
+      "is_current": false,
+      "location": "AI / Modeling | Amsterdam",
+      "description": "Delivered measurable work in ai / modeling using Python, PyTorch, Feature Engineering, FastAPI. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Python and PyTorch",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Python",
+        "PyTorch",
+        "Feature Engineering",
+        "FastAPI",
+        "Scikit-learn",
+        "TensorFlow"
+      ],
+      "evidence_text": "Delivered measurable work in ai / modeling using Python, PyTorch, Feature Engineering, FastAPI. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Python and PyTorch Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Trendyol Tech",
+      "canonical_company_name": "Trendyol",
+      "role_title": "ML Engineer",
+      "start_date": "May 2024",
+      "end_date": "Nov 2024",
+      "is_current": false,
+      "location": "AI / Modeling | Berlin",
+      "description": "Delivered measurable work in ai / modeling using Python, FastAPI, Feature Engineering, PyTorch. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with Python and FastAPI",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Python",
+        "FastAPI",
+        "Feature Engineering",
+        "PyTorch",
+        "Scikit-learn",
+        "TensorFlow"
+      ],
+      "evidence_text": "Delivered measurable work in ai / modeling using Python, FastAPI, Feature Engineering, PyTorch. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with Python and FastAPI Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "ML Engineer",
+      "start_date": "Oct 2023",
+      "end_date": "Apr 2024",
+      "is_current": false,
+      "location": "AI / Modeling | Remote",
+      "description": "Delivered measurable work in ai / modeling using TensorFlow, PyTorch, Python, FastAPI. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with TensorFlow and PyTorch",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "TensorFlow",
+        "PyTorch",
+        "Python",
+        "FastAPI",
+        "Scikit-learn",
+        "Feature Engineering"
+      ],
+      "evidence_text": "Delivered measurable work in ai / modeling using TensorFlow, PyTorch, Python, FastAPI. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with TensorFlow and PyTorch Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "Bilgisayar Mühendisliği",
+      "institution": "İTÜ",
+      "canonical_institution": "İTÜ",
+      "start_year": 2015,
+      "end_year": 2019,
+      "gpa": 2.97,
+      "evidence_text": "BSc - Bilgisayar Mühendisliği, İTÜ (2015-2019)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "TensorFlow Developer Certificate",
+    "DeepLearning.AI Machine Learning Specialization"
+  ],
+  "languages": [
+    "English — Native or fluent",
+    "Turkish — B1"
+  ],
+  "expected_nodes": {
+    "skills": 6,
+    "experiences": 4,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 2,
+    "languages": 2,
+    "companies": 4,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "low_skill_count",
+    "medium",
+    "mixed_language_headers",
+    "ml_ai_mlops",
+    "senior_title_weak_skills",
+    "skills_first"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "projects"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,283 @@
+{
+  "cv_id": "cv_008",
+  "file_name": "cv_008_ahu_nalbant.pdf",
+  "candidate_name": "Ahu Nalbant",
+  "email": "ahu.nalbant008@example.com",
+  "phone": "+90 536 191 11 68",
+  "location": "Ankara / Çankaya",
+  "title": "Uyum Uzmanı",
+  "role_family": "legal_compliance_kvkk_gdpr",
+  "seniority": "mid",
+  "total_experience_years": 5,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "one_column_clean",
+  "difficulty": "medium",
+  "summary": "5 yıllık deneyime sahip Uyum Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: GDPR, Confluence, Data Mapping, KVKK.",
+  "skills": [
+    {
+      "name": "GDPR",
+      "canonical_name": "GDPR",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "GDPR CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Confluence",
+      "canonical_name": "Confluence",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 2,
+      "evidence_text": "Confluence CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Mapping",
+      "canonical_name": "Data Mapping",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 2,
+      "evidence_text": "Data Mapping CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "KVKK",
+      "canonical_name": "KVKK",
+      "category": "Compliance",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "KVKK CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jira",
+      "canonical_name": "Jira",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Jira CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Vendor Risk Management",
+      "canonical_name": "Vendor Risk Management",
+      "category": "Compliance",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "Vendor Risk Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ISO 27001",
+      "canonical_name": "ISO 27001",
+      "category": "Compliance",
+      "years_experience": 5,
+      "level": 2,
+      "evidence_text": "ISO 27001 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Legal Research",
+      "canonical_name": "Legal Research",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Legal Research CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Regulatory Compliance",
+      "canonical_name": "Regulatory Compliance",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Regulatory Compliance CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Contract Review",
+      "canonical_name": "Contract Review",
+      "category": "Compliance",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "Contract Review CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "DPIA",
+      "canonical_name": "DPIA",
+      "category": "Compliance",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "DPIA CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Garanti BBVA Teknoloji",
+      "canonical_company_name": "Garanti BBVA",
+      "role_title": "Uyum Uzmanı",
+      "start_date": "Eyl 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Hukuk / Uyum | Antalya",
+      "description": "Hukuk / Uyum alanında GDPR, Confluence, Contract Review, Jira kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "GDPR ve Confluence ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "GDPR",
+        "Confluence",
+        "Contract Review",
+        "Jira",
+        "Vendor Risk Management",
+        "Regulatory Compliance",
+        "Legal Research"
+      ],
+      "evidence_text": "Hukuk / Uyum alanında GDPR, Confluence, Contract Review, Jira kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı GDPR ve Confluence ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Baker McKenzie",
+      "canonical_company_name": "Baker McKenzie",
+      "role_title": "Uyum Uzmanı",
+      "start_date": "Eki 2022",
+      "end_date": "Haz 2024",
+      "is_current": false,
+      "location": "Hukuk / Uyum | Bursa",
+      "description": "Hukuk / Uyum alanında Regulatory Compliance, Vendor Risk Management, DPIA, Jira kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Regulatory Compliance ve Vendor Risk Management ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Regulatory Compliance",
+        "Vendor Risk Management",
+        "DPIA",
+        "Jira",
+        "Contract Review",
+        "Legal Research"
+      ],
+      "evidence_text": "Hukuk / Uyum alanında Regulatory Compliance, Vendor Risk Management, DPIA, Jira kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Regulatory Compliance ve Vendor Risk Management ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Midas",
+      "canonical_company_name": "Midas",
+      "role_title": "Junior Compliance Analyst",
+      "start_date": "Ara 2020",
+      "end_date": "Ağu 2022",
+      "is_current": false,
+      "location": "Hukuk / Uyum | Bursa",
+      "description": "Hukuk / Uyum alanında Regulatory Compliance, GDPR, Confluence, Jira kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Regulatory Compliance ve GDPR ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Regulatory Compliance",
+        "GDPR",
+        "Confluence",
+        "Jira",
+        "Data Mapping"
+      ],
+      "evidence_text": "Hukuk / Uyum alanında Regulatory Compliance, GDPR, Confluence, Jira kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Regulatory Compliance ve GDPR ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Law",
+      "institution": "Boğaziçi Üniversitesi",
+      "canonical_institution": "Boğaziçi Üniversitesi",
+      "start_year": 2015,
+      "end_year": 2019,
+      "gpa": 3.37,
+      "evidence_text": "Lisans - Law, Boğaziçi Üniversitesi (2015-2019)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Clinical Research Data Review",
+      "description": "Clinical Research Data Review projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "KVKK",
+        "Legal Research",
+        "DPIA",
+        "Confluence",
+        "ISO 27001"
+      ],
+      "skills_used": [
+        "KVKK",
+        "Legal Research",
+        "DPIA",
+        "Confluence",
+        "ISO 27001"
+      ],
+      "start_date": "2024-06",
+      "end_date": "2024-08",
+      "url": null,
+      "project_type": "academic_thesis_research",
+      "evidence_text": "Clinical Research Data Review projesinde KVKK, Legal Research, DPIA kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Academic Survey Dataset",
+      "description": "Academic Survey Dataset projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "KVKK",
+        "Regulatory Compliance",
+        "DPIA"
+      ],
+      "skills_used": [
+        "KVKK",
+        "Regulatory Compliance",
+        "DPIA"
+      ],
+      "start_date": "2022-05",
+      "end_date": null,
+      "url": "https://github.com/example/academic_survey_dataset",
+      "project_type": "academic_thesis_research",
+      "evidence_text": "Academic Survey Dataset projesinde KVKK, Regulatory Compliance, DPIA kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "CIPP/E Preparation Program",
+    "KVKK Uzmanlık Eğitimi"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 3,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 2,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "legal_compliance_kvkk_gdpr",
+    "medium",
+    "one_column_clean",
+    "project_section"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages"
+  ],
+  "trap_notes": []
+}

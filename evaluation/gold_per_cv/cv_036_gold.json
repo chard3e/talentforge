@@ -1,0 +1,225 @@
+{
+  "cv_id": "cv_036",
+  "file_name": "cv_036_alihan_peker.pdf",
+  "candidate_name": "Alihan Peker",
+  "email": "alihan.peker036@example.com",
+  "phone": "+90 540 980 19 67",
+  "location": "Kocaeli / Gebze",
+  "title": "Akademik Program Koordinatörü",
+  "role_family": "education_academic_research",
+  "seniority": "lead_manager",
+  "total_experience_years": 12,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "one_column_clean",
+  "difficulty": "medium",
+  "summary": "12 yıllık deneyime sahip Akademik Program Koordinatörü. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: R, Research Methodology, Python, Survey Design.",
+  "skills": [
+    {
+      "name": "R",
+      "canonical_name": "R",
+      "category": "Programming",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "R CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Research Methodology",
+      "canonical_name": "Research Methodology",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Research Methodology CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Survey Design",
+      "canonical_name": "Survey Design",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Survey Design CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Academic Writing",
+      "canonical_name": "Academic Writing",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "Academic Writing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Curriculum Design",
+      "canonical_name": "Curriculum Design",
+      "category": "Tool",
+      "years_experience": 11,
+      "level": 5,
+      "evidence_text": "Curriculum Design CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Moodle",
+      "canonical_name": "Moodle",
+      "category": "Tool",
+      "years_experience": 10,
+      "level": 5,
+      "evidence_text": "Moodle CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Quantitative Analysis",
+      "canonical_name": "Quantitative Analysis",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Quantitative Analysis CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Literature Review",
+      "canonical_name": "Literature Review",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Literature Review CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SPSS",
+      "canonical_name": "SPSS",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "SPSS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Boğaziçi Üniversitesi",
+      "canonical_company_name": "Boğaziçi Üniversitesi",
+      "role_title": "Akademik Program Koordinatörü",
+      "start_date": "May 2022",
+      "end_date": null,
+      "is_current": true,
+      "location": "Eğitim / Akademi | İzmir",
+      "description": "Eğitim / Akademi alanında Academic Writing, Python, R, Moodle kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Academic Writing ve Python ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Academic Writing",
+        "Python",
+        "R",
+        "Moodle",
+        "Quantitative Analysis",
+        "Curriculum Design",
+        "Research Methodology"
+      ],
+      "evidence_text": "Eğitim / Akademi alanında Academic Writing, Python, R, Moodle kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Academic Writing ve Python ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Sabancı Üniversitesi",
+      "canonical_company_name": "Sabancı Üniversitesi",
+      "role_title": "Araştırma Görevlisi Adayı",
+      "start_date": "Mar 2018",
+      "end_date": "Mar 2022",
+      "is_current": false,
+      "location": "Eğitim / Akademi | Eskişehir",
+      "description": "Eğitim / Akademi alanında R, SPSS, Literature Review, Moodle kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "R ve SPSS ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "R",
+        "SPSS",
+        "Literature Review",
+        "Moodle",
+        "Python"
+      ],
+      "evidence_text": "Eğitim / Akademi alanında R, SPSS, Literature Review, Moodle kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı R ve SPSS ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "İstanbul Bilgi Üniversitesi",
+      "canonical_company_name": "İstanbul Bilgi Üniversitesi",
+      "role_title": "Araştırma Görevlisi Adayı",
+      "start_date": "Şub 2014",
+      "end_date": "Şub 2018",
+      "is_current": false,
+      "location": "Eğitim / Akademi | Remote",
+      "description": "Eğitim / Akademi alanında Quantitative Analysis, Research Methodology, Literature Review, Survey Design kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Quantitative Analysis ve Research Methodology ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Quantitative Analysis",
+        "Research Methodology",
+        "Literature Review",
+        "Survey Design",
+        "Academic Writing"
+      ],
+      "evidence_text": "Eğitim / Akademi alanında Quantitative Analysis, Research Methodology, Literature Review, Survey Design kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Quantitative Analysis ve Research Methodology ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Yüksek Lisans",
+      "field": "Eğitim Bilimleri",
+      "institution": "ODTÜ",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2022,
+      "end_year": 2024,
+      "gpa": 2.71,
+      "evidence_text": "Yüksek Lisans - Eğitim Bilimleri, ODTÜ (2022-2024)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "education_academic_research",
+    "medium",
+    "mixed_language_headers",
+    "one_column_clean"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": []
+}

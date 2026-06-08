@@ -1,0 +1,216 @@
+{
+  "cv_id": "cv_025",
+  "file_name": "cv_025_pinar_ay.pdf",
+  "candidate_name": "Pınar Ay",
+  "email": "pinar.ay025@example.com",
+  "phone": "+90 549 926 25 35",
+  "location": "İstanbul / Şişli",
+  "title": "Growth Marketing Specialist",
+  "role_family": "marketing_growth_content",
+  "seniority": "mid",
+  "total_experience_years": 5,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "noisy_sparse_unusual",
+  "difficulty": "medium",
+  "summary": "5 yıllık deneyime sahip Growth Marketing Specialist. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Content Strategy, CRM, GA4, Looker Studio.",
+  "skills": [
+    {
+      "name": "Content Strategy",
+      "canonical_name": "Content Strategy",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "Content Strategy CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CRM",
+      "canonical_name": "CRM",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "CRM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GA4",
+      "canonical_name": "GA4",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 2,
+      "evidence_text": "GA4 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Looker Studio CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Email Marketing",
+      "canonical_name": "Email Marketing",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Email Marketing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Google Ads",
+      "canonical_name": "Google Ads",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Google Ads CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Meta Ads",
+      "canonical_name": "Meta Ads",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Meta Ads CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Copywriting",
+      "canonical_name": "Copywriting",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Copywriting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Hype",
+      "canonical_company_name": "Hype",
+      "role_title": "Growth Marketing Specialist",
+      "start_date": "Kas 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Pazarlama / Growth | İstanbul",
+      "description": "Pazarlama / Growth alanında Content Strategy, Copywriting, Looker Studio, A/B Testing kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Content Strategy ve Copywriting ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Content Strategy",
+        "Copywriting",
+        "Looker Studio",
+        "A/B Testing",
+        "Google Ads"
+      ],
+      "evidence_text": "Pazarlama / Growth alanında Content Strategy, Copywriting, Looker Studio, A/B Testing kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Content Strategy ve Copywriting ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Junior İçerik Uzmanı",
+      "start_date": "Şub 2021",
+      "end_date": "Ağu 2023",
+      "is_current": false,
+      "location": "Pazarlama / Growth | İstanbul",
+      "description": "Pazarlama / Growth alanında Meta Ads, Email Marketing, CRM, Looker Studio kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Meta Ads ve Email Marketing ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Meta Ads",
+        "Email Marketing",
+        "CRM",
+        "Looker Studio",
+        "A/B Testing"
+      ],
+      "evidence_text": "Pazarlama / Growth alanında Meta Ads, Email Marketing, CRM, Looker Studio kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Meta Ads ve Email Marketing ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Ön Lisans",
+      "field": "Marketing",
+      "institution": "Marmara Üniversitesi",
+      "canonical_institution": "Marmara Üniversitesi",
+      "start_year": 2018,
+      "end_year": 2020,
+      "gpa": 3.39,
+      "evidence_text": "Ön Lisans - Marketing, Marmara Üniversitesi (2018-2020)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "KVKK Consent Inventory",
+      "description": "KVKK Consent Inventory projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "GA4",
+        "A/B Testing",
+        "Content Strategy",
+        "CRM"
+      ],
+      "skills_used": [
+        "GA4",
+        "A/B Testing",
+        "Content Strategy",
+        "CRM"
+      ],
+      "start_date": "2024-02",
+      "end_date": "2024-08",
+      "url": null,
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "KVKK Consent Inventory projesinde GA4, A/B Testing, Content Strategy kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — Orta-İleri (B2)",
+    "Almanca — Başlangıç (A2)"
+  ],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 2,
+    "projects": 1,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 3,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "marketing_growth_content",
+    "medium",
+    "noisy_sparse_unusual",
+    "skill_synonym"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": []
+}

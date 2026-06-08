@@ -1,0 +1,150 @@
+{
+  "cv_id": "cv_072",
+  "file_name": "cv_072_samuel_turner.pdf",
+  "candidate_name": "Samuel Turner",
+  "email": "samuel.turner072@example.com",
+  "phone": "+44 7109 605824",
+  "location": "Ankara / Remote",
+  "title": "Junior BI Analyst",
+  "role_family": "data_bi_analytics",
+  "seniority": "junior",
+  "total_experience_years": 1,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "academic_research",
+  "difficulty": "medium",
+  "summary": "Junior BI Analyst with 1 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include A/B Testing, Python, Pandas, BigQuery.",
+  "skills": [
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "A/B Testing is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Pandas",
+      "canonical_name": "Pandas",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Pandas is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "BigQuery",
+      "canonical_name": "BigQuery",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "BigQuery is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Modeling",
+      "canonical_name": "Data Modeling",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Data Modeling is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Tableau",
+      "canonical_name": "Tableau",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Tableau is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Power BI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Vodafone",
+      "canonical_company_name": "Vodafone",
+      "role_title": "Junior BI Analyst",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Data / Retail | Ankara",
+      "description": "Delivered measurable work in data / retail using Python, SQL, A/B Testing, BigQuery. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Python and SQL",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Python",
+        "SQL",
+        "A/B Testing",
+        "BigQuery",
+        "Pandas",
+        "Power BI",
+        "Data Modeling"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Python, SQL, A/B Testing, BigQuery. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Python and SQL Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "English — Native or fluent",
+    "Turkish — B1"
+  ],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 1,
+    "projects": 0,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 1,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "academic_research",
+    "data_bi_analytics",
+    "medium",
+    "skill_synonym"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "projects",
+    "educations"
+  ],
+  "trap_notes": []
+}

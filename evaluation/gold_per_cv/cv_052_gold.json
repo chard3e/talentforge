@@ -1,0 +1,258 @@
+{
+  "cv_id": "cv_052",
+  "file_name": "cv_052_amelia_brooks.pdf",
+  "candidate_name": "Amelia Brooks",
+  "email": "amelia.brooks052@example.com",
+  "phone": "+44 7812 803958",
+  "location": "Dublin / Hybrid",
+  "title": "Full Stack Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "one_column_clean",
+  "difficulty": "easy",
+  "summary": "Full Stack Developer with 3 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include REST API, Spring Boot, Microservices, Python.",
+  "skills": [
+    {
+      "name": "REST API",
+      "canonical_name": "REST API",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "REST API is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Spring Boot",
+      "canonical_name": "Spring Boot",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Spring Boot is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microservices",
+      "canonical_name": "Microservices",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Microservices is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Next.js",
+      "canonical_name": "Next.js",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "Next.js is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "FastAPI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "JavaScript",
+      "canonical_name": "JavaScript",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "JavaScript is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Docker is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical_name": "PostgreSQL",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "PostgreSQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Redis",
+      "canonical_name": "Redis",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Redis is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Git is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Node.js",
+      "canonical_name": "Node.js",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Node.js is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Kubernetes is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Garanti",
+      "canonical_company_name": "Garanti BBVA",
+      "role_title": "Full Stack Developer",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Software / Fintech | Berlin",
+      "description": "Delivered measurable work in software / fintech using REST API, Microservices, Docker, Python. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with REST API and Microservices",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "REST API",
+        "Microservices",
+        "Docker",
+        "Python",
+        "Redis",
+        "PostgreSQL",
+        "Node.js"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using REST API, Microservices, Docker, Python. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with REST API and Microservices Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Yapı Kredi Teknoloji",
+      "canonical_company_name": "Yapı Kredi Teknoloji",
+      "role_title": "Full Stack Developer",
+      "start_date": "Mar 2024",
+      "end_date": "Mar 2025",
+      "is_current": false,
+      "location": "Software / Fintech | Remote",
+      "description": "Delivered measurable work in software / fintech using PostgreSQL, Microservices, Next.js, Spring Boot. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 27% through process and tooling improvements",
+        "Improved reporting or service reliability with PostgreSQL and Microservices",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "PostgreSQL",
+        "Microservices",
+        "Next.js",
+        "Spring Boot",
+        "Python",
+        "Kubernetes",
+        "Redis"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using PostgreSQL, Microservices, Next.js, Spring Boot. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 27% through process and tooling improvements Improved reporting or service reliability with PostgreSQL and Microservices Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Papara Tech",
+      "canonical_company_name": "Papara",
+      "role_title": "Junior Backend Developer",
+      "start_date": "Jan 2023",
+      "end_date": "Jan 2024",
+      "is_current": false,
+      "location": "Software / Fintech | Izmir",
+      "description": "Delivered measurable work in software / fintech using Docker, JavaScript, Python, PostgreSQL. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with Docker and JavaScript",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Docker",
+        "JavaScript",
+        "Python",
+        "PostgreSQL",
+        "Microservices",
+        "Spring Boot",
+        "FastAPI"
+      ],
+      "evidence_text": "Delivered measurable work in software / fintech using Docker, JavaScript, Python, PostgreSQL. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with Docker and JavaScript Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "MSc",
+      "field": "Software Engineering",
+      "institution": "Yıldız Teknik Üniversitesi",
+      "canonical_institution": "Yıldız Teknik Üniversitesi",
+      "start_year": 2020,
+      "end_year": 2022,
+      "gpa": 3.49,
+      "evidence_text": "MSc - Software Engineering, Yıldız Teknik Üniversitesi (2020-2022)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "English — Native or fluent",
+    "Turkish — B1"
+  ],
+  "expected_nodes": {
+    "skills": 13,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "clear_sections",
+    "easy",
+    "one_column_clean"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": []
+}

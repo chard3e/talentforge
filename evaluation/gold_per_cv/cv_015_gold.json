@@ -1,0 +1,254 @@
+{
+  "cv_id": "cv_015",
+  "file_name": "cv_015_isil_onel.docx",
+  "candidate_name": "Işıl Önel",
+  "email": "isil.onel015@example.com",
+  "phone": "+90 552 415 75 74",
+  "location": "Kocaeli / Gebze",
+  "title": "Uyum Uzmanı",
+  "role_family": "legal_compliance_kvkk_gdpr",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "mixed",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "easy",
+  "summary": "3 yıllık deneyime sahip Uyum Uzmanı. Product, data ve operations ekipleriyle çalışır; core strengths: Regulatory Compliance, Vendor Risk Management, KVKK, Contract Review.",
+  "skills": [
+    {
+      "name": "Regulatory Compliance",
+      "canonical_name": "Regulatory Compliance",
+      "category": "Compliance",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Regulatory Compliance CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Vendor Risk Management",
+      "canonical_name": "Vendor Risk Management",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Vendor Risk Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "KVKK",
+      "canonical_name": "KVKK",
+      "category": "Compliance",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "KVKK CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Contract Review",
+      "canonical_name": "Contract Review",
+      "category": "Compliance",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Contract Review CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ISO 27001",
+      "canonical_name": "ISO 27001",
+      "category": "Compliance",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "ISO 27001 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Mapping",
+      "canonical_name": "Data Mapping",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Data Mapping CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GDPR",
+      "canonical_name": "GDPR",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "GDPR CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Confluence",
+      "canonical_name": "Confluence",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Confluence CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "DPIA",
+      "canonical_name": "DPIA",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "DPIA CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Legal Research",
+      "canonical_name": "Legal Research",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Legal Research CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jira",
+      "canonical_name": "Jira",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Jira CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Garanti BBVA",
+      "canonical_company_name": "Garanti BBVA",
+      "role_title": "Uyum Uzmanı",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Hukuk / Uyum | İstanbul",
+      "description": "Hukuk / Uyum alanında ISO 27001, DPIA, KVKK, Regulatory Compliance ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %31 azalttı",
+        "ISO 27001 ve DPIA kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "ISO 27001",
+        "DPIA",
+        "KVKK",
+        "Regulatory Compliance",
+        "Confluence"
+      ],
+      "evidence_text": "Hukuk / Uyum alanında ISO 27001, DPIA, KVKK, Regulatory Compliance ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %31 azalttı ISO 27001 ve DPIA kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Papara Teknoloji",
+      "canonical_company_name": "Papara",
+      "role_title": "Hukuk Stajyeri",
+      "start_date": "Nis 2024",
+      "end_date": "Nis 2025",
+      "is_current": false,
+      "location": "Hukuk / Uyum | İstanbul",
+      "description": "Hukuk / Uyum alanında GDPR, Jira, Legal Research, KVKK ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %31 azalttı",
+        "GDPR ve Jira kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "GDPR",
+        "Jira",
+        "Legal Research",
+        "KVKK"
+      ],
+      "evidence_text": "Hukuk / Uyum alanında GDPR, Jira, Legal Research, KVKK ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %31 azalttı GDPR ve Jira kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Hukuk Stajyeri",
+      "start_date": "Mar 2023",
+      "end_date": "Mar 2024",
+      "is_current": false,
+      "location": "Hukuk / Uyum | İstanbul",
+      "description": "Hukuk / Uyum alanında Jira, ISO 27001, Confluence, Data Mapping ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %18 azalttı",
+        "Jira ve ISO 27001 kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Jira",
+        "ISO 27001",
+        "Confluence",
+        "Data Mapping",
+        "Contract Review",
+        "Legal Research"
+      ],
+      "evidence_text": "Hukuk / Uyum alanında Jira, ISO 27001, Confluence, Data Mapping ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %18 azalttı Jira ve ISO 27001 kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "Real-time Order Service",
+      "description": "Real-time Order Service için project owner/contributor rolünde çalıştı; business outcome ve operasyonel takip hedeflendi.",
+      "role": "Project Owner",
+      "technologies": [
+        "DPIA",
+        "Data Mapping",
+        "Vendor Risk Management"
+      ],
+      "skills_used": [
+        "DPIA",
+        "Data Mapping",
+        "Vendor Risk Management"
+      ],
+      "start_date": "2021-01",
+      "end_date": "2021-07",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Real-time Order Service projesinde DPIA, Data Mapping, Vendor Risk Management kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "ISO 27001 Foundation",
+    "KVKK Uzmanlık Eğitimi",
+    "CIPP/E Preparation Program"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 3,
+    "projects": 1,
+    "educations": 0,
+    "certifications": 3,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "chronological",
+    "clear_sections",
+    "easy",
+    "hallucination_trap",
+    "iso_not_certificate",
+    "legal_compliance_kvkk_gdpr",
+    "piton_typo_not_python"
+  ],
+  "hallucination_traps": [
+    "piton_typo_not_python",
+    "iso_not_certificate"
+  ],
+  "absent_fields": [
+    "languages",
+    "educations"
+  ],
+  "trap_notes": [
+    "Operasyon metninde \"piton\" ifadesi depo ekipman etiketi olarak geçmektedir; Python programlama kanıtı değildir.",
+    "İç doküman kodu ISO-17 revizyonu takip edildi; bu ifade bir ISO 27001 sertifikası değildir."
+  ]
+}

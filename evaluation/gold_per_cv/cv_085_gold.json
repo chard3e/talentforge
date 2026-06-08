@@ -1,0 +1,241 @@
+{
+  "cv_id": "cv_085",
+  "file_name": "cv_085_arthur_edwards.pdf",
+  "candidate_name": "Arthur Edwards",
+  "email": "arthur.edwards085@example.com",
+  "phone": "+44 7259 979219",
+  "location": "London / Remote",
+  "title": "Data Analyst",
+  "role_family": "data_bi_analytics",
+  "seniority": "mid",
+  "total_experience_years": 5,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "two_column_modern",
+  "difficulty": "easy",
+  "summary": "Data Analyst with 5 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Microsoft Excel, Pandas, Microsoft Power BI, Data Modeling.",
+  "skills": [
+    {
+      "name": "Microsoft Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Microsoft Excel is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Pandas",
+      "canonical_name": "Pandas",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Pandas is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microsoft Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Microsoft Power BI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Modeling",
+      "canonical_name": "Data Modeling",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Data Modeling is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "BigQuery",
+      "canonical_name": "BigQuery",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "BigQuery is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "A/B Testing is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ETL",
+      "canonical_name": "ETL",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "ETL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NumPy",
+      "canonical_name": "NumPy",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "NumPy is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Tableau",
+      "canonical_name": "Tableau",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Tableau is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Looker Studio is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Data Analyst",
+      "start_date": "Sep 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Data / Retail | Izmir",
+      "description": "Delivered measurable work in data / retail using Microsoft Excel, Tableau, A/B Testing, Microsoft Power BI. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with Microsoft Excel and Tableau",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Microsoft Excel",
+        "Tableau",
+        "A/B Testing",
+        "Microsoft Power BI",
+        "Pandas",
+        "ETL",
+        "Data Modeling"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Microsoft Excel, Tableau, A/B Testing, Microsoft Power BI. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with Microsoft Excel and Tableau Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Yemeksepeti",
+      "canonical_company_name": "Yemeksepeti",
+      "role_title": "Data Analyst Intern",
+      "start_date": "Oct 2022",
+      "end_date": "Jun 2024",
+      "is_current": false,
+      "location": "Data / Retail | Istanbul",
+      "description": "Delivered measurable work in data / retail using SQL, BigQuery, A/B Testing, Data Modeling. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with SQL and BigQuery",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "SQL",
+        "BigQuery",
+        "A/B Testing",
+        "Data Modeling",
+        "Microsoft Excel",
+        "Pandas"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using SQL, BigQuery, A/B Testing, Data Modeling. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with SQL and BigQuery Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Data Analyst",
+      "start_date": "Jan 2021",
+      "end_date": "Sep 2022",
+      "is_current": false,
+      "location": "Data / Retail | Izmir",
+      "description": "Delivered measurable work in data / retail using BigQuery, Looker Studio, Microsoft Power BI, Data Modeling. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 27% through process and tooling improvements",
+        "Improved reporting or service reliability with BigQuery and Looker Studio",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "BigQuery",
+        "Looker Studio",
+        "Microsoft Power BI",
+        "Data Modeling",
+        "NumPy",
+        "A/B Testing",
+        "Microsoft Excel"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using BigQuery, Looker Studio, Microsoft Power BI, Data Modeling. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 27% through process and tooling improvements Improved reporting or service reliability with BigQuery and Looker Studio Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "MSc",
+      "field": "Endüstri Mühendisliği",
+      "institution": "ODTÜ",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2023,
+      "end_year": 2025,
+      "gpa": 3.55,
+      "evidence_text": "MSc - Endüstri Mühendisliği, ODTÜ (2023-2025)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "Microsoft Power BI Data Analyst Associate",
+    "Google Data Analytics Certificate",
+    "Tableau Desktop Specialist"
+  ],
+  "languages": [
+    "English — Professional working proficiency"
+  ],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 3,
+    "languages": 1,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "data_bi_analytics",
+    "easy",
+    "two_column_modern"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "projects"
+  ],
+  "trap_notes": []
+}

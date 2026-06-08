@@ -1,0 +1,214 @@
+{
+  "cv_id": "cv_020",
+  "file_name": "cv_020_lale_meric.docx",
+  "candidate_name": "Lale Meriç",
+  "email": "lale.meric020@example.com",
+  "phone": "+90 559 367 67 62",
+  "location": "İstanbul / Şişli",
+  "title": "Kıdemli Cloud Engineer",
+  "role_family": "devops_cloud_platform",
+  "seniority": "senior",
+  "total_experience_years": 8,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "8 yıllık deneyime sahip Kıdemli Cloud Engineer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Jenkins, AWS, Terraform, Linux.",
+  "skills": [
+    {
+      "name": "Jenkins",
+      "canonical_name": "Jenkins",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Jenkins CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "AWS",
+      "canonical_name": "AWS",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "AWS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Terraform",
+      "canonical_name": "Terraform",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Terraform CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Linux CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Prometheus",
+      "canonical_name": "Prometheus",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 4,
+      "evidence_text": "Prometheus CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Grafana",
+      "canonical_name": "Grafana",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "Grafana CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical_name": "GitHub Actions",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "GitHub Actions CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Azure",
+      "canonical_name": "Azure",
+      "category": "DevOps/Cloud",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "Azure CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell Teknoloji",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Kıdemli Cloud Engineer",
+      "start_date": "Eyl 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Bulut / Platform | Kocaeli",
+      "description": "Bulut / Platform alanında Grafana, Azure, Linux, Prometheus kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Grafana ve Azure ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Grafana",
+        "Azure",
+        "Linux",
+        "Prometheus",
+        "GitHub Actions",
+        "Terraform",
+        "AWS"
+      ],
+      "evidence_text": "Bulut / Platform alanında Grafana, Azure, Linux, Prometheus kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Grafana ve Azure ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Peak Games",
+      "canonical_company_name": "Peak Games",
+      "role_title": "Kıdemli Cloud Engineer",
+      "start_date": "Ara 2020",
+      "end_date": "Ağu 2023",
+      "is_current": false,
+      "location": "Bulut / Platform | Bursa",
+      "description": "Bulut / Platform alanında Azure, AWS, Terraform, Docker kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Azure ve AWS ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Azure",
+        "AWS",
+        "Terraform",
+        "Docker"
+      ],
+      "evidence_text": "Bulut / Platform alanında Azure, AWS, Terraform, Docker kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Azure ve AWS ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Akbank Teknoloji",
+      "canonical_company_name": "Akbank",
+      "role_title": "Kıdemli Cloud Engineer",
+      "start_date": "Mar 2018",
+      "end_date": "Kas 2020",
+      "is_current": false,
+      "location": "Bulut / Platform | Kocaeli",
+      "description": "Bulut / Platform alanında Docker, Jenkins, AWS, GitHub Actions kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Docker ve Jenkins ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Docker",
+        "Jenkins",
+        "AWS",
+        "GitHub Actions"
+      ],
+      "evidence_text": "Bulut / Platform alanında Docker, Jenkins, AWS, GitHub Actions kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Docker ve Jenkins ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Bilgisayar Mühendisliği",
+      "institution": "Marmara Uni",
+      "canonical_institution": "Marmara Üniversitesi",
+      "start_year": 2011,
+      "end_year": 2015,
+      "gpa": 3.77,
+      "evidence_text": "Lisans - Bilgisayar Mühendisliği, Marmara Uni (2011-2015)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "devops_cloud_platform",
+    "medium",
+    "skill_synonym"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": []
+}

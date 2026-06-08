@@ -83,6 +83,16 @@ SKILL_SYNONYMS: Dict[str, List[str]] = {
     # Domain / Mimari
     "Microservices":    ["Mikroservis", "Mikroservis Mimarisi", "mikroservis", "Microservice"],
     "Event-Driven Architecture": ["Event-Driven", "Event Driven Architecture", "event-driven"],
+    "Data Privacy":     ["Privacy", "Veri Gizliligi", "Veri Gizliliği", "Privacy-by-design"],
+    "KVKK":             ["Kisisel Verilerin Korunmasi", "Kişisel Verilerin Korunması"],
+    "GDPR":             ["General Data Protection Regulation"],
+    "ISO 27001":        ["ISO27001", "Information Security Management"],
+    "Power BI":         ["PowerBI", "Microsoft Power BI"],
+    "NLP":              ["Natural Language Processing", "Dogal Dil Isleme", "Doğal Dil İşleme"],
+    "MLOps":            ["ML Ops", "Model Operations"],
+    "CI/CD":            ["CICD", "CI CD", "Continuous Integration", "Continuous Delivery"],
+    "Data Mapping":     ["Veri Envanteri", "Data Inventory"],
+    "Vendor Risk Management": ["Vendor Compliance", "Third Party Risk", "Supplier Risk"],
 }
 
 COMPANY_SYNONYMS: Dict[str, List[str]] = {
@@ -97,6 +107,25 @@ COMPANY_SYNONYMS: Dict[str, List[str]] = {
     "Papara":           ["Papara Teknoloji", "Papara Elektronik Para"],
 }
 
+INSTITUTION_SYNONYMS: Dict[str, List[str]] = {
+    "ODTÜ": ["ODTU", "Orta Doğu Teknik Üniversitesi", "Orta Dogu Teknik Universitesi", "METU", "Middle East Technical University"],
+    "Boğaziçi Üniversitesi": ["Bogazici Universitesi", "Bogazici", "Boğaziçi", "BOUN"],
+    "İstanbul Teknik Üniversitesi": ["Istanbul Teknik Universitesi", "İTÜ", "ITU", "Istanbul Teknik"],
+    "Yıldız Teknik Üniversitesi": ["Yildiz Teknik Universitesi", "YTÜ", "YTU", "Yıldız Teknik", "Yildiz Teknik"],
+    "Marmara Üniversitesi": ["Marmara Universitesi", "Marmara", "Marmara University"],
+    "İstanbul Bilgi Üniversitesi": ["Istanbul Bilgi Universitesi", "Bilgi Üniversitesi", "Istanbul Bilgi", "İstanbul Bilgi"],
+    "Hacettepe Üniversitesi": ["Hacettepe Universitesi", "Hacettepe"],
+}
+
+CERTIFICATION_SYNONYMS: Dict[str, List[str]] = {
+    "ISO 27001": ["ISO27001", "ISO 27001 Lead Implementer", "ISO 27001 Lead Auditor"],
+    "IAPP CIPP/E": ["CIPP/E", "CIPPE", "Certified Information Privacy Professional Europe"],
+    "AWS Certified Solutions Architect": ["AWS SAA", "Solutions Architect Associate"],
+    "CKA": ["Certified Kubernetes Administrator"],
+    "CKAD": ["Certified Kubernetes Application Developer"],
+    "Professional Scrum Master": ["PSM", "Scrum Master"],
+}
+
 
 def _normalize(text: str) -> str:
     """Karşılaştırma için normalize"""
@@ -105,6 +134,18 @@ def _normalize(text: str) -> str:
                  "ö": "o", "Ç": "c", "ç": "c"}.items():
         text = text.replace(k, v)
     return text.lower().strip()
+
+
+def _norm(text: str) -> str:
+    for k, v in {
+        "İ": "i", "I": "i", "ı": "i", "Ş": "s", "ş": "s",
+        "Ğ": "g", "ğ": "g", "Ü": "u", "ü": "u", "Ö": "o",
+        "ö": "o", "Ç": "c", "ç": "c", "Ä°": "i", "Ä±": "i",
+        "Å": "s", "ÅŸ": "s", "Ä": "g", "ÄŸ": "g", "Ãœ": "u",
+        "Ã¼": "u", "Ã–": "o", "Ã¶": "o", "Ã‡": "c", "Ã§": "c",
+    }.items():
+        text = text.replace(k, v)
+    return " ".join(text.lower().replace("_", " ").replace("-", " ").strip().split())
 
 
 # ── Ana sınıf ─────────────────────────────────────────────────────────
@@ -127,10 +168,17 @@ class EntityResolver:
         logger.info("🔍 Entity Resolution başlatılıyor...")
 
         stats = {
+            "skills_canonical_property": self._resolve_canonical_property("Skill", ["canonical_name"]),
+            "companies_canonical_property": self._resolve_canonical_property("Company", ["canonical_company_name", "canonical_name"]),
+            "institutions_canonical_property": self._resolve_canonical_property("Institution", ["canonical_institution", "canonical_name"]),
             "skills_synonym": self._resolve_synonyms("Skill", SKILL_SYNONYMS),
             "companies_synonym": self._resolve_synonyms("Company", COMPANY_SYNONYMS),
+            "institutions_synonym": self._resolve_synonyms("Institution", INSTITUTION_SYNONYMS),
+            "certifications_synonym": self._resolve_synonyms("Certification", CERTIFICATION_SYNONYMS),
             "skills_fuzzy": self._resolve_fuzzy("Skill"),
             "companies_fuzzy": self._resolve_fuzzy("Company"),
+            "institutions_fuzzy": self._resolve_fuzzy("Institution", threshold=88),
+            "certifications_fuzzy": self._resolve_fuzzy("Certification", threshold=90),
         }
 
         total = sum(stats.values())
@@ -168,9 +216,34 @@ class EntityResolver:
 
         return merged_count
 
+    def _resolve_canonical_property(self, label: str, property_names: List[str]) -> int:
+        """Merge nodes when LLM/gold import stored a canonical property on the node."""
+        merged_count = 0
+        with self.driver.session() as session:
+            for prop in property_names:
+                rows = session.run(
+                    f"""
+                    MATCH (n:{label})
+                    WHERE n.{prop} IS NOT NULL
+                      AND n.name IS NOT NULL
+                      AND n.{prop} <> n.name
+                    RETURN n.name AS name, n.{prop} AS canonical
+                    """
+                ).data()
+                for row in rows:
+                    name = row.get("name")
+                    canonical = row.get("canonical")
+                    if not name or not canonical or _norm(name) == _norm(canonical):
+                        continue
+                    session.run(f"MERGE (:{label} {{name: $canonical}})", canonical=canonical)
+                    self._merge_nodes(session, label, name, canonical)
+                    merged_count += 1
+                    logger.info(f"  canonical {label}: '{name}' -> '{canonical}'")
+        return merged_count
+
     # ── Fuzzy çözümleme ───────────────────────────────────────────────
 
-    def _resolve_fuzzy(self, label: str) -> int:
+    def _resolve_fuzzy(self, label: str, threshold: int | None = None) -> int:
         """rapidfuzz ile benzer isimleri tespit edip birleştirir"""
         try:
             from rapidfuzz import fuzz
@@ -197,8 +270,8 @@ class EntityResolver:
                 if name2 in resolved:
                     continue
 
-                n1 = _normalize(name1)
-                n2 = _normalize(name2)
+                n1 = _norm(name1)
+                n2 = _norm(name2)
 
                 # Tam eşleşme (sadece case/Türkçe karakter farkı)
                 if n1 == n2:
@@ -214,7 +287,7 @@ class EntityResolver:
 
                 # Fuzzy eşleşme
                 score = fuzz.ratio(n1, n2)
-                if score >= self.fuzzy_threshold:
+                if score >= (threshold or self.fuzzy_threshold):
                     shorter = name1 if len(name1) <= len(name2) else name2
                     longer = name2 if shorter == name1 else name1
                     merge_pairs.append((longer, shorter))
@@ -241,6 +314,10 @@ class EntityResolver:
             self._merge_skill(session, from_name, to_name)
         elif label == "Company":
             self._merge_company(session, from_name, to_name)
+        elif label == "Institution":
+            self._merge_institution(session, from_name, to_name)
+        elif label == "Certification":
+            self._merge_certification(session, from_name, to_name)
         else:
             self._merge_generic(session, label, from_name, to_name)
 
@@ -284,6 +361,34 @@ class EntityResolver:
 
         session.run("""
             MATCH (from:Company {name: $from_name})
+            WHERE NOT exists((from)--())
+            DELETE from
+        """, from_name=from_name)
+
+    def _merge_institution(self, session, from_name: str, to_name: str):
+        session.run("""
+            MATCH (e:Education)-[old:AT_INSTITUTION]->(from:Institution {name: $from_name})
+            MERGE (to:Institution {name: $to_name})
+            MERGE (e)-[:AT_INSTITUTION]->(to)
+            DELETE old
+        """, from_name=from_name, to_name=to_name)
+
+        session.run("""
+            MATCH (from:Institution {name: $from_name})
+            WHERE NOT exists((from)--())
+            DELETE from
+        """, from_name=from_name)
+
+    def _merge_certification(self, session, from_name: str, to_name: str):
+        session.run("""
+            MATCH (c:Candidate)-[old:HAS_CERTIFICATION]->(from:Certification {name: $from_name})
+            MERGE (to:Certification {name: $to_name})
+            MERGE (c)-[:HAS_CERTIFICATION]->(to)
+            DELETE old
+        """, from_name=from_name, to_name=to_name)
+
+        session.run("""
+            MATCH (from:Certification {name: $from_name})
             WHERE NOT exists((from)--())
             DELETE from
         """, from_name=from_name)

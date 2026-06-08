@@ -1,0 +1,195 @@
+{
+  "cv_id": "cv_027",
+  "file_name": "cv_027_sude_alkan.docx",
+  "candidate_name": "Sude Alkan",
+  "email": "sude.alkan027@example.com",
+  "phone": "+90 539 825 25 59",
+  "location": "Bursa / Nilüfer",
+  "title": "Junior SOC Analisti",
+  "role_family": "cybersecurity_grc_privacy",
+  "seniority": "junior",
+  "total_experience_years": 1,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "hard",
+  "summary": "1 yıllık deneyime sahip Junior SOC Analisti. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: SOC, Incident Response, Firewall, Kişisel Verilerin Korunması Kanunu.",
+  "skills": [
+    {
+      "name": "SOC",
+      "canonical_name": "SOC",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "SOC CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Incident Response",
+      "canonical_name": "Incident Response",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Incident Response CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Firewall",
+      "canonical_name": "Firewall",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Firewall CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kişisel Verilerin Korunması Kanunu",
+      "canonical_name": "KVKK",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Kişisel Verilerin Korunması Kanunu CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SIEM",
+      "canonical_name": "SIEM",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "SIEM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Linux CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ISO 27001",
+      "canonical_name": "ISO 27001",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "ISO 27001 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Splunk",
+      "canonical_name": "Splunk",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Splunk CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Burp Suite",
+      "canonical_name": "Burp Suite",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Burp Suite CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Risk Assessment",
+      "canonical_name": "Risk Assessment",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Risk Assessment CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "General Data Protection Regulation",
+      "canonical_name": "GDPR",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "General Data Protection Regulation CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Nessus",
+      "canonical_name": "Nessus",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Nessus CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Softtech",
+      "canonical_company_name": "Softtech",
+      "role_title": "Junior SOC Analisti",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Güvenlik / GRC | Ankara",
+      "description": "Güvenlik / GRC alanında Kişisel Verilerin Korunması Kanunu, Burp Suite, Incident Response, Nessus kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Kişisel Verilerin Korunması Kanunu ve Burp Suite ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Kişisel Verilerin Korunması Kanunu",
+        "Burp Suite",
+        "Incident Response",
+        "Nessus",
+        "Linux"
+      ],
+      "evidence_text": "Güvenlik / GRC alanında Kişisel Verilerin Korunması Kanunu, Burp Suite, Incident Response, Nessus kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Kişisel Verilerin Korunması Kanunu ve Burp Suite ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Management Information Systems",
+      "institution": "Ege Üniversitesi",
+      "canonical_institution": "Ege Üniversitesi",
+      "start_year": 2020,
+      "end_year": 2024,
+      "gpa": 3.05,
+      "evidence_text": "Lisans - Management Information Systems, Ege Üniversitesi (2020-2024)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "ISO 27001 Lead Implementer",
+    "CompTIA Security+"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 1,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 2,
+    "languages": 0,
+    "companies": 1,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "cybersecurity_grc_privacy",
+    "hard",
+    "mixed_date_format"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "projects"
+  ],
+  "trap_notes": []
+}

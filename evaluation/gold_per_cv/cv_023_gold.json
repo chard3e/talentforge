@@ -1,0 +1,249 @@
+{
+  "cv_id": "cv_023",
+  "file_name": "cv_023_orkun_bora.docx",
+  "candidate_name": "Orkun Bora",
+  "email": "orkun.bora023@example.com",
+  "phone": "+90 554 948 43 28",
+  "location": "İstanbul / Kadıköy",
+  "title": "Tedarik Zinciri Uzmanı",
+  "role_family": "operations_supply_logistics",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "project_heavy",
+  "difficulty": "medium",
+  "summary": "3 yıllık deneyime sahip Tedarik Zinciri Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Route Optimization, Demand Planning, SQL, Logistics.",
+  "skills": [
+    {
+      "name": "Route Optimization",
+      "canonical_name": "Route Optimization",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Route Optimization CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Demand Planning",
+      "canonical_name": "Demand Planning",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Demand Planning CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Logistics",
+      "canonical_name": "Logistics",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Logistics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP MM",
+      "canonical_name": "SAP MM",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "SAP MM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "Power BI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Process Improvement",
+      "canonical_name": "Process Improvement",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Process Improvement CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Supply Chain",
+      "canonical_name": "Supply Chain",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Supply Chain CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Warehouse Management",
+      "canonical_name": "Warehouse Management",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Warehouse Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Aras Kargo",
+      "canonical_company_name": "Aras Kargo",
+      "role_title": "Tedarik Zinciri Uzmanı",
+      "start_date": "Kas 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Operasyon / Lojistik | Remote",
+      "description": "Operasyon / Lojistik alanında Excel, Logistics, Process Improvement, SAP MM kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Excel ve Logistics ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Excel",
+        "Logistics",
+        "Process Improvement",
+        "SAP MM",
+        "Warehouse Management",
+        "Demand Planning",
+        "SQL"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında Excel, Logistics, Process Improvement, SAP MM kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Excel ve Logistics ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol Express",
+      "canonical_company_name": "Trendyol Express",
+      "role_title": "Tedarik Zinciri Uzmanı",
+      "start_date": "Nis 2023",
+      "end_date": "Eki 2024",
+      "is_current": false,
+      "location": "Operasyon / Lojistik | İstanbul",
+      "description": "Operasyon / Lojistik alanında Power BI, Process Improvement, Demand Planning, Logistics kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Power BI ve Process Improvement ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Power BI",
+        "Process Improvement",
+        "Demand Planning",
+        "Logistics",
+        "Route Optimization",
+        "SAP MM",
+        "SQL"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında Power BI, Process Improvement, Demand Planning, Logistics kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Power BI ve Process Improvement ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Ön Lisans",
+      "field": "Industrial Engineering",
+      "institution": "İstanbul Bilgi Üniversitesi",
+      "canonical_institution": "İstanbul Bilgi Üniversitesi",
+      "start_year": 2013,
+      "end_year": 2015,
+      "gpa": 3.0,
+      "evidence_text": "Ön Lisans - Industrial Engineering, İstanbul Bilgi Üniversitesi (2013-2015)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Procurement Approval Workflow",
+      "description": "Procurement Approval Workflow projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Supply Chain",
+        "Warehouse Management",
+        "Logistics",
+        "Process Improvement"
+      ],
+      "skills_used": [
+        "Supply Chain",
+        "Warehouse Management",
+        "Logistics",
+        "Process Improvement"
+      ],
+      "start_date": "2021-09",
+      "end_date": "2021-11",
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Procurement Approval Workflow projesinde Supply Chain, Warehouse Management, Logistics kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Customer Onboarding Redesign",
+      "description": "Customer Onboarding Redesign projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "SQL",
+        "SAP MM",
+        "Supply Chain"
+      ],
+      "skills_used": [
+        "SQL",
+        "SAP MM",
+        "Supply Chain"
+      ],
+      "start_date": "2022-05",
+      "end_date": "2022-08",
+      "url": "https://github.com/example/customer_onboarding_redesign",
+      "project_type": "process_operations",
+      "evidence_text": "Customer Onboarding Redesign projesinde SQL, SAP MM, Supply Chain kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "İngilizce — İleri",
+    "Fransızca — B1"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 2,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "medium",
+    "mixed_language_headers",
+    "operations_supply_logistics",
+    "project_heavy"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": []
+}

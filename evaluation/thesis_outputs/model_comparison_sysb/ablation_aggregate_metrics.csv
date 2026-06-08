@@ -1,7 +1,0 @@
-﻿run,config,model,n,success_rate,ner_f1,skill_f1,re_f1,kg_f1,hallucination_rate,unsupported_triple_rate,avg_elapsed_sec
-SYS-B_DeepSeek-R1-Distill-Qwen-32B,SYS-B,deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,99,0.99,0.95,0.872,0.867,0.832,0.061,0.102,48.28
-SYS-B_Llama-3.1-8B-Instruct,SYS-B,meta-llama/Llama-3.1-8B-Instruct,41,0.41,0.895,0.874,0.905,0.74,0.067,0.082,16.16
-SYS-B_Meta-Llama-3-8B-Instruct,SYS-B,meta-llama/Meta-Llama-3-8B-Instruct,0,0.0,0,0,0,0,0,0,0
-SYS-B_Qwen2.5-72B-Instruct,SYS-B,Qwen/Qwen2.5-72B-Instruct,92,0.92,0.983,0.949,0.945,0.897,0.025,0.061,91.34
-SYS-B_Qwen2.5-7B-Instruct,SYS-B,Qwen/Qwen2.5-7B-Instruct,100,1.0,0.919,0.895,0.877,0.856,0.014,0.069,14.94
-SYS-B_gpt-oss-20b,SYS-B,openai/gpt-oss-20b,75,0.75,0.96,0.883,0.871,0.854,0.019,0.09,6.25

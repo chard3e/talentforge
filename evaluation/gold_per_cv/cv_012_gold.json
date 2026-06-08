@@ -1,0 +1,269 @@
+{
+  "cv_id": "cv_012",
+  "file_name": "cv_012_feride_bulut.pdf",
+  "candidate_name": "Feride Bulut",
+  "email": "feride.bulut012@example.com",
+  "phone": "+90 558 643 10 61",
+  "location": "İzmir / Bornova",
+  "title": "Kıdemli Backend Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "senior",
+  "total_experience_years": 9,
+  "language": "mixed",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "skills_first",
+  "difficulty": "easy",
+  "summary": "9 yıllık deneyime sahip Kıdemli Backend Developer. Product, data ve operations ekipleriyle çalışır; core strengths: React, Git, Redis, Microservices.",
+  "skills": [
+    {
+      "name": "React",
+      "canonical_name": "React",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "React CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Git CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Redis",
+      "canonical_name": "Redis",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Redis CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microservices",
+      "canonical_name": "Microservices",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Microservices CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "TypeScript",
+      "canonical_name": "TypeScript",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "TypeScript CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kafka",
+      "canonical_name": "Kafka",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "Kafka CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Spring Boot",
+      "canonical_name": "Spring Boot",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "Spring Boot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Kıdemli Backend Developer",
+      "start_date": "May 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yazılım / Finans Teknolojileri | Ankara",
+      "description": "Yazılım / Finans Teknolojileri alanında Microservices, Kafka, Python, React ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %31 azalttı",
+        "Microservices ve Kafka kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Microservices",
+        "Kafka",
+        "Python",
+        "React",
+        "TypeScript",
+        "Spring Boot"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Microservices, Kafka, Python, React ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %31 azalttı Microservices ve Kafka kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Full Stack Developer",
+      "start_date": "Şub 2020",
+      "end_date": "Şub 2023",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | Kocaeli",
+      "description": "Yazılım / Finans Teknolojileri alanında Python, React, Redis, TypeScript ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %31 azalttı",
+        "Python ve React kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Python",
+        "React",
+        "Redis",
+        "TypeScript",
+        "Spring Boot",
+        "Kafka"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Python, React, Redis, TypeScript ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %31 azalttı Python ve React kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Papara",
+      "canonical_company_name": "Papara",
+      "role_title": "Full Stack Developer",
+      "start_date": "Oca 2017",
+      "end_date": "Oca 2020",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | Antalya",
+      "description": "Yazılım / Finans Teknolojileri alanında Python, Kubernetes, Spring Boot, Kafka ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %24 azalttı",
+        "Python ve Kubernetes kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Python",
+        "Kubernetes",
+        "Spring Boot",
+        "Kafka",
+        "Git"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Python, Kubernetes, Spring Boot, Kafka ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %24 azalttı Python ve Kubernetes kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Doktora",
+      "field": "Bilgisayar Mühendisliği",
+      "institution": "Hacettepe Üniversitesi",
+      "canonical_institution": "Hacettepe Üniversitesi",
+      "start_year": 2013,
+      "end_year": 2018,
+      "gpa": 3.68,
+      "evidence_text": "Doktora - Bilgisayar Mühendisliği, Hacettepe Üniversitesi (2013-2018)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Special Analysis Package",
+      "description": "Special Analysis Package için project owner/contributor rolünde çalıştı; business outcome ve operasyonel takip hedeflendi.",
+      "role": "Koordinatör",
+      "technologies": [
+        "Spring Boot",
+        "Redis",
+        "Python",
+        "Kubernetes"
+      ],
+      "skills_used": [
+        "Spring Boot",
+        "Redis",
+        "Python",
+        "Kubernetes"
+      ],
+      "start_date": "2025-07",
+      "end_date": "2025-09",
+      "url": "https://github.com/example/special_analysis_package",
+      "project_type": "ambiguous_project_text",
+      "evidence_text": "Special Analysis Package projesinde Spring Boot, Redis, Python kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Internal Improvement Workstream",
+      "description": "Internal Improvement Workstream için project owner/contributor rolünde çalıştı; business outcome ve operasyonel takip hedeflendi.",
+      "role": "Analyst",
+      "technologies": [
+        "Spring Boot",
+        "Redis",
+        "Kubernetes",
+        "Python",
+        "Kafka",
+        "React"
+      ],
+      "skills_used": [
+        "Spring Boot",
+        "Redis",
+        "Kubernetes",
+        "Python",
+        "Kafka",
+        "React"
+      ],
+      "start_date": "2021-06",
+      "end_date": "2021-08",
+      "url": null,
+      "project_type": "ambiguous_project_text",
+      "evidence_text": "Internal Improvement Workstream projesinde Spring Boot, Redis, Kubernetes kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "English — Advanced C1",
+    "German — A2"
+  ],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 3,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 3,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "clear_sections",
+    "easy",
+    "skills_first"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": []
+}

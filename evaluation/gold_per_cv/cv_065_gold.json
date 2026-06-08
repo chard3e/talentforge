@@ -1,0 +1,245 @@
+{
+  "cv_id": "cv_065",
+  "file_name": "cv_065_olivia_stewart.pdf",
+  "candidate_name": "Olivia Stewart",
+  "email": "olivia.stewart065@example.com",
+  "phone": "+44 7327 335697",
+  "location": "Remote / EMEA",
+  "title": "Junior SOC Analyst",
+  "role_family": "cybersecurity_grc_privacy",
+  "seniority": "junior",
+  "total_experience_years": 1,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "project_heavy",
+  "difficulty": "medium",
+  "summary": "Junior SOC Analyst with 1 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Linux, Burp Suite, SIEM, Firewall.",
+  "skills": [
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Linux is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Burp Suite",
+      "canonical_name": "Burp Suite",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Burp Suite is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SIEM",
+      "canonical_name": "SIEM",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "SIEM is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Firewall",
+      "canonical_name": "Firewall",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Firewall is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "KVKK",
+      "canonical_name": "KVKK",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "KVKK is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Risk Assessment",
+      "canonical_name": "Risk Assessment",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Risk Assessment is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ISO 27001",
+      "canonical_name": "ISO 27001",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "ISO 27001 is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Incident Response",
+      "canonical_name": "Incident Response",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Incident Response is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GDPR",
+      "canonical_name": "GDPR",
+      "category": "Compliance",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "GDPR is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Splunk",
+      "canonical_name": "Splunk",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Splunk is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Nessus",
+      "canonical_name": "Nessus",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Nessus is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SOC",
+      "canonical_name": "SOC",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "SOC is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Junior SOC Analyst",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Security / GRC | Amsterdam",
+      "description": "Delivered measurable work in security / grc using Burp Suite, KVKK, SOC, Firewall. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with Burp Suite and KVKK",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Burp Suite",
+        "KVKK",
+        "SOC",
+        "Firewall",
+        "ISO 27001",
+        "GDPR"
+      ],
+      "evidence_text": "Delivered measurable work in security / grc using Burp Suite, KVKK, SOC, Firewall. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with Burp Suite and KVKK Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "Bilgisayar Mühendisliği",
+      "institution": "Boğaziçi Üniversitesi",
+      "canonical_institution": "Boğaziçi Üniversitesi",
+      "start_year": 2015,
+      "end_year": 2019,
+      "gpa": 3.35,
+      "evidence_text": "BSc - Bilgisayar Mühendisliği, Boğaziçi Üniversitesi (2015-2019)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Monthly Closing Automation",
+      "description": "Led or contributed to Monthly Closing Automation, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Coordinator",
+      "technologies": [
+        "Splunk",
+        "Burp Suite",
+        "SIEM",
+        "GDPR"
+      ],
+      "skills_used": [
+        "Splunk",
+        "Burp Suite",
+        "SIEM",
+        "GDPR"
+      ],
+      "start_date": "2021-02",
+      "end_date": "2021-09",
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Monthly Closing Automation project used Splunk, Burp Suite, SIEM and delivered documented outputs.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Customer Onboarding Redesign",
+      "description": "Led or contributed to Customer Onboarding Redesign, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Developer",
+      "technologies": [
+        "Risk Assessment",
+        "SOC",
+        "ISO 27001",
+        "Linux",
+        "Burp Suite",
+        "Nessus"
+      ],
+      "skills_used": [
+        "Risk Assessment",
+        "SOC",
+        "ISO 27001",
+        "Linux",
+        "Burp Suite",
+        "Nessus"
+      ],
+      "start_date": "2023-02",
+      "end_date": "2023-07",
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Customer Onboarding Redesign project used Risk Assessment, SOC, ISO 27001 and delivered documented outputs.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "ISO 27001 Lead Implementer"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 1,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 1,
+    "languages": 0,
+    "companies": 1,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "cybersecurity_grc_privacy",
+    "medium",
+    "mixed_language_headers",
+    "project_heavy"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages"
+  ],
+  "trap_notes": []
+}

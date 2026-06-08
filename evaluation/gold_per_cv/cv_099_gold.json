@@ -1,0 +1,238 @@
+{
+  "cv_id": "cv_099",
+  "file_name": "cv_099_vildan_savas.docx",
+  "candidate_name": "Vildan Savaş",
+  "email": null,
+  "phone": null,
+  "location": "İstanbul / Şişli",
+  "title": "DevOps Engineer",
+  "role_family": "devops_cloud_platform",
+  "seniority": "mid",
+  "total_experience_years": 5,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "skills_first",
+  "difficulty": "easy",
+  "summary": "5 yıllık deneyime sahip DevOps Engineer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Azure, Jenkins, Grafana, AWS.",
+  "skills": [
+    {
+      "name": "Azure",
+      "canonical_name": "Azure",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Azure CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jenkins",
+      "canonical_name": "Jenkins",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Jenkins CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Grafana",
+      "canonical_name": "Grafana",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "Grafana CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "AWS",
+      "canonical_name": "AWS",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "AWS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 2,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Linux CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 5,
+      "level": 2,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Prometheus",
+      "canonical_name": "Prometheus",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "Prometheus CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Ansible",
+      "canonical_name": "Ansible",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Ansible CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Helm",
+      "canonical_name": "Helm",
+      "category": "DevOps/Cloud",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Helm CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Terraform",
+      "canonical_name": "Terraform",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Terraform CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CI/CD",
+      "canonical_name": "CI/CD",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "CI/CD CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical_name": "GitHub Actions",
+      "category": "DevOps/Cloud",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "GitHub Actions CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Akbank Teknoloji",
+      "canonical_company_name": "Akbank",
+      "role_title": "DevOps Engineer",
+      "start_date": "Kas 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Bulut / Platform | Remote",
+      "description": "Bulut / Platform alanında Helm, GitHub Actions, Prometheus, Ansible kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Helm ve GitHub Actions ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Helm",
+        "GitHub Actions",
+        "Prometheus",
+        "Ansible"
+      ],
+      "evidence_text": "Bulut / Platform alanında Helm, GitHub Actions, Prometheus, Ansible kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Helm ve GitHub Actions ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Papara Teknoloji",
+      "canonical_company_name": "Papara",
+      "role_title": "DevOps Engineer",
+      "start_date": "Şub 2021",
+      "end_date": "Ağu 2023",
+      "is_current": false,
+      "location": "Bulut / Platform | İzmir",
+      "description": "Bulut / Platform alanında Kubernetes, GitHub Actions, AWS, Grafana kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Kubernetes ve GitHub Actions ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Kubernetes",
+        "GitHub Actions",
+        "AWS",
+        "Grafana",
+        "Helm"
+      ],
+      "evidence_text": "Bulut / Platform alanında Kubernetes, GitHub Actions, AWS, Grafana kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Kubernetes ve GitHub Actions ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Information Systems",
+      "institution": "Middle East Technical University",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2020,
+      "end_year": 2024,
+      "gpa": 2.92,
+      "evidence_text": "Lisans - Information Systems, Middle East Technical University (2020-2024)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "Certified Kubernetes Administrator",
+    "HashiCorp Terraform Associate",
+    "AWS Solutions Architect Associate"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 13,
+    "experiences": 2,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 3,
+    "languages": 0,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "devops_cloud_platform",
+    "easy",
+    "hallucination_trap",
+    "missing_email",
+    "missing_phone",
+    "no_project_info",
+    "skills_first"
+  ],
+  "hallucination_traps": [
+    "no_project_info",
+    "missing_email",
+    "missing_phone"
+  ],
+  "absent_fields": [
+    "email",
+    "phone",
+    "languages",
+    "projects"
+  ],
+  "trap_notes": []
+}

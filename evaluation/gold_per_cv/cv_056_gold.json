@@ -1,0 +1,279 @@
+{
+  "cv_id": "cv_056",
+  "file_name": "cv_056_ozan_barut.pdf",
+  "candidate_name": "Ozan Barut",
+  "email": "ozan.barut056@example.com",
+  "phone": "+90 536 626 84 21",
+  "location": "Eskişehir / Tepebaşı",
+  "title": "Kıdemli Account Executive",
+  "role_family": "sales_customer_success_crm",
+  "seniority": "senior",
+  "total_experience_years": 7,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "one_column_clean",
+  "difficulty": "medium",
+  "summary": "7 yıllık deneyime sahip Kıdemli Account Executive. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: B2B Sales, HubSpot, SQL, Excel.",
+  "skills": [
+    {
+      "name": "B2B Sales",
+      "canonical_name": "B2B Sales",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "B2B Sales CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HubSpot",
+      "canonical_name": "HubSpot",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "HubSpot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Presentation",
+      "canonical_name": "Presentation",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Presentation CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Salesforce",
+      "canonical_name": "Salesforce",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "Salesforce CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Customer Success",
+      "canonical_name": "Customer Success",
+      "category": "Soft Skill",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Customer Success CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Pipeline Management",
+      "canonical_name": "Pipeline Management",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Pipeline Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Yemeksepeti",
+      "canonical_company_name": "Yemeksepeti",
+      "role_title": "Kıdemli Account Executive",
+      "start_date": "Ağu 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Satış / Müşteri Başarısı | Bursa",
+      "description": "Satış / Müşteri Başarısı alanında SQL, HubSpot, Salesforce, Presentation kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "SQL ve HubSpot ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "SQL",
+        "HubSpot",
+        "Salesforce",
+        "Presentation",
+        "Customer Success",
+        "Excel",
+        "B2B Sales"
+      ],
+      "evidence_text": "Satış / Müşteri Başarısı alanında SQL, HubSpot, Salesforce, Presentation kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı SQL ve HubSpot ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Junior Customer Success Specialist",
+      "start_date": "Ağu 2022",
+      "end_date": "May 2024",
+      "is_current": false,
+      "location": "Satış / Müşteri Başarısı | Kocaeli",
+      "description": "Satış / Müşteri Başarısı alanında SQL, Excel, B2B Sales, Salesforce kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "SQL ve Excel ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "SQL",
+        "Excel",
+        "B2B Sales",
+        "Salesforce",
+        "Pipeline Management"
+      ],
+      "evidence_text": "Satış / Müşteri Başarısı alanında SQL, Excel, B2B Sales, Salesforce kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı SQL ve Excel ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Junior Customer Success Specialist",
+      "start_date": "Eyl 2020",
+      "end_date": "Haz 2022",
+      "is_current": false,
+      "location": "Satış / Müşteri Başarısı | İstanbul",
+      "description": "Satış / Müşteri Başarısı alanında Excel, HubSpot, SQL, B2B Sales kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Excel ve HubSpot ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Excel",
+        "HubSpot",
+        "SQL",
+        "B2B Sales"
+      ],
+      "evidence_text": "Satış / Müşteri Başarısı alanında Excel, HubSpot, SQL, B2B Sales kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Excel ve HubSpot ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Paraşüt",
+      "canonical_company_name": "Paraşüt",
+      "role_title": "Junior Customer Success Specialist",
+      "start_date": "Eki 2018",
+      "end_date": "Tem 2020",
+      "is_current": false,
+      "location": "Satış / Müşteri Başarısı | Kocaeli",
+      "description": "Satış / Müşteri Başarısı alanında Excel, HubSpot, Customer Success, B2B Sales kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Excel ve HubSpot ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Excel",
+        "HubSpot",
+        "Customer Success",
+        "B2B Sales"
+      ],
+      "evidence_text": "Satış / Müşteri Başarısı alanında Excel, HubSpot, Customer Success, B2B Sales kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Excel ve HubSpot ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Marketing",
+      "institution": "Middle East Technical University",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2011,
+      "end_year": 2015,
+      "gpa": 3.62,
+      "evidence_text": "Lisans - Marketing, Middle East Technical University (2011-2015)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Procurement Approval Workflow",
+      "description": "Procurement Approval Workflow projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Customer Success",
+        "B2B Sales",
+        "Excel"
+      ],
+      "skills_used": [
+        "Customer Success",
+        "B2B Sales",
+        "Excel"
+      ],
+      "start_date": "2023-04",
+      "end_date": "2023-07",
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Procurement Approval Workflow projesinde Customer Success, B2B Sales, Excel kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Monthly Closing Automation",
+      "description": "Monthly Closing Automation projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "Excel",
+        "Customer Success",
+        "Salesforce",
+        "Pipeline Management",
+        "SQL"
+      ],
+      "skills_used": [
+        "Excel",
+        "Customer Success",
+        "Salesforce",
+        "Pipeline Management",
+        "SQL"
+      ],
+      "start_date": "2021-01",
+      "end_date": "2021-07",
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Monthly Closing Automation projesinde Excel, Customer Success, Salesforce kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "Customer Success Manager Certification",
+    "Salesforce Administrator",
+    "HubSpot Sales Software Certification"
+  ],
+  "languages": [
+    "Türkçe — Ana dil",
+    "English B1"
+  ],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 4,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 3,
+    "languages": 2,
+    "companies": 4,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "medium",
+    "one_column_clean",
+    "partial_missing_fields",
+    "sales_customer_success_crm"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [],
+  "trap_notes": []
+}

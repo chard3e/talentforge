@@ -1,0 +1,221 @@
+{
+  "cv_id": "cv_066",
+  "file_name": "cv_066_ziya_ergin.docx",
+  "candidate_name": "Ziya Ergin",
+  "email": "ziya.ergin066@example.com",
+  "phone": "+90 559 316 28 88",
+  "location": "Eskişehir / Tepebaşı",
+  "title": "Satış Operasyon Stajyeri",
+  "role_family": "sales_customer_success_crm",
+  "seniority": "intern",
+  "total_experience_years": 0.3,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "academic_research",
+  "difficulty": "medium",
+  "summary": "0.3 yıllık deneyime sahip Satış Operasyon Stajyeri. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Pipeline Management, Renewal Management, Excel, Presentation.",
+  "skills": [
+    {
+      "name": "Pipeline Management",
+      "canonical_name": "Pipeline Management",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 2,
+      "evidence_text": "Pipeline Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Renewal Management",
+      "canonical_name": "Renewal Management",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 1,
+      "evidence_text": "Renewal Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 2,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Presentation",
+      "canonical_name": "Presentation",
+      "category": "Soft Skill",
+      "years_experience": 0,
+      "level": 1,
+      "evidence_text": "Presentation CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "B2B Sales",
+      "canonical_name": "B2B Sales",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 1,
+      "evidence_text": "B2B Sales CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Customer Success",
+      "canonical_name": "Customer Success",
+      "category": "Soft Skill",
+      "years_experience": 0,
+      "level": 1,
+      "evidence_text": "Customer Success CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HubSpot",
+      "canonical_name": "HubSpot",
+      "category": "Tool",
+      "years_experience": 0,
+      "level": 2,
+      "evidence_text": "HubSpot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 0,
+      "level": 2,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Satış Operasyon Stajyeri",
+      "start_date": "Oca 2026",
+      "end_date": "May 2026",
+      "is_current": false,
+      "location": "Satış / Müşteri Başarısı | İstanbul",
+      "description": "Satış / Müşteri Başarısı alanında Renewal Management, SQL, Customer Success, B2B Sales kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Renewal Management ve SQL ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Renewal Management",
+        "SQL",
+        "Customer Success",
+        "B2B Sales",
+        "HubSpot",
+        "Pipeline Management",
+        "Excel"
+      ],
+      "evidence_text": "Satış / Müşteri Başarısı alanında Renewal Management, SQL, Customer Success, B2B Sales kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Renewal Management ve SQL ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Doktora",
+      "field": "İşletme",
+      "institution": "Marmara Üniversitesi",
+      "canonical_institution": "Marmara Üniversitesi",
+      "start_year": 2008,
+      "end_year": 2013,
+      "gpa": 3.64,
+      "evidence_text": "Doktora - İşletme, Marmara Üniversitesi (2008-2013)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Yüksek Lisans",
+      "field": "International Trade",
+      "institution": "Sabancı Üniversitesi",
+      "canonical_institution": "Sabancı Üniversitesi",
+      "start_year": 2015,
+      "end_year": 2017,
+      "gpa": 2.81,
+      "evidence_text": "Yüksek Lisans - International Trade, Sabancı Üniversitesi (2015-2017)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Thesis Research Study",
+      "description": "Thesis Research Study projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "SQL",
+        "Renewal Management",
+        "Excel",
+        "Presentation"
+      ],
+      "skills_used": [
+        "SQL",
+        "Renewal Management",
+        "Excel",
+        "Presentation"
+      ],
+      "start_date": "2021-05",
+      "end_date": "2021-08",
+      "url": null,
+      "project_type": "academic_thesis_research",
+      "evidence_text": "Thesis Research Study projesinde SQL, Renewal Management, Excel kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Literature Review Automation",
+      "description": "Literature Review Automation projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "Pipeline Management",
+        "B2B Sales",
+        "Customer Success",
+        "HubSpot",
+        "Excel"
+      ],
+      "skills_used": [
+        "Pipeline Management",
+        "B2B Sales",
+        "Customer Success",
+        "HubSpot",
+        "Excel"
+      ],
+      "start_date": "2025-09",
+      "end_date": null,
+      "url": null,
+      "project_type": "academic_thesis_research",
+      "evidence_text": "Literature Review Automation projesinde Pipeline Management, B2B Sales, Customer Success kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "Customer Success Manager Certification",
+    "HubSpot Sales Software Certification",
+    "Salesforce Administrator"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 1,
+    "projects": 2,
+    "educations": 2,
+    "certifications": 3,
+    "languages": 0,
+    "companies": 1,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "academic_research",
+    "medium",
+    "mixed_language_headers",
+    "sales_customer_success_crm"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages"
+  ],
+  "trap_notes": []
+}

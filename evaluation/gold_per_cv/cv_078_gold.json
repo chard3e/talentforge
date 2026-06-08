@@ -1,0 +1,220 @@
+{
+  "cv_id": "cv_078",
+  "file_name": "cv_078_eray_unal.docx",
+  "candidate_name": "Eray Ünal",
+  "email": "eray.unal078@example.com",
+  "phone": null,
+  "location": "Ankara / Çankaya",
+  "title": "Kıdemli Backend Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "senior",
+  "total_experience_years": 7,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "7 yıllık deneyime sahip Kıdemli Backend Developer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Redis, Kafka, Docker, Java.",
+  "skills": [
+    {
+      "name": "Redis",
+      "canonical_name": "Redis",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Redis CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kafka",
+      "canonical_name": "Kafka",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Kafka CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Java",
+      "canonical_name": "Java",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Java CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Spring Boot",
+      "canonical_name": "Spring Boot",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Spring Boot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "React",
+      "canonical_name": "React",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "React CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Softtech",
+      "canonical_company_name": "Softtech",
+      "role_title": "Kıdemli Backend Developer",
+      "start_date": "Oca 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yazılım / Finans Teknolojileri | Ankara",
+      "description": "Yazılım / Finans Teknolojileri alanında Java, React, Spring Boot, Python kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Java ve React ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Java",
+        "React",
+        "Spring Boot",
+        "Python",
+        "Redis"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Java, React, Spring Boot, Python kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Java ve React ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Junior Backend Developer",
+      "start_date": "Tem 2021",
+      "end_date": "Kas 2023",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | İzmir",
+      "description": "Yazılım / Finans Teknolojileri alanında Java, Redis, Docker, React kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Java ve Redis ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Java",
+        "Redis",
+        "Docker",
+        "React",
+        "Spring Boot",
+        "Kafka"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Java, Redis, Docker, React kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Java ve Redis ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Full Stack Developer",
+      "start_date": "Şub 2019",
+      "end_date": "Haz 2021",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | Ankara",
+      "description": "Yazılım / Finans Teknolojileri alanında Docker, Spring Boot, Redis, Java kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Docker ve Spring Boot ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Docker",
+        "Spring Boot",
+        "Redis",
+        "Java",
+        "React"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Docker, Spring Boot, Redis, Java kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Docker ve Spring Boot ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Ön Lisans",
+      "field": "Software Engineering",
+      "institution": "ODTÜ",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2013,
+      "end_year": 2015,
+      "gpa": 2.73,
+      "evidence_text": "Ön Lisans - Software Engineering, ODTÜ (2013-2015)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — İleri (C1)"
+  ],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "ambiguous_aws_company",
+    "backend_fullstack_software",
+    "chronological",
+    "company_without_role",
+    "hallucination_trap",
+    "medium",
+    "missing_phone",
+    "partial_missing_fields"
+  ],
+  "hallucination_traps": [
+    "company_without_role",
+    "missing_phone",
+    "ambiguous_aws_company"
+  ],
+  "absent_fields": [
+    "phone",
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": [
+    "Referans notu: Papara ve Trendyol ekipleriyle toplantılara katılım sağlandı; bu kurumlarda çalışma deneyimi değildir.",
+    "Not: AWS Lojistik tedarikçi kayıtları ile çalışıldı; burada AWS bir bulut yetkinliği olarak kullanılmadı."
+  ]
+}

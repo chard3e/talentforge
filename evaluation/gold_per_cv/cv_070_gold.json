@@ -1,0 +1,198 @@
+{
+  "cv_id": "cv_070",
+  "file_name": "cv_070_ella_cooper.pdf",
+  "candidate_name": "Ella Cooper",
+  "email": "ella.cooper070@example.com",
+  "phone": "+44 7494 546852",
+  "location": "Berlin / Hybrid",
+  "title": "Junior DevOps Engineer",
+  "role_family": "devops_cloud_platform",
+  "seniority": "junior",
+  "total_experience_years": 1,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "Junior DevOps Engineer with 1 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Kubernetes, CI/CD, Terraform, Helm.",
+  "skills": [
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Kubernetes is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CI/CD",
+      "canonical_name": "CI/CD",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "CI/CD is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Terraform",
+      "canonical_name": "Terraform",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Terraform is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Helm",
+      "canonical_name": "Helm",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Helm is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "AWS",
+      "canonical_name": "AWS",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "AWS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical_name": "GitHub Actions",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "GitHub Actions is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Grafana",
+      "canonical_name": "Grafana",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Grafana is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Azure",
+      "canonical_name": "Azure",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Azure is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Docker is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Linux is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Prometheus",
+      "canonical_name": "Prometheus",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Prometheus is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jenkins",
+      "canonical_name": "Jenkins",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Jenkins is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Papara",
+      "canonical_company_name": "Papara",
+      "role_title": "Junior DevOps Engineer",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Cloud / Platform | Izmir",
+      "description": "Delivered measurable work in cloud / platform using Azure, GitHub Actions, AWS, Kubernetes. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Azure and GitHub Actions",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Azure",
+        "GitHub Actions",
+        "AWS",
+        "Kubernetes",
+        "Jenkins"
+      ],
+      "evidence_text": "Delivered measurable work in cloud / platform using Azure, GitHub Actions, AWS, Kubernetes. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Azure and GitHub Actions Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "MSc",
+      "field": "Information Systems",
+      "institution": "Ege Üniversitesi",
+      "canonical_institution": "Ege Üniversitesi",
+      "start_year": 2023,
+      "end_year": 2025,
+      "gpa": 3.85,
+      "evidence_text": "MSc - Information Systems, Ege Üniversitesi (2023-2025)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "Certified Kubernetes Administrator",
+    "HashiCorp Terraform Associate",
+    "AWS Solutions Architect Associate"
+  ],
+  "languages": [
+    "English — C1",
+    "German — A2"
+  ],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 1,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 3,
+    "languages": 2,
+    "companies": 1,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "devops_cloud_platform",
+    "medium",
+    "partial_missing_fields"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "projects"
+  ],
+  "trap_notes": []
+}

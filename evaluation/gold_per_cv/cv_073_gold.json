@@ -1,0 +1,194 @@
+{
+  "cv_id": "cv_073",
+  "file_name": "cv_073_isla_watson.pdf",
+  "candidate_name": "Isla Watson",
+  "email": "isla.watson073@example.com",
+  "phone": "+44 7643 677183",
+  "location": "Istanbul / Hybrid",
+  "title": "Research Assistant",
+  "role_family": "education_academic_research",
+  "seniority": "mid",
+  "total_experience_years": 4,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "two_column_modern",
+  "difficulty": "easy",
+  "summary": "Research Assistant with 4 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Moodle, Python, Academic Writing, R.",
+  "skills": [
+    {
+      "name": "Moodle",
+      "canonical_name": "Moodle",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 2,
+      "evidence_text": "Moodle is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Academic Writing",
+      "canonical_name": "Academic Writing",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Academic Writing is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "R",
+      "canonical_name": "R",
+      "category": "Programming",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "R is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Literature Review",
+      "canonical_name": "Literature Review",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Literature Review is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Curriculum Design",
+      "canonical_name": "Curriculum Design",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Curriculum Design is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SPSS",
+      "canonical_name": "SPSS",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "SPSS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Survey Design",
+      "canonical_name": "Survey Design",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Survey Design is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Research Methodology",
+      "canonical_name": "Research Methodology",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Research Methodology is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "İstanbul Bilgi Üniversitesi",
+      "canonical_company_name": "İstanbul Bilgi Üniversitesi",
+      "role_title": "Research Assistant",
+      "start_date": "May 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Education / Research | Ankara",
+      "description": "Delivered measurable work in education / research using Research Methodology, Survey Design, Python, R. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with Research Methodology and Survey Design",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Research Methodology",
+        "Survey Design",
+        "Python",
+        "R",
+        "Academic Writing",
+        "Literature Review"
+      ],
+      "evidence_text": "Delivered measurable work in education / research using Research Methodology, Survey Design, Python, R. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with Research Methodology and Survey Design Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "ODTÜ",
+      "canonical_company_name": "ODTÜ",
+      "role_title": "Research Assistant",
+      "start_date": "Mar 2022",
+      "end_date": "Mar 2024",
+      "is_current": false,
+      "location": "Education / Research | Dublin",
+      "description": "Delivered measurable work in education / research using Literature Review, Curriculum Design, Python, SPSS. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Literature Review and Curriculum Design",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Literature Review",
+        "Curriculum Design",
+        "Python",
+        "SPSS",
+        "Research Methodology",
+        "Academic Writing",
+        "Survey Design"
+      ],
+      "evidence_text": "Delivered measurable work in education / research using Literature Review, Curriculum Design, Python, SPSS. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Literature Review and Curriculum Design Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Associate Degree",
+      "field": "Educational Technology",
+      "institution": "Sabancı Üniversitesi",
+      "canonical_institution": "Sabancı Üniversitesi",
+      "start_year": 2019,
+      "end_year": 2021,
+      "gpa": 2.83,
+      "evidence_text": "Associate Degree - Educational Technology, Sabancı Üniversitesi (2019-2021)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "English — Professional working proficiency"
+  ],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 2,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 1,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "education_academic_research",
+    "two_column_modern"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": []
+}

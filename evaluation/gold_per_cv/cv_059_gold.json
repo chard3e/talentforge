@@ -1,0 +1,214 @@
+{
+  "cv_id": "cv_059",
+  "file_name": "cv_059_simal_gur.docx",
+  "candidate_name": "Şimal Gür",
+  "email": "simal.gur059@example.com",
+  "phone": "+90 557 986 89 32",
+  "location": "İstanbul / Kadıköy",
+  "title": "Kıdemli People Ops Uzmanı",
+  "role_family": "hr_talent_peopleops",
+  "seniority": "senior",
+  "total_experience_years": 5,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 3,
+  "template_type": "chronological",
+  "difficulty": "hard",
+  "summary": "5 yıllık deneyime sahip Kıdemli People Ops Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: HR Analytics, Employee Relations, Recruitment, Performance Management.",
+  "skills": [
+    {
+      "name": "HR Analytics",
+      "canonical_name": "HR Analytics",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "HR Analytics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Employee Relations",
+      "canonical_name": "Employee Relations",
+      "category": "Soft Skill",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Employee Relations CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Recruitment",
+      "canonical_name": "Recruitment",
+      "category": "Soft Skill",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "Recruitment CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Performance Management",
+      "canonical_name": "Performance Management",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Performance Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP SuccessFactors",
+      "canonical_name": "SAP SuccessFactors",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "SAP SuccessFactors CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Training",
+      "canonical_name": "Training",
+      "category": "Soft Skill",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Training CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Kıdemli People Ops Uzmanı",
+      "start_date": "Şub 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "İnsan Kaynakları | İstanbul",
+      "description": "İnsan Kaynakları alanında Performance Management, Recruitment, SAP SuccessFactors, HR Analytics kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Performance Management ve Recruitment ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Performance Management",
+        "Recruitment",
+        "SAP SuccessFactors",
+        "HR Analytics",
+        "Training",
+        "Employee Relations"
+      ],
+      "evidence_text": "İnsan Kaynakları alanında Performance Management, Recruitment, SAP SuccessFactors, HR Analytics kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Performance Management ve Recruitment ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Eczacıbaşı",
+      "canonical_company_name": "Eczacıbaşı",
+      "role_title": "Talent Acquisition Specialist",
+      "start_date": "Ağu 2023",
+      "end_date": "Kas 2024",
+      "is_current": false,
+      "location": "İnsan Kaynakları | Remote",
+      "description": "İnsan Kaynakları alanında SAP SuccessFactors, Recruitment, Employee Relations, Training kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "SAP SuccessFactors ve Recruitment ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "SAP SuccessFactors",
+        "Recruitment",
+        "Employee Relations",
+        "Training",
+        "Performance Management"
+      ],
+      "evidence_text": "İnsan Kaynakları alanında SAP SuccessFactors, Recruitment, Employee Relations, Training kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı SAP SuccessFactors ve Recruitment ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Talent Acquisition Specialist",
+      "start_date": "03.2022",
+      "end_date": "06.2023",
+      "is_current": false,
+      "location": "İnsan Kaynakları | İstanbul",
+      "description": "İnsan Kaynakları alanında Recruitment, Employee Relations, Performance Management, HR Analytics kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Recruitment ve Employee Relations ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Recruitment",
+        "Employee Relations",
+        "Performance Management",
+        "HR Analytics",
+        "SAP SuccessFactors"
+      ],
+      "evidence_text": "İnsan Kaynakları alanında Recruitment, Employee Relations, Performance Management, HR Analytics kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Recruitment ve Employee Relations ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "KoçSistem",
+      "canonical_company_name": "KoçSistem",
+      "role_title": "Talent Acquisition Specialist",
+      "start_date": "10.2020",
+      "end_date": "01.2022",
+      "is_current": false,
+      "location": "İnsan Kaynakları | Remote",
+      "description": "İnsan Kaynakları alanında HR Analytics, SAP SuccessFactors, Performance Management, Recruitment kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "HR Analytics ve SAP SuccessFactors ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "HR Analytics",
+        "SAP SuccessFactors",
+        "Performance Management",
+        "Recruitment"
+      ],
+      "evidence_text": "İnsan Kaynakları alanında HR Analytics, SAP SuccessFactors, Performance Management, Recruitment kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı HR Analytics ve SAP SuccessFactors ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "İnsan Kaynakları Yönetimi",
+      "institution": "İstanbul Bilgi Üniversitesi",
+      "canonical_institution": "İstanbul Bilgi Üniversitesi",
+      "start_year": 2009,
+      "end_year": 2013,
+      "gpa": 2.92,
+      "evidence_text": "Lisans - İnsan Kaynakları Yönetimi, İstanbul Bilgi Üniversitesi (2009-2013)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 6,
+    "experiences": 4,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 4,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "company_skill_synonym",
+    "hard",
+    "hr_talent_peopleops",
+    "low_skill_count",
+    "mixed_date_format",
+    "senior_title_weak_skills"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": []
+}

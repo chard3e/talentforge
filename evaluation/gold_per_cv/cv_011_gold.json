@@ -1,0 +1,209 @@
+{
+  "cv_id": "cv_011",
+  "file_name": "cv_011_esra_tan.pdf",
+  "candidate_name": "Esra Tan",
+  "email": "esra.tan011@example.com",
+  "phone": "+90 533 326 15 28",
+  "location": "İstanbul / Kadıköy",
+  "title": "ML Engineer",
+  "role_family": "ml_ai_mlops",
+  "seniority": "mid",
+  "total_experience_years": 5,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "project_heavy",
+  "difficulty": "medium",
+  "summary": "5 yıllık deneyime sahip ML Engineer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: MLflow, PyTorch, NLP, FastAPI.",
+  "skills": [
+    {
+      "name": "MLflow",
+      "canonical_name": "MLflow",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "MLflow CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PyTorch",
+      "canonical_name": "PyTorch",
+      "category": "Data Science",
+      "years_experience": 5,
+      "level": 2,
+      "evidence_text": "PyTorch CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NLP",
+      "canonical_name": "NLP",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "NLP CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 2,
+      "evidence_text": "FastAPI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLOps",
+      "canonical_name": "MLOps",
+      "category": "Data Science",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "MLOps CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Computer Vision",
+      "canonical_name": "Computer Vision",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Computer Vision CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Feature Engineering",
+      "canonical_name": "Feature Engineering",
+      "category": "Data Science",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Feature Engineering CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Arçelik AI",
+      "canonical_company_name": "Arçelik AI",
+      "role_title": "ML Engineer",
+      "start_date": "Kas 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yapay Zeka / Modelleme | İstanbul",
+      "description": "Yapay Zeka / Modelleme alanında FastAPI, Docker, Python, Feature Engineering kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "FastAPI ve Docker ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "FastAPI",
+        "Docker",
+        "Python",
+        "Feature Engineering",
+        "NLP"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında FastAPI, Docker, Python, Feature Engineering kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı FastAPI ve Docker ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol Tech",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Junior Makine Öğrenmesi Mühendisi",
+      "start_date": "Nis 2021",
+      "end_date": "Eki 2023",
+      "is_current": false,
+      "location": "Yapay Zeka / Modelleme | Remote",
+      "description": "Yapay Zeka / Modelleme alanında Feature Engineering, Computer Vision, Docker, MLOps kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Feature Engineering ve Computer Vision ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Feature Engineering",
+        "Computer Vision",
+        "Docker",
+        "MLOps",
+        "MLflow"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında Feature Engineering, Computer Vision, Docker, MLOps kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Feature Engineering ve Computer Vision ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "Customer Onboarding Redesign",
+      "description": "Customer Onboarding Redesign projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Python",
+        "Feature Engineering",
+        "PyTorch",
+        "Computer Vision",
+        "MLOps"
+      ],
+      "skills_used": [
+        "Python",
+        "Feature Engineering",
+        "PyTorch",
+        "Computer Vision",
+        "MLOps"
+      ],
+      "start_date": "2025-02",
+      "end_date": null,
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Customer Onboarding Redesign projesinde Python, Feature Engineering, PyTorch kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "Databricks Machine Learning Associate",
+    "TensorFlow Developer Certificate",
+    "DeepLearning.AI Machine Learning Specialization"
+  ],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — İleri (C1)"
+  ],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 2,
+    "projects": 1,
+    "educations": 0,
+    "certifications": 3,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "medium",
+    "ml_ai_mlops",
+    "project_heavy",
+    "skill_synonym"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "educations"
+  ],
+  "trap_notes": []
+}

@@ -1,4 +1,4 @@
-from fastapi import Depends, FastAPI, File, HTTPException, UploadFile, status
+from fastapi import Depends, FastAPI, File, HTTPException, Query, UploadFile, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from fastapi.responses import Response
@@ -49,6 +49,7 @@ from app.schemas.auth import (
 )
 from app.schemas.query import QuerySpec
 from app.query.matcher import CandidateMatcher
+from app.query.job_matching import job_post_to_query_spec
 
 settings = get_settings()
 
@@ -174,22 +175,7 @@ def serialize_job(job: JobPost, application: JobApplication | None = None) -> di
 
 
 def query_spec_from_job(job: JobPost) -> QuerySpec:
-    locations = [job.location] if job.location else []
-    seniority = job.seniority if job.seniority in {"junior", "mid", "senior", "lead"} else None
-    return QuerySpec(
-        title=job.title,
-        seniority=seniority,
-        must_have_skills=job.must_have_skills or [],
-        nice_to_have_skills=job.nice_to_have_skills or [],
-        min_experience_years=job.min_experience_years,
-        preferred_industries=[],
-        locations=locations,
-        languages=[],
-        education_level=None,
-        education_institutions=[],
-        must_have_certifications=[],
-        free_text=job.description,
-    )
+    return job_post_to_query_spec(job)
 
 
 def candidate_neo4j_ids(candidate: CandidateProfile | None) -> list[str]:
@@ -685,6 +671,8 @@ async def dashboard(
 
 @app.get("/jobs")
 async def list_jobs(
+    limit: int = Query(100, ge=1, le=200),
+    offset: int = Query(0, ge=0),
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
@@ -693,6 +681,8 @@ async def list_jobs(
             db.query(JobPost)
             .filter(JobPost.organization_id == current_user.organization_id)
             .order_by(JobPost.created_at.desc())
+            .offset(offset)
+            .limit(limit)
             .all()
         )
         return {"jobs": [serialize_job(job) for job in jobs]}
@@ -707,12 +697,20 @@ async def list_jobs(
         )
         applied_by_job_id = {application.job_post_id: application for application in applications}
 
-    jobs = db.query(JobPost).filter(JobPost.status == "published").order_by(JobPost.created_at.desc()).all()
+    jobs = (
+        db.query(JobPost)
+        .filter(JobPost.status == "published")
+        .order_by(JobPost.created_at.desc())
+        .offset(offset)
+        .limit(limit)
+        .all()
+    )
     return {"jobs": [serialize_job(job, applied_by_job_id.get(job.id)) for job in jobs]}
 
 
 @app.get("/candidate/recommendations")
 async def candidate_recommendations(
+    limit: int = Query(25, ge=1, le=100),
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
@@ -759,7 +757,7 @@ async def candidate_recommendations(
         })
 
     recommendations.sort(key=lambda item: item.get("match_score") or 0, reverse=True)
-    return {"recommendations": recommendations}
+    return {"recommendations": recommendations[:limit]}
 
 
 @app.post("/jobs")
@@ -824,6 +822,8 @@ async def delete_job(
 @app.get("/jobs/{job_id}/applications")
 async def job_applications(
     job_id: str,
+    limit: int = Query(50, ge=1, le=200),
+    offset: int = Query(0, ge=0),
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
@@ -835,6 +835,8 @@ async def job_applications(
         db.query(JobApplication)
         .filter(JobApplication.job_post_id == job.id)
         .order_by(JobApplication.created_at.desc())
+        .offset(offset)
+        .limit(limit)
         .all()
     )
     applications = [match_application_to_job(application, db) for application in applications]
@@ -889,6 +891,8 @@ async def apply_to_job(
 
 @app.get("/applications/me")
 async def my_applications(
+    limit: int = Query(50, ge=1, le=200),
+    offset: int = Query(0, ge=0),
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
@@ -900,6 +904,8 @@ async def my_applications(
         db.query(JobApplication)
         .filter(JobApplication.candidate_profile_id == candidate.id)
         .order_by(JobApplication.created_at.desc())
+        .offset(offset)
+        .limit(limit)
         .all()
     )
     applications = [match_application_to_job(application, db) for application in applications]

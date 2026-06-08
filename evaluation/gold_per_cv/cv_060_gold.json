@@ -1,0 +1,291 @@
+{
+  "cv_id": "cv_060",
+  "file_name": "cv_060_jack_sullivan.docx",
+  "candidate_name": "Jack Sullivan",
+  "email": "jack.sullivan060@example.com",
+  "phone": "+44 7728 979446",
+  "location": "Amsterdam / Remote",
+  "title": "Senior People Operations Specialist",
+  "role_family": "hr_talent_peopleops",
+  "seniority": "senior",
+  "total_experience_years": 8,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "Senior People Operations Specialist with 8 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include LinkedIn Recruiter, Recruitment, Performance Management, HR Analytics.",
+  "skills": [
+    {
+      "name": "LinkedIn Recruiter",
+      "canonical_name": "LinkedIn Recruiter",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "LinkedIn Recruiter is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Recruitment",
+      "canonical_name": "Recruitment",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Recruitment is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Performance Management",
+      "canonical_name": "Performance Management",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Performance Management is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HR Analytics",
+      "canonical_name": "HR Analytics",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "HR Analytics is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Employee Relations",
+      "canonical_name": "Employee Relations",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Employee Relations is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ATS",
+      "canonical_name": "ATS",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "ATS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Onboarding",
+      "canonical_name": "Onboarding",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "Onboarding is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "People Analytics",
+      "canonical_name": "People Analytics",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "People Analytics is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Training",
+      "canonical_name": "Training",
+      "category": "Soft Skill",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Training is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP SuccessFactors",
+      "canonical_name": "SAP SuccessFactors",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "SAP SuccessFactors is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell Teknoloji",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Senior People Operations Specialist",
+      "start_date": "May 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Human Resources | Istanbul",
+      "description": "Delivered measurable work in human resources using Onboarding, ATS, People Analytics, Performance Management. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with Onboarding and ATS",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Onboarding",
+        "ATS",
+        "People Analytics",
+        "Performance Management",
+        "Recruitment",
+        "Employee Relations"
+      ],
+      "evidence_text": "Delivered measurable work in human resources using Onboarding, ATS, People Analytics, Performance Management. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with Onboarding and ATS Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "KoçSistem",
+      "canonical_company_name": "KoçSistem",
+      "role_title": "Talent Acquisition Specialist",
+      "start_date": "Mar 2022",
+      "end_date": "Mar 2024",
+      "is_current": false,
+      "location": "Human Resources | Dublin",
+      "description": "Delivered measurable work in human resources using HR Analytics, Performance Management, People Analytics, Training. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with HR Analytics and Performance Management",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "HR Analytics",
+        "Performance Management",
+        "People Analytics",
+        "Training",
+        "SAP SuccessFactors",
+        "Employee Relations"
+      ],
+      "evidence_text": "Delivered measurable work in human resources using HR Analytics, Performance Management, People Analytics, Training. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with HR Analytics and Performance Management Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Kariyer.net",
+      "canonical_company_name": "Kariyer.net",
+      "role_title": "Senior People Operations Specialist",
+      "start_date": "Jan 2020",
+      "end_date": "Jan 2022",
+      "is_current": false,
+      "location": "Human Resources | Izmir",
+      "description": "Delivered measurable work in human resources using Onboarding, Training, People Analytics, Employee Relations. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with Onboarding and Training",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Onboarding",
+        "Training",
+        "People Analytics",
+        "Employee Relations"
+      ],
+      "evidence_text": "Delivered measurable work in human resources using Onboarding, Training, People Analytics, Employee Relations. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with Onboarding and Training Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Eczacıbaşı",
+      "canonical_company_name": "Eczacıbaşı",
+      "role_title": "Senior People Operations Specialist",
+      "start_date": "Nov 2017",
+      "end_date": "Nov 2019",
+      "is_current": false,
+      "location": "Human Resources | Remote",
+      "description": "Delivered measurable work in human resources using Recruitment, Employee Relations, Training, LinkedIn Recruiter. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with Recruitment and Employee Relations",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Recruitment",
+        "Employee Relations",
+        "Training",
+        "LinkedIn Recruiter"
+      ],
+      "evidence_text": "Delivered measurable work in human resources using Recruitment, Employee Relations, Training, LinkedIn Recruiter. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with Recruitment and Employee Relations Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "İnsan Kaynakları Yönetimi",
+      "institution": "Istanbul Technical University",
+      "canonical_institution": "Istanbul Technical University",
+      "start_year": 2013,
+      "end_year": 2017,
+      "gpa": 3.55,
+      "evidence_text": "BSc - İnsan Kaynakları Yönetimi, Istanbul Technical University (2013-2017)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "SEO Content Cluster",
+      "description": "Led or contributed to SEO Content Cluster, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Contributor",
+      "technologies": [
+        "Employee Relations",
+        "Training",
+        "SAP SuccessFactors"
+      ],
+      "skills_used": [
+        "Employee Relations",
+        "Training",
+        "SAP SuccessFactors"
+      ],
+      "start_date": "2024-09",
+      "end_date": "2024-12",
+      "url": "https://github.com/example/seo_content_cluster",
+      "project_type": "marketing_campaign",
+      "evidence_text": "SEO Content Cluster project used Employee Relations, Training, SAP SuccessFactors and delivered documented outputs.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Brand Awareness Funnel",
+      "description": "Led or contributed to Brand Awareness Funnel, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Coordinator",
+      "technologies": [
+        "Recruitment",
+        "LinkedIn Recruiter",
+        "SAP SuccessFactors",
+        "Onboarding"
+      ],
+      "skills_used": [
+        "Recruitment",
+        "LinkedIn Recruiter",
+        "SAP SuccessFactors",
+        "Onboarding"
+      ],
+      "start_date": "2023-04",
+      "end_date": "2023-09",
+      "url": null,
+      "project_type": "marketing_campaign",
+      "evidence_text": "Brand Awareness Funnel project used Recruitment, LinkedIn Recruiter, SAP SuccessFactors and delivered documented outputs.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 4,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 4,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "hr_talent_peopleops",
+    "medium",
+    "mixed_language_headers"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications"
+  ],
+  "trap_notes": []
+}

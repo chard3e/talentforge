@@ -1,0 +1,284 @@
+{
+  "cv_id": "cv_032",
+  "file_name": "cv_032_nora_campbell.pdf",
+  "candidate_name": "Nora Campbell",
+  "email": "nora.campbell032@example.com",
+  "phone": "+44 7972 179265",
+  "location": "Izmir / On-site",
+  "title": "Senior BI Analyst",
+  "role_family": "data_bi_analytics",
+  "seniority": "senior",
+  "total_experience_years": 8,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "one_column_clean",
+  "difficulty": "easy",
+  "summary": "Senior BI Analyst with 8 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Python, Pandas, NumPy, SQL.",
+  "skills": [
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Pandas",
+      "canonical_name": "Pandas",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Pandas is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NumPy",
+      "canonical_name": "NumPy",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "NumPy is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 6,
+      "level": 3,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ETL",
+      "canonical_name": "ETL",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "ETL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "A/B Testing is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Excel is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Looker Studio is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Modeling",
+      "canonical_name": "Data Modeling",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "Data Modeling is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Trendyol Tech",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Senior BI Analyst",
+      "start_date": "May 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Data / Retail | Berlin",
+      "description": "Delivered measurable work in data / retail using SQL, Python, Excel, NumPy. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with SQL and Python",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "SQL",
+        "Python",
+        "Excel",
+        "NumPy"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using SQL, Python, Excel, NumPy. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with SQL and Python Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Vodafone",
+      "canonical_company_name": "Vodafone",
+      "role_title": "Data Analyst",
+      "start_date": "Mar 2022",
+      "end_date": "Mar 2024",
+      "is_current": false,
+      "location": "Data / Retail | Dublin",
+      "description": "Delivered measurable work in data / retail using Pandas, Data Modeling, SQL, Python. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 27% through process and tooling improvements",
+        "Improved reporting or service reliability with Pandas and Data Modeling",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Pandas",
+        "Data Modeling",
+        "SQL",
+        "Python",
+        "Excel",
+        "Looker Studio"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Pandas, Data Modeling, SQL, Python. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 27% through process and tooling improvements Improved reporting or service reliability with Pandas and Data Modeling Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Junior BI Analyst",
+      "start_date": "Dec 2019",
+      "end_date": "Dec 2021",
+      "is_current": false,
+      "location": "Data / Retail | Istanbul",
+      "description": "Delivered measurable work in data / retail using Python, SQL, Data Modeling, Pandas. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with Python and SQL",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Python",
+        "SQL",
+        "Data Modeling",
+        "Pandas",
+        "Looker Studio",
+        "Excel"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Python, SQL, Data Modeling, Pandas. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with Python and SQL Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Junior BI Analyst",
+      "start_date": "Sep 2017",
+      "end_date": "Sep 2019",
+      "is_current": false,
+      "location": "Data / Retail | Amsterdam",
+      "description": "Delivered measurable work in data / retail using Data Modeling, ETL, A/B Testing, Excel. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with Data Modeling and ETL",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Data Modeling",
+        "ETL",
+        "A/B Testing",
+        "Excel",
+        "NumPy"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Data Modeling, ETL, A/B Testing, Excel. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with Data Modeling and ETL Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "Data Analytics",
+      "institution": "Istanbul Technical University",
+      "canonical_institution": "Istanbul Technical University",
+      "start_year": 2012,
+      "end_year": 2016,
+      "gpa": 3.0,
+      "evidence_text": "BSc - Data Analytics, Istanbul Technical University (2012-2016)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Real-time Order Service",
+      "description": "Led or contributed to Real-time Order Service, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Developer",
+      "technologies": [
+        "ETL",
+        "Looker Studio",
+        "Pandas"
+      ],
+      "skills_used": [
+        "ETL",
+        "Looker Studio",
+        "Pandas"
+      ],
+      "start_date": "2025-05",
+      "end_date": null,
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Real-time Order Service project used ETL, Looker Studio, Pandas and delivered documented outputs.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLOps Model Serving API",
+      "description": "Led or contributed to MLOps Model Serving API, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Contributor",
+      "technologies": [
+        "ETL",
+        "Python",
+        "SQL",
+        "Pandas"
+      ],
+      "skills_used": [
+        "ETL",
+        "Python",
+        "SQL",
+        "Pandas"
+      ],
+      "start_date": "2025-02",
+      "end_date": "2025-05",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "MLOps Model Serving API project used ETL, Python, SQL and delivered documented outputs.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "Tableau Desktop Specialist"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 4,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 1,
+    "languages": 0,
+    "companies": 4,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "data_bi_analytics",
+    "easy",
+    "one_column_clean"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages"
+  ],
+  "trap_notes": []
+}

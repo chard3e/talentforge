@@ -1,0 +1,341 @@
+{
+  "cv_id": "cv_044",
+  "file_name": "cv_044_firat_arca.docx",
+  "candidate_name": "Fırat Arca",
+  "email": "firat.arca044@example.com",
+  "phone": "+90 539 970 39 62",
+  "location": "Remote / Türkiye",
+  "title": "Kıdemli BI Analisti",
+  "role_family": "data_bi_analytics",
+  "seniority": "senior",
+  "total_experience_years": 6,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "easy",
+  "summary": "6 yıllık deneyime sahip Kıdemli BI Analisti. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Looker Studio, Microsoft Excel, Data Modeling, Python.",
+  "skills": [
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "Looker Studio CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microsoft Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "Microsoft Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Modeling",
+      "canonical_name": "Data Modeling",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Data Modeling CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Tableau",
+      "canonical_name": "Tableau",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "Tableau CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NumPy",
+      "canonical_name": "NumPy",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "NumPy CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microsoft Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Microsoft Power BI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ETL",
+      "canonical_name": "ETL",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "ETL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "BigQuery",
+      "canonical_name": "BigQuery",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "BigQuery CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Yemeksepeti",
+      "canonical_company_name": "Yemeksepeti",
+      "role_title": "Kıdemli BI Analisti",
+      "start_date": "Kas 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Veri / Perakende | İstanbul",
+      "description": "Veri / Perakende alanında Data Modeling, Looker Studio, Tableau, SQL kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Data Modeling ve Looker Studio ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Data Modeling",
+        "Looker Studio",
+        "Tableau",
+        "SQL",
+        "A/B Testing",
+        "BigQuery",
+        "Microsoft Excel"
+      ],
+      "evidence_text": "Veri / Perakende alanında Data Modeling, Looker Studio, Tableau, SQL kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Data Modeling ve Looker Studio ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Vodafone",
+      "canonical_company_name": "Vodafone",
+      "role_title": "Kıdemli BI Analisti",
+      "start_date": "Nis 2023",
+      "end_date": "Eki 2024",
+      "is_current": false,
+      "location": "Veri / Perakende | Remote",
+      "description": "Veri / Perakende alanında Data Modeling, Python, ETL, Microsoft Excel kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Data Modeling ve Python ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Data Modeling",
+        "Python",
+        "ETL",
+        "Microsoft Excel"
+      ],
+      "evidence_text": "Veri / Perakende alanında Data Modeling, Python, ETL, Microsoft Excel kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Data Modeling ve Python ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "LC Waikiki",
+      "canonical_company_name": "LC Waikiki",
+      "role_title": "Junior BI Analisti",
+      "start_date": "Tem 2021",
+      "end_date": "Oca 2023",
+      "is_current": false,
+      "location": "Veri / Perakende | İstanbul",
+      "description": "Veri / Perakende alanında SQL, Microsoft Excel, A/B Testing, BigQuery kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "SQL ve Microsoft Excel ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "SQL",
+        "Microsoft Excel",
+        "A/B Testing",
+        "BigQuery",
+        "Data Modeling"
+      ],
+      "evidence_text": "Veri / Perakende alanında SQL, Microsoft Excel, A/B Testing, BigQuery kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı SQL ve Microsoft Excel ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Veri Analisti",
+      "start_date": "Ara 2019",
+      "end_date": "Haz 2021",
+      "is_current": false,
+      "location": "Veri / Perakende | Remote",
+      "description": "Veri / Perakende alanında Data Modeling, Microsoft Excel, Looker Studio, BigQuery kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Data Modeling ve Microsoft Excel ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Data Modeling",
+        "Microsoft Excel",
+        "Looker Studio",
+        "BigQuery"
+      ],
+      "evidence_text": "Veri / Perakende alanında Data Modeling, Microsoft Excel, Looker Studio, BigQuery kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Data Modeling ve Microsoft Excel ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "SEO Content Cluster",
+      "description": "SEO Content Cluster projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "Data Modeling",
+        "Microsoft Excel",
+        "BigQuery"
+      ],
+      "skills_used": [
+        "Data Modeling",
+        "Microsoft Excel",
+        "BigQuery"
+      ],
+      "start_date": "2023-03",
+      "end_date": "2023-05",
+      "url": null,
+      "project_type": "marketing_campaign",
+      "evidence_text": "SEO Content Cluster projesinde Data Modeling, Microsoft Excel, BigQuery kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Lifecycle Email Campaign",
+      "description": "Lifecycle Email Campaign projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Tableau",
+        "SQL",
+        "Python",
+        "ETL"
+      ],
+      "skills_used": [
+        "Tableau",
+        "SQL",
+        "Python",
+        "ETL"
+      ],
+      "start_date": "2022-02",
+      "end_date": "2022-04",
+      "url": null,
+      "project_type": "marketing_campaign",
+      "evidence_text": "Lifecycle Email Campaign projesinde Tableau, SQL, Python kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Lifecycle Email Campaign",
+      "description": "Lifecycle Email Campaign projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "Looker Studio",
+        "ETL",
+        "Python",
+        "SQL"
+      ],
+      "skills_used": [
+        "Looker Studio",
+        "ETL",
+        "Python",
+        "SQL"
+      ],
+      "start_date": "2023-02",
+      "end_date": "2023-10",
+      "url": null,
+      "project_type": "marketing_campaign",
+      "evidence_text": "Lifecycle Email Campaign projesinde Looker Studio, ETL, Python kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ROAS Optimization Sprint",
+      "description": "ROAS Optimization Sprint projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "ETL",
+        "NumPy",
+        "Microsoft Excel",
+        "SQL",
+        "Microsoft Power BI",
+        "Python"
+      ],
+      "skills_used": [
+        "ETL",
+        "NumPy",
+        "Microsoft Excel",
+        "SQL",
+        "Microsoft Power BI",
+        "Python"
+      ],
+      "start_date": "2024-02",
+      "end_date": null,
+      "url": "https://github.com/example/roas_optimization_sprint",
+      "project_type": "marketing_campaign",
+      "evidence_text": "ROAS Optimization Sprint projesinde ETL, NumPy, Microsoft Excel kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — İleri (C1)"
+  ],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 4,
+    "projects": 4,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 4,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "chronological",
+    "clear_sections",
+    "data_bi_analytics",
+    "easy"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "educations"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,260 @@
+{
+  "cv_id": "cv_046",
+  "file_name": "cv_046_hande_alper.pdf",
+  "candidate_name": "Hande Alper",
+  "email": "hande.alper046@example.com",
+  "phone": "+90 547 679 58 29",
+  "location": "İstanbul / Kadıköy",
+  "title": "Full Stack Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "hard",
+  "summary": "3 yıllık deneyime sahip Full Stack Developer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: TypeScript, Next.js, Redis, Docker.",
+  "skills": [
+    {
+      "name": "TypeScript",
+      "canonical_name": "TypeScript",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "TypeScript CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Next.js",
+      "canonical_name": "Next.js",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Next.js CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Redis",
+      "canonical_name": "Redis",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Redis CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Java",
+      "canonical_name": "Java",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Java CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "FastAPI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Node.js",
+      "canonical_name": "Node.js",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Node.js CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Spring Boot",
+      "canonical_name": "Spring Boot",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Spring Boot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Git CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PostgreSQL",
+      "canonical_name": "PostgreSQL",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "PostgreSQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "REST API",
+      "canonical_name": "REST API",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "REST API CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kafka",
+      "canonical_name": "Kafka",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Kafka CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Garanti BBVA",
+      "canonical_company_name": "Garanti BBVA",
+      "role_title": "Full Stack Developer",
+      "start_date": "11.2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yazılım / Finans Teknolojileri | Kocaeli",
+      "description": "Yazılım / Finans Teknolojileri alanında Java, Redis, Docker, REST API kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Java ve Redis ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Java",
+        "Redis",
+        "Docker",
+        "REST API",
+        "Next.js"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Java, Redis, Docker, REST API kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Java ve Redis ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Junior Backend Developer",
+      "start_date": "02.2023",
+      "end_date": "08.2024",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | İstanbul",
+      "description": "Yazılım / Finans Teknolojileri alanında Docker, Spring Boot, Redis, Git kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Docker ve Spring Boot ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Docker",
+        "Spring Boot",
+        "Redis",
+        "Git",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Docker, Spring Boot, Redis, Git kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Docker ve Spring Boot ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "Customer 360 Data Mart",
+      "description": "Customer 360 Data Mart projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "Kafka",
+        "PostgreSQL",
+        "Redis",
+        "Spring Boot"
+      ],
+      "skills_used": [
+        "Kafka",
+        "PostgreSQL",
+        "Redis",
+        "Spring Boot"
+      ],
+      "start_date": "2025-07",
+      "end_date": "2025-09",
+      "url": "https://github.com/example/customer_360_data_mart",
+      "project_type": "software_ai_data",
+      "evidence_text": "Customer 360 Data Mart projesinde Kafka, PostgreSQL, Redis kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    },
+    {
+      "name": "Customer 360 Data Mart",
+      "description": "Customer 360 Data Mart projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "Kafka",
+        "FastAPI",
+        "Java",
+        "Spring Boot",
+        "Git",
+        "Docker"
+      ],
+      "skills_used": [
+        "Kafka",
+        "FastAPI",
+        "Java",
+        "Spring Boot",
+        "Git",
+        "Docker"
+      ],
+      "start_date": "2022-09",
+      "end_date": null,
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Customer 360 Data Mart projesinde Kafka, FastAPI, Java kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — Orta-İleri (B2)",
+    "Almanca — Başlangıç (A2)"
+  ],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 2,
+    "projects": 2,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 3,
+    "companies": 2,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "chronological",
+    "embedded_skills",
+    "hard"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "educations"
+  ],
+  "trap_notes": []
+}

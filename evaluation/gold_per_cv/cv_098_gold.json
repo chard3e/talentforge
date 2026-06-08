@@ -1,0 +1,278 @@
+{
+  "cv_id": "cv_098",
+  "file_name": "cv_098_ulas_kivanc.docx",
+  "candidate_name": "Ulaş Kıvanç",
+  "email": "ulas.kivanc098@example.com",
+  "phone": "+90 551 506 75 49",
+  "location": "İzmir / Bornova",
+  "title": "Kıdemli Laboratuvar Uzmanı",
+  "role_family": "healthcare_lab_clinical_ops",
+  "seniority": "senior",
+  "total_experience_years": 8,
+  "language": "mixed",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "academic_research",
+  "difficulty": "medium",
+  "summary": "8 yıllık deneyime sahip Kıdemli Laboratuvar Uzmanı. Product, data ve operations ekipleriyle çalışır; core strengths: Regulatory Documentation, Excel, Medical Terminology, SOP.",
+  "skills": [
+    {
+      "name": "Regulatory Documentation",
+      "canonical_name": "Regulatory Documentation",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 3,
+      "evidence_text": "Regulatory Documentation CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Medical Terminology",
+      "canonical_name": "Medical Terminology",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Medical Terminology CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SOP",
+      "canonical_name": "SOP",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "SOP CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Patient Data",
+      "canonical_name": "Patient Data",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Patient Data CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "LIMS",
+      "canonical_name": "LIMS",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "LIMS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Sample Tracking",
+      "canonical_name": "Sample Tracking",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "Sample Tracking CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Laboratory Testing",
+      "canonical_name": "Laboratory Testing",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 3,
+      "evidence_text": "Laboratory Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Quality Control",
+      "canonical_name": "Quality Control",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Quality Control CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Acıbadem Labmed",
+      "canonical_company_name": "Acıbadem Labmed",
+      "role_title": "Kıdemli Laboratuvar Uzmanı",
+      "start_date": "May 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Sağlık / Klinik Operasyon | Remote",
+      "description": "Sağlık / Klinik Operasyon alanında Laboratory Testing, Sample Tracking, Patient Data, Excel ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %24 azalttı",
+        "Laboratory Testing ve Sample Tracking kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Laboratory Testing",
+        "Sample Tracking",
+        "Patient Data",
+        "Excel",
+        "SOP",
+        "Regulatory Documentation",
+        "Medical Terminology"
+      ],
+      "evidence_text": "Sağlık / Klinik Operasyon alanında Laboratory Testing, Sample Tracking, Patient Data, Excel ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %24 azalttı Laboratory Testing ve Sample Tracking kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Florence Nightingale",
+      "canonical_company_name": "Florence Nightingale",
+      "role_title": "Klinik Operasyon Uzmanı",
+      "start_date": "Şub 2022",
+      "end_date": "Şub 2024",
+      "is_current": false,
+      "location": "Sağlık / Klinik Operasyon | Remote",
+      "description": "Sağlık / Klinik Operasyon alanında Sample Tracking, Excel, Medical Terminology, Laboratory Testing ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %18 azalttı",
+        "Sample Tracking ve Excel kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Sample Tracking",
+        "Excel",
+        "Medical Terminology",
+        "Laboratory Testing",
+        "LIMS",
+        "Patient Data"
+      ],
+      "evidence_text": "Sağlık / Klinik Operasyon alanında Sample Tracking, Excel, Medical Terminology, Laboratory Testing ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %18 azalttı Sample Tracking ve Excel kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Medicana",
+      "canonical_company_name": "Medicana",
+      "role_title": "Klinik Operasyon Uzmanı",
+      "start_date": "Kas 2019",
+      "end_date": "Kas 2021",
+      "is_current": false,
+      "location": "Sağlık / Klinik Operasyon | Kocaeli",
+      "description": "Sağlık / Klinik Operasyon alanında Patient Data, Sample Tracking, Medical Terminology, Regulatory Documentation ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %24 azalttı",
+        "Patient Data ve Sample Tracking kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Patient Data",
+        "Sample Tracking",
+        "Medical Terminology",
+        "Regulatory Documentation",
+        "SOP",
+        "Quality Control"
+      ],
+      "evidence_text": "Sağlık / Klinik Operasyon alanında Patient Data, Sample Tracking, Medical Terminology, Regulatory Documentation ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %24 azalttı Patient Data ve Sample Tracking kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Düzen Laboratuvarı",
+      "canonical_company_name": "Düzen Laboratuvarı",
+      "role_title": "Junior Laboratuvar Teknikeri",
+      "start_date": "Ağu 2017",
+      "end_date": "Ağu 2019",
+      "is_current": false,
+      "location": "Sağlık / Klinik Operasyon | İstanbul",
+      "description": "Sağlık / Klinik Operasyon alanında Excel, Laboratory Testing, Patient Data, Regulatory Documentation ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %38 azalttı",
+        "Excel ve Laboratory Testing kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Excel",
+        "Laboratory Testing",
+        "Patient Data",
+        "Regulatory Documentation"
+      ],
+      "evidence_text": "Sağlık / Klinik Operasyon alanında Excel, Laboratory Testing, Patient Data, Regulatory Documentation ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %38 azalttı Excel ve Laboratory Testing kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Yüksek Lisans",
+      "field": "Medical Laboratory Techniques",
+      "institution": "Hacettepe Üniversitesi",
+      "canonical_institution": "Hacettepe Üniversitesi",
+      "start_year": 2016,
+      "end_year": 2018,
+      "gpa": 3.0,
+      "evidence_text": "Yüksek Lisans - Medical Laboratory Techniques, Hacettepe Üniversitesi (2016-2018)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Ön Lisans",
+      "field": "Medical Laboratory Techniques",
+      "institution": "Ege Üniversitesi",
+      "canonical_institution": "Ege Üniversitesi",
+      "start_year": 2011,
+      "end_year": 2013,
+      "gpa": 3.33,
+      "evidence_text": "Ön Lisans - Medical Laboratory Techniques, Ege Üniversitesi (2011-2013)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Literature Review Automation",
+      "description": "Literature Review Automation için project owner/contributor rolünde çalıştı; business outcome ve operasyonel takip hedeflendi.",
+      "role": "Koordinatör",
+      "technologies": [
+        "Quality Control",
+        "Excel",
+        "SOP"
+      ],
+      "skills_used": [
+        "Quality Control",
+        "Excel",
+        "SOP"
+      ],
+      "start_date": "2025-04",
+      "end_date": "2025-09",
+      "url": null,
+      "project_type": "academic_thesis_research",
+      "evidence_text": "Literature Review Automation projesinde Quality Control, Excel, SOP kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "Good Clinical Practice Certificate",
+    "Clinical Research Associate Training",
+    "ISO 15189 Awareness"
+  ],
+  "languages": [
+    "Türkçe — Ana dil",
+    "English — Advanced C1",
+    "German — A2"
+  ],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 4,
+    "projects": 1,
+    "educations": 2,
+    "certifications": 3,
+    "languages": 3,
+    "companies": 4,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "academic_research",
+    "healthcare_lab_clinical_ops",
+    "medium",
+    "skill_synonym"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [],
+  "trap_notes": []
+}

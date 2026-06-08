@@ -29,6 +29,57 @@ SENIORITY_MAP = {"junior": 1, "mid": 2, "senior": 3, "lead": 4}
 
 DEGREE_MAP = {"bsc": 1, "msc": 2, "phd": 3}
 
+SKILL_ALIASES = {
+    "JavaScript": ["JS", "Java Script", "ECMAScript"],
+    "TypeScript": ["TS"],
+    "Node.js": ["NodeJS", "Node", "Node JS"],
+    "React": ["React.js", "ReactJS", "React JS"],
+    "Next.js": ["NextJS", "Next JS"],
+    "Python": ["Python3", "py", "piton"],
+    "PostgreSQL": ["Postgres", "Postgre SQL", "PSQL"],
+    "MongoDB": ["Mongo", "Mongo DB"],
+    "Kubernetes": ["K8s", "kube"],
+    "AWS": ["Amazon Web Services", "AWS Cloud"],
+    "Google Cloud": ["GCP", "Google Cloud Platform"],
+    "Machine Learning": ["ML", "Makine Ogrenmesi", "Makine Öğrenmesi"],
+    "Deep Learning": ["DL", "Derin Ogrenme", "Derin Öğrenme"],
+    "NLP": ["Natural Language Processing", "Dogal Dil Isleme", "Doğal Dil İşleme"],
+    "MLOps": ["ML Ops", "Model Operations"],
+    "CI/CD": ["CICD", "CI CD", "Continuous Integration", "Continuous Delivery"],
+    "Microservices": ["Microservice", "Mikroservis", "Mikroservis Mimarisi"],
+    "Event-Driven Architecture": ["Event Driven", "Event-Driven", "EDA"],
+    "Data Privacy": ["Privacy", "Veri Gizliligi", "Veri Gizliliği"],
+    "KVKK": ["Kisisel Verilerin Korunmasi", "Kişisel Verilerin Korunması"],
+    "GDPR": ["General Data Protection Regulation"],
+    "ISO 27001": ["ISO27001", "Information Security Management"],
+    "Power BI": ["PowerBI"],
+}
+
+TITLE_ALIASES = {
+    "Backend Developer": ["Backend Engineer", "Software Engineer", "API Developer"],
+    "Frontend Developer": ["Frontend Engineer", "UI Developer"],
+    "Full Stack Developer": ["Fullstack Developer", "Full-Stack Developer", "Full Stack Engineer"],
+    "ML AI Engineer": ["ML Engineer", "AI Engineer", "Machine Learning Engineer", "Data Scientist"],
+    "Data Analyst": ["BI Analyst", "Business Intelligence Analyst", "Veri Analisti"],
+    "Data Engineer": ["Veri Muhendisi", "Veri Mühendisi", "ETL Developer"],
+    "DevOps Cloud Engineer": ["Cloud Engineer", "Platform Engineer", "Site Reliability Engineer", "SRE"],
+    "Cybersecurity Specialist": ["Security Specialist", "GRC Specialist", "Siber Guvenlik", "Siber Güvenlik"],
+    "Data Privacy Specialist": ["Compliance Specialist", "Uyum Uzmani", "Uyum Uzmanı", "KVKK GDPR"],
+    "Business Analyst": ["Is Analisti", "İş Analisti", "Process Analyst"],
+    "Product Manager": ["Urun Yoneticisi", "Ürün Yöneticisi"],
+    "Talent Acquisition Specialist": ["Recruiter", "People Ops", "Insan Kaynaklari", "İnsan Kaynakları"],
+}
+
+INSTITUTION_ALIASES = {
+    "ODTU": ["ODTÜ", "Orta Dogu Teknik Universitesi", "Orta Doğu Teknik Üniversitesi", "METU", "Middle East Technical University"],
+    "Bogazici Universitesi": ["Boğaziçi Üniversitesi", "Bogazici", "Boğaziçi", "BOUN"],
+    "Istanbul Teknik Universitesi": ["İstanbul Teknik Üniversitesi", "ITU", "İTÜ", "Istanbul Teknik"],
+    "Yildiz Teknik Universitesi": ["Yıldız Teknik Üniversitesi", "YTU", "YTÜ", "Yildiz Teknik", "Yıldız Teknik"],
+    "Marmara Universitesi": ["Marmara Üniversitesi", "Marmara", "Marmara University"],
+    "Istanbul Bilgi Universitesi": ["İstanbul Bilgi Üniversitesi", "Bilgi", "Istanbul Bilgi", "İstanbul Bilgi"],
+    "Hacettepe Universitesi": ["Hacettepe Üniversitesi", "Hacettepe"],
+}
+
 SENIORITY_KEYWORDS = {
     "lead": ["lead", "principal", "staff", "müdür", "director", "vp", "cto", "cio", "baş"],
     "senior": ["senior", "sr.", "kıdemli", "uzman", "specialist", "expert"],
@@ -67,21 +118,48 @@ def _normalize_turkish(text: str) -> str:
     return text.lower().strip()
 
 
+def _normalize_match_text(text: str) -> str:
+    for k, v in {
+        "İ": "i", "I": "i", "ı": "i", "Ş": "s", "ş": "s",
+        "Ğ": "g", "ğ": "g", "Ü": "u", "ü": "u", "Ö": "o",
+        "ö": "o", "Ç": "c", "ç": "c", "Ä°": "i", "Ä±": "i",
+        "Å": "s", "ÅŸ": "s", "Ä": "g", "ÄŸ": "g", "Ãœ": "u",
+        "Ã¼": "u", "Ã–": "o", "Ã¶": "o", "Ã‡": "c", "Ã§": "c",
+    }.items():
+        text = text.replace(k, v)
+    return " ".join(text.lower().replace("_", " ").replace("-", " ").strip().split())
+
+
+def _expanded_terms(text: str, aliases: Dict[str, List[str]]) -> set[str]:
+    norm = _normalize_match_text(text)
+    terms = {norm} if norm else set()
+    for canonical, values in aliases.items():
+        canonical_norm = _normalize_match_text(canonical)
+        alias_norms = {_normalize_match_text(value) for value in values}
+        if norm == canonical_norm or norm in alias_norms:
+            terms.add(canonical_norm)
+            terms.update(alias_norms)
+    return {term for term in terms if term}
+
+
 # ── Ana sınıf ─────────────────────────────────────────────────────────
 
 def _skill_matches(query_skill: str, candidate_skills: set[str]) -> bool:
     """Match exact, contained, or fuzzy skill names after normalization."""
-    skill_norm = _normalize_turkish(query_skill)
+    query_terms = _expanded_terms(query_skill, SKILL_ALIASES)
+    candidate_terms = set(candidate_skills)
+    for candidate_skill in candidate_skills:
+        candidate_terms.update(_expanded_terms(candidate_skill, SKILL_ALIASES))
 
-    if skill_norm in candidate_skills:
+    if query_terms & candidate_terms:
         return True
 
-    if any(skill_norm in cand_skill or cand_skill in skill_norm for cand_skill in candidate_skills):
+    if any(q in c or c in q for q in query_terms for c in candidate_terms if len(q) >= 3 and len(c) >= 3):
         return True
 
     try:
         from rapidfuzz import fuzz
-        return any(fuzz.ratio(skill_norm, cand_skill) > 75 for cand_skill in candidate_skills)
+        return any(fuzz.ratio(q, c) > 78 for q in query_terms for c in candidate_terms)
     except Exception:
         return False
 
@@ -408,18 +486,24 @@ class CandidateMatcher:
         if not title:
             return 1.0, None
 
-        title_norm = _normalize_turkish(title)
-        title_words = set(title_norm.split())
+        title_terms = _expanded_terms(title, TITLE_ALIASES)
+        title_words = set().union(*(term.split() for term in title_terms)) if title_terms else set()
 
         best_score = 0.0
         best_role = ""
 
         for exp in candidate.get("experiences", []):
             role = exp.get("role") or ""
-            role_norm = _normalize_turkish(role)
-            role_words = set(role_norm.split())
+            role_terms = _expanded_terms(role, TITLE_ALIASES)
+            role_norm = _normalize_match_text(role)
+            role_words = set().union(*(term.split() for term in role_terms)) if role_terms else set(role_norm.split())
 
-            if title_norm in role_norm or role_norm in title_norm:
+            if title_terms & role_terms or any(
+                title_term in role_term or role_term in title_term
+                for title_term in title_terms
+                for role_term in role_terms
+                if len(title_term) >= 4 and len(role_term) >= 4
+            ):
                 best_score = 1.0
                 best_role = role
                 break
@@ -535,21 +619,26 @@ class CandidateMatcher:
             for edu in candidate.get("educations", [])
             if edu.get("institution")
         ]
-        candidate_norms = {_normalize_turkish(name) for name in candidate_institutions}
+        candidate_norms = set()
+        for name in candidate_institutions:
+            candidate_norms.update(_expanded_terms(name, INSTITUTION_ALIASES))
         matched = []
         missing = []
 
         for institution in institutions:
-            institution_norm = _normalize_turkish(institution)
-            is_match = institution_norm in candidate_norms or any(
+            institution_terms = _expanded_terms(institution, INSTITUTION_ALIASES)
+            is_match = bool(institution_terms & candidate_norms) or any(
                 institution_norm in candidate_name or candidate_name in institution_norm
+                for institution_norm in institution_terms
                 for candidate_name in candidate_norms
+                if len(institution_norm) >= 4 and len(candidate_name) >= 4
             )
             if not is_match:
                 try:
                     from rapidfuzz import fuzz
                     is_match = any(
                         fuzz.ratio(institution_norm, candidate_name) > 78
+                        for institution_norm in institution_terms
                         for candidate_name in candidate_norms
                     )
                 except Exception:

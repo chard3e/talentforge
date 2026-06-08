@@ -1,0 +1,205 @@
+{
+  "cv_id": "cv_007",
+  "file_name": "cv_007_eylul_cora.docx",
+  "candidate_name": "Eylül Çora",
+  "email": "eylul.cora007@example.com",
+  "phone": "+90 534 310 81 53",
+  "location": "İstanbul / Kadıköy",
+  "title": "Junior Recruiter",
+  "role_family": "hr_talent_peopleops",
+  "seniority": "junior",
+  "total_experience_years": 3,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "academic_research",
+  "difficulty": "medium",
+  "summary": "3 yıllık deneyime sahip Junior Recruiter. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Recruitment, ATS, People Analytics, HR Analytics.",
+  "skills": [
+    {
+      "name": "Recruitment",
+      "canonical_name": "Recruitment",
+      "category": "Soft Skill",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Recruitment CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ATS",
+      "canonical_name": "ATS",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "ATS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "People Analytics",
+      "canonical_name": "People Analytics",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "People Analytics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HR Analytics",
+      "canonical_name": "HR Analytics",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "HR Analytics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Performance Management",
+      "canonical_name": "Performance Management",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Performance Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "LinkedIn Recruiter",
+      "canonical_name": "LinkedIn Recruiter",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "LinkedIn Recruiter CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Training",
+      "canonical_name": "Training",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Training CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Employee Relations",
+      "canonical_name": "Employee Relations",
+      "category": "Soft Skill",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Employee Relations CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "KoçSistem",
+      "canonical_company_name": "KoçSistem",
+      "role_title": "Junior Recruiter",
+      "start_date": "Kas 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "İnsan Kaynakları | Ankara",
+      "description": "İnsan Kaynakları alanında Performance Management, People Analytics, Training, ATS kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Performance Management ve People Analytics ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Performance Management",
+        "People Analytics",
+        "Training",
+        "ATS"
+      ],
+      "evidence_text": "İnsan Kaynakları alanında Performance Management, People Analytics, Training, ATS kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Performance Management ve People Analytics ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Kariyer.net",
+      "canonical_company_name": "Kariyer.net",
+      "role_title": "İK Stajyeri",
+      "start_date": "Şub 2023",
+      "end_date": "Ağu 2024",
+      "is_current": false,
+      "location": "İnsan Kaynakları | Bursa",
+      "description": "İnsan Kaynakları alanında LinkedIn Recruiter, Performance Management, People Analytics, Recruitment kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "LinkedIn Recruiter ve Performance Management ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "LinkedIn Recruiter",
+        "Performance Management",
+        "People Analytics",
+        "Recruitment",
+        "ATS",
+        "HR Analytics"
+      ],
+      "evidence_text": "İnsan Kaynakları alanında LinkedIn Recruiter, Performance Management, People Analytics, Recruitment kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı LinkedIn Recruiter ve Performance Management ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Yüksek Lisans",
+      "field": "Psikoloji",
+      "institution": "ODTÜ",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2017,
+      "end_year": 2019,
+      "gpa": 2.91,
+      "evidence_text": "Yüksek Lisans - Psikoloji, ODTÜ (2017-2019)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Clinical Research Data Review",
+      "description": "Clinical Research Data Review projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "ATS",
+        "LinkedIn Recruiter",
+        "Employee Relations"
+      ],
+      "skills_used": [
+        "ATS",
+        "LinkedIn Recruiter",
+        "Employee Relations"
+      ],
+      "start_date": "2024-01",
+      "end_date": "2024-06",
+      "url": null,
+      "project_type": "academic_thesis_research",
+      "evidence_text": "Clinical Research Data Review projesinde ATS, LinkedIn Recruiter, Employee Relations kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "İngilizce — İleri",
+    "Fransızca — B1"
+  ],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 2,
+    "projects": 1,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "academic_research",
+    "hr_talent_peopleops",
+    "junior_title_3_years",
+    "medium",
+    "mixed_language_headers"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": []
+}

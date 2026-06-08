@@ -1,0 +1,195 @@
+{
+  "cv_id": "cv_041",
+  "file_name": "cv_041_dilan_ekinci.pdf",
+  "candidate_name": "Dilan Ekinci",
+  "email": "dilan.ekinci041@example.com",
+  "phone": "+90 537 795 15 98",
+  "location": "Eskişehir / Tepebaşı",
+  "title": "Junior Lojistik Uzmanı",
+  "role_family": "operations_supply_logistics",
+  "seniority": "junior",
+  "total_experience_years": 2,
+  "language": "mixed",
+  "file_format": "pdf",
+  "page_count": 3,
+  "template_type": "two_column_modern",
+  "difficulty": "easy",
+  "summary": "2 yıllık deneyime sahip Junior Lojistik Uzmanı. Product, data ve operations ekipleriyle çalışır; core strengths: Demand Planning, Warehouse Management, Supply Chain, Logistics.",
+  "skills": [
+    {
+      "name": "Demand Planning",
+      "canonical_name": "Demand Planning",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Demand Planning CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Warehouse Management",
+      "canonical_name": "Warehouse Management",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Warehouse Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Supply Chain",
+      "canonical_name": "Supply Chain",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Supply Chain CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Logistics",
+      "canonical_name": "Logistics",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Logistics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PowerBI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "PowerBI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MS Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "MS Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Process Improvement",
+      "canonical_name": "Process Improvement",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Process Improvement CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Route Optimization",
+      "canonical_name": "Route Optimization",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Route Optimization CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Trendyol Express",
+      "canonical_company_name": "Trendyol Express",
+      "role_title": "Junior Lojistik Uzmanı",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Operasyon / Lojistik | İstanbul",
+      "description": "Operasyon / Lojistik alanında Logistics, Route Optimization, Warehouse Management, SQL ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %38 azalttı",
+        "Logistics ve Route Optimization kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Logistics",
+        "Route Optimization",
+        "Warehouse Management",
+        "SQL",
+        "MS Excel",
+        "Process Improvement"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında Logistics, Route Optimization, Warehouse Management, SQL ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %38 azalttı Logistics ve Route Optimization kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "DHL Supply Chain",
+      "canonical_company_name": "DHL Supply Chain",
+      "role_title": "Junior Lojistik Uzmanı",
+      "start_date": "Mar 2024",
+      "end_date": "Mar 2025",
+      "is_current": false,
+      "location": "Operasyon / Lojistik | İstanbul",
+      "description": "Operasyon / Lojistik alanında Demand Planning, Supply Chain, Warehouse Management, Process Improvement ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı.",
+      "achievements": [
+        "Manual operasyon süresini %31 azalttı",
+        "Demand Planning ve Supply Chain kullanarak repeatable workflow oluşturdu",
+        "Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı"
+      ],
+      "skills_used": [
+        "Demand Planning",
+        "Supply Chain",
+        "Warehouse Management",
+        "Process Improvement",
+        "Logistics",
+        "PowerBI"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında Demand Planning, Supply Chain, Warehouse Management, Process Improvement ile product, ops ve engineering ekiplerini destekleyen çalışmalar yürüttü. Delivery quality ve operasyonel görünürlüğü artırdı. Manual operasyon süresini %31 azalttı Demand Planning ve Supply Chain kullanarak repeatable workflow oluşturdu Stakeholder iletişimi ve sprint takibi ile çıktıları zamanında tamamladı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Lojistik Yönetimi",
+      "institution": "Yıldız Teknik Üniversitesi",
+      "canonical_institution": "Yıldız Teknik Üniversitesi",
+      "start_year": 2019,
+      "end_year": 2023,
+      "gpa": 3.54,
+      "evidence_text": "Lisans - Lojistik Yönetimi, Yıldız Teknik Üniversitesi (2019-2023)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "SAP MM End User",
+    "APICS CPIM Basics",
+    "Lean Six Sigma Yellow Belt"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 2,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 3,
+    "languages": 0,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "operations_supply_logistics",
+    "two_column_modern"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "projects"
+  ],
+  "trap_notes": []
+}

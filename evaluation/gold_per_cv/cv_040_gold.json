@@ -1,0 +1,209 @@
+{
+  "cv_id": "cv_040",
+  "file_name": "cv_040_henry_walker.pdf",
+  "candidate_name": "Henry Walker",
+  "email": "henry.walker040@example.com",
+  "phone": "+44 7745 247512",
+  "location": "Berlin / Hybrid",
+  "title": "HR Intern",
+  "role_family": "hr_talent_peopleops",
+  "seniority": "intern",
+  "total_experience_years": 1.0,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "two_column_modern",
+  "difficulty": "medium",
+  "summary": "HR Intern with 1.0 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Recruitment, Employee Relations, ATS, Training.",
+  "skills": [
+    {
+      "name": "Recruitment",
+      "canonical_name": "Recruitment",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Recruitment is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Employee Relations",
+      "canonical_name": "Employee Relations",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Employee Relations is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ATS",
+      "canonical_name": "ATS",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "ATS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Training",
+      "canonical_name": "Training",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Training is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Onboarding",
+      "canonical_name": "Onboarding",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Onboarding is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HR Analytics",
+      "canonical_name": "HR Analytics",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "HR Analytics is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Performance Management",
+      "canonical_name": "Performance Management",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Performance Management is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP SuccessFactors",
+      "canonical_name": "SAP SuccessFactors",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "SAP SuccessFactors is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "LinkedIn Recruiter",
+      "canonical_name": "LinkedIn Recruiter",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "LinkedIn Recruiter is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "People Analytics",
+      "canonical_name": "People Analytics",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "People Analytics is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "LC Waikiki",
+      "canonical_company_name": "LC Waikiki",
+      "role_title": "HR Intern",
+      "start_date": "May 2025",
+      "end_date": "May 2026",
+      "is_current": false,
+      "location": "Human Resources | Remote",
+      "description": "Delivered measurable work in human resources using LinkedIn Recruiter, Training, ATS, SAP SuccessFactors. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with LinkedIn Recruiter and Training",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "LinkedIn Recruiter",
+        "Training",
+        "ATS",
+        "SAP SuccessFactors",
+        "HR Analytics",
+        "Employee Relations",
+        "Onboarding"
+      ],
+      "evidence_text": "Delivered measurable work in human resources using LinkedIn Recruiter, Training, ATS, SAP SuccessFactors. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with LinkedIn Recruiter and Training Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "KVKK Consent Inventory",
+      "description": "Led or contributed to KVKK Consent Inventory, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Developer",
+      "technologies": [
+        "LinkedIn Recruiter",
+        "SAP SuccessFactors",
+        "Training"
+      ],
+      "skills_used": [
+        "LinkedIn Recruiter",
+        "SAP SuccessFactors",
+        "Training"
+      ],
+      "start_date": "2024-02",
+      "end_date": "2024-07",
+      "url": "https://github.com/example/kvkk_consent_inventory",
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "KVKK Consent Inventory project used LinkedIn Recruiter, SAP SuccessFactors, Training and delivered documented outputs.",
+      "confidence": 0.9
+    },
+    {
+      "name": "KVKK Consent Inventory",
+      "description": "Led or contributed to KVKK Consent Inventory, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Analyst",
+      "technologies": [
+        "Employee Relations",
+        "SAP SuccessFactors",
+        "HR Analytics"
+      ],
+      "skills_used": [
+        "Employee Relations",
+        "SAP SuccessFactors",
+        "HR Analytics"
+      ],
+      "start_date": "2025-04",
+      "end_date": "2025-12",
+      "url": null,
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "KVKK Consent Inventory project used Employee Relations, SAP SuccessFactors, HR Analytics and delivered documented outputs.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "SHRM Certified Professional"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 1,
+    "projects": 2,
+    "educations": 0,
+    "certifications": 1,
+    "languages": 0,
+    "companies": 1,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "hr_talent_peopleops",
+    "medium",
+    "partial_missing_fields",
+    "two_column_modern"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "educations"
+  ],
+  "trap_notes": []
+}

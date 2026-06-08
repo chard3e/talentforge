@@ -1,0 +1,207 @@
+{
+  "cv_id": "cv_061",
+  "file_name": "cv_061_taha_yoner.docx",
+  "candidate_name": "Taha Yoner",
+  "email": "taha.yoner061@example.com",
+  "phone": "+90 533 688 10 72",
+  "location": "İstanbul / Ataşehir",
+  "title": "Growth Marketing Specialist",
+  "role_family": "marketing_growth_content",
+  "seniority": "mid",
+  "total_experience_years": 5,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "5 yıllık deneyime sahip Growth Marketing Specialist. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Looker Studio, SEO, Google Ads, Content Strategy.",
+  "skills": [
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Looker Studio CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SEO",
+      "canonical_name": "SEO",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "SEO CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Google Ads",
+      "canonical_name": "Google Ads",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Google Ads CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Content Strategy",
+      "canonical_name": "Content Strategy",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Content Strategy CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HubSpot",
+      "canonical_name": "HubSpot",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "HubSpot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GA4",
+      "canonical_name": "GA4",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "GA4 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CRM",
+      "canonical_name": "CRM",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 2,
+      "evidence_text": "CRM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Copywriting",
+      "canonical_name": "Copywriting",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Copywriting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Hype",
+      "canonical_company_name": "Hype",
+      "role_title": "Growth Marketing Specialist",
+      "start_date": "Kas 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Pazarlama / Growth | İstanbul",
+      "description": "Pazarlama / Growth alanında SEO, HubSpot, Google Ads, Looker Studio kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "SEO ve HubSpot ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "SEO",
+        "HubSpot",
+        "Google Ads",
+        "Looker Studio"
+      ],
+      "evidence_text": "Pazarlama / Growth alanında SEO, HubSpot, Google Ads, Looker Studio kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı SEO ve HubSpot ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Insider",
+      "canonical_company_name": "Insider",
+      "role_title": "Pazarlama Stajyeri",
+      "start_date": "Nis 2021",
+      "end_date": "Eki 2023",
+      "is_current": false,
+      "location": "Pazarlama / Growth | İstanbul",
+      "description": "Pazarlama / Growth alanında Content Strategy, Copywriting, Google Ads, SEO kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Content Strategy ve Copywriting ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Content Strategy",
+        "Copywriting",
+        "Google Ads",
+        "SEO",
+        "Looker Studio",
+        "GA4",
+        "A/B Testing"
+      ],
+      "evidence_text": "Pazarlama / Growth alanında Content Strategy, Copywriting, Google Ads, SEO kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Content Strategy ve Copywriting ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Doktora",
+      "field": "İletişim",
+      "institution": "Koç Üniversitesi",
+      "canonical_institution": "Koç Üniversitesi",
+      "start_year": 2008,
+      "end_year": 2013,
+      "gpa": 3.17,
+      "evidence_text": "Doktora - İletişim, Koç Üniversitesi (2008-2013)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Lisans",
+      "field": "New Media",
+      "institution": "Koç Üniversitesi",
+      "canonical_institution": "Koç Üniversitesi",
+      "start_year": 2011,
+      "end_year": 2015,
+      "gpa": 2.87,
+      "evidence_text": "Lisans - New Media, Koç Üniversitesi (2011-2015)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "GA4 Certification",
+    "HubSpot Content Marketing",
+    "Google Ads Search Certification"
+  ],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — İleri (C1)"
+  ],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 2,
+    "projects": 0,
+    "educations": 2,
+    "certifications": 3,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "marketing_growth_content",
+    "medium",
+    "skill_synonym"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "projects"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,226 @@
+{
+  "cv_id": "cv_001",
+  "file_name": "cv_001_ada_yalcin.pdf",
+  "candidate_name": "Ada Yalçın",
+  "email": "ada.yalcin001@example.com",
+  "phone": "+90 536 411 76 12",
+  "location": "Kocaeli / Gebze",
+  "title": "Junior Muhasebe Uzmanı",
+  "role_family": "finance_accounting_audit",
+  "seniority": "junior",
+  "total_experience_years": 1.5,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 3,
+  "template_type": "one_column_clean",
+  "difficulty": "medium",
+  "summary": "1.5 yıllık deneyime sahip Junior Muhasebe Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Audit, Budgeting, Risk Analysis, SQL.",
+  "skills": [
+    {
+      "name": "Audit",
+      "canonical_name": "Audit",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Audit CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Budgeting",
+      "canonical_name": "Budgeting",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Budgeting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Risk Analysis",
+      "canonical_name": "Risk Analysis",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Risk Analysis CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Reconciliation",
+      "canonical_name": "Reconciliation",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Reconciliation CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP FI",
+      "canonical_name": "SAP FI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "SAP FI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Power BI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "IFRS",
+      "canonical_name": "IFRS",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "IFRS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Forecasting",
+      "canonical_name": "Forecasting",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Forecasting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Financial Modeling",
+      "canonical_name": "Financial Modeling",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Financial Modeling CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Garanti BBVA",
+      "canonical_company_name": "Garanti BBVA",
+      "role_title": "Junior Muhasebe Uzmanı",
+      "start_date": "Kas 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Finans / Denetim | Kocaeli",
+      "description": "Finans / Denetim alanında Excel, Audit, IFRS, Budgeting kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Excel ve Audit ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Excel",
+        "Audit",
+        "IFRS",
+        "Budgeting",
+        "SQL",
+        "Power BI"
+      ],
+      "evidence_text": "Finans / Denetim alanında Excel, Audit, IFRS, Budgeting kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Excel ve Audit ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Yüksek Lisans",
+      "field": "Ekonomi",
+      "institution": "Marmara Üniversitesi",
+      "canonical_institution": "Marmara Üniversitesi",
+      "start_year": 2014,
+      "end_year": 2016,
+      "gpa": 3.45,
+      "evidence_text": "Yüksek Lisans - Ekonomi, Marmara Üniversitesi (2014-2016)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Yüksek Lisans",
+      "field": "Ekonomi",
+      "institution": "İTÜ",
+      "canonical_institution": "İTÜ",
+      "start_year": 2008,
+      "end_year": 2010,
+      "gpa": 2.72,
+      "evidence_text": "Yüksek Lisans - Ekonomi, İTÜ (2008-2010)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Customer Onboarding Redesign",
+      "description": "Customer Onboarding Redesign projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Risk Analysis",
+        "Audit",
+        "IFRS",
+        "Financial Modeling",
+        "Reconciliation",
+        "SAP FI"
+      ],
+      "skills_used": [
+        "Risk Analysis",
+        "Audit",
+        "IFRS",
+        "Financial Modeling",
+        "Reconciliation",
+        "SAP FI"
+      ],
+      "start_date": "2021-07",
+      "end_date": "2021-12",
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Customer Onboarding Redesign projesinde Risk Analysis, Audit, IFRS kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "ACCA Fundamentals",
+    "SMMM Staj Başlatma"
+  ],
+  "languages": [
+    "Türkçe — Ana dil",
+    "English B1"
+  ],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 1,
+    "projects": 1,
+    "educations": 2,
+    "certifications": 2,
+    "languages": 2,
+    "companies": 1,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "finance_accounting_audit",
+    "medium",
+    "one_column_clean",
+    "project_section"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [],
+  "trap_notes": []
+}

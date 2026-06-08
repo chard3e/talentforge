@@ -1,0 +1,206 @@
+{
+  "cv_id": "cv_002",
+  "file_name": "cv_002_ava_whitmore.docx",
+  "candidate_name": "Ava Whitmore",
+  "email": "ava.whitmore002@example.com",
+  "phone": "+44 7704 370731",
+  "location": "Istanbul / Hybrid",
+  "title": "Data Analyst",
+  "role_family": "data_bi_analytics",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "hard",
+  "summary": "Data Analyst with 3 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Python, NumPy, Power BI, BigQuery.",
+  "skills": [
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NumPy",
+      "canonical_name": "NumPy",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "NumPy is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Power BI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "BigQuery",
+      "canonical_name": "BigQuery",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "BigQuery is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Tableau",
+      "canonical_name": "Tableau",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Tableau is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Looker Studio is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ETL",
+      "canonical_name": "ETL",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "ETL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Modeling",
+      "canonical_name": "Data Modeling",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Data Modeling is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Data Analyst",
+      "start_date": "Nov 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Data / Retail | Remote",
+      "description": "Delivered measurable work in data / retail using Tableau, NumPy, Power BI, SQL. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 27% through process and tooling improvements",
+        "Improved reporting or service reliability with Tableau and NumPy",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Tableau",
+        "NumPy",
+        "Power BI",
+        "SQL"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Tableau, NumPy, Power BI, SQL. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 27% through process and tooling improvements Improved reporting or service reliability with Tableau and NumPy Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "LC Waikiki",
+      "canonical_company_name": "LC Waikiki",
+      "role_title": "Data Analyst Intern",
+      "start_date": "Feb 2023",
+      "end_date": "Aug 2024",
+      "is_current": false,
+      "location": "Data / Retail | Remote",
+      "description": "Delivered measurable work in data / retail using SQL, Python, NumPy, Looker Studio. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with SQL and Python",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "SQL",
+        "Python",
+        "NumPy",
+        "Looker Studio",
+        "Power BI"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using SQL, Python, NumPy, Looker Studio. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with SQL and Python Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "Customer Churn BI Workspace",
+      "description": "Built a churn-risk BI workspace for customer retention analysis and weekly executive reporting.",
+      "role": "Analyst",
+      "technologies": [
+        "Python",
+        "NumPy",
+        "Power BI",
+        "BigQuery",
+        "SQL"
+      ],
+      "skills_used": [
+        "Python",
+        "NumPy",
+        "Power BI",
+        "BigQuery",
+        "SQL"
+      ],
+      "start_date": "2024-03",
+      "end_date": "2024-09",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Customer Churn BI Workspace used Python, NumPy, Power BI for retention analysis and executive reporting.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "English — C2",
+    "French — B1"
+  ],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 2,
+    "projects": 1,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "chronological",
+    "data_bi_analytics",
+    "hard",
+    "mixed_date_format",
+    "project_section"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "educations"
+  ],
+  "trap_notes": []
+}

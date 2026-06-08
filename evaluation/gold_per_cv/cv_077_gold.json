@@ -1,0 +1,280 @@
+{
+  "cv_id": "cv_077",
+  "file_name": "cv_077_leo_harrison.docx",
+  "candidate_name": "Leo Harrison",
+  "email": "leo.harrison077@example.com",
+  "phone": "+44 7132 933534",
+  "location": "Amsterdam / Remote",
+  "title": "Analytics Manager",
+  "role_family": "data_bi_analytics",
+  "seniority": "lead_manager",
+  "total_experience_years": 13,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "skills_first",
+  "difficulty": "easy",
+  "summary": "Analytics Manager with 13 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Pandas, Data Modeling, SQL, Tableau.",
+  "skills": [
+    {
+      "name": "Pandas",
+      "canonical_name": "Pandas",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Pandas is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Modeling",
+      "canonical_name": "Data Modeling",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Data Modeling is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 12,
+      "level": 5,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Tableau",
+      "canonical_name": "Tableau",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "Tableau is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 5,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 9,
+      "level": 5,
+      "evidence_text": "A/B Testing is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 10,
+      "level": 5,
+      "evidence_text": "Looker Studio is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ETL",
+      "canonical_name": "ETL",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "ETL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MS Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "MS Excel is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "BigQuery",
+      "canonical_name": "BigQuery",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "BigQuery is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PowerBI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 10,
+      "level": 5,
+      "evidence_text": "PowerBI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NumPy",
+      "canonical_name": "NumPy",
+      "category": "Tool",
+      "years_experience": 13,
+      "level": 5,
+      "evidence_text": "NumPy is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Analytics Manager",
+      "start_date": "Jan 2022",
+      "end_date": null,
+      "is_current": true,
+      "location": "Data / Retail | Izmir",
+      "description": "Delivered measurable work in data / retail using Pandas, NumPy, BigQuery, A/B Testing. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Pandas and NumPy",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Pandas",
+        "NumPy",
+        "BigQuery",
+        "A/B Testing"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Pandas, NumPy, BigQuery, A/B Testing. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Pandas and NumPy Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "LC Waikiki",
+      "canonical_company_name": "LC Waikiki",
+      "role_title": "Senior BI Analyst",
+      "start_date": "Jun 2017",
+      "end_date": "Oct 2021",
+      "is_current": false,
+      "location": "Data / Retail | Dublin",
+      "description": "Delivered measurable work in data / retail using Python, NumPy, Pandas, Looker Studio. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with Python and NumPy",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Looker Studio",
+        "A/B Testing",
+        "BigQuery"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Python, NumPy, Pandas, Looker Studio. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with Python and NumPy Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Yemeksepeti",
+      "canonical_company_name": "Yemeksepeti",
+      "role_title": "Senior BI Analyst",
+      "start_date": "Jan 2013",
+      "end_date": "May 2017",
+      "is_current": false,
+      "location": "Data / Retail | Berlin",
+      "description": "Delivered measurable work in data / retail using MS Excel, Looker Studio, NumPy, A/B Testing. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with MS Excel and Looker Studio",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "MS Excel",
+        "Looker Studio",
+        "NumPy",
+        "A/B Testing"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using MS Excel, Looker Studio, NumPy, A/B Testing. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with MS Excel and Looker Studio Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "Data Analytics",
+      "institution": "Sabancı Üniversitesi",
+      "canonical_institution": "Sabancı Üniversitesi",
+      "start_year": 2020,
+      "end_year": 2024,
+      "gpa": 3.79,
+      "evidence_text": "BSc - Data Analytics, Sabancı Üniversitesi (2020-2024)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Associate Degree",
+      "field": "İstatistik",
+      "institution": "Ege Üniversitesi",
+      "canonical_institution": "Ege Üniversitesi",
+      "start_year": 2018,
+      "end_year": 2020,
+      "gpa": 3.15,
+      "evidence_text": "Associate Degree - İstatistik, Ege Üniversitesi (2018-2020)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Legacy Cleanup Effort",
+      "description": "Led or contributed to Legacy Cleanup Effort, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Analyst",
+      "technologies": [
+        "Tableau",
+        "ETL",
+        "Pandas",
+        "Python",
+        "NumPy",
+        "Data Modeling"
+      ],
+      "skills_used": [
+        "Tableau",
+        "ETL",
+        "Pandas",
+        "Python",
+        "NumPy",
+        "Data Modeling"
+      ],
+      "start_date": "2024-02",
+      "end_date": "2024-09",
+      "url": null,
+      "project_type": "ambiguous_project_text",
+      "evidence_text": "Legacy Cleanup Effort project used Tableau, ETL, Pandas and delivered documented outputs.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "English — Native or fluent",
+    "Turkish — B1"
+  ],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 3,
+    "projects": 1,
+    "educations": 2,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "data_bi_analytics",
+    "easy",
+    "skills_first"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,273 @@
+{
+  "cv_id": "cv_047",
+  "file_name": "cv_047_mason_foster.docx",
+  "candidate_name": "Mason Foster",
+  "email": "mason.foster047@example.com",
+  "phone": "+44 7609 299972",
+  "location": "Amsterdam / Remote",
+  "title": "Junior Machine Learning Engineer",
+  "role_family": "ml_ai_mlops",
+  "seniority": "junior",
+  "total_experience_years": 1.5,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "hard",
+  "summary": "Junior Machine Learning Engineer with 1.5 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include FastAPI, NLP, TensorFlow, Python.",
+  "skills": [
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "FastAPI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NLP",
+      "canonical_name": "NLP",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "NLP is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "TensorFlow",
+      "canonical_name": "TensorFlow",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "TensorFlow is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLOps",
+      "canonical_name": "MLOps",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "MLOps is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Machine Learning",
+      "canonical_name": "Machine Learning",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Machine Learning is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Computer Vision",
+      "canonical_name": "Computer Vision",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Computer Vision is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLflow",
+      "canonical_name": "MLflow",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "MLflow is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes (K8s)",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Kubernetes (K8s) is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PyTorch",
+      "canonical_name": "PyTorch",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "PyTorch is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Docker is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Feature Engineering",
+      "canonical_name": "Feature Engineering",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Feature Engineering is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Junior Machine Learning Engineer",
+      "start_date": "2024/11",
+      "end_date": null,
+      "is_current": true,
+      "location": "AI / Modeling | Remote",
+      "description": "Delivered measurable work in ai / modeling using Feature Engineering, Python, TensorFlow, PyTorch. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 27% through process and tooling improvements",
+        "Improved reporting or service reliability with Feature Engineering and Python",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Feature Engineering",
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Computer Vision",
+        "MLflow"
+      ],
+      "evidence_text": "Delivered measurable work in ai / modeling using Feature Engineering, Python, TensorFlow, PyTorch. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 27% through process and tooling improvements Improved reporting or service reliability with Feature Engineering and Python Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "PhD",
+      "field": "Bilgisayar Mühendisliği",
+      "institution": "Hacettepe Üniversitesi",
+      "canonical_institution": "Hacettepe Üniversitesi",
+      "start_year": null,
+      "end_year": 2013,
+      "gpa": null,
+      "evidence_text": "PhD - Bilgisayar Mühendisliği, Hacettepe Üniversitesi",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Vendor Risk Scoring Dashboard",
+      "description": "Led or contributed to Vendor Risk Scoring Dashboard, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Analyst",
+      "technologies": [
+        "Docker",
+        "MLflow",
+        "MLOps",
+        "Python",
+        "Kubernetes (K8s)",
+        "FastAPI"
+      ],
+      "skills_used": [
+        "Docker",
+        "MLflow",
+        "MLOps",
+        "Python",
+        "Kubernetes (K8s)",
+        "FastAPI"
+      ],
+      "start_date": "2024-04",
+      "end_date": "2024-10",
+      "url": null,
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "Vendor Risk Scoring Dashboard project used Docker, MLflow, MLOps and delivered documented outputs.",
+      "confidence": 0.78
+    },
+    {
+      "name": "Privacy Request Workflow",
+      "description": "Led or contributed to Privacy Request Workflow, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Analyst",
+      "technologies": [
+        "NLP",
+        "Feature Engineering",
+        "PyTorch",
+        "MLOps",
+        "Computer Vision",
+        "TensorFlow"
+      ],
+      "skills_used": [
+        "NLP",
+        "Feature Engineering",
+        "PyTorch",
+        "MLOps",
+        "Computer Vision",
+        "TensorFlow"
+      ],
+      "start_date": "2024-08",
+      "end_date": "2024-10",
+      "url": null,
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "Privacy Request Workflow project used NLP, Feature Engineering, PyTorch and delivered documented outputs.",
+      "confidence": 0.78
+    },
+    {
+      "name": "Vendor Risk Scoring Dashboard",
+      "description": "Led or contributed to Vendor Risk Scoring Dashboard, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Project Owner",
+      "technologies": [
+        "Feature Engineering",
+        "PyTorch",
+        "NLP",
+        "TensorFlow"
+      ],
+      "skills_used": [
+        "Feature Engineering",
+        "PyTorch",
+        "NLP",
+        "TensorFlow"
+      ],
+      "start_date": "2021-03",
+      "end_date": null,
+      "url": "https://github.com/example/vendor_risk_scoring_dashboard",
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "Vendor Risk Scoring Dashboard project used Feature Engineering, PyTorch, NLP and delivered documented outputs.",
+      "confidence": 0.78
+    }
+  ],
+  "certifications": [
+    "TensorFlow Developer Certificate",
+    "Databricks Machine Learning Associate"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 1,
+    "projects": 3,
+    "educations": 1,
+    "certifications": 2,
+    "languages": 0,
+    "companies": 1,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "embedded_skills",
+    "hard",
+    "ml_ai_mlops"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages"
+  ],
+  "trap_notes": []
+}

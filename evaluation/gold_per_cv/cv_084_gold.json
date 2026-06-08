@@ -1,0 +1,290 @@
+{
+  "cv_id": "cv_084",
+  "file_name": "cv_084_kaan_elgin.docx",
+  "candidate_name": "Kaan Elgin",
+  "email": "kaan.elgin084@example.com",
+  "phone": "+90 533 179 85 25",
+  "location": "İstanbul / Şişli",
+  "title": "Lead AI Engineer",
+  "role_family": "ml_ai_mlops",
+  "seniority": "lead_manager",
+  "total_experience_years": 10,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 3,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "10 yıllık deneyime sahip Lead AI Engineer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: TensorFlow, MLflow, Computer Vision, PyTorch.",
+  "skills": [
+    {
+      "name": "TensorFlow",
+      "canonical_name": "TensorFlow",
+      "category": "Data Science",
+      "years_experience": 5,
+      "level": 5,
+      "evidence_text": "TensorFlow CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLflow",
+      "canonical_name": "MLflow",
+      "category": "Data Science",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "MLflow CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Computer Vision",
+      "canonical_name": "Computer Vision",
+      "category": "Data Science",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Computer Vision CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "PyTorch",
+      "canonical_name": "PyTorch",
+      "category": "Data Science",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "PyTorch CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical_name": "Scikit-learn",
+      "category": "Data Science",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "Scikit-learn CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLOps",
+      "canonical_name": "MLOps",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "MLOps CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NLP",
+      "canonical_name": "NLP",
+      "category": "Data Science",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "NLP CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 7,
+      "level": 5,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ML",
+      "canonical_name": "Machine Learning",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "ML CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Feature Engineering",
+      "canonical_name": "Feature Engineering",
+      "category": "Data Science",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Feature Engineering CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 10,
+      "level": 4,
+      "evidence_text": "FastAPI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell Teknoloji",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Lead AI Engineer",
+      "start_date": "Kas 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yapay Zeka / Modelleme | Remote",
+      "description": "Yapay Zeka / Modelleme alanında NLP, TensorFlow, ML, MLflow kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "NLP ve TensorFlow ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "NLP",
+        "TensorFlow",
+        "ML",
+        "MLflow",
+        "Scikit-learn"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında NLP, TensorFlow, ML, MLflow kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı NLP ve TensorFlow ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Vispera",
+      "canonical_company_name": "Vispera",
+      "role_title": "Kıdemli MLOps Mühendisi",
+      "start_date": "Nis 2021",
+      "end_date": "Eki 2023",
+      "is_current": false,
+      "location": "Yapay Zeka / Modelleme | Eskişehir",
+      "description": "Yapay Zeka / Modelleme alanında Computer Vision, MLOps, Feature Engineering, Python kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Computer Vision ve MLOps ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Computer Vision",
+        "MLOps",
+        "Feature Engineering",
+        "Python",
+        "TensorFlow",
+        "Kubernetes",
+        "Docker"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında Computer Vision, MLOps, Feature Engineering, Python kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Computer Vision ve MLOps ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Trendyol Tech",
+      "canonical_company_name": "Trendyol",
+      "role_title": "ML Engineer",
+      "start_date": "Ağu 2018",
+      "end_date": "Şub 2021",
+      "is_current": false,
+      "location": "Yapay Zeka / Modelleme | Eskişehir",
+      "description": "Yapay Zeka / Modelleme alanında MLOps, ML, Computer Vision, TensorFlow kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "MLOps ve ML ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "MLOps",
+        "ML",
+        "Computer Vision",
+        "TensorFlow",
+        "NLP",
+        "FastAPI"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında MLOps, ML, Computer Vision, TensorFlow kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı MLOps ve ML ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Junior Makine Öğrenmesi Mühendisi",
+      "start_date": "Kas 2015",
+      "end_date": "May 2018",
+      "is_current": false,
+      "location": "Yapay Zeka / Modelleme | Ankara",
+      "description": "Yapay Zeka / Modelleme alanında PyTorch, ML, NLP, Kubernetes kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "PyTorch ve ML ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "PyTorch",
+        "ML",
+        "NLP",
+        "Kubernetes",
+        "MLflow",
+        "Computer Vision",
+        "MLOps"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında PyTorch, ML, NLP, Kubernetes kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı PyTorch ve ML ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Ön Lisans",
+      "field": "Artificial Intelligence Engineering",
+      "institution": "İstanbul Bilgi Üniversitesi",
+      "canonical_institution": "İstanbul Bilgi Üniversitesi",
+      "start_year": 2015,
+      "end_year": 2017,
+      "gpa": 3.69,
+      "evidence_text": "Ön Lisans - Artificial Intelligence Engineering, İstanbul Bilgi Üniversitesi (2015-2017)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 13,
+    "experiences": 4,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 4,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "ambiguous_aws_company",
+    "chronological",
+    "hallucination_trap",
+    "iso_not_certificate",
+    "medium",
+    "ml_ai_mlops",
+    "no_certification_info",
+    "partial_missing_fields"
+  ],
+  "hallucination_traps": [
+    "iso_not_certificate",
+    "ambiguous_aws_company",
+    "no_certification_info"
+  ],
+  "absent_fields": [
+    "languages",
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": [
+    "İç doküman kodu ISO-17 revizyonu takip edildi; bu ifade bir ISO 27001 sertifikası değildir.",
+    "Not: AWS Lojistik tedarikçi kayıtları ile çalışıldı; burada AWS bir bulut yetkinliği olarak kullanılmadı."
+  ]
+}

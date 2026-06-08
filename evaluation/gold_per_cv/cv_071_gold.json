@@ -1,0 +1,284 @@
+{
+  "cv_id": "cv_071",
+  "file_name": "cv_071_ceylan_ustun.docx",
+  "candidate_name": "Ceylan Üstün",
+  "email": "ceylan.ustun071@example.com",
+  "phone": "+90 542 482 73 60",
+  "location": "Antalya / Muratpaşa",
+  "title": "Kıdemli Backend Developer",
+  "role_family": "backend_fullstack_software",
+  "seniority": "senior",
+  "total_experience_years": 8,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "8 yıllık deneyime sahip Kıdemli Backend Developer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Git, FastAPI, ReactJS, postgresql.",
+  "skills": [
+    {
+      "name": "Git",
+      "canonical_name": "Git",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Git CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "FastAPI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ReactJS",
+      "canonical_name": "React",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "ReactJS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "postgresql",
+      "canonical_name": "PostgreSQL",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 3,
+      "evidence_text": "postgresql CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "REST API",
+      "canonical_name": "REST API",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "REST API CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes (K8s)",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "Kubernetes (K8s) CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Spring Boot",
+      "canonical_name": "Spring Boot",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "Spring Boot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "java script",
+      "canonical_name": "JavaScript",
+      "category": "Programming",
+      "years_experience": 8,
+      "level": 3,
+      "evidence_text": "java script CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Redis",
+      "canonical_name": "Redis",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "Redis CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Kıdemli Backend Developer",
+      "start_date": "May 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yazılım / Finans Teknolojileri | Kocaeli",
+      "description": "Yazılım / Finans Teknolojileri alanında Spring Boot, Kubernetes (K8s), FastAPI, Git kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Spring Boot ve Kubernetes (K8s) ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Spring Boot",
+        "Kubernetes (K8s)",
+        "FastAPI",
+        "Git",
+        "ReactJS",
+        "Docker"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Spring Boot, Kubernetes (K8s), FastAPI, Git kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Spring Boot ve Kubernetes (K8s) ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Full Stack Developer",
+      "start_date": "Nis 2022",
+      "end_date": "Nis 2024",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | Bursa",
+      "description": "Yazılım / Finans Teknolojileri alanında ReactJS, REST API, postgresql, java script kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "ReactJS ve REST API ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "ReactJS",
+        "REST API",
+        "postgresql",
+        "java script",
+        "Spring Boot"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında ReactJS, REST API, postgresql, java script kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı ReactJS ve REST API ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Garanti BBVA",
+      "canonical_company_name": "Garanti BBVA",
+      "role_title": "Kıdemli Backend Developer",
+      "start_date": "Oca 2020",
+      "end_date": "Oca 2022",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | Eskişehir",
+      "description": "Yazılım / Finans Teknolojileri alanında FastAPI, Kubernetes (K8s), java script, Docker kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "FastAPI ve Kubernetes (K8s) ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "FastAPI",
+        "Kubernetes (K8s)",
+        "java script",
+        "Docker"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında FastAPI, Kubernetes (K8s), java script, Docker kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı FastAPI ve Kubernetes (K8s) ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Softtech",
+      "canonical_company_name": "Softtech",
+      "role_title": "Full Stack Developer",
+      "start_date": "Eki 2017",
+      "end_date": "Eki 2019",
+      "is_current": false,
+      "location": "Yazılım / Finans Teknolojileri | İstanbul",
+      "description": "Yazılım / Finans Teknolojileri alanında Git, Spring Boot, ReactJS, java script kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Git ve Spring Boot ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Git",
+        "Spring Boot",
+        "ReactJS",
+        "java script"
+      ],
+      "evidence_text": "Yazılım / Finans Teknolojileri alanında Git, Spring Boot, ReactJS, java script kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Git ve Spring Boot ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Computer Engineering",
+      "institution": "Ege Üniversitesi",
+      "canonical_institution": "Ege Üniversitesi",
+      "start_year": 2014,
+      "end_year": 2018,
+      "gpa": 3.25,
+      "evidence_text": "Lisans - Computer Engineering, Ege Üniversitesi (2014-2018)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Lisans",
+      "field": "Bilgisayar Mühendisliği",
+      "institution": "Istanbul Technical University",
+      "canonical_institution": "Istanbul Technical University",
+      "start_year": 2016,
+      "end_year": 2020,
+      "gpa": 3.62,
+      "evidence_text": "Lisans - Bilgisayar Mühendisliği, Istanbul Technical University (2016-2020)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Customer Onboarding Redesign",
+      "description": "Customer Onboarding Redesign projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "Redis",
+        "FastAPI",
+        "java script",
+        "ReactJS",
+        "Git"
+      ],
+      "skills_used": [
+        "Redis",
+        "FastAPI",
+        "java script",
+        "ReactJS",
+        "Git"
+      ],
+      "start_date": "2025-05",
+      "end_date": "2025-11",
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Customer Onboarding Redesign projesinde Redis, FastAPI, java script kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "İngilizce — İleri",
+    "Fransızca — B1"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 4,
+    "projects": 1,
+    "educations": 2,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 4,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "backend_fullstack_software",
+    "chronological",
+    "medium",
+    "skill_synonym"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,266 @@
+{
+  "cv_id": "cv_079",
+  "file_name": "cv_079_figen_aslaner.pdf",
+  "candidate_name": "Figen Aslaner",
+  "email": "figen.aslaner079@example.com",
+  "phone": "+90 551 874 89 28",
+  "location": "Eskişehir / Tepebaşı",
+  "title": "Siber Güvenlik Uzmanı",
+  "role_family": "cybersecurity_grc_privacy",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "skills_first",
+  "difficulty": "medium",
+  "summary": "3 yıllık deneyime sahip Siber Güvenlik Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Linux, Burp Suite, Splunk, Risk Assessment.",
+  "skills": [
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Linux CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Burp Suite",
+      "canonical_name": "Burp Suite",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Burp Suite CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Splunk",
+      "canonical_name": "Splunk",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Splunk CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Risk Assessment",
+      "canonical_name": "Risk Assessment",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Risk Assessment CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Nessus",
+      "canonical_name": "Nessus",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Nessus CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ISO 27001",
+      "canonical_name": "ISO 27001",
+      "category": "Compliance",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "ISO 27001 CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GDPR",
+      "canonical_name": "GDPR",
+      "category": "Compliance",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "GDPR CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Firewall",
+      "canonical_name": "Firewall",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Firewall CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "KVKK",
+      "canonical_name": "KVKK",
+      "category": "Compliance",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "KVKK CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Softtech",
+      "canonical_company_name": "Softtech",
+      "role_title": "Siber Güvenlik Uzmanı",
+      "start_date": "Kas 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Güvenlik / GRC | Eskişehir",
+      "description": "Güvenlik / GRC alanında Nessus, Linux, GDPR, Risk Assessment kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Nessus ve Linux ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Nessus",
+        "Linux",
+        "GDPR",
+        "Risk Assessment",
+        "Firewall",
+        "Splunk",
+        "KVKK"
+      ],
+      "evidence_text": "Güvenlik / GRC alanında Nessus, Linux, GDPR, Risk Assessment kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Nessus ve Linux ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Garanti BBVA Teknoloji",
+      "canonical_company_name": "Garanti BBVA",
+      "role_title": "Siber Güvenlik Stajyeri",
+      "start_date": "Mar 2023",
+      "end_date": "Eyl 2024",
+      "is_current": false,
+      "location": "Güvenlik / GRC | İstanbul",
+      "description": "Güvenlik / GRC alanında Firewall, Risk Assessment, KVKK, GDPR kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Firewall ve Risk Assessment ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Firewall",
+        "Risk Assessment",
+        "KVKK",
+        "GDPR",
+        "Burp Suite",
+        "Nessus"
+      ],
+      "evidence_text": "Güvenlik / GRC alanında Firewall, Risk Assessment, KVKK, GDPR kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Firewall ve Risk Assessment ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Yüksek Lisans",
+      "field": "Information Security",
+      "institution": "Anadolu Üniversitesi",
+      "canonical_institution": "Anadolu Üniversitesi",
+      "start_year": 2021,
+      "end_year": 2023,
+      "gpa": 3.38,
+      "evidence_text": "Yüksek Lisans - Information Security, Anadolu Üniversitesi (2021-2023)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "MLOps Model Serving API",
+      "description": "MLOps Model Serving API projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "Risk Assessment",
+        "Linux",
+        "KVKK",
+        "GDPR",
+        "ISO 27001",
+        "Nessus"
+      ],
+      "skills_used": [
+        "Risk Assessment",
+        "Linux",
+        "KVKK",
+        "GDPR",
+        "ISO 27001",
+        "Nessus"
+      ],
+      "start_date": "2024-02",
+      "end_date": "2024-09",
+      "url": "https://github.com/example/mlops_model_serving_api",
+      "project_type": "software_ai_data",
+      "evidence_text": "MLOps Model Serving API projesinde Risk Assessment, Linux, KVKK kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Real-time Order Service",
+      "description": "Real-time Order Service projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "Splunk",
+        "ISO 27001",
+        "Linux"
+      ],
+      "skills_used": [
+        "Splunk",
+        "ISO 27001",
+        "Linux"
+      ],
+      "start_date": "2025-04",
+      "end_date": null,
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Real-time Order Service projesinde Splunk, ISO 27001, Linux kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Fraud Detection Pipeline",
+      "description": "Fraud Detection Pipeline projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Splunk",
+        "Risk Assessment",
+        "GDPR",
+        "Burp Suite",
+        "Firewall"
+      ],
+      "skills_used": [
+        "Splunk",
+        "Risk Assessment",
+        "GDPR",
+        "Burp Suite",
+        "Firewall"
+      ],
+      "start_date": "2024-02",
+      "end_date": "2024-04",
+      "url": "https://github.com/example/fraud_detection_pipeline",
+      "project_type": "software_ai_data",
+      "evidence_text": "Fraud Detection Pipeline projesinde Splunk, Risk Assessment, GDPR kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 2,
+    "projects": 3,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 2,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "cybersecurity_grc_privacy",
+    "medium",
+    "partial_missing_fields",
+    "skills_first"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,232 @@
+{
+  "cv_id": "cv_080",
+  "file_name": "cv_080_ruby_collins.docx",
+  "candidate_name": "Ruby Collins",
+  "email": "ruby.collins080@example.com",
+  "phone": "+44 7403 212964",
+  "location": "London / Remote",
+  "title": "Analytics Manager",
+  "role_family": "data_bi_analytics",
+  "seniority": "lead_manager",
+  "total_experience_years": 6,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "easy",
+  "summary": "Analytics Manager with 6 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include ETL, Tableau, Looker Studio, BigQuery.",
+  "skills": [
+    {
+      "name": "ETL",
+      "canonical_name": "ETL",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "ETL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Tableau",
+      "canonical_name": "Tableau",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Tableau is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Looker Studio",
+      "canonical_name": "Looker Studio",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Looker Studio is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "BigQuery",
+      "canonical_name": "BigQuery",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "BigQuery is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Data Modeling",
+      "canonical_name": "Data Modeling",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Data Modeling is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "A/B Testing is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "Power BI is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Python is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NumPy",
+      "canonical_name": "NumPy",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "NumPy is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Pandas",
+      "canonical_name": "Pandas",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Pandas is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Excel is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Getir",
+      "canonical_company_name": "Getir",
+      "role_title": "Analytics Manager",
+      "start_date": "May 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Data / Retail | Amsterdam",
+      "description": "Delivered measurable work in data / retail using Power BI, ETL, Tableau, Excel. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with Power BI and ETL",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Power BI",
+        "ETL",
+        "Tableau",
+        "Excel",
+        "BigQuery"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Power BI, ETL, Tableau, Excel. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with Power BI and ETL Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol Tech",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Data Analyst",
+      "start_date": "Mar 2022",
+      "end_date": "Mar 2024",
+      "is_current": false,
+      "location": "Data / Retail | Ankara",
+      "description": "Delivered measurable work in data / retail using Tableau, ETL, Looker Studio, BigQuery. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 27% through process and tooling improvements",
+        "Improved reporting or service reliability with Tableau and ETL",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Tableau",
+        "ETL",
+        "Looker Studio",
+        "BigQuery"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using Tableau, ETL, Looker Studio, BigQuery. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 27% through process and tooling improvements Improved reporting or service reliability with Tableau and ETL Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Yemeksepeti",
+      "canonical_company_name": "Yemeksepeti",
+      "role_title": "Senior BI Analyst",
+      "start_date": "Jan 2020",
+      "end_date": "Jan 2022",
+      "is_current": false,
+      "location": "Data / Retail | Remote",
+      "description": "Delivered measurable work in data / retail using NumPy, BigQuery, A/B Testing, Tableau. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with NumPy and BigQuery",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "NumPy",
+        "BigQuery",
+        "A/B Testing",
+        "Tableau"
+      ],
+      "evidence_text": "Delivered measurable work in data / retail using NumPy, BigQuery, A/B Testing, Tableau. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with NumPy and BigQuery Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [],
+  "certifications": [
+    "Microsoft Power BI Data Analyst Associate",
+    "Google Data Analytics Certificate",
+    "Tableau Desktop Specialist"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 0,
+    "certifications": 3,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "chronological",
+    "clear_sections",
+    "data_bi_analytics",
+    "easy",
+    "lead_title_low_hands_on"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "projects",
+    "educations"
+  ],
+  "trap_notes": []
+}

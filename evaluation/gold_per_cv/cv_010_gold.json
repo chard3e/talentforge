@@ -1,0 +1,155 @@
+{
+  "cv_id": "cv_010",
+  "file_name": "cv_010_defne_uslu.pdf",
+  "candidate_name": "Defne Uslu",
+  "email": "defne.uslu010@example.com",
+  "phone": "+90 556 237 44 68",
+  "location": "Eskişehir / Tepebaşı",
+  "title": "Yeni Mezun ML Engineer",
+  "role_family": "ml_ai_mlops",
+  "seniority": "intern",
+  "total_experience_years": 1.0,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "one_column_clean",
+  "difficulty": "medium",
+  "summary": "1.0 yıllık deneyime sahip Yeni Mezun ML Engineer. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Docker, Python, Scikit-learn, TensorFlow.",
+  "skills": [
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Scikit-learn",
+      "canonical_name": "Scikit-learn",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Scikit-learn CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "TensorFlow",
+      "canonical_name": "TensorFlow",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "TensorFlow CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "NLP",
+      "canonical_name": "NLP",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "NLP CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Computer Vision",
+      "canonical_name": "Computer Vision",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Computer Vision CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "FastAPI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLflow",
+      "canonical_name": "MLflow",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "MLflow CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Yeni Mezun ML Engineer",
+      "start_date": "May 2025",
+      "end_date": "May 2026",
+      "is_current": false,
+      "location": "Yapay Zeka / Modelleme | Antalya",
+      "description": "Yapay Zeka / Modelleme alanında MLflow, Python, NLP, FastAPI kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "MLflow ve Python ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "MLflow",
+        "Python",
+        "NLP",
+        "FastAPI",
+        "Computer Vision"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında MLflow, Python, NLP, FastAPI kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı MLflow ve Python ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [],
+  "projects": [],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 1,
+    "projects": 0,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 1,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "medium",
+    "ml_ai_mlops",
+    "one_column_clean",
+    "project_section"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications",
+    "projects",
+    "educations"
+  ],
+  "trap_notes": []
+}

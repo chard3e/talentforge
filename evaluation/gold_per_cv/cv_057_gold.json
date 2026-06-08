@@ -1,0 +1,190 @@
+{
+  "cv_id": "cv_057",
+  "file_name": "cv_057_pelin_caglar.pdf",
+  "candidate_name": "Pelin Çağlar",
+  "email": "pelin.caglar057@example.com",
+  "phone": "+90 543 126 73 18",
+  "location": "İstanbul / Kadıköy",
+  "title": "Satış Operasyon Stajyeri",
+  "role_family": "sales_customer_success_crm",
+  "seniority": "intern",
+  "total_experience_years": 1.0,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "1.0 yıllık deneyime sahip Satış Operasyon Stajyeri. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: CRM, Renewal Management, SQL, MS Excel.",
+  "skills": [
+    {
+      "name": "CRM",
+      "canonical_name": "CRM",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "CRM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Renewal Management",
+      "canonical_name": "Renewal Management",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Renewal Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MS Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "MS Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "B2B Sales",
+      "canonical_name": "B2B Sales",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "B2B Sales CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Pipeline Management",
+      "canonical_name": "Pipeline Management",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Pipeline Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SFDC",
+      "canonical_name": "Salesforce",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "SFDC CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Customer Success",
+      "canonical_name": "Customer Success",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Customer Success CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "HubSpot",
+      "canonical_name": "HubSpot",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "HubSpot CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Satış Operasyon Stajyeri",
+      "start_date": "May 2025",
+      "end_date": "May 2026",
+      "is_current": false,
+      "location": "Satış / Müşteri Başarısı | Eskişehir",
+      "description": "Satış / Müşteri Başarısı alanında SQL, CRM, Customer Success, HubSpot kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "SQL ve CRM ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "SQL",
+        "CRM",
+        "Customer Success",
+        "HubSpot",
+        "MS Excel",
+        "Renewal Management"
+      ],
+      "evidence_text": "Satış / Müşteri Başarısı alanında SQL, CRM, Customer Success, HubSpot kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı SQL ve CRM ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "İşletme",
+      "institution": "Boğaziçi Üniversitesi",
+      "canonical_institution": "Boğaziçi Üniversitesi",
+      "start_year": 2021,
+      "end_year": 2025,
+      "gpa": 3.34,
+      "evidence_text": "Lisans - İşletme, Boğaziçi Üniversitesi (2021-2025)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Legacy Cleanup Effort",
+      "description": "Legacy Cleanup Effort projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "HubSpot",
+        "SQL",
+        "Customer Success"
+      ],
+      "skills_used": [
+        "HubSpot",
+        "SQL",
+        "Customer Success"
+      ],
+      "start_date": "2021-04",
+      "end_date": "2021-12",
+      "url": "https://github.com/example/legacy_cleanup_effort",
+      "project_type": "ambiguous_project_text",
+      "evidence_text": "Legacy Cleanup Effort projesinde HubSpot, SQL, Customer Success kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "Customer Success Manager Certification",
+    "HubSpot Sales Software Certification"
+  ],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 9,
+    "experiences": 1,
+    "projects": 1,
+    "educations": 1,
+    "certifications": 2,
+    "languages": 0,
+    "companies": 1,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "chronological",
+    "medium",
+    "mixed_language_headers",
+    "sales_customer_success_crm"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages"
+  ],
+  "trap_notes": []
+}

@@ -1,0 +1,198 @@
+{
+  "cv_id": "cv_074",
+  "file_name": "cv_074_noah_bennett.pdf",
+  "candidate_name": "Noah Bennett",
+  "email": "noah.bennett074@example.com",
+  "phone": "+44 7977 898786",
+  "location": "Amsterdam / Remote",
+  "title": "Clinical Operations Specialist",
+  "role_family": "healthcare_lab_clinical_ops",
+  "seniority": "mid",
+  "total_experience_years": 5,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "Clinical Operations Specialist with 5 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Sample Tracking, SOP, Patient Data, Clinical Operations.",
+  "skills": [
+    {
+      "name": "Sample Tracking",
+      "canonical_name": "Sample Tracking",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Sample Tracking is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SOP",
+      "canonical_name": "SOP",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "SOP is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Patient Data",
+      "canonical_name": "Patient Data",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Patient Data is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Clinical Operations",
+      "canonical_name": "Clinical Operations",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "Clinical Operations is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Excel is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Regulatory Documentation",
+      "canonical_name": "Regulatory Documentation",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Regulatory Documentation is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Medical Terminology",
+      "canonical_name": "Medical Terminology",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Medical Terminology is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "LIMS",
+      "canonical_name": "LIMS",
+      "category": "Tool",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "LIMS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Düzen Laboratuvarı",
+      "canonical_company_name": "Düzen Laboratuvarı",
+      "role_title": "Clinical Operations Specialist",
+      "start_date": "Sep 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Healthcare / Clinical Ops | Izmir",
+      "description": "Delivered measurable work in healthcare / clinical ops using Sample Tracking, LIMS, Regulatory Documentation, SOP. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 18% through process and tooling improvements",
+        "Improved reporting or service reliability with Sample Tracking and LIMS",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Sample Tracking",
+        "LIMS",
+        "Regulatory Documentation",
+        "SOP",
+        "Clinical Operations",
+        "Medical Terminology"
+      ],
+      "evidence_text": "Delivered measurable work in healthcare / clinical ops using Sample Tracking, LIMS, Regulatory Documentation, SOP. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 18% through process and tooling improvements Improved reporting or service reliability with Sample Tracking and LIMS Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Florence Nightingale",
+      "canonical_company_name": "Florence Nightingale",
+      "role_title": "Junior Lab Technician",
+      "start_date": "Dec 2022",
+      "end_date": "Aug 2024",
+      "is_current": false,
+      "location": "Healthcare / Clinical Ops | Istanbul",
+      "description": "Delivered measurable work in healthcare / clinical ops using SOP, Clinical Operations, Medical Terminology, Sample Tracking. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with SOP and Clinical Operations",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "SOP",
+        "Clinical Operations",
+        "Medical Terminology",
+        "Sample Tracking",
+        "Regulatory Documentation",
+        "Excel",
+        "Patient Data"
+      ],
+      "evidence_text": "Delivered measurable work in healthcare / clinical ops using SOP, Clinical Operations, Medical Terminology, Sample Tracking. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with SOP and Clinical Operations Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Memorial Sağlık",
+      "canonical_company_name": "Memorial Sağlık",
+      "role_title": "Clinical Operations Specialist",
+      "start_date": "Feb 2021",
+      "end_date": "Oct 2022",
+      "is_current": false,
+      "location": "Healthcare / Clinical Ops | London",
+      "description": "Delivered measurable work in healthcare / clinical ops using Regulatory Documentation, Sample Tracking, Excel, Clinical Operations. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with Regulatory Documentation and Sample Tracking",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Regulatory Documentation",
+        "Sample Tracking",
+        "Excel",
+        "Clinical Operations"
+      ],
+      "evidence_text": "Delivered measurable work in healthcare / clinical ops using Regulatory Documentation, Sample Tracking, Excel, Clinical Operations. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with Regulatory Documentation and Sample Tracking Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "English — C1",
+    "German — A2"
+  ],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 3,
+    "projects": 0,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "chronological",
+    "healthcare_lab_clinical_ops",
+    "medium",
+    "mixed_language_headers"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "certifications",
+    "projects",
+    "educations"
+  ],
+  "trap_notes": []
+}

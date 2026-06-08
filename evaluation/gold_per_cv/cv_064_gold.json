@@ -1,0 +1,219 @@
+{
+  "cv_id": "cv_064",
+  "file_name": "cv_064_yaren_bas.docx",
+  "candidate_name": "Yaren Baş",
+  "email": "yaren.bas064@example.com",
+  "phone": null,
+  "location": "Kocaeli / Gebze",
+  "title": "Product Owner",
+  "role_family": "product_project_ba",
+  "seniority": "mid",
+  "total_experience_years": 4,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "project_heavy",
+  "difficulty": "medium",
+  "summary": "4 yıllık deneyime sahip Product Owner. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Process Mapping, Confluence, Amplitude, Agile.",
+  "skills": [
+    {
+      "name": "Process Mapping",
+      "canonical_name": "Process Mapping",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Process Mapping CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Confluence",
+      "canonical_name": "Confluence",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Confluence CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Amplitude",
+      "canonical_name": "Amplitude",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Amplitude CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Agile",
+      "canonical_name": "Agile",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Agile CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "User Story",
+      "canonical_name": "User Story",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "User Story CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Figma",
+      "canonical_name": "Figma",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Figma CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Stakeholder Management",
+      "canonical_name": "Stakeholder Management",
+      "category": "Soft Skill",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Stakeholder Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Roadmap",
+      "canonical_name": "Roadmap",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Roadmap CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Product Owner",
+      "start_date": "May 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Ürün / İş Analizi | İzmir",
+      "description": "Ürün / İş Analizi alanında User Story, SQL, Stakeholder Management, Amplitude kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "User Story ve SQL ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "User Story",
+        "SQL",
+        "Stakeholder Management",
+        "Amplitude",
+        "Agile",
+        "Figma"
+      ],
+      "evidence_text": "Ürün / İş Analizi alanında User Story, SQL, Stakeholder Management, Amplitude kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı User Story ve SQL ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Ürün Stajyeri",
+      "start_date": "Mar 2022",
+      "end_date": "Mar 2024",
+      "is_current": false,
+      "location": "Ürün / İş Analizi | Antalya",
+      "description": "Ürün / İş Analizi alanında A/B Testing, User Story, Process Mapping, SQL kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "A/B Testing ve User Story ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "A/B Testing",
+        "User Story",
+        "Process Mapping",
+        "SQL"
+      ],
+      "evidence_text": "Ürün / İş Analizi alanında A/B Testing, User Story, Process Mapping, SQL kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı A/B Testing ve User Story ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Yüksek Lisans",
+      "field": "Management Information Systems",
+      "institution": "Hacettepe Üniversitesi",
+      "canonical_institution": "Hacettepe Üniversitesi",
+      "start_year": 2016,
+      "end_year": 2018,
+      "gpa": 3.44,
+      "evidence_text": "Yüksek Lisans - Management Information Systems, Hacettepe Üniversitesi (2016-2018)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Ön Lisans",
+      "field": "İşletme",
+      "institution": "ODTÜ",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2012,
+      "end_year": 2014,
+      "gpa": 3.15,
+      "evidence_text": "Ön Lisans - İşletme, ODTÜ (2012-2014)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [],
+  "languages": [
+    "Türkçe — Ana dil",
+    "English B1"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 2,
+    "projects": 0,
+    "educations": 2,
+    "certifications": 0,
+    "languages": 2,
+    "companies": 2,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "hallucination_trap",
+    "medium",
+    "missing_phone",
+    "mixed_language_headers",
+    "no_certification_info",
+    "product_project_ba",
+    "project_heavy"
+  ],
+  "hallucination_traps": [
+    "missing_phone",
+    "no_certification_info"
+  ],
+  "absent_fields": [
+    "phone",
+    "certifications",
+    "projects"
+  ],
+  "trap_notes": []
+}

@@ -1,283 +1,334 @@
-[
-  {
-    "entity_type": "skill",
-    "canonical": "JavaScript",
-    "observed_variants": [
-      "JavaScript",
-      "Javascript"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "React",
-    "observed_variants": [
-      "React",
-      "ReactJS"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Next.js",
-    "observed_variants": [
-      "Next.js",
-      "Nextjs"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "PostgreSQL",
-    "observed_variants": [
-      "PostgreSQL",
-      "Postgres"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Kubernetes",
-    "observed_variants": [
-      "Kubernetes",
-      "K8s",
-      "Kubernetes (K8s)"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "AWS",
-    "observed_variants": [
-      "AWS",
-      "AWS Cloud"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Microservices",
-    "observed_variants": [
-      "Microservices",
-      "Microservice"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "CI/CD",
-    "observed_variants": [
-      "CI/CD",
-      "CI CD"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "A/B Testing",
-    "observed_variants": [
-      "A/B Testing",
-      "A/B Test",
-      "AB Testing"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Power BI",
-    "observed_variants": [
-      "Power BI",
-      "PowerBI",
-      "Microsoft Power BI"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Scikit-learn",
-    "observed_variants": [
-      "Scikit-learn",
-      "Scikit Learn"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Node.js",
-    "observed_variants": [
-      "Node.js",
-      "NodeJS",
-      "Node"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Spring Boot",
-    "observed_variants": [
-      "Spring Boot",
-      "SpringBoot",
-      "Spring"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "ISO 27001",
-    "observed_variants": [
-      "ISO 27001",
-      "ISO27001"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Google Ads",
-    "observed_variants": [
-      "Google Ads",
-      "Google Adwords"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Jira",
-    "observed_variants": [
-      "Jira",
-      "JIRA"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "SAP SuccessFactors",
-    "observed_variants": [
-      "SAP SuccessFactors",
-      "SuccessFactors",
-      "SAP SF"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Figma",
-    "observed_variants": [
-      "Figma",
-      "FIGMA"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Docker",
-    "observed_variants": [
-      "Docker",
-      "Docker Engine"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Airflow",
-    "observed_variants": [
-      "Airflow",
-      "Apache Airflow"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Spark",
-    "observed_variants": [
-      "Spark",
-      "Apache Spark"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "Redis",
-    "observed_variants": [
-      "Redis",
-      "Redis Cache"
-    ]
-  },
-  {
-    "entity_type": "skill",
-    "canonical": "SQL",
-    "observed_variants": [
-      "SQL",
-      "Structured Query Language",
-      "SQL"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "Yapı Kredi",
-    "observed_variants": [
-      "Yapı Kredi",
-      "Yapı Kredi Teknoloji"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "Akbank",
-    "observed_variants": [
-      "Akbank",
-      "Akbank T.A.Ş.",
-      "Akbank Teknoloji"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "Trendyol",
-    "observed_variants": [
-      "Trendyol",
-      "Trendyol Group",
-      "Trendyol Teknoloji"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "Papara",
-    "observed_variants": [
-      "Papara",
-      "Papara Teknoloji"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "Turkcell",
-    "observed_variants": [
-      "Turkcell",
-      "Turkcell Teknoloji"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "Getir",
-    "observed_variants": [
-      "Getir",
-      "Getir Teknoloji"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "Garanti BBVA",
-    "observed_variants": [
-      "Garanti",
-      "Garanti BBVA"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "PwC",
-    "observed_variants": [
-      "PwC",
-      "PwC Legal"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "Hepsiburada",
-    "observed_variants": [
-      "Hepsiburada",
-      "Hepsiburada Teknoloji"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "Bosch Türkiye",
-    "observed_variants": [
-      "Bosch",
-      "Bosch Türkiye"
-    ]
-  },
-  {
-    "entity_type": "company",
-    "canonical": "Memorial Sağlık",
-    "observed_variants": [
-      "Memorial",
-      "Memorial Sağlık"
-    ]
-  }
-]
+{
+  "skill_resolution_targets": [
+    {
+      "canonical": "JavaScript",
+      "variants": [
+        "JavaScript",
+        "JS",
+        "Javascript",
+        "java script"
+      ]
+    },
+    {
+      "canonical": "TypeScript",
+      "variants": [
+        "TypeScript",
+        "TS",
+        "Typescript"
+      ]
+    },
+    {
+      "canonical": "Node.js",
+      "variants": [
+        "Node.js",
+        "NodeJS",
+        "Node",
+        "Node js"
+      ]
+    },
+    {
+      "canonical": "React",
+      "variants": [
+        "React",
+        "React.js",
+        "ReactJS"
+      ]
+    },
+    {
+      "canonical": "Next.js",
+      "variants": [
+        "Next.js",
+        "NextJS",
+        "Nextjs"
+      ]
+    },
+    {
+      "canonical": "PostgreSQL",
+      "variants": [
+        "PostgreSQL",
+        "Postgres",
+        "Postgre SQL",
+        "postgresql"
+      ]
+    },
+    {
+      "canonical": "Kubernetes",
+      "variants": [
+        "Kubernetes",
+        "K8s",
+        "k8s",
+        "Kubernetes (K8s)"
+      ]
+    },
+    {
+      "canonical": "Machine Learning",
+      "variants": [
+        "Machine Learning",
+        "ML",
+        "Makine Öğrenmesi"
+      ]
+    },
+    {
+      "canonical": "GDPR",
+      "variants": [
+        "GDPR",
+        "General Data Protection Regulation"
+      ]
+    },
+    {
+      "canonical": "KVKK",
+      "variants": [
+        "KVKK",
+        "Kişisel Verilerin Korunması Kanunu"
+      ]
+    },
+    {
+      "canonical": "ISO 27001",
+      "variants": [
+        "ISO 27001",
+        "ISO27001",
+        "ISO/IEC 27001"
+      ]
+    },
+    {
+      "canonical": "CI/CD",
+      "variants": [
+        "CI/CD",
+        "CICD",
+        "CI CD"
+      ]
+    },
+    {
+      "canonical": "Microservices",
+      "variants": [
+        "Microservices",
+        "Microservice",
+        "Mikroservis"
+      ]
+    },
+    {
+      "canonical": "Power BI",
+      "variants": [
+        "Power BI",
+        "PowerBI",
+        "Microsoft Power BI"
+      ]
+    },
+    {
+      "canonical": "Excel",
+      "variants": [
+        "Excel",
+        "MS Excel",
+        "Microsoft Excel"
+      ]
+    },
+    {
+      "canonical": "Salesforce",
+      "variants": [
+        "Salesforce",
+        "SFDC",
+        "Sales Force"
+      ]
+    },
+    {
+      "canonical": "FastAPI",
+      "variants": [
+        "FastAPI",
+        "Fast API",
+        "fastapi"
+      ]
+    },
+    {
+      "canonical": "Power BI",
+      "variants": [
+        "Power BI",
+        "PowerBI",
+        "Microsoft Power BI"
+      ]
+    },
+    {
+      "canonical": "Salesforce",
+      "variants": [
+        "Salesforce",
+        "SFDC",
+        "Sales Force"
+      ]
+    },
+    {
+      "canonical": "HubSpot",
+      "variants": [
+        "HubSpot",
+        "Hubspot",
+        "Hub Spot"
+      ]
+    },
+    {
+      "canonical": "Google Ads",
+      "variants": [
+        "Google Ads",
+        "Google AdWords",
+        "Adwords"
+      ]
+    },
+    {
+      "canonical": "Meta Ads",
+      "variants": [
+        "Meta Ads",
+        "Facebook Ads",
+        "Instagram Ads"
+      ]
+    },
+    {
+      "canonical": "LIMS",
+      "variants": [
+        "LIMS",
+        "Laboratory Information Management System"
+      ]
+    },
+    {
+      "canonical": "SAP MM",
+      "variants": [
+        "SAP MM",
+        "SAP Materials Management"
+      ]
+    },
+    {
+      "canonical": "SPSS",
+      "variants": [
+        "SPSS",
+        "IBM SPSS",
+        "Spss"
+      ]
+    },
+    {
+      "canonical": "Roadmap",
+      "variants": [
+        "Roadmap",
+        "Product Roadmap",
+        "road map"
+      ]
+    },
+    {
+      "canonical": "DPIA",
+      "variants": [
+        "DPIA",
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "canonical": "Burp Suite",
+      "variants": [
+        "Burp Suite",
+        "Burp",
+        "BurpSuite"
+      ]
+    },
+    {
+      "canonical": "Looker Studio",
+      "variants": [
+        "Looker Studio",
+        "Google Data Studio",
+        "Data Studio"
+      ]
+    },
+    {
+      "canonical": "GitHub Actions",
+      "variants": [
+        "GitHub Actions",
+        "Github Actions",
+        "GHA"
+      ]
+    },
+    {
+      "canonical": "MLOps",
+      "variants": [
+        "MLOps",
+        "ML Ops",
+        "Machine Learning Operations"
+      ]
+    },
+    {
+      "canonical": "Scikit-learn",
+      "variants": [
+        "Scikit-learn",
+        "sklearn",
+        "Scikit Learn"
+      ]
+    }
+  ],
+  "company_resolution_targets": [
+    {
+      "canonical": "Papara",
+      "variants": [
+        "Papara",
+        "Papara Teknoloji",
+        "Papara Tech"
+      ]
+    },
+    {
+      "canonical": "Trendyol",
+      "variants": [
+        "Trendyol",
+        "Trendyol Group",
+        "Trendyol Tech"
+      ]
+    },
+    {
+      "canonical": "Garanti BBVA",
+      "variants": [
+        "Garanti BBVA",
+        "Garanti",
+        "Garanti BBVA Teknoloji"
+      ]
+    },
+    {
+      "canonical": "Akbank",
+      "variants": [
+        "Akbank",
+        "Akbank T.A.Ş.",
+        "Akbank Teknoloji"
+      ]
+    },
+    {
+      "canonical": "Turkcell",
+      "variants": [
+        "Turkcell",
+        "Turkcell Teknoloji"
+      ]
+    },
+    {
+      "canonical": "Hepsiburada",
+      "variants": [
+        "Hepsiburada",
+        "Hepsiburada Teknoloji"
+      ]
+    }
+  ],
+  "institution_resolution_targets": [
+    {
+      "canonical": "Marmara Üniversitesi",
+      "variants": [
+        "Marmara Üniversitesi",
+        "Marmara University",
+        "Marmara Uni"
+      ]
+    },
+    {
+      "canonical": "İstanbul Bilgi Üniversitesi",
+      "variants": [
+        "İstanbul Bilgi Üniversitesi",
+        "Bilgi University",
+        "Istanbul Bilgi Uni"
+      ]
+    },
+    {
+      "canonical": "ODTÜ",
+      "variants": [
+        "ODTÜ",
+        "Middle East Technical University",
+        "METU"
+      ]
+    }
+  ],
+  "notes": "Variants are intentionally distributed across CV text and golden extraction as surface names with canonical_name fields."
+}

@@ -1,0 +1,275 @@
+{
+  "cv_id": "cv_097",
+  "file_name": "cv_097_tolga_gunal.pdf",
+  "candidate_name": "Tolga Günal",
+  "email": "tolga.gunal097@example.com",
+  "phone": "+90 536 286 48 44",
+  "location": "Eskişehir / Tepebaşı",
+  "title": "Logistics Operations Manager",
+  "role_family": "operations_supply_logistics",
+  "seniority": "lead_manager",
+  "total_experience_years": 10,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 2,
+  "template_type": "skills_first",
+  "difficulty": "easy",
+  "summary": "10 yıllık deneyime sahip Logistics Operations Manager. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Warehouse Management, Demand Planning, SQL, Microsoft Power BI.",
+  "skills": [
+    {
+      "name": "Warehouse Management",
+      "canonical_name": "Warehouse Management",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "Warehouse Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Demand Planning",
+      "canonical_name": "Demand Planning",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 4,
+      "evidence_text": "Demand Planning CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 8,
+      "level": 5,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microsoft Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 5,
+      "evidence_text": "Microsoft Power BI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Route Optimization",
+      "canonical_name": "Route Optimization",
+      "category": "Tool",
+      "years_experience": 10,
+      "level": 5,
+      "evidence_text": "Route Optimization CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Process Improvement",
+      "canonical_name": "Process Improvement",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 5,
+      "evidence_text": "Process Improvement CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP MM",
+      "canonical_name": "SAP MM",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "SAP MM CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Microsoft Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "Microsoft Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Supply Chain",
+      "canonical_name": "Supply Chain",
+      "category": "Tool",
+      "years_experience": 10,
+      "level": 5,
+      "evidence_text": "Supply Chain CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Logistics",
+      "canonical_name": "Logistics",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 5,
+      "evidence_text": "Logistics CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "DHL Supply Chain",
+      "canonical_company_name": "DHL Supply Chain",
+      "role_title": "Logistics Operations Manager",
+      "start_date": "May 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Operasyon / Lojistik | Kocaeli",
+      "description": "Operasyon / Lojistik alanında Microsoft Power BI, Route Optimization, Supply Chain, Microsoft Excel kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Microsoft Power BI ve Route Optimization ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Microsoft Power BI",
+        "Route Optimization",
+        "Supply Chain",
+        "Microsoft Excel",
+        "Process Improvement"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında Microsoft Power BI, Route Optimization, Supply Chain, Microsoft Excel kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Microsoft Power BI ve Route Optimization ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Borusan Lojistik",
+      "canonical_company_name": "Borusan Lojistik",
+      "role_title": "Kıdemli Operasyon Analisti",
+      "start_date": "Nis 2022",
+      "end_date": "Nis 2024",
+      "is_current": false,
+      "location": "Operasyon / Lojistik | Remote",
+      "description": "Operasyon / Lojistik alanında SQL, SAP MM, Demand Planning, Process Improvement kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "SQL ve SAP MM ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "SQL",
+        "SAP MM",
+        "Demand Planning",
+        "Process Improvement",
+        "Warehouse Management"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında SQL, SAP MM, Demand Planning, Process Improvement kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı SQL ve SAP MM ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Aras Kargo",
+      "canonical_company_name": "Aras Kargo",
+      "role_title": "Tedarik Zinciri Uzmanı",
+      "start_date": "Mar 2020",
+      "end_date": "Mar 2022",
+      "is_current": false,
+      "location": "Operasyon / Lojistik | Ankara",
+      "description": "Operasyon / Lojistik alanında Supply Chain, Microsoft Excel, Logistics, SQL kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Supply Chain ve Microsoft Excel ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Supply Chain",
+        "Microsoft Excel",
+        "Logistics",
+        "SQL"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında Supply Chain, Microsoft Excel, Logistics, SQL kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Supply Chain ve Microsoft Excel ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Trendyol Express",
+      "canonical_company_name": "Trendyol Express",
+      "role_title": "Junior Lojistik Uzmanı",
+      "start_date": "Ara 2017",
+      "end_date": "Ara 2019",
+      "is_current": false,
+      "location": "Operasyon / Lojistik | Kocaeli",
+      "description": "Operasyon / Lojistik alanında Logistics, Route Optimization, Process Improvement, Supply Chain kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Logistics ve Route Optimization ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Logistics",
+        "Route Optimization",
+        "Process Improvement",
+        "Supply Chain"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında Logistics, Route Optimization, Process Improvement, Supply Chain kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Logistics ve Route Optimization ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Ekol Lojistik",
+      "canonical_company_name": "Ekol Lojistik",
+      "role_title": "Kıdemli Operasyon Analisti",
+      "start_date": "Eyl 2015",
+      "end_date": "Eyl 2017",
+      "is_current": false,
+      "location": "Operasyon / Lojistik | İstanbul",
+      "description": "Operasyon / Lojistik alanında Demand Planning, Logistics, Process Improvement, SAP MM kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Demand Planning ve Logistics ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Demand Planning",
+        "Logistics",
+        "Process Improvement",
+        "SAP MM",
+        "Supply Chain",
+        "Warehouse Management"
+      ],
+      "evidence_text": "Operasyon / Lojistik alanında Demand Planning, Logistics, Process Improvement, SAP MM kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Demand Planning ve Logistics ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Lojistik Yönetimi",
+      "institution": "İstanbul Bilgi Üniversitesi",
+      "canonical_institution": "İstanbul Bilgi Üniversitesi",
+      "start_year": 2010,
+      "end_year": 2014,
+      "gpa": 3.01,
+      "evidence_text": "Lisans - Lojistik Yönetimi, İstanbul Bilgi Üniversitesi (2010-2014)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [],
+  "certifications": [
+    "Lean Six Sigma Yellow Belt",
+    "APICS CPIM Basics",
+    "SAP MM End User"
+  ],
+  "languages": [
+    "Türkçe — Ana dil",
+    "English B1"
+  ],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 5,
+    "projects": 0,
+    "educations": 1,
+    "certifications": 3,
+    "languages": 2,
+    "companies": 5,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "operations_supply_logistics",
+    "skills_first"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "projects"
+  ],
+  "trap_notes": []
+}

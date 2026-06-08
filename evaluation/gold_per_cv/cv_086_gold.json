@@ -1,0 +1,222 @@
+{
+  "cv_id": "cv_086",
+  "file_name": "cv_086_lily_morris.docx",
+  "candidate_name": "Lily Morris",
+  "email": null,
+  "phone": null,
+  "location": "Remote / EMEA",
+  "title": "Junior DevOps Engineer",
+  "role_family": "devops_cloud_platform",
+  "seniority": "junior",
+  "total_experience_years": 1.5,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "academic_research",
+  "difficulty": "easy",
+  "summary": "Junior DevOps Engineer with 1.5 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Jenkins, Kubernetes, Grafana, Azure.",
+  "skills": [
+    {
+      "name": "Jenkins",
+      "canonical_name": "Jenkins",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Jenkins is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Kubernetes is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Grafana",
+      "canonical_name": "Grafana",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Grafana is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Azure",
+      "canonical_name": "Azure",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "Azure is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Terraform",
+      "canonical_name": "Terraform",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Terraform is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CI/CD",
+      "canonical_name": "CI/CD",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "CI/CD is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical_name": "GitHub Actions",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "GitHub Actions is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Ansible",
+      "canonical_name": "Ansible",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Ansible is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Docker is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Prometheus",
+      "canonical_name": "Prometheus",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 1,
+      "evidence_text": "Prometheus is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "AWS",
+      "canonical_name": "AWS",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "AWS is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Helm",
+      "canonical_name": "Helm",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "Helm is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Trendyol Tech",
+      "canonical_company_name": "Trendyol",
+      "role_title": "Junior DevOps Engineer",
+      "start_date": "Nov 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Cloud / Platform | Dublin",
+      "description": "Delivered measurable work in cloud / platform using Terraform, GitHub Actions, Prometheus, Jenkins. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Terraform and GitHub Actions",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Terraform",
+        "GitHub Actions",
+        "Prometheus",
+        "Jenkins",
+        "CI/CD"
+      ],
+      "evidence_text": "Delivered measurable work in cloud / platform using Terraform, GitHub Actions, Prometheus, Jenkins. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Terraform and GitHub Actions Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [],
+  "projects": [
+    {
+      "name": "DPIA Data Mapping Initiative",
+      "description": "Led or contributed to DPIA Data Mapping Initiative, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Analyst",
+      "technologies": [
+        "Prometheus",
+        "Docker",
+        "CI/CD",
+        "Helm",
+        "Ansible",
+        "AWS"
+      ],
+      "skills_used": [
+        "Prometheus",
+        "Docker",
+        "CI/CD",
+        "Helm",
+        "Ansible",
+        "AWS"
+      ],
+      "start_date": "2022-02",
+      "end_date": "2022-04",
+      "url": null,
+      "project_type": "compliance_audit_kvkk",
+      "evidence_text": "DPIA Data Mapping Initiative project used Prometheus, Docker, CI/CD and delivered documented outputs.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    "English — Professional working proficiency"
+  ],
+  "expected_nodes": {
+    "skills": 12,
+    "experiences": 1,
+    "projects": 1,
+    "educations": 0,
+    "certifications": 0,
+    "languages": 1,
+    "companies": 1,
+    "institutions": 0
+  },
+  "challenge_tags": [
+    "academic_research",
+    "ambiguous_aws_company",
+    "clear_sections",
+    "devops_cloud_platform",
+    "easy",
+    "hallucination_trap",
+    "missing_email",
+    "missing_phone"
+  ],
+  "hallucination_traps": [
+    "ambiguous_aws_company",
+    "missing_phone",
+    "missing_email"
+  ],
+  "absent_fields": [
+    "email",
+    "phone",
+    "certifications",
+    "educations"
+  ],
+  "trap_notes": [
+    "Not: AWS Lojistik tedarikçi kayıtları ile çalışıldı; burada AWS bir bulut yetkinliği olarak kullanılmadı."
+  ]
+}

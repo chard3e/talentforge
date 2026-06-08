@@ -1,0 +1,233 @@
+{
+  "cv_id": "cv_016",
+  "file_name": "cv_016_liam_hartley.pdf",
+  "candidate_name": "Liam Hartley",
+  "email": "liam.hartley016@example.com",
+  "phone": "+44 7983 438917",
+  "location": "Remote / EMEA",
+  "title": "Senior GRC Specialist",
+  "role_family": "cybersecurity_grc_privacy",
+  "seniority": "senior",
+  "total_experience_years": 8,
+  "language": "en",
+  "file_format": "pdf",
+  "page_count": 1,
+  "template_type": "project_heavy",
+  "difficulty": "medium",
+  "summary": "Senior GRC Specialist with 8 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include SOC, Nessus, Splunk, ISO 27001.",
+  "skills": [
+    {
+      "name": "SOC",
+      "canonical_name": "SOC",
+      "category": "Tool",
+      "years_experience": 7,
+      "level": 3,
+      "evidence_text": "SOC is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Nessus",
+      "canonical_name": "Nessus",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "Nessus is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Splunk",
+      "canonical_name": "Splunk",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "Splunk is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "ISO 27001",
+      "canonical_name": "ISO 27001",
+      "category": "Compliance",
+      "years_experience": 4,
+      "level": 3,
+      "evidence_text": "ISO 27001 is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Firewall",
+      "canonical_name": "Firewall",
+      "category": "Tool",
+      "years_experience": 8,
+      "level": 4,
+      "evidence_text": "Firewall is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Burp Suite",
+      "canonical_name": "Burp Suite",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Burp Suite is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "KVKK",
+      "canonical_name": "KVKK",
+      "category": "Compliance",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "KVKK is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 5,
+      "level": 3,
+      "evidence_text": "Linux is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Akbank T.A.Ş.",
+      "canonical_company_name": "Akbank",
+      "role_title": "Senior GRC Specialist",
+      "start_date": "Sep 2023",
+      "end_date": null,
+      "is_current": true,
+      "location": "Security / GRC | Istanbul",
+      "description": "Delivered measurable work in security / grc using Splunk, SOC, Nessus, Linux. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 27% through process and tooling improvements",
+        "Improved reporting or service reliability with Splunk and SOC",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Splunk",
+        "SOC",
+        "Nessus",
+        "Linux",
+        "ISO 27001",
+        "KVKK",
+        "Burp Suite"
+      ],
+      "evidence_text": "Delivered measurable work in security / grc using Splunk, SOC, Nessus, Linux. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 27% through process and tooling improvements Improved reporting or service reliability with Splunk and SOC Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Cyberwise",
+      "canonical_company_name": "Cyberwise",
+      "role_title": "Senior GRC Specialist",
+      "start_date": "Dec 2020",
+      "end_date": "Aug 2023",
+      "is_current": false,
+      "location": "Security / GRC | Remote",
+      "description": "Delivered measurable work in security / grc using SOC, ISO 27001, Linux, Firewall. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 35% through process and tooling improvements",
+        "Improved reporting or service reliability with SOC and ISO 27001",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "SOC",
+        "ISO 27001",
+        "Linux",
+        "Firewall",
+        "Nessus",
+        "Burp Suite"
+      ],
+      "evidence_text": "Delivered measurable work in security / grc using SOC, ISO 27001, Linux, Firewall. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 35% through process and tooling improvements Improved reporting or service reliability with SOC and ISO 27001 Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Softtech",
+      "canonical_company_name": "Softtech",
+      "role_title": "Junior SOC Analyst",
+      "start_date": "Mar 2018",
+      "end_date": "Nov 2020",
+      "is_current": false,
+      "location": "Security / GRC | Dublin",
+      "description": "Delivered measurable work in security / grc using Burp Suite, Linux, ISO 27001, Splunk. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 41% through process and tooling improvements",
+        "Improved reporting or service reliability with Burp Suite and Linux",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Burp Suite",
+        "Linux",
+        "ISO 27001",
+        "Splunk",
+        "KVKK"
+      ],
+      "evidence_text": "Delivered measurable work in security / grc using Burp Suite, Linux, ISO 27001, Splunk. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 41% through process and tooling improvements Improved reporting or service reliability with Burp Suite and Linux Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "BSc",
+      "field": "Information Security",
+      "institution": "Boğaziçi Üniversitesi",
+      "canonical_institution": "Boğaziçi Üniversitesi",
+      "start_year": 2010,
+      "end_year": 2014,
+      "gpa": 3.67,
+      "evidence_text": "BSc - Information Security, Boğaziçi Üniversitesi (2010-2014)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Warehouse SLA Improvement",
+      "description": "Led or contributed to Warehouse SLA Improvement, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Project Owner",
+      "technologies": [
+        "ISO 27001",
+        "SOC",
+        "Splunk",
+        "Firewall"
+      ],
+      "skills_used": [
+        "ISO 27001",
+        "SOC",
+        "Splunk",
+        "Firewall"
+      ],
+      "start_date": "2025-04",
+      "end_date": "2025-08",
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Warehouse SLA Improvement project used ISO 27001, SOC, Splunk and delivered documented outputs.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "ISO 27001 Lead Implementer"
+  ],
+  "languages": [
+    "English — Native or fluent",
+    "Turkish — B1"
+  ],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 3,
+    "projects": 1,
+    "educations": 1,
+    "certifications": 1,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "cybersecurity_grc_privacy",
+    "medium",
+    "project_heavy",
+    "skill_synonym"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [],
+  "trap_notes": []
+}

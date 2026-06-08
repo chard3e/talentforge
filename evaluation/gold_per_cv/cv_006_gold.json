@@ -1,0 +1,288 @@
+{
+  "cv_id": "cv_006",
+  "file_name": "cv_006_ilgin_ersoy.docx",
+  "candidate_name": "Ilgın Ersoy",
+  "email": "ilgin.ersoy006@example.com",
+  "phone": "+90 533 504 75 78",
+  "location": "Bursa / Nilüfer",
+  "title": "Kıdemli MLOps Mühendisi",
+  "role_family": "ml_ai_mlops",
+  "seniority": "senior",
+  "total_experience_years": 7,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "project_heavy",
+  "difficulty": "easy",
+  "summary": "7 yıllık deneyime sahip Kıdemli MLOps Mühendisi. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Python, MLflow, FastAPI, Docker.",
+  "skills": [
+    {
+      "name": "Python",
+      "canonical_name": "Python",
+      "category": "Programming",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Python CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLflow",
+      "canonical_name": "MLflow",
+      "category": "Data Science",
+      "years_experience": 5,
+      "level": 4,
+      "evidence_text": "MLflow CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "FastAPI",
+      "canonical_name": "FastAPI",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "FastAPI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "TensorFlow",
+      "canonical_name": "TensorFlow",
+      "category": "Data Science",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "TensorFlow CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Machine Learning",
+      "canonical_name": "Machine Learning",
+      "category": "Data Science",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Machine Learning CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "MLOps",
+      "canonical_name": "MLOps",
+      "category": "Data Science",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "MLOps CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Arçelik AI",
+      "canonical_company_name": "Arçelik AI",
+      "role_title": "Kıdemli MLOps Mühendisi",
+      "start_date": "Oca 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Yapay Zeka / Modelleme | İstanbul",
+      "description": "Yapay Zeka / Modelleme alanında FastAPI, Docker, Kubernetes, Machine Learning kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "FastAPI ve Docker ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "FastAPI",
+        "Docker",
+        "Kubernetes",
+        "Machine Learning",
+        "MLOps",
+        "Python"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında FastAPI, Docker, Kubernetes, Machine Learning kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı FastAPI ve Docker ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Trendyol Tech",
+      "canonical_company_name": "Trendyol",
+      "role_title": "ML Engineer",
+      "start_date": "Ağu 2021",
+      "end_date": "Ara 2023",
+      "is_current": false,
+      "location": "Yapay Zeka / Modelleme | Remote",
+      "description": "Yapay Zeka / Modelleme alanında TensorFlow, Docker, MLOps, MLflow kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "TensorFlow ve Docker ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "TensorFlow",
+        "Docker",
+        "MLOps",
+        "MLflow",
+        "Python",
+        "Kubernetes"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında TensorFlow, Docker, MLOps, MLflow kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı TensorFlow ve Docker ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "ML Engineer",
+      "start_date": "Mar 2019",
+      "end_date": "Tem 2021",
+      "is_current": false,
+      "location": "Yapay Zeka / Modelleme | Remote",
+      "description": "Yapay Zeka / Modelleme alanında MLflow, FastAPI, MLOps, Kubernetes kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "MLflow ve FastAPI ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "MLflow",
+        "FastAPI",
+        "MLOps",
+        "Kubernetes",
+        "Python",
+        "Machine Learning",
+        "TensorFlow"
+      ],
+      "evidence_text": "Yapay Zeka / Modelleme alanında MLflow, FastAPI, MLOps, Kubernetes kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı MLflow ve FastAPI ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Doktora",
+      "field": "Artificial Intelligence Engineering",
+      "institution": "Hacettepe Üniversitesi",
+      "canonical_institution": "Hacettepe Üniversitesi",
+      "start_year": 2008,
+      "end_year": 2013,
+      "gpa": 3.56,
+      "evidence_text": "Doktora - Artificial Intelligence Engineering, Hacettepe Üniversitesi (2008-2013)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Customer 360 Data Mart",
+      "description": "Customer 360 Data Mart projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "FastAPI",
+        "Python",
+        "Docker",
+        "Machine Learning"
+      ],
+      "skills_used": [
+        "FastAPI",
+        "Python",
+        "Docker",
+        "Machine Learning"
+      ],
+      "start_date": "2021-08",
+      "end_date": "2021-12",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Customer 360 Data Mart projesinde FastAPI, Python, Docker kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Fraud Detection Pipeline",
+      "description": "Fraud Detection Pipeline projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "TensorFlow",
+        "MLOps",
+        "Python",
+        "Docker",
+        "FastAPI",
+        "MLflow"
+      ],
+      "skills_used": [
+        "TensorFlow",
+        "MLOps",
+        "Python",
+        "Docker",
+        "FastAPI",
+        "MLflow"
+      ],
+      "start_date": "2022-03",
+      "end_date": "2022-07",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Fraud Detection Pipeline projesinde TensorFlow, MLOps, Python kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    },
+    {
+      "name": "E-commerce Recommendation Engine",
+      "description": "E-commerce Recommendation Engine projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "Kubernetes",
+        "Docker",
+        "MLOps",
+        "Machine Learning",
+        "FastAPI"
+      ],
+      "skills_used": [
+        "Kubernetes",
+        "Docker",
+        "MLOps",
+        "Machine Learning",
+        "FastAPI"
+      ],
+      "start_date": "2023-06",
+      "end_date": "2023-12",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "E-commerce Recommendation Engine projesinde Kubernetes, Docker, MLOps kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "DeepLearning.AI Machine Learning Specialization",
+    "Databricks Machine Learning Associate",
+    "TensorFlow Developer Certificate"
+  ],
+  "languages": [
+    "İngilizce — İleri",
+    "Fransızca — B1"
+  ],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 3,
+    "projects": 3,
+    "educations": 1,
+    "certifications": 3,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "ml_ai_mlops",
+    "project_heavy"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [],
+  "trap_notes": []
+}

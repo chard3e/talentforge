@@ -1,0 +1,222 @@
+{
+  "cv_id": "cv_048",
+  "file_name": "cv_048_idil_soysal.docx",
+  "candidate_name": "İdil Soysal",
+  "email": "idil.soysal048@example.com",
+  "phone": "+90 532 422 38 29",
+  "location": "Bursa / Nilüfer",
+  "title": "Junior İş Analisti",
+  "role_family": "product_project_ba",
+  "seniority": "junior",
+  "total_experience_years": 1.5,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "chronological",
+  "difficulty": "medium",
+  "summary": "1.5 yıllık deneyime sahip Junior İş Analisti. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: SQL, A/B Testing, Roadmap, Scrum.",
+  "skills": [
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "A/B Testing CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Roadmap",
+      "canonical_name": "Roadmap",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "Roadmap CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Scrum",
+      "canonical_name": "Scrum",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Scrum CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jira",
+      "canonical_name": "Jira",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Jira CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Amplitude",
+      "canonical_name": "Amplitude",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Amplitude CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "User Story",
+      "canonical_name": "User Story",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "User Story CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Stakeholder Management",
+      "canonical_name": "Stakeholder Management",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 2,
+      "evidence_text": "Stakeholder Management CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Figma",
+      "canonical_name": "Figma",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Figma CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Agile",
+      "canonical_name": "Agile",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 1,
+      "evidence_text": "Agile CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Process Mapping",
+      "canonical_name": "Process Mapping",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Process Mapping CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "n11",
+      "canonical_company_name": "n11",
+      "role_title": "Junior İş Analisti",
+      "start_date": "Kas 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Ürün / İş Analizi | Kocaeli",
+      "description": "Ürün / İş Analizi alanında Figma, Amplitude, Scrum, Roadmap kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %31 azalttı",
+        "Figma ve Amplitude ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Figma",
+        "Amplitude",
+        "Scrum",
+        "Roadmap"
+      ],
+      "evidence_text": "Ürün / İş Analizi alanında Figma, Amplitude, Scrum, Roadmap kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %31 azalttı Figma ve Amplitude ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Management Information Systems",
+      "institution": "Yıldız Teknik Üniversitesi",
+      "canonical_institution": "Yıldız Teknik Üniversitesi",
+      "start_year": 2015,
+      "end_year": 2019,
+      "gpa": 2.96,
+      "evidence_text": "Lisans - Management Information Systems, Yıldız Teknik Üniversitesi (2015-2019)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "Lisans",
+      "field": "Endüstri Mühendisliği",
+      "institution": "Istanbul Technical University",
+      "canonical_institution": "Istanbul Technical University",
+      "start_year": 2015,
+      "end_year": 2019,
+      "gpa": 2.87,
+      "evidence_text": "Lisans - Endüstri Mühendisliği, Istanbul Technical University (2015-2019)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Customer 360 Data Mart",
+      "description": "Customer 360 Data Mart projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Proje Sorumlusu",
+      "technologies": [
+        "A/B Testing",
+        "Jira",
+        "User Story",
+        "Process Mapping",
+        "SQL"
+      ],
+      "skills_used": [
+        "A/B Testing",
+        "Jira",
+        "User Story",
+        "Process Mapping",
+        "SQL"
+      ],
+      "start_date": "2025-09",
+      "end_date": "2025-12",
+      "url": "https://github.com/example/customer_360_data_mart",
+      "project_type": "software_ai_data",
+      "evidence_text": "Customer 360 Data Mart projesinde A/B Testing, Jira, User Story kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "Professional Scrum Product Owner I"
+  ],
+  "languages": [
+    "Türkçe — Ana dil",
+    "İngilizce — Orta-İleri (B2)",
+    "Almanca — Başlangıç (A2)"
+  ],
+  "expected_nodes": {
+    "skills": 11,
+    "experiences": 1,
+    "projects": 1,
+    "educations": 2,
+    "certifications": 1,
+    "languages": 3,
+    "companies": 1,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "chronological",
+    "medium",
+    "product_project_ba",
+    "skill_synonym"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [],
+  "trap_notes": []
+}

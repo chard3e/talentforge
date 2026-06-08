@@ -1,0 +1,263 @@
+{
+  "cv_id": "cv_075",
+  "file_name": "cv_075_mia_reynolds.docx",
+  "candidate_name": "Mia Reynolds",
+  "email": "mia.reynolds075@example.com",
+  "phone": "+44 7344 934724",
+  "location": "Dublin / Hybrid",
+  "title": "Product Owner",
+  "role_family": "product_project_ba",
+  "seniority": "mid",
+  "total_experience_years": 3,
+  "language": "en",
+  "file_format": "docx",
+  "page_count": 1,
+  "template_type": "two_column_modern",
+  "difficulty": "easy",
+  "summary": "Product Owner with 3 years of experience. Focused on measurable outcomes, cross-functional collaboration and reliable knowledge graph extraction signals. Core strengths include Roadmap, Jira, Amplitude, Stakeholder Management.",
+  "skills": [
+    {
+      "name": "Roadmap",
+      "canonical_name": "Roadmap",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Roadmap is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jira",
+      "canonical_name": "Jira",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "Jira is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Amplitude",
+      "canonical_name": "Amplitude",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Amplitude is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Stakeholder Management",
+      "canonical_name": "Stakeholder Management",
+      "category": "Soft Skill",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Stakeholder Management is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Confluence",
+      "canonical_name": "Confluence",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Confluence is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Scrum",
+      "canonical_name": "Scrum",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Scrum is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "SQL is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "User Story",
+      "canonical_name": "User Story",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "User Story is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Process Mapping",
+      "canonical_name": "Process Mapping",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Process Mapping is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    },
+    {
+      "name": "A/B Testing",
+      "canonical_name": "A/B Testing",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "A/B Testing is evidenced in skills, project or experience sections.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Hepsiburada",
+      "canonical_company_name": "Hepsiburada",
+      "role_title": "Product Owner",
+      "start_date": "May 2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Product / Business Analysis | Izmir",
+      "description": "Delivered measurable work in product / business analysis using Roadmap, Jira, A/B Testing, Confluence. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Roadmap and Jira",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Roadmap",
+        "Jira",
+        "A/B Testing",
+        "Confluence",
+        "Stakeholder Management",
+        "User Story",
+        "Amplitude"
+      ],
+      "evidence_text": "Delivered measurable work in product / business analysis using Roadmap, Jira, A/B Testing, Confluence. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Roadmap and Jira Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "Midas",
+      "canonical_company_name": "Midas",
+      "role_title": "Junior Business Analyst",
+      "start_date": "Mar 2024",
+      "end_date": "Mar 2025",
+      "is_current": false,
+      "location": "Product / Business Analysis | Ankara",
+      "description": "Delivered measurable work in product / business analysis using Scrum, Jira, Confluence, Roadmap. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Scrum and Jira",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Scrum",
+        "Jira",
+        "Confluence",
+        "Roadmap",
+        "Stakeholder Management"
+      ],
+      "evidence_text": "Delivered measurable work in product / business analysis using Scrum, Jira, Confluence, Roadmap. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Scrum and Jira Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Logo Yazılım",
+      "canonical_company_name": "Logo Yazılım",
+      "role_title": "Junior Business Analyst",
+      "start_date": "Feb 2023",
+      "end_date": "Feb 2024",
+      "is_current": false,
+      "location": "Product / Business Analysis | Dublin",
+      "description": "Delivered measurable work in product / business analysis using Confluence, Amplitude, Jira, Roadmap. Collaborated with product, engineering and operations teams to improve delivery quality.",
+      "achievements": [
+        "Reduced manual effort by 22% through process and tooling improvements",
+        "Improved reporting or service reliability with Confluence and Amplitude",
+        "Worked with cross-functional stakeholders and documented repeatable workflows"
+      ],
+      "skills_used": [
+        "Confluence",
+        "Amplitude",
+        "Jira",
+        "Roadmap",
+        "SQL"
+      ],
+      "evidence_text": "Delivered measurable work in product / business analysis using Confluence, Amplitude, Jira, Roadmap. Collaborated with product, engineering and operations teams to improve delivery quality. Reduced manual effort by 22% through process and tooling improvements Improved reporting or service reliability with Confluence and Amplitude Worked with cross-functional stakeholders and documented repeatable workflows",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "PhD",
+      "field": "Management Information Systems",
+      "institution": "Istanbul Technical University",
+      "canonical_institution": "Istanbul Technical University",
+      "start_year": 2020,
+      "end_year": 2025,
+      "gpa": 3.81,
+      "evidence_text": "PhD - Management Information Systems, Istanbul Technical University (2020-2025)",
+      "confidence": 0.88
+    },
+    {
+      "degree": "MSc",
+      "field": "İşletme",
+      "institution": "Middle East Technical University",
+      "canonical_institution": "ODTÜ",
+      "start_year": 2012,
+      "end_year": 2014,
+      "gpa": 3.81,
+      "evidence_text": "MSc - İşletme, Middle East Technical University (2012-2014)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fraud Detection Pipeline",
+      "description": "Led or contributed to Fraud Detection Pipeline, focusing on measurable outcomes and evidence-based decisions.",
+      "role": "Developer",
+      "technologies": [
+        "Scrum",
+        "Roadmap",
+        "SQL",
+        "Confluence",
+        "A/B Testing",
+        "Process Mapping"
+      ],
+      "skills_used": [
+        "Scrum",
+        "Roadmap",
+        "SQL",
+        "Confluence",
+        "A/B Testing",
+        "Process Mapping"
+      ],
+      "start_date": "2021-06",
+      "end_date": "2021-09",
+      "url": "https://github.com/example/fraud_detection_pipeline",
+      "project_type": "software_ai_data",
+      "evidence_text": "Fraud Detection Pipeline project used Scrum, Roadmap, SQL and delivered documented outputs.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 10,
+    "experiences": 3,
+    "projects": 1,
+    "educations": 2,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 3,
+    "institutions": 2
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "product_project_ba",
+    "two_column_modern"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications"
+  ],
+  "trap_notes": []
+}

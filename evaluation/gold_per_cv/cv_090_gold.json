@@ -1,0 +1,230 @@
+{
+  "cv_id": "cv_090",
+  "file_name": "cv_090_nevra_sevil.pdf",
+  "candidate_name": "Nevra Sevil",
+  "email": "nevra.sevil090@example.com",
+  "phone": "+90 531 349 51 70",
+  "location": "Remote / Türkiye",
+  "title": "Kıdemli Denetim Uzmanı",
+  "role_family": "finance_accounting_audit",
+  "seniority": "senior",
+  "total_experience_years": 7,
+  "language": "tr",
+  "file_format": "pdf",
+  "page_count": 3,
+  "template_type": "skills_first",
+  "difficulty": "easy",
+  "summary": "7 yıllık deneyime sahip Kıdemli Denetim Uzmanı. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Risk Analysis, SAP FI, Excel, Budgeting.",
+  "skills": [
+    {
+      "name": "Risk Analysis",
+      "canonical_name": "Risk Analysis",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Risk Analysis CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SAP FI",
+      "canonical_name": "SAP FI",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "SAP FI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Excel",
+      "canonical_name": "Excel",
+      "category": "Tool",
+      "years_experience": 3,
+      "level": 4,
+      "evidence_text": "Excel CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Budgeting",
+      "canonical_name": "Budgeting",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Budgeting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Forecasting",
+      "canonical_name": "Forecasting",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 5,
+      "evidence_text": "Forecasting CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Financial Modeling",
+      "canonical_name": "Financial Modeling",
+      "category": "Tool",
+      "years_experience": 4,
+      "level": 4,
+      "evidence_text": "Financial Modeling CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Power BI",
+      "canonical_name": "Power BI",
+      "category": "Tool",
+      "years_experience": 6,
+      "level": 4,
+      "evidence_text": "Power BI CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "SQL",
+      "canonical_name": "SQL",
+      "category": "Programming",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "SQL CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Garanti BBVA Teknoloji",
+      "canonical_company_name": "Garanti BBVA",
+      "role_title": "Kıdemli Denetim Uzmanı",
+      "start_date": "Oca 2024",
+      "end_date": null,
+      "is_current": true,
+      "location": "Finans / Denetim | İzmir",
+      "description": "Finans / Denetim alanında Forecasting, SAP FI, Excel, Risk Analysis kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Forecasting ve SAP FI ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Forecasting",
+        "SAP FI",
+        "Excel",
+        "Risk Analysis",
+        "SQL",
+        "Budgeting"
+      ],
+      "evidence_text": "Finans / Denetim alanında Forecasting, SAP FI, Excel, Risk Analysis kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Forecasting ve SAP FI ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "EY",
+      "canonical_company_name": "EY",
+      "role_title": "Junior Muhasebe Uzmanı",
+      "start_date": "Ağu 2021",
+      "end_date": "Ara 2023",
+      "is_current": false,
+      "location": "Finans / Denetim | Bursa",
+      "description": "Finans / Denetim alanında Forecasting, Budgeting, Risk Analysis, Financial Modeling kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %18 azalttı",
+        "Forecasting ve Budgeting ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Forecasting",
+        "Budgeting",
+        "Risk Analysis",
+        "Financial Modeling",
+        "Excel",
+        "Power BI"
+      ],
+      "evidence_text": "Finans / Denetim alanında Forecasting, Budgeting, Risk Analysis, Financial Modeling kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %18 azalttı Forecasting ve Budgeting ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "PwC",
+      "canonical_company_name": "PwC",
+      "role_title": "Junior Muhasebe Uzmanı",
+      "start_date": "Oca 2019",
+      "end_date": "May 2021",
+      "is_current": false,
+      "location": "Finans / Denetim | Ankara",
+      "description": "Finans / Denetim alanında Forecasting, SAP FI, Excel, Financial Modeling kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Forecasting ve SAP FI ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Forecasting",
+        "SAP FI",
+        "Excel",
+        "Financial Modeling"
+      ],
+      "evidence_text": "Finans / Denetim alanında Forecasting, SAP FI, Excel, Financial Modeling kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Forecasting ve SAP FI ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Ön Lisans",
+      "field": "İşletme",
+      "institution": "Hacettepe Üniversitesi",
+      "canonical_institution": "Hacettepe Üniversitesi",
+      "start_year": 2023,
+      "end_year": 2025,
+      "gpa": 2.71,
+      "evidence_text": "Ön Lisans - İşletme, Hacettepe Üniversitesi (2023-2025)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Monthly Closing Automation",
+      "description": "Monthly Closing Automation projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Geliştirici",
+      "technologies": [
+        "Excel",
+        "SQL",
+        "SAP FI"
+      ],
+      "skills_used": [
+        "Excel",
+        "SQL",
+        "SAP FI"
+      ],
+      "start_date": "2021-09",
+      "end_date": "2021-12",
+      "url": null,
+      "project_type": "process_operations",
+      "evidence_text": "Monthly Closing Automation projesinde Excel, SQL, SAP FI kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.9
+    }
+  ],
+  "certifications": [
+    "CMA Part 1",
+    "ACCA Fundamentals"
+  ],
+  "languages": [
+    "İngilizce — İleri",
+    "Fransızca — B1"
+  ],
+  "expected_nodes": {
+    "skills": 8,
+    "experiences": 3,
+    "projects": 1,
+    "educations": 1,
+    "certifications": 2,
+    "languages": 2,
+    "companies": 3,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "clear_sections",
+    "easy",
+    "finance_accounting_audit",
+    "skills_first"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [],
+  "trap_notes": []
+}

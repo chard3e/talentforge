@@ -1,0 +1,350 @@
+{
+  "cv_id": "cv_014",
+  "file_name": "cv_014_hazal_basar.docx",
+  "candidate_name": "Hazal Başar",
+  "email": "hazal.basar014@example.com",
+  "phone": "+90 548 748 76 26",
+  "location": "İzmir / Bornova",
+  "title": "Platform Engineering Manager",
+  "role_family": "devops_cloud_platform",
+  "seniority": "lead_manager",
+  "total_experience_years": 3,
+  "language": "tr",
+  "file_format": "docx",
+  "page_count": 2,
+  "template_type": "noisy_sparse_unusual",
+  "difficulty": "hard",
+  "summary": "3 yıllık deneyime sahip Platform Engineering Manager. Ölçülebilir iş çıktıları üretmeye, ekiplerle koordineli çalışmaya ve süreçleri veriye dayalı iyileştirmeye odaklanır. Öne çıkan yetkinlikleri: Ansible, CICD, Jenkins, Terraform.",
+  "skills": [
+    {
+      "name": "Ansible",
+      "canonical_name": "Ansible",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 2,
+      "evidence_text": "Ansible CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "CICD",
+      "canonical_name": "CI/CD",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "CICD CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Jenkins",
+      "canonical_name": "Jenkins",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Jenkins CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Terraform",
+      "canonical_name": "Terraform",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "Terraform CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "GitHub Actions",
+      "canonical_name": "GitHub Actions",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "GitHub Actions CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "AWS",
+      "canonical_name": "AWS",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "AWS CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Azure",
+      "canonical_name": "Azure",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 3,
+      "evidence_text": "Azure CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Linux",
+      "canonical_name": "Linux",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Linux CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Prometheus",
+      "canonical_name": "Prometheus",
+      "category": "Tool",
+      "years_experience": 1,
+      "level": 3,
+      "evidence_text": "Prometheus CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Kubernetes",
+      "canonical_name": "Kubernetes",
+      "category": "DevOps/Cloud",
+      "years_experience": 3,
+      "level": 2,
+      "evidence_text": "Kubernetes CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Grafana",
+      "canonical_name": "Grafana",
+      "category": "Tool",
+      "years_experience": 2,
+      "level": 3,
+      "evidence_text": "Grafana CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Helm",
+      "canonical_name": "Helm",
+      "category": "DevOps/Cloud",
+      "years_experience": 1,
+      "level": 4,
+      "evidence_text": "Helm CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    },
+    {
+      "name": "Docker",
+      "canonical_name": "Docker",
+      "category": "DevOps/Cloud",
+      "years_experience": 2,
+      "level": 4,
+      "evidence_text": "Docker CV içinde deneyim, proje veya yetenek listesinde kanıtlandı.",
+      "confidence": 0.9
+    }
+  ],
+  "experiences": [
+    {
+      "company_name": "Turkcell",
+      "canonical_company_name": "Turkcell",
+      "role_title": "Platform Engineering Manager",
+      "start_date": "09.2025",
+      "end_date": null,
+      "is_current": true,
+      "location": "Bulut / Platform | İstanbul",
+      "description": "Bulut / Platform alanında Grafana, Azure, Terraform, GitHub Actions kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Grafana ve Azure ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Grafana",
+        "Azure",
+        "Terraform",
+        "GitHub Actions",
+        "Jenkins",
+        "Linux",
+        "Docker"
+      ],
+      "evidence_text": "Bulut / Platform alanında Grafana, Azure, Terraform, GitHub Actions kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Grafana ve Azure ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.94
+    },
+    {
+      "company_name": "KoçSistem",
+      "canonical_company_name": "KoçSistem",
+      "role_title": "Junior DevOps Engineer",
+      "start_date": "Kas 2024",
+      "end_date": "Haz 2025",
+      "is_current": false,
+      "location": "Bulut / Platform | Ankara",
+      "description": "Bulut / Platform alanında Helm, GitHub Actions, Azure, Prometheus kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Helm ve GitHub Actions ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Helm",
+        "GitHub Actions",
+        "Azure",
+        "Prometheus",
+        "Terraform",
+        "Jenkins",
+        "CICD"
+      ],
+      "evidence_text": "Bulut / Platform alanında Helm, GitHub Actions, Azure, Prometheus kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Helm ve GitHub Actions ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Vodafone Teknoloji",
+      "canonical_company_name": "Vodafone Teknoloji",
+      "role_title": "DevOps Engineer",
+      "start_date": "Mar 2024",
+      "end_date": "Eki 2024",
+      "is_current": false,
+      "location": "Bulut / Platform | Eskişehir",
+      "description": "Bulut / Platform alanında Linux, Prometheus, Ansible, Azure kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Linux ve Prometheus ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Linux",
+        "Prometheus",
+        "Ansible",
+        "Azure"
+      ],
+      "evidence_text": "Bulut / Platform alanında Linux, Prometheus, Ansible, Azure kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Linux ve Prometheus ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Akbank Teknoloji",
+      "canonical_company_name": "Akbank",
+      "role_title": "Kıdemli Cloud Engineer",
+      "start_date": "May 2023",
+      "end_date": "Ara 2023",
+      "is_current": false,
+      "location": "Bulut / Platform | Antalya",
+      "description": "Bulut / Platform alanında Jenkins, Azure, Prometheus, Linux kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %38 azalttı",
+        "Jenkins ve Azure ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Jenkins",
+        "Azure",
+        "Prometheus",
+        "Linux"
+      ],
+      "evidence_text": "Bulut / Platform alanında Jenkins, Azure, Prometheus, Linux kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %38 azalttı Jenkins ve Azure ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    },
+    {
+      "company_name": "Peak Games",
+      "canonical_company_name": "Peak Games",
+      "role_title": "DevOps Engineer",
+      "start_date": "09.2022",
+      "end_date": "04.2023",
+      "is_current": false,
+      "location": "Bulut / Platform | İzmir",
+      "description": "Bulut / Platform alanında Docker, Linux, Helm, GitHub Actions kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı.",
+      "achievements": [
+        "Manuel iş yükünü %24 azalttı",
+        "Docker ve Linux ile raporlama/servis kalitesini iyileştirdi",
+        "Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı"
+      ],
+      "skills_used": [
+        "Docker",
+        "Linux",
+        "Helm",
+        "GitHub Actions",
+        "Terraform",
+        "CICD"
+      ],
+      "evidence_text": "Bulut / Platform alanında Docker, Linux, Helm, GitHub Actions kullanarak ölçülebilir çıktılar üretti. Ürün, operasyon ve teknik ekiplerle koordineli çalışarak süreç kalitesini artırdı. Manuel iş yükünü %24 azalttı Docker ve Linux ile raporlama/servis kalitesini iyileştirdi Paydaşlarla düzenli iletişim kurarak teslimat gecikmelerini azalttı",
+      "confidence": 0.9
+    }
+  ],
+  "educations": [
+    {
+      "degree": "Lisans",
+      "field": "Information Systems",
+      "institution": "Boğaziçi Üniversitesi",
+      "canonical_institution": "Boğaziçi Üniversitesi",
+      "start_year": 2011,
+      "end_year": 2015,
+      "gpa": 3.49,
+      "evidence_text": "Lisans - Information Systems, Boğaziçi Üniversitesi (2011-2015)",
+      "confidence": 0.88
+    }
+  ],
+  "projects": [
+    {
+      "name": "Customer 360 Data Mart",
+      "description": "Customer 360 Data Mart projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Analist",
+      "technologies": [
+        "Grafana",
+        "Jenkins",
+        "CICD",
+        "Helm",
+        "Linux",
+        "GitHub Actions"
+      ],
+      "skills_used": [
+        "Grafana",
+        "Jenkins",
+        "CICD",
+        "Helm",
+        "Linux",
+        "GitHub Actions"
+      ],
+      "start_date": "2024-05",
+      "end_date": "2024-09",
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "Customer 360 Data Mart projesinde Grafana, Jenkins, CICD kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    },
+    {
+      "name": "MLOps Model Serving API",
+      "description": "MLOps Model Serving API projesinde ölçülebilir sonuç ve süreç iyileştirme hedefiyle çalıştı.",
+      "role": "Koordinatör",
+      "technologies": [
+        "GitHub Actions",
+        "CICD",
+        "Helm"
+      ],
+      "skills_used": [
+        "GitHub Actions",
+        "CICD",
+        "Helm"
+      ],
+      "start_date": "2023-02",
+      "end_date": null,
+      "url": null,
+      "project_type": "software_ai_data",
+      "evidence_text": "MLOps Model Serving API projesinde GitHub Actions, CICD, Helm kullanıldı ve çıktılar dokümante edildi.",
+      "confidence": 0.78
+    }
+  ],
+  "certifications": [],
+  "languages": [],
+  "expected_nodes": {
+    "skills": 13,
+    "experiences": 5,
+    "projects": 2,
+    "educations": 1,
+    "certifications": 0,
+    "languages": 0,
+    "companies": 5,
+    "institutions": 1
+  },
+  "challenge_tags": [
+    "devops_cloud_platform",
+    "embedded_skills",
+    "hard",
+    "lead_title_low_hands_on",
+    "noisy_sparse_unusual"
+  ],
+  "hallucination_traps": [],
+  "absent_fields": [
+    "languages",
+    "certifications"
+  ],
+  "trap_notes": []
+}
