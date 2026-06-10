@@ -615,7 +615,6 @@
             <div class="resume-upload-panel">
               <input id="candidate-cv-input" type="file" accept=".pdf,.docx" multiple hidden />
               <button class="resume-dropzone" type="button" data-candidate-cv-trigger>
-                <span class="speed-badge">Daha hızlı</span>
                 <span class="file-icon">▤</span>
                 <strong>Özgeçmiş dosyalarını yükle</strong>
                 <em>Bilgilerini otomatik dolduralım</em>
@@ -649,7 +648,7 @@
               <button class="dash-link" type="button" data-dash-tab="applications">Başvurular</button>
               <button class="dash-link" type="button" data-dash-tab="messages">Mesajlar</button>
             </div>
-            <button class="ghost-btn" type="button" data-route="landing">Çıkış</button>
+            <button class="ghost-btn" type="button" data-logout>Çıkış</button>
           </aside>
           <div class="dash-main">
             <div class="dash-top">
@@ -755,32 +754,9 @@
 
             <div id="candidate-dashboard" class="role-dashboard" data-role-dashboard="candidate">
               <div class="dashboard-panel active" data-panel="overview">
-                <div class="profile-hero">
-                  <div>
-                    <p class="eyebrow">Aday profili</p>
-                    <h2>Gizem Ozdemir</h2>
-                    <p>Backend Developer / Marmara Üniversitesi / 2 yıl deneyim</p>
-                  </div>
-                  <span class="status-pill">CV işlendi</span>
-                </div>
-                <div class="metric-grid">
-                  <article><span>Profil doluluk</span><strong>76%</strong></article>
-                  <article><span>Uygun ilan</span><strong>9</strong></article>
-                  <article><span>Başvuru</span><strong>4</strong></article>
-                  <article><span>Geri bildirim</span><strong>3</strong></article>
-                </div>
-                <div class="dash-panels">
-                  <section class="dash-panel">
-                    <h2>Profil sinyalleri</h2>
-                    <p>Python, FastAPI ve AWS becerileri güçlü.</p>
-                    <p>Lokasyon tercihi ve dil seviyesi tamamlanmali.</p>
-                    <div class="progress"><span></span></div>
-                  </section>
-                  <section class="dash-panel">
-                    <h2>Onerilen pozisyonlar</h2>
-                    <div class="rank-row hot"><span class="rank">01</span><div><strong>Backend Engineer</strong><p>92 uyum skoru</p></div><b>Yeni</b></div>
-                    <div class="rank-row"><span class="rank">02</span><div><strong>Platform Engineer</strong><p>84 uyum skoru</p></div><b>Takip</b></div>
-                  </section>
+                <div class="empty-state compact">
+                  <h3>Profil hazırlanıyor...</h3>
+                  <p>CV profili ve güncel eşleşmeler yükleniyor.</p>
                 </div>
               </div>
 
@@ -835,7 +811,7 @@
       </footer>
     </div>
 
-    <script src="./app.js?v=20260611-03"></script>
+    <script src="./app.js?v=20260611-05"></script>
   </body>
 </html>
 

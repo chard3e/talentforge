@@ -3,10 +3,28 @@ const API_BASE =
     ? localStorage.getItem("talentforge_api_base") || "http://127.0.0.1:8010"
     : window.location.origin;
 
+const storedUser = JSON.parse(localStorage.getItem("talentforge_user") || "null");
+const legacyCandidateProfiles = localStorage.getItem("talentforge_candidate_profiles") || "[]";
+const legacyProfilesBelongToStoredUser = (() => {
+  if (!storedUser?.full_name) return false;
+  const expectedName = storedUser.full_name.trim().toLocaleLowerCase("tr");
+  try {
+    return JSON.parse(legacyCandidateProfiles).some(
+      (profile) => String(profile?.name || "").trim().toLocaleLowerCase("tr") === expectedName
+    );
+  } catch {
+    return false;
+  }
+})();
+const storedCandidateProfiles =
+  (storedUser?.id && localStorage.getItem(`talentforge_candidate_profiles:${storedUser.id}`)) ||
+  (legacyProfilesBelongToStoredUser ? legacyCandidateProfiles : null) ||
+  "[]";
+
 const state = {
   role: localStorage.getItem("talentforge_role") || "hr",
   token: localStorage.getItem("talentforge_token") || "",
-  user: JSON.parse(localStorage.getItem("talentforge_user") || "null"),
+  user: storedUser,
   jobs: [],
   applications: [],
   recommendations: [],
@@ -15,7 +33,7 @@ const state = {
   recentSearch: JSON.parse(localStorage.getItem("talentforge_recent_search") || "null"),
   savedSearches: JSON.parse(localStorage.getItem("talentforge_saved_searches") || "[]"),
   savedCandidates: JSON.parse(localStorage.getItem("talentforge_saved_candidates") || "[]"),
-  candidateProfiles: JSON.parse(localStorage.getItem("talentforge_candidate_profiles") || "[]"),
+  candidateProfiles: JSON.parse(storedCandidateProfiles),
   candidateUploadedFiles: [],
   jobFilters: { title: "", seniority: "", location: "" },
   lastCandidates: new Map(),
@@ -373,7 +391,10 @@ async function uploadLandingCv(file) {
 }
 
 function persistCandidateProfiles() {
-  localStorage.setItem("talentforge_candidate_profiles", JSON.stringify(state.candidateProfiles));
+  const key = state.user?.id
+    ? `talentforge_candidate_profiles:${state.user.id}`
+    : "talentforge_candidate_profiles";
+  localStorage.setItem(key, JSON.stringify(state.candidateProfiles));
 }
 
 function persistConversationJobs() {
@@ -715,9 +736,26 @@ async function uploadCandidateCvs(files) {
 }
 
 function saveSession(data) {
+  const previousUserId = state.user?.id;
   state.token = data.access_token;
   state.user = data.user;
   state.role = data.user?.role || state.role;
+  if (previousUserId !== state.user?.id) {
+    state.jobs = [];
+    state.applications = [];
+    state.recommendations = [];
+    state.dashboardSummary = null;
+    state.conversations = [];
+    state.activeConversationId = null;
+    state.activeMessages = [];
+    state.messagesUnread = 0;
+    state.lastCandidates = new Map();
+    state.candidateDetails = new Map();
+    invalidateCache("dashboard", "jobs", "applications", "recommendations", "messages", "savedCollections");
+    state.candidateProfiles = JSON.parse(
+      localStorage.getItem(`talentforge_candidate_profiles:${state.user.id}`) || "[]"
+    );
+  }
   localStorage.setItem("talentforge_token", state.token);
   localStorage.setItem("talentforge_user", JSON.stringify(state.user));
   localStorage.setItem("talentforge_role", state.role);
@@ -745,6 +783,12 @@ function showView(name) {
   views[name]?.classList.add("active");
   if (name === "dashboard") {
     setDashboardTab("overview");
+    if (state.role === "candidate") {
+      renderCandidateOverview(state.dashboardSummary || {});
+      renderCandidateProfilesPanel();
+      renderCandidateMatchesPanel();
+      renderCandidateApplicationsPanel();
+    }
     loadDashboard();
   }
   if (name === "candidateSetup") renderCandidateProfilePreview();
@@ -1409,13 +1453,18 @@ async function loadDashboard() {
       await loadJobs({ preferCache: true });
       loadMessages({ preferCache: true }).catch((error) => console.warn(error));
     } else {
-      await loadJobs({ preferCache: true });
-      await loadApplications({ preferCache: true });
-      await loadCandidateRecommendations({ preferCache: true });
       renderCandidateOverview(summary);
-      renderCandidateMatchesPanel();
-      renderCandidateApplicationsPanel();
       renderCandidateProfilesPanel();
+      const jobsTask = loadJobs({ preferCache: true });
+      const applicationsTask = loadApplications({ preferCache: true }).then(() => {
+        renderCandidateOverview(summary);
+        renderCandidateApplicationsPanel();
+      });
+      const recommendationsTask = loadCandidateRecommendations({ preferCache: true }).then(() => {
+        renderCandidateOverview(summary);
+        renderCandidateMatchesPanel();
+      });
+      await Promise.allSettled([jobsTask, applicationsTask, recommendationsTask]);
       loadMessages({ preferCache: true }).catch((error) => console.warn(error));
     }
   } catch (error) {
@@ -2716,8 +2765,15 @@ function setupRouting() {
 
   $all("[data-route]").forEach((element) => {
     element.addEventListener("click", () => {
-      if (element.dataset.route === "landing") clearSession();
-      showView(element.dataset.route);
+      const route = element.dataset.route;
+      showView(route === "landing" && state.token ? "dashboard" : route);
+    });
+  });
+
+  $all("[data-logout]").forEach((element) => {
+    element.addEventListener("click", () => {
+      clearSession();
+      showView("landing");
     });
   });
 
