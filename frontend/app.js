@@ -1015,7 +1015,6 @@ function applySavedSearch(search) {
       form.min_experience_years.value = payload.min_experience_years ?? parsed.min_experience_years ?? 0;
       form.locations.value = (payload.locations || parsed.locations || []).join(", ");
       form.education_institutions.value = (payload.education_institutions || parsed.education_institutions || []).join(", ");
-      form.free_text.value = payload.free_text || parsed.free_text || "";
     }
   }
   state.recentSearch = search;
@@ -1753,7 +1752,7 @@ async function searchCandidates(event) {
     education_level: null,
     education_institutions: splitList(raw.education_institutions),
     must_have_certifications: [],
-    free_text: raw.free_text || null,
+    free_text: null,
   };
 
   try {
@@ -1852,7 +1851,6 @@ function renderSearchPanel() {
             <label>Min. deneyim<input name="min_experience_years" type="number" min="0" value="0" /></label>
             <label>Lokasyon<input name="locations" placeholder="Istanbul, Remote" /></label>
             <label>Eğitim kurumu<input name="education_institutions" placeholder="ODTÜ, Marmara Üniversitesi" /></label>
-            <label>Serbest metin<textarea name="free_text" rows="4" placeholder="Fintech deneyimi olan..."></textarea></label>
             <button class="primary-btn full" type="submit">Aday ara</button>
             <p class="panel-message"></p>
           </form>
