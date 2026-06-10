@@ -1,0 +1,4 @@
+﻿run,config,model,n,success_rate,ner_f1,skill_f1,company_f1,education_f1,re_f1,kg_precision,kg_recall,kg_f1,hallucination_rate,unsupported_triple_rate,avg_elapsed_sec
+SYS-B_Llama-3.1-8B-Instruct,SYS-B,meta-llama/Llama-3.1-8B-Instruct,24,0.24,0.836,0.866,0.891,0.75,0.733,0.809,0.61,0.696,0.082,0.084,13.42
+SYS-B_Mistral-7B-Instruct-v0.3,SYS-B,mistralai/Mistral-7B-Instruct-v0.3,0,0.0,0,0,0,0,0,0,0,0,0,0,0
+SYS-B_Qwen2.5-7B-Instruct,SYS-B,Qwen/Qwen2.5-7B-Instruct,99,0.99,0.887,0.931,0.982,0.748,0.73,0.819,0.756,0.786,0.035,0.056,16.86

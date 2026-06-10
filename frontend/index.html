@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260607-02" />
+    <link rel="stylesheet" href="./styles.css?v=20260610-01" />
   </head>
   <body>
     <div class="app-shell">
@@ -24,12 +24,14 @@
           <span>TalentForge</span>
         </a>
         <nav class="nav-links" aria-label="Ana navigasyon">
-          <a href="#how">Sistem</a>
+          <a href="#problem">Problem</a>
+          <a href="#architecture">Mimari</a>
+          <a href="#dataset">Veri seti</a>
+          <a href="#evaluation">Değerlendirme</a>
           <a href="#showcase">Ürün</a>
-          <a href="#explain">Eşleşme</a>
-          <a href="#faq">SSS</a>
         </nav>
         <div class="nav-actions">
+          <button class="ghost-btn" type="button" data-route="guestUpload">CV yükle</button>
           <button class="ghost-btn" type="button" data-route="login">Giriş</button>
           <button class="primary-btn small" type="button" data-route="login">Başlayın</button>
         </div>
@@ -47,29 +49,13 @@
               </p>
               <div class="hero-actions">
                 <button class="primary-btn" type="button" data-route="login">Başlayın</button>
-                <button class="ghost-btn" type="button" data-demo-upload-trigger>Üye olmadan CV yükle</button>
-                <a class="secondary-link" href="#showcase">Ürünü incele</a>
-              </div>
-              <div class="demo-upload-card" data-demo-upload>
-                <input id="demo-cv-input" type="file" accept=".pdf,.docx" hidden />
-                <div>
-                  <p class="eyebrow">Canlı pipeline demo</p>
-                  <h3>CV'ni bilgi grafına dönüştür.</h3>
-                  <p>PDF veya DOCX yükle; LLM extraction, Neo4j graph write ve embedding adımları gerçek API üzerinden çalışsın.</p>
-                </div>
-                <div class="upload-status" data-upload-status>CV seçilmeyi bekliyor.</div>
-                <div class="upload-steps" aria-label="Pipeline adımları">
-                  <span data-upload-step="parse">Parse</span>
-                  <span data-upload-step="extract">LLM</span>
-                  <span data-upload-step="graph">Graph</span>
-                  <span data-upload-step="embed">Embed</span>
-                </div>
-                <div class="upload-result" data-upload-result></div>
+                <button class="ghost-btn" type="button" data-route="guestUpload">Canlı CV demosu</button>
+                <a class="secondary-link" href="#problem">Araştırmayı incele</a>
               </div>
               <div class="hero-stats" aria-label="Ürün metrikleri">
-                <div><strong>50+</strong><span>demo CV</span></div>
-                <div><strong>384</strong><span>vector dim</span></div>
-                <div><strong>RRF</strong><span>hybrid rank</span></div>
+                <div><strong>100</strong><span>gold-standard CV</span></div>
+                <div><strong>0.973</strong><span>skill F1</span></div>
+                <div><strong>0.90</strong><span>Hit@3</span></div>
               </div>
             </div>
 
@@ -130,6 +116,34 @@
             <span>PostgreSQL ready</span>
           </section>
 
+          <section id="problem" class="section presentation-section">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Araştırma problemi</p>
+              <h2>CV metni okunabilir; fakat makine tarafından sorgulanabilir değildir.</h2>
+              <p>
+                Serbest biçimli CV'ler farklı şablonlar, diller ve ifade çeşitleri içerir. TalentForge,
+                bu metinlerden kanıtlanabilir varlık ve ilişkiler çıkararak açıklanabilir bir bilgi grafı kurar.
+              </p>
+            </div>
+            <div class="research-grid">
+              <article data-reveal>
+                <span>01 / Dağınık veri</span>
+                <h3>Yapısal olmayan CV</h3>
+                <p>Yetenek, deneyim, proje ve eğitim bilgileri farklı bölümlere ve ifade biçimlerine dağılır.</p>
+              </article>
+              <article data-reveal>
+                <span>02 / Anlam farkı</span>
+                <h3>Aynı kavram, farklı yazım</h3>
+                <p>Fuzzy matching ve entity resolution ile eş anlamlı veya yakın ifadeler kanonik düğümlerde birleşir.</p>
+              </article>
+              <article data-reveal>
+                <span>03 / Güven</span>
+                <h3>Skorun nedeni görünmeli</h3>
+                <p>Graph, kural ve vektör sinyalleri birlikte kullanılır; eşleşme gerekçeleri kullanıcıya döndürülür.</p>
+              </article>
+            </div>
+          </section>
+
           <section id="how" class="section">
             <div class="section-heading" data-reveal>
               <p class="eyebrow">How it works</p>
@@ -151,6 +165,88 @@
                 <h3>Eşleştir</h3>
                 <p>Graph skoru, vektör benzerliği ve RRF birleşimiyle adaylar açıklamalı olarak sıralanır.</p>
               </article>
+            </div>
+          </section>
+
+          <section id="architecture" class="section architecture-section">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Sistem mimarisi</p>
+              <h2>Tek bir model çağrısından, doğrulanabilir bilgi grafına.</h2>
+            </div>
+            <div class="architecture-flow" data-reveal>
+              <article><b>01</b><span>PDF / DOCX</span><small>Parser ve metin normalizasyonu</small></article>
+              <i>→</i>
+              <article><b>02</b><span>LLM extraction</span><small>Varlık, ilişki ve kanıt çıkarımı</small></article>
+              <i>→</i>
+              <article><b>03</b><span>Validation</span><small>Şema, grounding ve karantina</small></article>
+              <i>→</i>
+              <article><b>04</b><span>Neo4j KG</span><small>Entity resolution ve graph write</small></article>
+              <i>→</i>
+              <article><b>05</b><span>Hybrid match</span><small>Graph + vector + RRF</small></article>
+            </div>
+            <div class="contribution-band" data-reveal>
+              <strong>Tezin odağı</strong>
+              <p>LLM ile CV'lerden bilgi grafı inşası; çıkarım kalitesinin, ilişki doğruluğunun, halüsinasyonun ve aşağı akış matching başarımının birlikte ölçülmesi.</p>
+            </div>
+          </section>
+
+          <section id="dataset" class="section dataset-section">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Oluşturulan veri seti</p>
+              <h2>Teknoloji CV'leriyle sınırlı olmayan, kontrollü ve çeşitli 100 örnek.</h2>
+              <p>Her CV için gold extraction, beklenen düğümler, ilişki hedefleri ve matching ground truth hazırlandı.</p>
+            </div>
+            <div class="dataset-layout">
+              <div class="dataset-main" data-reveal>
+                <strong>100</strong>
+                <span>gold-standard CV</span>
+                <div class="dataset-language">
+                  <i style="--share:60%">TR · 60</i>
+                  <i style="--share:30%">EN · 30</i>
+                  <i style="--share:10%">Karma · 10</i>
+                </div>
+              </div>
+              <div class="dataset-facts">
+                <article data-reveal><strong>14</strong><span>rol ailesi</span><p>Yazılım, sağlık, hukuk, finans, pazarlama, operasyon ve diğerleri.</p></article>
+                <article data-reveal><strong>55 / 45</strong><span>PDF / DOCX</span><p>Farklı dosya biçimlerinde extraction dayanıklılığı.</p></article>
+                <article data-reveal><strong>35 / 45 / 20</strong><span>kolay / orta / zor</span><p>Temiz şablondan gürültülü ve belirsiz CV'lere.</p></article>
+                <article data-reveal><strong>7</strong><span>şablon tipi</span><p>Kronolojik, proje ağırlıklı, iki kolonlu ve akademik düzenler.</p></article>
+              </div>
+            </div>
+          </section>
+
+          <section id="evaluation" class="section evaluation-section">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Deneysel değerlendirme / final 100</p>
+              <h2>Sonuçlar yalnızca iyi görünmüyor; ölçülüyor.</h2>
+              <p>100 gold-standard CV, dört ablation konfigürasyonu, model karşılaştırması, matching ground truth ve entity resolution hedefleri.</p>
+            </div>
+            <div class="evaluation-kpis">
+              <article data-reveal><span>Extraction</span><strong>0.965</strong><p>En yüksek NER F1 · BL-2</p></article>
+              <article data-reveal><span>Skill extraction</span><strong>0.973</strong><p>Skill F1 · BL-2</p></article>
+              <article data-reveal><span>KG construction</span><strong>0.812</strong><p>En yüksek KG F1 · BL-1</p></article>
+              <article data-reveal><span>Matching</span><strong>0.90</strong><p>Strong Hit@3 · 20 sorgu</p></article>
+              <article data-reveal><span>Entity resolution</span><strong>78%</strong><p>32 / 41 hedef birleştirildi</p></article>
+              <article data-reveal><span>Pipeline</span><strong>100%</strong><p>100 CV extraction başarısı</p></article>
+            </div>
+            <div class="evaluation-story">
+              <div class="eval-chart" data-reveal>
+                <div class="eval-chart-head"><span>Ablation karşılaştırması</span><small>F1 skorları</small></div>
+                <div class="bar-row"><b>BL-1</b><span style="--value:81.2%"></span><em>KG F1 0.812</em></div>
+                <div class="bar-row"><b>BL-2</b><span style="--value:80.9%"></span><em>KG F1 0.809</em></div>
+                <div class="bar-row"><b>SYS-A</b><span style="--value:76.6%"></span><em>KG F1 0.766</em></div>
+                <div class="bar-row"><b>SYS-B</b><span style="--value:78.5%"></span><em>KG F1 0.785</em></div>
+              </div>
+              <div class="eval-notes" data-reveal>
+                <p class="eyebrow">Bulgular</p>
+                <h3>Prompt iyileştirmesi tek başına yeterli değil.</h3>
+                <ul>
+                  <li>Few-shot BL-2, halüsinasyonu %0'a indirirken NER F1'i 0.965'e taşıdı.</li>
+                  <li>SYS-B daha yüksek KG recall üretirken precision kaybı yaşadı.</li>
+                  <li>Matching motoru güçlü adayları ilk üç sırada %90 oranında buldu.</li>
+                  <li>Entity resolution, hedef varyantların %78'ini kanonik düğümlerde birleştirdi.</li>
+                </ul>
+              </div>
             </div>
           </section>
 
@@ -239,9 +335,42 @@
           </section>
 
           <section class="cta-band" data-reveal>
-            <h2>Bitirme projesinden production-ready HR platformuna.</h2>
-            <button class="primary-btn inverse" type="button" data-route="login">Başlayın</button>
+            <p class="eyebrow">Canlı jüri demosu</p>
+            <h2>Bir CV yükleyin; çıkarılan profili ve oluşan bilgi grafını birlikte inceleyelim.</h2>
+            <button class="primary-btn inverse" type="button" data-route="guestUpload">Canlı demoyu başlat</button>
           </section>
+        </section>
+
+        <section id="guest-upload-view" class="view guest-upload-view" aria-label="Canlı CV bilgi grafı demosu">
+          <div class="guest-demo-shell">
+            <div class="guest-demo-heading">
+              <button class="back-link" type="button" data-route="landing">← Ana sayfaya dön</button>
+              <p class="eyebrow">Canlı pipeline demo</p>
+              <h1>CV'ni bilgi grafına dönüştür.</h1>
+              <p>Dosya gerçek extraction pipeline'ından geçer; profil ve mevcutsa Neo4j grafı bu sayfada gösterilir.</p>
+            </div>
+            <div class="guest-upload-stage">
+              <input id="demo-cv-input" type="file" accept=".pdf,.docx" hidden />
+              <button class="resume-dropzone guest-dropzone" type="button" data-demo-upload-trigger>
+                <span class="file-icon">▤</span>
+                <strong>PDF veya DOCX CV yükle</strong>
+                <em>Parse → LLM → Graph → Embed</em>
+                <small>Daha önce işlenen CV'lerde mevcut graf doğrudan getirilir.</small>
+              </button>
+              <div class="upload-status" data-upload-status>CV seçilmeyi bekliyor.</div>
+              <div class="upload-steps" aria-label="Pipeline adımları">
+                <span data-upload-step="parse">Parse</span>
+                <span data-upload-step="extract">LLM</span>
+                <span data-upload-step="graph">Graph</span>
+                <span data-upload-step="embed">Embed</span>
+              </div>
+            </div>
+            <div class="upload-result guest-upload-result" data-upload-result></div>
+            <div class="guest-demo-complete" data-guest-demo-complete hidden>
+              <strong>CV'niz bilgi grafına yüklendi.</strong>
+              <button class="ghost-btn" type="button" data-route="landing">Ana sayfaya dön</button>
+            </div>
+          </div>
         </section>
 
         <section id="auth-view" class="view auth-layout" aria-label="TalentForge giriş">
@@ -519,7 +648,7 @@
       </footer>
     </div>
 
-    <script src="./app.js?v=20260607-02"></script>
+    <script src="./app.js?v=20260610-01"></script>
   </body>
 </html>
 

@@ -43,6 +43,7 @@ const state = {
 
 const views = {
   landing: document.querySelector("#landing-view"),
+  guestUpload: document.querySelector("#guest-upload-view"),
   login: document.querySelector("#auth-view"),
   candidateSetup: document.querySelector("#candidate-setup-view"),
   dashboard: document.querySelector("#dashboard-view"),
@@ -241,7 +242,56 @@ function renderUploadResult(data) {
       </div>
       <span>Neo4j kaydı: ${escapeHtml(data.cv_id || "oluşturuldu")}</span>
     </div>
+    <div class="guest-profile-detail full">
+      <div class="guest-profile-head">
+        <div>
+          <p class="eyebrow">Çıkarılan aday profili</p>
+          <h2>${escapeHtml(candidateName)}</h2>
+          <p>${escapeHtml(data.summary || "CV içeriği yapısal profile dönüştürüldü.")}</p>
+        </div>
+        <span class="graph-state">${data.duplicate ? "Mevcut graf getirildi" : "Yeni graf oluşturuldu"}</span>
+      </div>
+      <div class="guest-profile-grid">
+        <section>
+          <h3>Deneyim</h3>
+          ${experiences.length ? experiences.map((exp) => `
+            <article>
+              <strong>${escapeHtml(exp.role_title || exp.role || "Pozisyon")}</strong>
+              <span>${escapeHtml(exp.company_name || exp.company || "Şirket belirtilmedi")}</span>
+              <small>${escapeHtml([exp.start_date, exp.end_date || (exp.is_current ? "Devam" : "")].filter(Boolean).join(" — "))}</small>
+            </article>`).join("") : "<p>Deneyim bilgisi bulunamadı.</p>"}
+        </section>
+        <section>
+          <h3>Eğitim</h3>
+          ${educations.length ? educations.map((edu) => `
+            <article>
+              <strong>${escapeHtml(edu.institution || edu.institution_name || "Kurum")}</strong>
+              <span>${escapeHtml([edu.degree, edu.field].filter(Boolean).join(" / "))}</span>
+            </article>`).join("") : "<p>Eğitim bilgisi bulunamadı.</p>"}
+        </section>
+        <section>
+          <h3>Projeler</h3>
+          ${projects.length ? projects.map((project) => `
+            <article>
+              <strong>${escapeHtml(project.name || project.title || "Proje")}</strong>
+              <span>${escapeHtml(project.description || "")}</span>
+            </article>`).join("") : "<p>Proje bilgisi bulunamadı.</p>"}
+        </section>
+        <section>
+          <h3>Dil ve sertifikalar</h3>
+          <div class="pill-list">
+            ${[...languages, ...certifications].map((item) => `<span>${escapeHtml(item.name || item)}</span>`).join("") || "<span>Bilgi bulunamadı</span>"}
+          </div>
+        </section>
+      </div>
+      <section class="guest-skill-section">
+        <h3>Yetenekler</h3>
+        <div class="pill-list">${skills.map((skill) => `<span>${escapeHtml(skill)}</span>`).join("")}</div>
+      </section>
+    </div>
   `;
+  const complete = $("[data-guest-demo-complete]");
+  if (complete) complete.hidden = false;
 }
 
 function radialPoint(index, total, radiusX, radiusY, centerX, centerY) {
@@ -300,7 +350,12 @@ async function uploadLandingCv(file) {
     if (!response.ok) throw new Error(formatApiError(data.detail));
     clearInterval(timer);
     setUploadStep(null, steps);
-    setUploadStatus("Bilgiler çıkarıldı, Neo4j bilgi grafına kaydedildi ve embedding oluşturuldu.", "ok");
+    setUploadStatus(
+      data.duplicate
+        ? "Bu CV daha önce işlendi. Mevcut Neo4j bilgi grafı getirildi."
+        : "Bilgiler çıkarıldı, Neo4j bilgi grafına kaydedildi ve embedding oluşturuldu.",
+      "ok"
+    );
     renderUploadResult(data);
   } catch (error) {
     clearInterval(timer);
@@ -2813,8 +2868,11 @@ function init() {
   syncRoleUI();
   renderSearchPanel();
 
+  const initialView = window.location.hash.replace("#", "").split("/")[0];
   if (state.token) {
     showView("dashboard");
+  } else if (initialView === "guestUpload") {
+    showView("guestUpload");
   } else {
     showView("landing");
   }

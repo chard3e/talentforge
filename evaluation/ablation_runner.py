@@ -28,7 +28,7 @@ import sys
 import time
 from collections import Counter
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -498,6 +498,11 @@ CONFIGS = {
 }
 
 
+def source_file_of(item: Dict[str, Any]) -> str | None:
+    """Return the CV file name across old and new gold/result schemas."""
+    return item.get("source_file") or item.get("file_name")
+
+
 def run_ablation(
     cv_dir: str,
     gold_path: str = "evaluation/golden_extractions_pretty.json",
@@ -534,9 +539,9 @@ def run_ablation(
                 }
 
             existing_cvs = {
-                r["source_file"]
+                source_file_of(r)
                 for r in results[run_key]["cv_results"]
-                if "error" not in r
+                if "error" not in r and source_file_of(r)
             }
             system_prompt, build_user = get_prompt_config(config_name)
 
@@ -545,7 +550,12 @@ def run_ablation(
             logger.info(f"{'='*55}")
 
             for i, gold_item in enumerate(gold_data):
-                source_file = gold_item["source_file"]
+                source_file = source_file_of(gold_item)
+                if not source_file:
+                    raise KeyError(
+                        "Gold item must include either 'source_file' or 'file_name'. "
+                        f"Available keys: {sorted(gold_item.keys())}"
+                    )
                 if source_file in existing_cvs:
                     logger.info(f"  ⏭️  [{i+1}/{len(gold_data)}] {gold_item['candidate_name']} — atlanıyor")
                     continue

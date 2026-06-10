@@ -526,6 +526,18 @@ def _find_local_cv_by_hash(file_hash: str | None) -> Path | None:
             continue
     return None
 
+
+def _find_candidate_id_by_hash(file_hash: str | None) -> str | None:
+    if not file_hash:
+        return None
+    with get_neo4j_driver().session() as session:
+        record = session.run(
+            "MATCH (c:Candidate {file_hash: $hash}) RETURN c.id AS id LIMIT 1",
+            hash=file_hash,
+        ).single()
+    return record["id"] if record and record["id"] else None
+
+
 @app.get("/")
 async def root():
     return {
@@ -1042,7 +1054,7 @@ async def delete_shortlist(
     return {"deleted": True}
 
 @app.post("/upload-cv")
-async def upload_cv(file: UploadFile = File(...)):
+async def upload_cv(file: UploadFile = File(...), db: Session = Depends(get_db)):
     """
     CV dosyası yükle → parse → LLM extraction → RAG doğrulama
     → KG yaz → Entity Resolution → Embedding → R2 yükle
@@ -1062,6 +1074,16 @@ async def upload_cv(file: UploadFile = File(...)):
         temp_file.write(content)
 
     try:
+        file_hash = _compute_file_hash(temp_path)
+        existing_candidate_id = _find_candidate_id_by_hash(file_hash)
+        if existing_candidate_id:
+            existing = await candidate_detail(existing_candidate_id, db)
+            existing["cv_id"] = existing_candidate_id
+            existing["candidate_name"] = existing.get("name")
+            existing["duplicate"] = True
+            existing["message"] = "Bu CV daha önce işlendi. Mevcut bilgi grafı getirildi."
+            return existing
+
         result = get_pipeline().process(temp_path)
 
         if result is None:

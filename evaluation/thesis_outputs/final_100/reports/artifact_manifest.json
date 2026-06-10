@@ -1,0 +1,118 @@
+[
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\01_ablation_metrics.jpeg",
+    "size_bytes": 141216
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\02_ablation_hallucination_rates.jpeg",
+    "size_bytes": 88658
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\03_ablation_summary_table.jpeg",
+    "size_bytes": 119285
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\04_model_comparison_metrics.jpeg",
+    "size_bytes": 117725
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\05_model_runtime.jpeg",
+    "size_bytes": 82664
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\06_model_summary_table.jpeg",
+    "size_bytes": 100944
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\07_relation_f1_best_run.jpeg",
+    "size_bytes": 128187
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\08_dataset_difficulty_distribution.jpeg",
+    "size_bytes": 72446
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\08_dataset_format_distribution.jpeg",
+    "size_bytes": 65810
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\08_dataset_language_distribution.jpeg",
+    "size_bytes": 70663
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\08_dataset_role_family_distribution.jpeg",
+    "size_bytes": 133302
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\08_dataset_template_distribution.jpeg",
+    "size_bytes": 90399
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\09_dataset_node_coverage.jpeg",
+    "size_bytes": 87018
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\10_matching_metrics.jpeg",
+    "size_bytes": 91857
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\11_matching_query_table.jpeg",
+    "size_bytes": 210593
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\12_entity_resolution_metrics.jpeg",
+    "size_bytes": 83312
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\figures\\13_entity_resolution_targets.jpeg",
+    "size_bytes": 134197
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\ablation_aggregate_metrics.csv",
+    "size_bytes": 689
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\ablation_failed_cvs.csv",
+    "size_bytes": 0
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\dataset_distributions.csv",
+    "size_bytes": 1859
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\dataset_node_coverage.csv",
+    "size_bytes": 78
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\entity_resolution_metrics.csv",
+    "size_bytes": 176
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\entity_resolution_targets.csv",
+    "size_bytes": 1263
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\kg_metadata_breakdowns.csv",
+    "size_bytes": 9957
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\kg_relation_metrics.csv",
+    "size_bytes": 2756
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\matching_metrics.csv",
+    "size_bytes": 330
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\matching_query_results.csv",
+    "size_bytes": 1643
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\model_aggregate_metrics.csv",
+    "size_bytes": 542
+  },
+  {
+    "file": "evaluation\\thesis_outputs\\final_100\\tables\\model_kg_relation_metrics.csv",
+    "size_bytes": 1415
+  }
+]

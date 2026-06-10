@@ -1,0 +1,2221 @@
+{
+  "aggregate": {
+    "n_queries": 20,
+    "attempted_queries": 20,
+    "success_rate": 1.0,
+    "hit_strong_at_1": 0.65,
+    "hit_strong_at_3": 0.9,
+    "hit_strong_at_5": 0.95,
+    "hit_any_relevant_at_1": 0.65,
+    "hit_any_relevant_at_3": 0.9,
+    "hit_any_relevant_at_5": 0.95,
+    "strong_recall_at_10": 0.7199,
+    "relevant_recall_at_10": 0.5001,
+    "mrr": 0.778,
+    "ndcg_at_10": 0.6502,
+    "avg_elapsed_sec": 20.46
+  },
+  "queries": [
+    {
+      "query_id": "job_001",
+      "query_text": "Senior backend engineer arıyoruz; Java Spring Boot PostgreSQL Redis Kafka Docker Microservices zorunlu, Kubernetes ve AWS iyi olur.",
+      "elapsed_sec": 24.23,
+      "parsed_query": {
+        "title": "Senior Backend Engineer",
+        "seniority": "senior",
+        "must_have_skills": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL",
+          "Redis",
+          "Kafka",
+          "Docker",
+          "Microservices"
+        ],
+        "nice_to_have_skills": [
+          "Kubernetes",
+          "AWS"
+        ],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "ca5c7617-7a38-4a8e-ae55-88c9ee2c0282",
+          "candidate_name": "Daniel Taylor",
+          "score": 87.8,
+          "relevance": 0
+        },
+        {
+          "rank": 2,
+          "candidate_id": "d13bbee2-c19b-44f2-ad0b-dd502de46c9c",
+          "candidate_name": "Cemre Güler",
+          "score": 79.5,
+          "relevance": 0
+        },
+        {
+          "rank": 3,
+          "candidate_id": "2aa50d08-4613-4036-a69d-f740f0a37a21",
+          "candidate_name": "Elif Bulut",
+          "score": 79.1,
+          "relevance": 0
+        },
+        {
+          "rank": 4,
+          "candidate_id": "2c799001-a910-4b26-9189-d7fd16fe772e",
+          "candidate_name": "Burak Çetin",
+          "score": 74.9,
+          "relevance": 0
+        },
+        {
+          "rank": 5,
+          "candidate_id": "99f16fe7-948c-499d-af1f-f689abea0123",
+          "candidate_name": "Naz Kılıç",
+          "score": 74.9,
+          "relevance": 0
+        },
+        {
+          "rank": 6,
+          "candidate_id": "09efcdc0-d02a-407c-9f2f-4f6e72cc914d",
+          "candidate_name": "CAN ŞAHIN",
+          "score": 69.7,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "d456f54d-628c-4a3a-bf5f-69ff3567dca6",
+          "candidate_name": "Grace Mitchell",
+          "score": 69.0,
+          "relevance": 2
+        },
+        {
+          "rank": 8,
+          "candidate_id": "a0366f75-e125-49c6-958a-86563f90c366",
+          "candidate_name": "İREM ŞAHIN",
+          "score": 68.1,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "af8711c7-67a4-44fc-ae18-ec0993cf83a7",
+          "candidate_name": "İpek Taşçı",
+          "score": 66.4,
+          "relevance": 2
+        },
+        {
+          "rank": 10,
+          "candidate_id": "b7deccdb-da4d-45f9-99ae-2a31175d6e84",
+          "candidate_name": "Lucas Reed",
+          "score": 65.1,
+          "relevance": 2
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 8,
+      "hit_strong_at_1": false,
+      "hit_strong_at_3": false,
+      "hit_strong_at_5": false,
+      "hit_any_relevant_at_1": false,
+      "hit_any_relevant_at_3": false,
+      "hit_any_relevant_at_5": false,
+      "strong_recall_at_10": 0.375,
+      "relevant_recall_at_10": 0.1875,
+      "mrr": 0.1429,
+      "ndcg_at_10": 0.2174
+    },
+    {
+      "query_id": "job_002",
+      "query_text": "React Next.js TypeScript Node.js bilen full stack geliştirici arıyoruz. PostgreSQL ve CI/CD artı puan.",
+      "elapsed_sec": 22.79,
+      "parsed_query": {
+        "title": "Full Stack Developer",
+        "seniority": null,
+        "must_have_skills": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Node.js",
+          "PostgreSQL"
+        ],
+        "nice_to_have_skills": [
+          "CI/CD"
+        ],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "0ef150dd-3e62-4286-a47b-b3f17d4cba87",
+          "candidate_name": "AYLIN UÇAR",
+          "score": 83.2,
+          "relevance": 0
+        },
+        {
+          "rank": 2,
+          "candidate_id": "f6f49ddc-c091-48c6-aeec-98e0ff61f57c",
+          "candidate_name": "HANDE ALPER",
+          "score": 76.9,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "5c790521-0bc9-4619-ab09-5780e736725d",
+          "candidate_name": "Jale Deniz",
+          "score": 75.6,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "09efcdc0-d02a-407c-9f2f-4f6e72cc914d",
+          "candidate_name": "CAN ŞAHIN",
+          "score": 66.9,
+          "relevance": 0
+        },
+        {
+          "rank": 5,
+          "candidate_id": "a6a37598-12c4-4858-9b4f-764a83b1516f",
+          "candidate_name": "TUNA AYDIN",
+          "score": 65.6,
+          "relevance": 0
+        },
+        {
+          "rank": 6,
+          "candidate_id": "af8711c7-67a4-44fc-ae18-ec0993cf83a7",
+          "candidate_name": "İpek Taşçı",
+          "score": 65.1,
+          "relevance": 2
+        },
+        {
+          "rank": 7,
+          "candidate_id": "f4aea2ae-2720-4eaa-9c4f-76974d9f6bed",
+          "candidate_name": "JAMES POWELL",
+          "score": 64.6,
+          "relevance": 2
+        },
+        {
+          "rank": 8,
+          "candidate_id": "b7deccdb-da4d-45f9-99ae-2a31175d6e84",
+          "candidate_name": "Lucas Reed",
+          "score": 60.9,
+          "relevance": 2
+        },
+        {
+          "rank": 9,
+          "candidate_id": "7947a868-7796-4921-a520-05cb3dc79e58",
+          "candidate_name": "Arda Eren",
+          "score": 59.1,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "13f8a522-3407-4dd3-b2c2-a05676118b4d",
+          "candidate_name": "Muhammed Emin Solakoglu",
+          "score": 57.6,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 1,
+      "hit_strong_at_1": false,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": false,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.625,
+      "relevant_recall_at_10": 0.5555555555555556,
+      "mrr": 0.5,
+      "ndcg_at_10": 0.5205
+    },
+    {
+      "query_id": "job_003",
+      "query_text": "Power BI SQL Excel ve dashboard deneyimi zorunlu, BigQuery Tableau A/B Testing iyi olur.",
+      "elapsed_sec": 21.87,
+      "parsed_query": {
+        "title": null,
+        "seniority": null,
+        "must_have_skills": [
+          "Power BI",
+          "SQL",
+          "Excel",
+          "dashboard"
+        ],
+        "nice_to_have_skills": [
+          "BigQuery",
+          "Tableau",
+          "A/B Testing"
+        ],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "c212ddaf-dc45-4112-a506-3994f824b12b",
+          "candidate_name": "Kaan Güneş",
+          "score": 86.1,
+          "relevance": 0
+        },
+        {
+          "rank": 2,
+          "candidate_id": "6079f1fb-7200-4831-9afd-86004d2b74cb",
+          "candidate_name": "Tuna Kurt",
+          "score": 85.2,
+          "relevance": 0
+        },
+        {
+          "rank": 3,
+          "candidate_id": "4d470f92-486b-4cac-b716-5c699b96852d",
+          "candidate_name": "Derin Sarı",
+          "score": 85.0,
+          "relevance": 0
+        },
+        {
+          "rank": 4,
+          "candidate_id": "ad845683-a4be-4f70-aa4b-067ebf9bf41f",
+          "candidate_name": "Arthur Edwards",
+          "score": 84.8,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "3f8f793f-c999-4941-aacf-429ead507f6a",
+          "candidate_name": "Emma Richardson",
+          "score": 83.8,
+          "relevance": 2
+        },
+        {
+          "rank": 6,
+          "candidate_id": "ad4a24b0-176f-4ed6-8778-4622b8a529a6",
+          "candidate_name": "Sarp İnan",
+          "score": 77.3,
+          "relevance": 2
+        },
+        {
+          "rank": 7,
+          "candidate_id": "4436a2cb-5fc6-41b9-bfb4-ab7171dbf809",
+          "candidate_name": "Can Şahin",
+          "score": 71.6,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "21bc4dd9-dc1f-4b87-8137-94d057c8e988",
+          "candidate_name": "FIRAT ARCA",
+          "score": 71.6,
+          "relevance": 2
+        },
+        {
+          "rank": 9,
+          "candidate_id": "0fc4e5d6-fc40-4777-ab5a-1c6663d76759",
+          "candidate_name": "Leo Harrison",
+          "score": 70.7,
+          "relevance": 2
+        },
+        {
+          "rank": 10,
+          "candidate_id": "364baac1-c739-4ea8-8447-fd978dd6628b",
+          "candidate_name": "Ali Sezer",
+          "score": 70.6,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 8,
+      "hit_strong_at_1": false,
+      "hit_strong_at_3": false,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": false,
+      "hit_any_relevant_at_3": false,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.625,
+      "relevant_recall_at_10": 0.3125,
+      "mrr": 0.25,
+      "ndcg_at_10": 0.4214
+    },
+    {
+      "query_id": "job_004",
+      "query_text": "BI ekibi yönetecek analytics manager arıyoruz; SQL Power BI stakeholder management ve data modeling deneyimi gerekli.",
+      "elapsed_sec": 17.39,
+      "parsed_query": {
+        "title": "Analytics Manager",
+        "seniority": "lead",
+        "must_have_skills": [
+          "SQL",
+          "Power BI",
+          "Stakeholder Management",
+          "Data Modeling"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "e1e1f0ee-b9bf-4627-8678-fc883b0a6d42",
+          "candidate_name": "MİNA ERDEM",
+          "score": 72.1,
+          "relevance": 0
+        },
+        {
+          "rank": 2,
+          "candidate_id": "4151dd26-6cdd-4768-a450-f22316e0c17d",
+          "candidate_name": "Ruby Collins",
+          "score": 68.0,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "0fc4e5d6-fc40-4777-ab5a-1c6663d76759",
+          "candidate_name": "Leo Harrison",
+          "score": 65.9,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "e5715a81-a5e7-47d7-9d41-528131a4916b",
+          "candidate_name": "Tolga Günal",
+          "score": 61.9,
+          "relevance": 0
+        },
+        {
+          "rank": 5,
+          "candidate_id": "f2f95597-8408-4d79-8d2f-42a49f45c51a",
+          "candidate_name": "Hira Gündüz",
+          "score": 60.8,
+          "relevance": 0
+        },
+        {
+          "rank": 6,
+          "candidate_id": "ad845683-a4be-4f70-aa4b-067ebf9bf41f",
+          "candidate_name": "Arthur Edwards",
+          "score": 57.9,
+          "relevance": 2
+        },
+        {
+          "rank": 7,
+          "candidate_id": "7b48ba4a-714e-4154-8c09-ed66e5bab10f",
+          "candidate_name": "Mehmet Bozkurt",
+          "score": 55.4,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "d95a5ad1-ffd3-4cb6-9312-ebdf75e555ea",
+          "candidate_name": "Orkun Bora",
+          "score": 54.6,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "798e7608-535b-47ef-86c9-2cdf3354a866",
+          "candidate_name": "Ada Yalçın",
+          "score": 54.2,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "55c8a342-4936-4385-be7f-9ba65e64d84f",
+          "candidate_name": "Yiğit Ari",
+          "score": 54.1,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 8,
+      "hit_strong_at_1": false,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": false,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.375,
+      "relevant_recall_at_10": 0.1875,
+      "mrr": 0.5,
+      "ndcg_at_10": 0.35
+    },
+    {
+      "query_id": "job_005",
+      "query_text": "Python PyTorch TensorFlow MLflow FastAPI Docker bilen MLOps profili arıyoruz.",
+      "elapsed_sec": 21.04,
+      "parsed_query": {
+        "title": "MLOps Profile",
+        "seniority": null,
+        "must_have_skills": [
+          "Python",
+          "PyTorch",
+          "TensorFlow",
+          "MLflow",
+          "FastAPI",
+          "Docker"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "aff112d2-9174-4ea6-a51b-7bf9cf012091",
+          "candidate_name": "Kaan Elgin",
+          "score": 90.1,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "1e441073-5590-4a6f-ac82-2c481448c004",
+          "candidate_name": "Emir Arslan",
+          "score": 81.8,
+          "relevance": 0
+        },
+        {
+          "rank": 3,
+          "candidate_id": "6768b07d-b9ec-4ccc-8c0b-0f52bd901981",
+          "candidate_name": "Elif Yılmaz",
+          "score": 81.5,
+          "relevance": 0
+        },
+        {
+          "rank": 4,
+          "candidate_id": "9179bbb4-2e35-4b8f-9941-d9bd5683e0cb",
+          "candidate_name": "ILGIN ERSOY",
+          "score": 79.9,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "f2b0954a-d014-4a60-ac67-c29a14186279",
+          "candidate_name": "TUĞÇE AVCI",
+          "score": 79.2,
+          "relevance": 0
+        },
+        {
+          "rank": 6,
+          "candidate_id": "65760840-e77b-44b3-a46c-ef78858f79bb",
+          "candidate_name": "SOPHIA WILSON",
+          "score": 79.0,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "59655931-749c-416e-85ce-5bafd58920c4",
+          "candidate_name": "Gökhан Arslan",
+          "score": 79.0,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "115cd1fd-f950-424c-b26e-c0fa50e9c343",
+          "candidate_name": "RÜYA KAR",
+          "score": 78.8,
+          "relevance": 2
+        },
+        {
+          "rank": 9,
+          "candidate_id": "4ff2bfc0-c6c2-46ae-975a-a44398cd205c",
+          "candidate_name": "Kerem Kaplan",
+          "score": 78.0,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "a24d540e-4a01-4555-88f1-9faf9f4aa391",
+          "candidate_name": "DEFNE USLU",
+          "score": 71.1,
+          "relevance": 2
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 8,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.5,
+      "relevant_recall_at_10": 0.25,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.479
+    },
+    {
+      "query_id": "job_006",
+      "query_text": "Machine Learning NLP Computer Vision ve akademik research deneyimi olan aday arıyoruz.",
+      "elapsed_sec": 16.22,
+      "parsed_query": {
+        "title": "Machine Learning Engineer",
+        "seniority": null,
+        "must_have_skills": [
+          "Machine Learning",
+          "NLP",
+          "Computer Vision"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": "akademik research deneyimi olan aday arıyoruz"
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "287f0397-c587-4b2a-9ad5-0ca1592bb966",
+          "candidate_name": "MASON FOSTER",
+          "score": 99.8,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "aff112d2-9174-4ea6-a51b-7bf9cf012091",
+          "candidate_name": "Kaan Elgin",
+          "score": 98.6,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "4ad5f002-1d83-4c93-9416-0b7dfe6b544a",
+          "candidate_name": "GÖKÇE TUNA",
+          "score": 81.8,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "115cd1fd-f950-424c-b26e-c0fa50e9c343",
+          "candidate_name": "RÜYA KAR",
+          "score": 80.9,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "98cd8f7a-5164-4cad-9340-72a9032ccddd",
+          "candidate_name": "Esra Tan",
+          "score": 79.8,
+          "relevance": 2
+        },
+        {
+          "rank": 6,
+          "candidate_id": "a24d540e-4a01-4555-88f1-9faf9f4aa391",
+          "candidate_name": "DEFNE USLU",
+          "score": 67.0,
+          "relevance": 2
+        },
+        {
+          "rank": 7,
+          "candidate_id": "9179bbb4-2e35-4b8f-9941-d9bd5683e0cb",
+          "candidate_name": "ILGIN ERSOY",
+          "score": 61.3,
+          "relevance": 2
+        },
+        {
+          "rank": 8,
+          "candidate_id": "6768b07d-b9ec-4ccc-8c0b-0f52bd901981",
+          "candidate_name": "Elif Yılmaz",
+          "score": 48.6,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "78202f99-6284-4f95-8ae6-a70ac3c08dfd",
+          "candidate_name": "DEFNE KARA",
+          "score": 48.6,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "1e441073-5590-4a6f-ac82-2c481448c004",
+          "candidate_name": "Emir Arslan",
+          "score": 48.4,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 7,
+      "partial_expected_count": 1,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 1.0,
+      "relevant_recall_at_10": 0.875,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.9584
+    },
+    {
+      "query_id": "job_007",
+      "query_text": "AWS Kubernetes Docker Terraform Jenkins Prometheus Grafana zorunlu; Helm ve Ansible iyi olur.",
+      "elapsed_sec": 22.74,
+      "parsed_query": {
+        "title": null,
+        "seniority": null,
+        "must_have_skills": [
+          "AWS",
+          "Kubernetes",
+          "Docker",
+          "Terraform",
+          "Jenkins",
+          "Prometheus",
+          "Grafana"
+        ],
+        "nice_to_have_skills": [
+          "Helm",
+          "Ansible"
+        ],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "e44b7505-9eae-4b81-85cf-f607226fd119",
+          "candidate_name": "Hazal Başar",
+          "score": 100.0,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "32d8b1c9-1507-473d-9826-aaa2f2a972a5",
+          "candidate_name": "Vildan Sabah",
+          "score": 98.8,
+          "relevance": 0
+        },
+        {
+          "rank": 3,
+          "candidate_id": "27b16d52-2008-40ef-bc0d-d058344ec507",
+          "candidate_name": "Mehmet Ulaş",
+          "score": 97.1,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "a018dbf4-fd03-4c09-ae21-6e05dcfa047a",
+          "candidate_name": "Sevgi Demirtaş",
+          "score": 91.3,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "8ac67f7a-f054-4a50-866a-c45339083bab",
+          "candidate_name": "Aylin Aydın",
+          "score": 89.2,
+          "relevance": 0
+        },
+        {
+          "rank": 6,
+          "candidate_id": "c8c559ae-6da6-4acc-b125-eee245b75672",
+          "candidate_name": "TUNA ERDOĞAN",
+          "score": 88.4,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "e520824c-b8ed-485c-8d67-e7c628285ef3",
+          "candidate_name": "İrem Bulut",
+          "score": 88.3,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "b0ca9b8a-65e0-4f5f-b402-ea161df1a6cc",
+          "candidate_name": "Deniz Polat",
+          "score": 87.7,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "5785fe4c-e32d-49d2-a6d5-a4fa009ca12e",
+          "candidate_name": "Mert Kaya",
+          "score": 87.1,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "1bf37245-922f-4e10-8b42-e3022cef4898",
+          "candidate_name": "ELLA COOPER",
+          "score": 85.6,
+          "relevance": 2
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 8,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.5,
+      "relevant_recall_at_10": 0.25,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.5225
+    },
+    {
+      "query_id": "job_008",
+      "query_text": "Platform ekibi yönetecek lead; Kubernetes Terraform CI/CD observability ve Linux deneyimi olmalı.",
+      "elapsed_sec": 18.86,
+      "parsed_query": {
+        "title": "Platform Engineer",
+        "seniority": "lead",
+        "must_have_skills": [
+          "Kubernetes",
+          "Terraform",
+          "CI/CD",
+          "Observability",
+          "Linux"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "e44b7505-9eae-4b81-85cf-f607226fd119",
+          "candidate_name": "Hazal Başar",
+          "score": 75.2,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "27b16d52-2008-40ef-bc0d-d058344ec507",
+          "candidate_name": "Mehmet Ulaş",
+          "score": 74.7,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "e520824c-b8ed-485c-8d67-e7c628285ef3",
+          "candidate_name": "İrem Bulut",
+          "score": 65.7,
+          "relevance": 0
+        },
+        {
+          "rank": 4,
+          "candidate_id": "b0ca9b8a-65e0-4f5f-b402-ea161df1a6cc",
+          "candidate_name": "Deniz Polat",
+          "score": 65.6,
+          "relevance": 0
+        },
+        {
+          "rank": 5,
+          "candidate_id": "8ac67f7a-f054-4a50-866a-c45339083bab",
+          "candidate_name": "Aylin Aydın",
+          "score": 64.5,
+          "relevance": 0
+        },
+        {
+          "rank": 6,
+          "candidate_id": "5785fe4c-e32d-49d2-a6d5-a4fa009ca12e",
+          "candidate_name": "Mert Kaya",
+          "score": 64.2,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "2c799001-a910-4b26-9189-d7fd16fe772e",
+          "candidate_name": "Burak Çetin",
+          "score": 63.1,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "61c78ecd-6587-4e76-a4ab-92b5dbac3be2",
+          "candidate_name": "DEFNE AVCI",
+          "score": 62.6,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "a018dbf4-fd03-4c09-ae21-6e05dcfa047a",
+          "candidate_name": "Sevgi Demirtaş",
+          "score": 62.6,
+          "relevance": 2
+        },
+        {
+          "rank": 10,
+          "candidate_id": "1bf37245-922f-4e10-8b42-e3022cef4898",
+          "candidate_name": "ELLA COOPER",
+          "score": 61.0,
+          "relevance": 2
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 8,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.5,
+      "relevant_recall_at_10": 0.25,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.5228
+    },
+    {
+      "query_id": "job_009",
+      "query_text": "SOC SIEM Splunk Linux Firewall incident response bilen güvenlik analisti arıyoruz.",
+      "elapsed_sec": 20.16,
+      "parsed_query": {
+        "title": "Güvenlik Analisti",
+        "seniority": null,
+        "must_have_skills": [
+          "SOC",
+          "SIEM",
+          "Splunk",
+          "Linux",
+          "Firewall",
+          "Incident Response"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [
+          "Remote"
+        ],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "af0c546e-feb8-44e2-b802-bdf8f9829229",
+          "candidate_name": "OLIVIA STEWART",
+          "score": 83.5,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "8a7ec2bf-c0a1-429f-b2d9-cc08dbc14d2b",
+          "candidate_name": "Sude Alkan",
+          "score": 81.4,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "632236a5-8481-4b7d-8c70-89439e0d40de",
+          "candidate_name": "Kemal Uğur",
+          "score": 80.7,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "23de2f7d-d6b2-4c25-81e5-f21fd9821677",
+          "candidate_name": "Berk Özer",
+          "score": 80.1,
+          "relevance": 0
+        },
+        {
+          "rank": 5,
+          "candidate_id": "a3cbc182-484d-413d-8f2d-67a7622c9201",
+          "candidate_name": "BELIZ TOPAL",
+          "score": 76.5,
+          "relevance": 2
+        },
+        {
+          "rank": 6,
+          "candidate_id": "ef33dc04-f33a-4916-8735-03c50fcdd202",
+          "candidate_name": "CAN TURAN",
+          "score": 73.3,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "bef060fc-77aa-46c9-851a-d6983f6a76eb",
+          "candidate_name": "Nehir Korkmaz",
+          "score": 72.1,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "25fa7c5d-a439-44ac-a66c-e25944011308",
+          "candidate_name": "LIAM HARTLEY",
+          "score": 67.2,
+          "relevance": 2
+        },
+        {
+          "rank": 9,
+          "candidate_id": "f7bb96c7-3372-48c1-8895-e63413f8fe35",
+          "candidate_name": "Doruk Aksoy",
+          "score": 64.2,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "d4b17957-299b-47e1-8d12-009894354753",
+          "candidate_name": "Baran Sezer",
+          "score": 62.8,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 6,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.625,
+      "relevant_recall_at_10": 0.35714285714285715,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.6669
+    },
+    {
+      "query_id": "job_010",
+      "query_text": "KVKK GDPR ISO 27001 risk assessment ve vendor risk management bilen senior GRC profili arıyoruz.",
+      "elapsed_sec": 20.58,
+      "parsed_query": {
+        "title": "GRC Profile",
+        "seniority": "senior",
+        "must_have_skills": [
+          "KVKK",
+          "GDPR",
+          "ISO 27001",
+          "risk assessment",
+          "vendor risk management"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "1d67654f-6647-4589-8a25-8dcd34e4eaa9",
+          "candidate_name": "FATMA KARACA",
+          "score": 79.1,
+          "relevance": 0
+        },
+        {
+          "rank": 2,
+          "candidate_id": "9c29b600-bcf9-4ac4-9cd6-f09656c977fd",
+          "candidate_name": "İşil Önel",
+          "score": 77.8,
+          "relevance": 0
+        },
+        {
+          "rank": 3,
+          "candidate_id": "62519a8e-3b58-4615-a3e8-b8e43e17d3b6",
+          "candidate_name": "AHU NALBANT",
+          "score": 77.3,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "6bf42fea-5aa7-4864-9dee-bebab08d10e3",
+          "candidate_name": "ASYA NARIN",
+          "score": 77.1,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "babb0476-98dd-4057-9075-b10739dddbec",
+          "candidate_name": "Selin Akar",
+          "score": 76.3,
+          "relevance": 0
+        },
+        {
+          "rank": 6,
+          "candidate_id": "a3cbc182-484d-413d-8f2d-67a7622c9201",
+          "candidate_name": "BELIZ TOPAL",
+          "score": 76.1,
+          "relevance": 2
+        },
+        {
+          "rank": 7,
+          "candidate_id": "d7e21b45-be8b-4584-b08a-72182f7bf0fc",
+          "candidate_name": "Logan Hughes",
+          "score": 75.0,
+          "relevance": 2
+        },
+        {
+          "rank": 8,
+          "candidate_id": "9247f4fb-9bd6-4ec6-b4bc-689744814dee",
+          "candidate_name": "HASAN GÜLER",
+          "score": 70.2,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "f7bb96c7-3372-48c1-8895-e63413f8fe35",
+          "candidate_name": "Doruk Aksoy",
+          "score": 68.7,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "18c1c56d-35c3-484d-b43a-009c54ac0919",
+          "candidate_name": "Figen Aslaner",
+          "score": 67.9,
+          "relevance": 2
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 0,
+      "hit_strong_at_1": false,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": false,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.625,
+      "relevant_recall_at_10": 0.625,
+      "mrr": 0.3333,
+      "ndcg_at_10": 0.4829
+    },
+    {
+      "query_id": "job_011",
+      "query_text": "Jira Confluence user story SQL A/B testing ve stakeholder management deneyimi olan product owner arıyoruz.",
+      "elapsed_sec": 19.66,
+      "parsed_query": {
+        "title": "Product Owner",
+        "seniority": null,
+        "must_have_skills": [
+          "Jira",
+          "Confluence",
+          "SQL",
+          "A/B testing",
+          "stakeholder management"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "288ae3e7-16bc-4f2f-a3ed-0bff47f4b232",
+          "candidate_name": "MIA REYNOLDS",
+          "score": 99.5,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "536d082e-574d-42e6-9ba6-c3fd343ba62d",
+          "candidate_name": "Nihan Soyer",
+          "score": 88.8,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "291b3b3f-dcee-484a-b5c8-021984f064c6",
+          "candidate_name": "Ömer Taş",
+          "score": 88.6,
+          "relevance": 0
+        },
+        {
+          "rank": 4,
+          "candidate_id": "42fc5fea-e809-4be9-b9d6-78ffa0aaef9c",
+          "candidate_name": "VERA SOYLU",
+          "score": 87.2,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "13d4261f-c738-4d60-bf3a-c50369641e3e",
+          "candidate_name": "Yaren Baş",
+          "score": 86.6,
+          "relevance": 2
+        },
+        {
+          "rank": 6,
+          "candidate_id": "577c7606-aba8-42c7-8a1d-d00b20401f3a",
+          "candidate_name": "Nesli Arikan",
+          "score": 85.0,
+          "relevance": 2
+        },
+        {
+          "rank": 7,
+          "candidate_id": "b842b6f0-0730-48a0-b063-61e50666f5a0",
+          "candidate_name": "RASIM YÜCEL",
+          "score": 79.0,
+          "relevance": 2
+        },
+        {
+          "rank": 8,
+          "candidate_id": "bbc18cbf-86ab-41d9-9302-fdf01ffbdfd0",
+          "candidate_name": "Furkan Bozkurt",
+          "score": 78.5,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "86b05f1c-1aee-4e03-a7f3-0760a437513f",
+          "candidate_name": "Yasemin Uçar",
+          "score": 77.9,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "57d1e2df-1423-4814-b826-75e71a7809e2",
+          "candidate_name": "Lara Demir",
+          "score": 77.1,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 8,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.75,
+      "relevant_recall_at_10": 0.375,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.7386
+    },
+    {
+      "query_id": "job_012",
+      "query_text": "Process mapping SQL Agile ve dokümantasyon becerisi olan iş analisti arıyoruz.",
+      "elapsed_sec": 18.13,
+      "parsed_query": {
+        "title": "Business Analyst",
+        "seniority": null,
+        "must_have_skills": [
+          "SQL",
+          "Agile"
+        ],
+        "nice_to_have_skills": [
+          "Dokümantasyon"
+        ],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "03387642-fb09-45f3-b319-d7bebc492c79",
+          "candidate_name": "İlayda Kara",
+          "score": 85.5,
+          "relevance": 0
+        },
+        {
+          "rank": 2,
+          "candidate_id": "59020aa2-a400-44ea-95b3-31097f1d1381",
+          "candidate_name": "Ekin Kara",
+          "score": 85.5,
+          "relevance": 0
+        },
+        {
+          "rank": 3,
+          "candidate_id": "2a27c4e0-8596-4947-a80c-eca98fb10f8e",
+          "candidate_name": "Baran Göksu",
+          "score": 84.6,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "4fd9007f-8067-47cd-9be0-21cdc2255cd7",
+          "candidate_name": "İDIL SOYSAL",
+          "score": 84.4,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "577c7606-aba8-42c7-8a1d-d00b20401f3a",
+          "candidate_name": "Nesli Arikan",
+          "score": 84.1,
+          "relevance": 2
+        },
+        {
+          "rank": 6,
+          "candidate_id": "057038bf-a5b6-4b07-a72f-a17975f7a050",
+          "candidate_name": "Ece Aslan",
+          "score": 83.7,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "b842b6f0-0730-48a0-b063-61e50666f5a0",
+          "candidate_name": "RASIM YÜCEL",
+          "score": 69.6,
+          "relevance": 2
+        },
+        {
+          "rank": 8,
+          "candidate_id": "8d135df0-814b-41e4-b8ed-c5cae14a63e0",
+          "candidate_name": "Cansu Tunç",
+          "score": 68.7,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "81ee80b7-f08f-42a7-ac8b-7f4b844ded52",
+          "candidate_name": "Emir Uçar",
+          "score": 67.7,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "13d4261f-c738-4d60-bf3a-c50369641e3e",
+          "candidate_name": "Yaren Baş",
+          "score": 67.7,
+          "relevance": 2
+        }
+      ],
+      "strong_expected_count": 8,
+      "partial_expected_count": 8,
+      "hit_strong_at_1": false,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": false,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.625,
+      "relevant_recall_at_10": 0.3125,
+      "mrr": 0.3333,
+      "ndcg_at_10": 0.4566
+    },
+    {
+      "query_id": "job_013",
+      "query_text": "LinkedIn Recruiter ATS onboarding recruitment ve HR analytics bilen recruiter arıyoruz.",
+      "elapsed_sec": 18.36,
+      "parsed_query": {
+        "title": "Recruiter",
+        "seniority": null,
+        "must_have_skills": [
+          "LinkedIn Recruiter",
+          "ATS onboarding",
+          "recruitment",
+          "HR analytics"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "29c79ed5-c22d-415d-86a9-d4c5ffac641f",
+          "candidate_name": "Yusuf Kaya",
+          "score": 99.8,
+          "relevance": 0
+        },
+        {
+          "rank": 2,
+          "candidate_id": "8116e84b-0926-4035-b113-62cd4a827f39",
+          "candidate_name": "EYLÜL ÇORA",
+          "score": 99.3,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "ec48c94b-2b38-441b-bf5c-5f95018b1df3",
+          "candidate_name": "Jack Sullivan",
+          "score": 98.8,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "564246a8-cec2-4aae-a977-41fb755b8709",
+          "candidate_name": "Tolga Uzun",
+          "score": 97.3,
+          "relevance": 0
+        },
+        {
+          "rank": 5,
+          "candidate_id": "57d8e38f-b5a7-473f-a125-d818831c4cfe",
+          "candidate_name": "MAYA ROBINSON",
+          "score": 85.0,
+          "relevance": 2
+        },
+        {
+          "rank": 6,
+          "candidate_id": "a8ba3ea2-bcd8-4b1d-ba7a-a429d9ffbde3",
+          "candidate_name": "MIRAY TAŞ",
+          "score": 83.8,
+          "relevance": 2
+        },
+        {
+          "rank": 7,
+          "candidate_id": "a8f748e3-0362-4155-a169-0ce2df1ae1c8",
+          "candidate_name": "Koray Bilgin",
+          "score": 79.8,
+          "relevance": 2
+        },
+        {
+          "rank": 8,
+          "candidate_id": "51937c36-6deb-4eb2-8b75-457e6ca60f25",
+          "candidate_name": "Henry Walker",
+          "score": 79.4,
+          "relevance": 2
+        },
+        {
+          "rank": 9,
+          "candidate_id": "9526ade1-0a9a-41e9-bc55-4b7cca3e7863",
+          "candidate_name": "Şimal Gür",
+          "score": 70.5,
+          "relevance": 2
+        },
+        {
+          "rank": 10,
+          "candidate_id": "d675b6c5-d4ea-45ce-b38f-a19d67c2a08b",
+          "candidate_name": "Dilara Demir",
+          "score": 69.7,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 7,
+      "partial_expected_count": 0,
+      "hit_strong_at_1": false,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": false,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 1.0,
+      "relevant_recall_at_10": 1.0,
+      "mrr": 0.5,
+      "ndcg_at_10": 0.7762
+    },
+    {
+      "query_id": "job_014",
+      "query_text": "Financial modeling Excel Power BI IFRS budgeting ve forecasting bilen finans analisti arıyoruz.",
+      "elapsed_sec": 21.98,
+      "parsed_query": {
+        "title": "Finans Analisti",
+        "seniority": null,
+        "must_have_skills": [
+          "Financial modeling",
+          "Excel",
+          "Power BI",
+          "IFRS budgeting",
+          "forecasting"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [
+          "Finance"
+        ],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "798e7608-535b-47ef-86c9-2cdf3354a866",
+          "candidate_name": "Ada Yalçın",
+          "score": 81.8,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "55c8a342-4936-4385-be7f-9ba65e64d84f",
+          "candidate_name": "Yiğit Ari",
+          "score": 81.5,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "3ecf2714-b7f6-4e0c-a0d3-06157468a79e",
+          "candidate_name": "Nevra Sevil",
+          "score": 81.3,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "a4fbf12a-88a6-45c6-9cbb-6a2e81cd11ee",
+          "candidate_name": "ETHAN MORGAN",
+          "score": 80.7,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "f2f95597-8408-4d79-8d2f-42a49f45c51a",
+          "candidate_name": "Hira Gündüz",
+          "score": 80.4,
+          "relevance": 2
+        },
+        {
+          "rank": 6,
+          "candidate_id": "e524cb97-3463-4630-a486-7618cd34deb4",
+          "candidate_name": "Baran Turan",
+          "score": 80.3,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "bf31f671-0f67-4d52-8c66-f1b0c9377132",
+          "candidate_name": "Ozan Kurt",
+          "score": 69.7,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "0f5b4da7-291e-474d-9762-fb62271927bf",
+          "candidate_name": "ELA KILIÇ",
+          "score": 68.7,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "604c4269-03c3-4986-81e6-c2edb6c7a793",
+          "candidate_name": "Cemre Oral",
+          "score": 68.7,
+          "relevance": 2
+        },
+        {
+          "rank": 10,
+          "candidate_id": "965fefb7-db6a-4535-b611-4fdb0baee364",
+          "candidate_name": "NAZ AVCI",
+          "score": 57.2,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 7,
+      "partial_expected_count": 8,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.8571428571428571,
+      "relevant_recall_at_10": 0.4,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.7943
+    },
+    {
+      "query_id": "job_015",
+      "query_text": "B2B SaaS müşteri başarısı için Salesforce HubSpot renewal management ve pipeline management bilen aday.",
+      "elapsed_sec": 17.1,
+      "parsed_query": {
+        "title": "Salesforce HubSpot Renewal Management and Pipeline Management Specialist",
+        "seniority": null,
+        "must_have_skills": [
+          "Salesforce",
+          "HubSpot",
+          "Renewal Management",
+          "Pipeline Management"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [
+          "B2B SaaS"
+        ],
+        "locations": [
+          "Remote"
+        ],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "1cc12c11-ee66-45ff-b420-2167c8623e9d",
+          "candidate_name": "Daniel Price",
+          "score": 84.2,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "0729e36c-7b9c-48c6-bff2-8ffce15a5373",
+          "candidate_name": "Ryan Griffin",
+          "score": 72.5,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "b5af352d-50d8-4c03-9807-be6e718b0c45",
+          "candidate_name": "OĞUZ KORAL",
+          "score": 64.9,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "b3c9f2bd-6b71-4a56-81da-49be64d97fdd",
+          "candidate_name": "Ozan Barut",
+          "score": 63.8,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "65e83b1e-c3c4-4e9b-8059-2a1dfd675059",
+          "candidate_name": "Ziya Ergin",
+          "score": 50.5,
+          "relevance": 2
+        },
+        {
+          "rank": 6,
+          "candidate_id": "8c50f91b-6234-46cb-bd9b-ad2cc0d91478",
+          "candidate_name": "Pelin Çağlar",
+          "score": 50.1,
+          "relevance": 2
+        },
+        {
+          "rank": 7,
+          "candidate_id": "e1e1f0ee-b9bf-4627-8678-fc883b0a6d42",
+          "candidate_name": "MİNA ERDEM",
+          "score": 38.6,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "e76ce59a-12e0-455e-a718-a21ee281add4",
+          "candidate_name": "Yasemin Bayraktar",
+          "score": 36.2,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "65032339-0dc8-4be8-ac7a-02a836e9770e",
+          "candidate_name": "FATMA ÖZDEMIR",
+          "score": 36.0,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 6,
+      "partial_expected_count": 5,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 1.0,
+      "relevant_recall_at_10": 0.5454545454545454,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.8421
+    },
+    {
+      "query_id": "job_016",
+      "query_text": "Google Ads Meta Ads GA4 SEO Looker Studio ve A/B testing bilen growth profili arıyoruz.",
+      "elapsed_sec": 21.54,
+      "parsed_query": {
+        "title": "Growth Profile",
+        "seniority": null,
+        "must_have_skills": [
+          "Google Ads",
+          "Meta Ads",
+          "GA4",
+          "SEO",
+          "Looker Studio"
+        ],
+        "nice_to_have_skills": [
+          "A/B testing"
+        ],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "103ef70d-ded7-4737-a805-ab9f97002eb8",
+          "candidate_name": "LEYLA ÜNVER",
+          "score": 85.1,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "d40b3724-16a2-4a52-8ffa-7cd3e2d552fd",
+          "candidate_name": "Giray Akman",
+          "score": 84.0,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "65032339-0dc8-4be8-ac7a-02a836e9770e",
+          "candidate_name": "FATMA ÖZDEMIR",
+          "score": 83.4,
+          "relevance": 0
+        },
+        {
+          "rank": 4,
+          "candidate_id": "8182e390-f19d-4847-938d-812ede7d67dd",
+          "candidate_name": "PINAR AY",
+          "score": 83.4,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "3156c769-9081-4fc9-8b75-ac1ea8176921",
+          "candidate_name": "Ekin Suvar",
+          "score": 83.4,
+          "relevance": 2
+        },
+        {
+          "rank": 6,
+          "candidate_id": "d2ecfde6-5258-4205-943b-e1003b6c29b9",
+          "candidate_name": "TAHA YONER",
+          "score": 83.4,
+          "relevance": 2
+        },
+        {
+          "rank": 7,
+          "candidate_id": "2ed3e911-b95d-4df8-914c-ca8866595d66",
+          "candidate_name": "PERI DUMAN",
+          "score": 81.9,
+          "relevance": 2
+        },
+        {
+          "rank": 8,
+          "candidate_id": "683063bc-4726-42ba-963c-6d399ecf435b",
+          "candidate_name": "İDIL AKIN",
+          "score": 73.5,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "6746d569-4296-4959-8cee-a31beb4e2293",
+          "candidate_name": "EFE KARACA",
+          "score": 73.2,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "b426a805-0636-4b4f-880b-07ebd2b361e1",
+          "candidate_name": "BESTE YALÇIN",
+          "score": 66.1,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 6,
+      "partial_expected_count": 7,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 1.0,
+      "relevant_recall_at_10": 0.46153846153846156,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.7997
+    },
+    {
+      "query_id": "job_017",
+      "query_text": "KVKK GDPR contract review data mapping DPIA ve legal research tecrübeli hukuk/uyum profili.",
+      "elapsed_sec": 24.02,
+      "parsed_query": {
+        "title": "Hukuk/Uyum Profili",
+        "seniority": null,
+        "must_have_skills": [
+          "KVKK",
+          "GDPR",
+          "contract review",
+          "data mapping",
+          "DPIA"
+        ],
+        "nice_to_have_skills": [
+          "legal research"
+        ],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [
+          "Remote"
+        ],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "6bf42fea-5aa7-4864-9dee-bebab08d10e3",
+          "candidate_name": "ASYA NARIN",
+          "score": 86.4,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "d7e21b45-be8b-4584-b08a-72182f7bf0fc",
+          "candidate_name": "Logan Hughes",
+          "score": 86.2,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "62519a8e-3b58-4615-a3e8-b8e43e17d3b6",
+          "candidate_name": "AHU NALBANT",
+          "score": 77.7,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "9c29b600-bcf9-4ac4-9cd6-f09656c977fd",
+          "candidate_name": "İşil Önel",
+          "score": 77.1,
+          "relevance": 0
+        },
+        {
+          "rank": 5,
+          "candidate_id": "13ebd8ff-7b7e-40d8-943c-a0554febd714",
+          "candidate_name": "RONA BAYAR",
+          "score": 70.3,
+          "relevance": 2
+        },
+        {
+          "rank": 6,
+          "candidate_id": "babb0476-98dd-4057-9075-b10739dddbec",
+          "candidate_name": "Selin Akar",
+          "score": 63.7,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "4d3dbc21-cb36-4bcb-a821-db3007919eb8",
+          "candidate_name": "ALP GÜLER",
+          "score": 62.6,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "1d67654f-6647-4589-8a25-8dcd34e4eaa9",
+          "candidate_name": "FATMA KARACA",
+          "score": 62.5,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "9247f4fb-9bd6-4ec6-b4bc-689744814dee",
+          "candidate_name": "HASAN GÜLER",
+          "score": 62.2,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "500176bd-0183-404d-9a4e-126a3685c561",
+          "candidate_name": "OLIVIA TAYLOR",
+          "score": 60.7,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 6,
+      "partial_expected_count": 7,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.6666666666666666,
+      "relevant_recall_at_10": 0.3076923076923077,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.6416
+    },
+    {
+      "query_id": "job_018",
+      "query_text": "Clinical operations LIMS sample tracking quality control SOP ve patient data deneyimli klinik operasyon uzmanı.",
+      "elapsed_sec": 18.96,
+      "parsed_query": {
+        "title": "Clinical Operations Specialist",
+        "seniority": null,
+        "must_have_skills": [
+          "LIMS",
+          "Sample Tracking",
+          "Quality Control",
+          "SOP",
+          "Patient Data"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [
+          "Clinical Operations"
+        ],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "4ff7f130-8840-41ed-9ce0-8d6321b51948",
+          "candidate_name": "LINA ŞENER",
+          "score": 92.2,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "f9cbb45d-b056-489c-8602-779852b2606e",
+          "candidate_name": "Noah Bennett",
+          "score": 89.3,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "bb813d50-a27b-4b0e-9014-36c0600f114a",
+          "candidate_name": "ULAŞ KIVANÇ",
+          "score": 81.1,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "66493fcd-7496-4037-893e-99e2457c1326",
+          "candidate_name": "MAHIR TOK",
+          "score": 80.9,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "53ecfa6c-fde6-4d5c-9492-2474359485bc",
+          "candidate_name": "LAURA JOHNSON",
+          "score": 74.5,
+          "relevance": 0
+        },
+        {
+          "rank": 6,
+          "candidate_id": "8fec8ac0-d79f-4594-b04f-d67a0d28fba3",
+          "candidate_name": "Deniz Güneş",
+          "score": 71.8,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "2892b65e-1826-47c1-a9dd-529cdbc4e198",
+          "candidate_name": "DAMLA KIRAÇ",
+          "score": 69.1,
+          "relevance": 2
+        },
+        {
+          "rank": 8,
+          "candidate_id": "072576fa-946f-4583-89e1-8b8dfe71a33f",
+          "candidate_name": "Sena Çelik",
+          "score": 64.4,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "1dcbdab0-cc35-40b4-a60b-5fc2abb649f9",
+          "candidate_name": "FATMA ÖZTÜRK",
+          "score": 60.0,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "1f04b344-b3d5-431f-ba3e-e83a78878143",
+          "candidate_name": "Ada Bulut",
+          "score": 58.6,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 5,
+      "partial_expected_count": 0,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 1.0,
+      "relevant_recall_at_10": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.9818
+    },
+    {
+      "query_id": "job_019",
+      "query_text": "SPSS R Python research methodology literature review ve survey design bilen araştırma görevlisi.",
+      "elapsed_sec": 24.72,
+      "parsed_query": {
+        "title": "Araştırma Görevlisi",
+        "seniority": null,
+        "must_have_skills": [
+          "SPSS",
+          "R",
+          "Python",
+          "research methodology",
+          "literature review",
+          "survey design"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "c0e3e75c-5f5e-4a28-832b-075930ead8a3",
+          "candidate_name": "ALIHAN PEKER",
+          "score": 100.0,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "790dacb9-6c25-4d66-9238-c8bd84523f71",
+          "candidate_name": "MIRA ALTUN",
+          "score": 99.5,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "0ef1d3e5-ed14-4a95-9b55-53190333b2a2",
+          "candidate_name": "SOPHIA PARKER",
+          "score": 67.0,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "6245249b-e249-48e9-bf29-f60c8f224215",
+          "candidate_name": "Yusuf Doğan",
+          "score": 46.1,
+          "relevance": 0
+        },
+        {
+          "rank": 5,
+          "candidate_id": "c46500fa-137c-4437-9c95-c7f0d19d07f3",
+          "candidate_name": "TUNA AVCI",
+          "score": 45.4,
+          "relevance": 0
+        },
+        {
+          "rank": 6,
+          "candidate_id": "0d987767-0d26-4d8b-b535-2cc5feaa20c8",
+          "candidate_name": "EFE ÖZTÜRK",
+          "score": 44.8,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "605e84e5-12b7-4019-976c-eed2eff3f3b4",
+          "candidate_name": "KAAN KARA",
+          "score": 43.7,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "a28136da-3390-4be2-8098-2d0705f16bde",
+          "candidate_name": "Umut Bulut",
+          "score": 31.1,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "6079f1fb-7200-4831-9afd-86004d2b74cb",
+          "candidate_name": "Tuna Kurt",
+          "score": 26.8,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "364baac1-c739-4ea8-8447-fd978dd6628b",
+          "candidate_name": "Ali Sezer",
+          "score": 26.7,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 4,
+      "partial_expected_count": 0,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 0.75,
+      "relevant_recall_at_10": 0.75,
+      "mrr": 1.0,
+      "ndcg_at_10": 0.8319
+    },
+    {
+      "query_id": "job_020",
+      "query_text": "Supply chain logistics SAP MM warehouse management route optimization ve demand planning bilen operasyon profili.",
+      "elapsed_sec": 18.88,
+      "parsed_query": {
+        "title": "Operation Profile",
+        "seniority": null,
+        "must_have_skills": [
+          "Supply chain logistics",
+          "SAP MM",
+          "warehouse management",
+          "route optimization",
+          "demand planning"
+        ],
+        "nice_to_have_skills": [],
+        "min_experience_years": 0,
+        "preferred_industries": [],
+        "locations": [],
+        "languages": [],
+        "education_level": null,
+        "education_institutions": [],
+        "must_have_certifications": [],
+        "free_text": null
+      },
+      "ranked_candidates": [
+        {
+          "rank": 1,
+          "candidate_id": "59baeb81-2c40-4eea-9cd1-6381b00a7e7c",
+          "candidate_name": "VOLKAN SAYAR",
+          "score": 82.3,
+          "relevance": 2
+        },
+        {
+          "rank": 2,
+          "candidate_id": "d95a5ad1-ffd3-4cb6-9312-ebdf75e555ea",
+          "candidate_name": "Orkun Bora",
+          "score": 82.0,
+          "relevance": 2
+        },
+        {
+          "rank": 3,
+          "candidate_id": "e5715a81-a5e7-47d7-9d41-528131a4916b",
+          "candidate_name": "Tolga Günal",
+          "score": 81.8,
+          "relevance": 2
+        },
+        {
+          "rank": 4,
+          "candidate_id": "07d909f7-8056-4fbe-934b-377e620047bc",
+          "candidate_name": "Dilan Ekinci",
+          "score": 70.3,
+          "relevance": 2
+        },
+        {
+          "rank": 5,
+          "candidate_id": "fb68f62b-4299-4fb7-aae6-1a2ea79985da",
+          "candidate_name": "DEFNE TAŞ",
+          "score": 59.0,
+          "relevance": 0
+        },
+        {
+          "rank": 6,
+          "candidate_id": "9027997c-8e6b-4d9d-a00f-37a4e6297dff",
+          "candidate_name": "Yağmur Özdemir",
+          "score": 48.9,
+          "relevance": 0
+        },
+        {
+          "rank": 7,
+          "candidate_id": "76cf4d44-a072-47f7-9cb7-c1046e8e6db7",
+          "candidate_name": "Melis Kılıç",
+          "score": 47.5,
+          "relevance": 0
+        },
+        {
+          "rank": 8,
+          "candidate_id": "7b48ba4a-714e-4154-8c09-ed66e5bab10f",
+          "candidate_name": "Mehmet Bozkurt",
+          "score": 28.6,
+          "relevance": 0
+        },
+        {
+          "rank": 9,
+          "candidate_id": "f4ec6005-cba5-4337-b61a-ed9377cfe345",
+          "candidate_name": "OLIVIA CLAIRE",
+          "score": 28.6,
+          "relevance": 0
+        },
+        {
+          "rank": 10,
+          "candidate_id": "1e096622-50f1-4086-ba95-ee8062ecd453",
+          "candidate_name": "Yasemin Kaplan",
+          "score": 28.6,
+          "relevance": 0
+        }
+      ],
+      "strong_expected_count": 4,
+      "partial_expected_count": 0,
+      "hit_strong_at_1": true,
+      "hit_strong_at_3": true,
+      "hit_strong_at_5": true,
+      "hit_any_relevant_at_1": true,
+      "hit_any_relevant_at_3": true,
+      "hit_any_relevant_at_5": true,
+      "strong_recall_at_10": 1.0,
+      "relevant_recall_at_10": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_10": 1.0
+    }
+  ]
+}

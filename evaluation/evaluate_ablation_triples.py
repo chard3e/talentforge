@@ -23,19 +23,24 @@ def load_json(path: str | Path) -> Any:
         return json.load(f)
 
 
+def source_file_of(item: dict[str, Any]) -> str | None:
+    """Return the CV file name across old and new gold/result schemas."""
+    return item.get("source_file") or item.get("file_name")
+
+
 def prediction_pairs_for_run(
     run_data: dict[str, Any],
     gold_items: list[dict[str, Any]],
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     by_source = {
-        item.get("source_file"): item.get("prediction", {})
+        source_file_of(item): item.get("prediction", {})
         for item in run_data.get("cv_results", [])
-        if item.get("prediction")
+        if item.get("prediction") and source_file_of(item)
     }
     paired_predictions = []
     paired_gold = []
     for gold in gold_items:
-        prediction = by_source.get(gold.get("source_file"))
+        prediction = by_source.get(source_file_of(gold))
         if prediction:
             paired_predictions.append(prediction)
             paired_gold.append(gold)

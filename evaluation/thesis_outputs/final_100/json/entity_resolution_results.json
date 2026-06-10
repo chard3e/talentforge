@@ -1,0 +1,360 @@
+{
+  "aggregate": {
+    "targets": 41,
+    "merged_targets": 32,
+    "merge_success_rate": 0.7805,
+    "skill_node_count": 370,
+    "company_node_count": 85,
+    "institution_node_count": 27,
+    "certification_node_count": 74
+  },
+  "targets": [
+    {
+      "entity_type": "skill",
+      "canonical": "JavaScript",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "TypeScript",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Node.js",
+      "canonical_present": true,
+      "remaining_variant_count": 1,
+      "remaining_variants": [
+        "Node"
+      ],
+      "merged": false
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "React",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Next.js",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "PostgreSQL",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Kubernetes",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Machine Learning",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "GDPR",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "KVKK",
+      "canonical_present": true,
+      "remaining_variant_count": 1,
+      "remaining_variants": [
+        "Kişisel Verilerin Korunması Kanunu"
+      ],
+      "merged": false
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "ISO 27001",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "CI/CD",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Microservices",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Power BI",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Excel",
+      "canonical_present": true,
+      "remaining_variant_count": 2,
+      "remaining_variants": [
+        "MS Excel",
+        "Microsoft Excel"
+      ],
+      "merged": false
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Salesforce",
+      "canonical_present": true,
+      "remaining_variant_count": 1,
+      "remaining_variants": [
+        "SFDC"
+      ],
+      "merged": false
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "FastAPI",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Power BI",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Salesforce",
+      "canonical_present": true,
+      "remaining_variant_count": 1,
+      "remaining_variants": [
+        "SFDC"
+      ],
+      "merged": false
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "HubSpot",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Google Ads",
+      "canonical_present": true,
+      "remaining_variant_count": 1,
+      "remaining_variants": [
+        "Google AdWords"
+      ],
+      "merged": false
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Meta Ads",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "LIMS",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "SAP MM",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "SPSS",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Roadmap",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "DPIA",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Burp Suite",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Looker Studio",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "GitHub Actions",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "MLOps",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "skill",
+      "canonical": "Scikit-learn",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "company",
+      "canonical": "Papara",
+      "canonical_present": true,
+      "remaining_variant_count": 1,
+      "remaining_variants": [
+        "Papara Tech"
+      ],
+      "merged": false
+    },
+    {
+      "entity_type": "company",
+      "canonical": "Trendyol",
+      "canonical_present": true,
+      "remaining_variant_count": 1,
+      "remaining_variants": [
+        "Trendyol Tech"
+      ],
+      "merged": false
+    },
+    {
+      "entity_type": "company",
+      "canonical": "Garanti BBVA",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "company",
+      "canonical": "Akbank",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "company",
+      "canonical": "Turkcell",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "company",
+      "canonical": "Hepsiburada",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "institution",
+      "canonical": "Marmara Üniversitesi",
+      "canonical_present": true,
+      "remaining_variant_count": 1,
+      "remaining_variants": [
+        "Marmara Uni"
+      ],
+      "merged": false
+    },
+    {
+      "entity_type": "institution",
+      "canonical": "İstanbul Bilgi Üniversitesi",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    },
+    {
+      "entity_type": "institution",
+      "canonical": "ODTÜ",
+      "canonical_present": true,
+      "remaining_variant_count": 0,
+      "remaining_variants": [],
+      "merged": true
+    }
+  ]
+}

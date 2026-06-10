@@ -1,0 +1,42 @@
+﻿entity_type,canonical,merged,remaining_variant_count,remaining_variants
+skill,JavaScript,True,0,
+skill,TypeScript,True,0,
+skill,Node.js,False,1,Node
+skill,React,True,0,
+skill,Next.js,True,0,
+skill,PostgreSQL,True,0,
+skill,Kubernetes,True,0,
+skill,Machine Learning,True,0,
+skill,GDPR,True,0,
+skill,KVKK,False,1,Kişisel Verilerin Korunması Kanunu
+skill,ISO 27001,True,0,
+skill,CI/CD,True,0,
+skill,Microservices,True,0,
+skill,Power BI,True,0,
+skill,Excel,False,2,"MS Excel, Microsoft Excel"
+skill,Salesforce,False,1,SFDC
+skill,FastAPI,True,0,
+skill,Power BI,True,0,
+skill,Salesforce,False,1,SFDC
+skill,HubSpot,True,0,
+skill,Google Ads,False,1,Google AdWords
+skill,Meta Ads,True,0,
+skill,LIMS,True,0,
+skill,SAP MM,True,0,
+skill,SPSS,True,0,
+skill,Roadmap,True,0,
+skill,DPIA,True,0,
+skill,Burp Suite,True,0,
+skill,Looker Studio,True,0,
+skill,GitHub Actions,True,0,
+skill,MLOps,True,0,
+skill,Scikit-learn,True,0,
+company,Papara,False,1,Papara Tech
+company,Trendyol,False,1,Trendyol Tech
+company,Garanti BBVA,True,0,
+company,Akbank,True,0,
+company,Turkcell,True,0,
+company,Hepsiburada,True,0,
+institution,Marmara Üniversitesi,False,1,Marmara Uni
+institution,İstanbul Bilgi Üniversitesi,True,0,
+institution,ODTÜ,True,0,

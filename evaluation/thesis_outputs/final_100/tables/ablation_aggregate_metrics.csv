@@ -1,0 +1,5 @@
+﻿run,config,model,n,success_rate,ner_f1,skill_f1,company_f1,education_f1,re_f1,kg_precision,kg_recall,kg_f1,hallucination_rate,unsupported_triple_rate,avg_elapsed_sec
+BL-1_Qwen2.5-7B-Instruct,BL-1,Qwen/Qwen2.5-7B-Instruct,100,1.0,0.956,0.974,0.982,0.912,0.775,0.924,0.724,0.812,0.055,0.035,14.38
+BL-2_Qwen2.5-7B-Instruct,BL-2,Qwen/Qwen2.5-7B-Instruct,100,1.0,0.965,0.973,0.982,0.94,0.764,0.901,0.734,0.809,0.0,0.027,14.32
+SYS-A_Qwen2.5-7B-Instruct,SYS-A,Qwen/Qwen2.5-7B-Instruct,100,1.0,0.938,0.943,0.942,0.93,0.776,0.842,0.703,0.766,0.067,0.052,17.65
+SYS-B_Qwen2.5-7B-Instruct,SYS-B,Qwen/Qwen2.5-7B-Instruct,100,1.0,0.883,0.926,0.982,0.74,0.729,0.813,0.758,0.785,0.034,0.058,13.66
